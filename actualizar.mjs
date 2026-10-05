@@ -1,0 +1,169 @@
+// Lector automático de resultados y tablas para la app de resultados REAL.
+// Uso: node actualizar.mjs [AAAA-MM-DD domingo del finde] [ids,separados]
+// Escribe Documents\REAL Web\resultados\data\<domingo>.json (+ index.json). Lo que una fuente no trae se conserva del archivo anterior.
+import fs from 'fs';
+import puppeteer from 'puppeteer-core';
+
+const OUT = process.env.RES_OUT || new URL('./data', import.meta.url).pathname.replace(/^/([A-Z]:)/, '$1');
+const FS = 'https://www.flashscore.de/feldhockey/';
+const LIGAS = [
+  { id: 'nl', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
+  { id: 'be', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', m: 'belgien/hockey-league' },
+  { id: 'es', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'DIVISIÓN DE HONOR · LIGA IBERDROLA', m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
+  { id: 'de', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
+  { id: 'en', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', m: 'england/premier-division', f: 'england/premier-division-frauen' },
+  { id: 'it', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', m: 'italien/serie-a1' },
+  { id: 'ar', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: true },
+  { id: 'au', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
+];
+
+// ---------- finde ----------
+const pad = n => String(n).padStart(2, '0');
+const iso = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+function domingo(arg) {
+  if (arg) return new Date(arg + 'T12:00:00');
+  const d = new Date(); d.setHours(12, 0, 0, 0); d.setDate(d.getDate() - d.getDay()); return d; // domingo más reciente (hoy si es domingo)
+}
+const DOM = domingo(process.argv[2] && /^\d{4}-/.test(process.argv[2]) ? process.argv[2] : null);
+const ONLY = (process.argv.find(a => /^[a-z]{2}(,[a-z]{2})*$/.test(a)) || '').split(',').filter(Boolean);
+// ventana del finde: viernes a lunes; Hockey One (Australia) juega desde el miércoles
+let DIAS_ANTES = 2;
+const enFinde = d => { const a = new Date(DOM), b = new Date(DOM); a.setDate(a.getDate() - DIAS_ANTES); a.setHours(0, 0, 0, 0); b.setDate(b.getDate() + 1); b.setHours(23, 59, 59, 0); return d >= a && d <= b; };
+const limpiar = s => s.replace(/\s+F$/, '').trim(); // Flashscore agrega " F" a los equipos femeninos
+
+// ---------- Flashscore ----------
+async function fsResultados(pg, slug) {
+  await pg.goto(FS + slug + '/ergebnisse/', { waitUntil: 'networkidle2', timeout: 60000 });
+  await pg.waitForSelector('.event__match', { timeout: 15000 }).catch(() => {});
+  const filas = await pg.evaluate(() => {
+    let ronda = '';
+    const out = [];
+    for (const e of document.querySelectorAll('.event__round, .event__match')) {
+      if (e.matches('.event__round')) { ronda = e.innerText.trim(); continue; }
+      const q = s => e.querySelector(s)?.innerText.trim() ?? '';
+      const parts = [...e.querySelectorAll('[class*="event__part--home"]')].map(x => x.innerText.trim());
+      out.push({ ronda, time: q('.event__time'), home: q('[class*="event__participant--home"], .event__homeParticipant'), away: q('[class*="event__participant--away"], .event__awayParticipant'),
+        sh: q('[class*="event__score--home"]'), sa: q('[class*="event__score--away"]'), stage: q('.event__stage'), raw: e.innerText });
+    }
+    return out;
+  });
+  const anio = DOM.getFullYear();
+  const ms = [];
+  let ronda = '';
+  for (const f of filas) {
+    const m = /(\d{2})\.(\d{2})\./.exec(f.time || f.raw); if (!m) continue;
+    let d = new Date(anio, +m[2] - 1, +m[1], 12); if (d - DOM > 200 * 864e5) d = new Date(anio - 1, +m[2] - 1, +m[1], 12);
+    if (!enFinde(d)) continue;
+    let ga = parseInt(f.sh), gb = parseInt(f.sa); if (isNaN(ga) || isNaN(gb)) continue;
+    const x = {};
+    if (/n\.\s?P\./.test(f.raw)) { // definido por penales: el total incluye la tanda → restar los dos últimos números
+      const nums = f.raw.split('\n').map(s => s.trim()).filter(s => /^\d+$/.test(s)).map(Number);
+      const so = nums.slice(-2); x.so = so; ga -= so[0]; gb -= so[1];
+    }
+    ms.push(Object.keys(x).length ? [limpiar(f.home), ga, gb, limpiar(f.away), x] : [limpiar(f.home), ga, gb, limpiar(f.away)]);
+    ronda = ronda || f.ronda;
+  }
+  return { ms, ronda };
+}
+async function fsTabla(pg, slug) {
+  await pg.goto(FS + slug + '/tabelle/', { waitUntil: 'networkidle2', timeout: 60000 });
+  await pg.waitForSelector('.ui-table__row', { timeout: 15000 }).catch(() => {});
+  const rows = await pg.evaluate(() => [...document.querySelectorAll('.ui-table__row')].map(r => r.innerText.split('\n').map(s => s.trim()).filter(Boolean)));
+  return rows.map(c => {
+    const gi = c.findIndex(s => /^\d+:\d+$/.test(s)); if (gi < 0) return null;
+    const [gf, gc] = c[gi].split(':').map(Number);
+    return { eq: limpiar(c[1]), pts: +c[gi + 1], pj: +c[2], gf, gc };
+  }).filter(Boolean);
+}
+
+// ---------- LarrySport (Argentina) ----------
+const MES = { ene: 0, feb: 1, mar: 2, abr: 3, may: 4, jun: 5, jul: 6, ago: 7, sep: 8, oct: 9, nov: 10, dic: 11 };
+async function larry(pg, rama, torneo) {
+  const base = 'https://tournamenttracker.buenosaireshockey.ar/';
+  await pg.goto(base, { waitUntil: 'networkidle2', timeout: 60000 });
+  const click = async (fn, arg) => { const ok = await pg.evaluate(fn, arg); if (!ok) throw new Error('LarrySport: no encontré ' + arg); await new Promise(r => setTimeout(r, 1500)); };
+  const exact = t => [...document.querySelectorAll('main *, button, span, div')].find(e => e.children.length <= 1 && e.innerText?.trim() === t);
+  // rama: la página arranca en Femenino; para Masculino se abre el paso de la miga y se elige el botón
+  const actual = await pg.evaluate(() => [...document.querySelectorAll('main button')].map(b => b.innerText.trim()).find(t => /^(Masculino|Femenino)$/.test(t)));
+  if (actual !== rama) {
+    await click(() => { const b = [...document.querySelectorAll('main button')].find(b => /^(Masculino|Femenino)$/.test(b.innerText.trim())); if (!b) return false; b.click(); return true; }, 'miga de rama');
+    await click(r => { const b = [...document.querySelectorAll('main button')].find(b => b.innerText.trim().endsWith(r)); if (!b) return false; b.click(); return true; }, rama);
+    await pg.waitForFunction(() => [...document.querySelectorAll('button[role=radio]')].some(b => /^Primera/.test(b.innerText)), { timeout: 10000 }).catch(() => {});
+  }
+  await click(() => { const b = [...document.querySelectorAll('button[role=radio]')].find(b => /^Primera/.test(b.innerText)); if (!b) return false; b.click(); return true; }, 'Primera');
+  await click(t => { const e = [...document.querySelectorAll('main *')].find(e => e.children.length === 0 && e.innerText?.trim() === t); if (!e) return false; e.click(); return true; }, torneo);
+  await new Promise(r => setTimeout(r, 1500));
+  const fecha = await pg.evaluate(() => [...document.querySelectorAll('button.ms-Button--primary')].map(b => b.innerText.trim()).find(t => /^\d+$/.test(t)) || '');
+  await pg.waitForFunction(() => /Todas las fechas[\s\S]*\d{2} \w{3} \d{2}:\d{2}/.test(document.querySelector('main')?.innerText || ''), { timeout: 15000 }).catch(() => {});
+  const fx = await pg.evaluate(() => document.querySelector('main').innerText);
+  const ms = [];
+  // la página antepone íconos (caracteres de uso privado) a las fechas: se limpian
+  const L = fx.slice(fx.indexOf('Todas las fechas')).split('\n').map(s => s.replace(/[-​-‏﻿]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+  if (process.env.DEBUG) console.log(rama, torneo, JSON.stringify(L.slice(0, 8)), [...(L[1] || '')].map(c => c.charCodeAt(0)).join(','));
+  for (let i = 0; i < L.length - 4; i++) {
+    const m = /^(lun|mar|mié|jue|vie|sáb|dom)\w* (\d{2}) (\w{3})/.exec(L[i]); if (!m) continue;
+    const d = new Date(DOM.getFullYear(), MES[m[3]], +m[2], 12);
+    if (/^\d+$/.test(L[i + 2]) && /^\d+$/.test(L[i + 3]) && enFinde(d)) ms.push([cap(L[i + 1]), +L[i + 2], +L[i + 3], cap(L[i + 4])]);
+  }
+  const tab = async t => { await pg.evaluate(t => [...document.querySelectorAll('main button, main [role=tab]')].find(b => b.innerText.trim() === t)?.click(), t); await new Promise(r => setTimeout(r, 2500)); return pg.evaluate(() => document.querySelector('main').innerText); };
+  const pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
+  const tabla = [];
+  for (let i = pos.indexOf('PB') + 1; i < pos.length - 10; i += 11) {
+    if (!/^\d+$/.test(pos[i])) break;
+    tabla.push({ eq: pos[i + 1], pts: +pos[i + 2], pj: +pos[i + 3], gf: +pos[i + 7], gc: +pos[i + 8] });
+  }
+  const gl = (await tab('Goleadores')).split('\n').map(s => s.trim()).filter(Boolean);
+  const gol = [];
+  for (let i = gl.indexOf('Promedio') + 1; i < gl.length - 5 && gol.length < 10; i += 6) {
+    if (!/^\d+$/.test(gl[i])) break;
+    gol.push({ nom: gl[i + 1], eq: gl[i + 2], g: +gl[i + 3], pj: +gl[i + 4] });
+  }
+  return { ms, tabla, gol, fecha };
+}
+// "BCO. PROVINCIA" → "Bco. Provincia"
+const ACENTOS = { Barbara: 'Bárbara', Nacion: 'Nación', Catherines: "Catherine's", Martin: 'Martín' };
+const cap = s => s.toLowerCase().replace(/(^|[\s.(-])(\p{L})/gu, (a, b, c) => b + c.toUpperCase()).replace(/\bY\b/g, 'y').replace(/\p{L}+/gu, w => ACENTOS[w] || w);
+
+// ---------- principal ----------
+const file = `${OUT}/${iso(DOM)}.json`;
+const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : { paises: [] };
+const ahora = new Date(), sello = `${iso(ahora)} ${pad(ahora.getHours())}:${pad(ahora.getMinutes())}`;
+const br = await puppeteer.launch({ executablePath: process.env.CHROME_PATH || 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless: true, args: ['--lang=de-DE', '--no-sandbox'] });
+const pg = await br.newPage();
+await pg.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36');
+await pg.setViewport({ width: 1280, height: 900 });
+const paises = [];
+for (const L of LIGAS) {
+  const old = prev.paises.find(p => p.id === L.id) || {};
+  if (ONLY.length && !ONLY.includes(L.id)) { if (old.id) paises.push(old); continue; }
+  const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga };
+  DIAS_ANTES = L.id === 'au' ? 4 : 2;
+  try {
+    if (L.larry) {
+      await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
+      const m = await larry(pg, 'Masculino', 'Caballeros A'), f = await larry(pg, 'Femenino', 'Damas A');
+      Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: m.fecha ? 'FECHA ' + m.fecha : p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });
+    } else {
+      const tabla = { ...(p.tabla || {}) };
+      for (const k of ['m', 'f']) {
+        if (!L[k]) continue;
+        const r = await fsResultados(pg, L[k]);
+        if (r.ms.length) p[k] = r.ms; else if (!old[k]) p[k] = [];
+        const t = await fsTabla(pg, L[k]); if (t.some(r => r.pj > 0)) tabla[k] = t;
+        const rn = /(\d+)\.\s*Runde|Spieltag\s*(\d+)/i.exec(r.ronda); if (k === 'm' && rn) p.jornada = 'FECHA ' + (rn[1] || rn[2]);
+      }
+      p.tabla = tabla; p.fuente = old.fuente && !/flashscore/i.test(old.fuente) ? old.fuente + ' + Flashscore' : 'Flashscore';
+    }
+    p.consulta = sello;
+    console.log(L.id, 'm', (p.m || []).length, 'f', (p.f || []).length, 'tabla', Object.keys(p.tabla || {}).join('/'), p.jornada || '');
+  } catch (e) { console.log(L.id, 'ERROR', e.message); }
+  if ((p.m || []).length + (p.f || []).length || (p.tabla && Object.keys(p.tabla).length)) paises.push(p);
+}
+await br.close();
+const out = { fecha: `${pad(DOM.getDate())}.${pad(DOM.getMonth() + 1)}.${DOM.getFullYear()}`, actualizado: sello, paises };
+fs.writeFileSync(file, JSON.stringify(out, null, 1));
+const idxF = `${OUT}/index.json`, idx = fs.existsSync(idxF) ? JSON.parse(fs.readFileSync(idxF, 'utf8')) : { semanas: [] };
+if (!idx.semanas.includes(iso(DOM))) idx.semanas.push(iso(DOM));
+idx.semanas.sort(); idx.ultima = idx.semanas[idx.semanas.length - 1]; idx.actualizado = sello;
+fs.writeFileSync(idxF, JSON.stringify(idx));
+console.log('ok', file);

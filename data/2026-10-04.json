@@ -1,0 +1,1776 @@
+{
+ "fecha": "04.10.2026",
+ "actualizado": "2026-10-05 12:17",
+ "paises": [
+  {
+   "id": "nl",
+   "pais": "PAÍSES BAJOS",
+   "liga": "HOOFDKLASSE",
+   "jornada": "FECHA 2",
+   "m": [
+    [
+     "Kampong",
+     3,
+     0,
+     "SCHC"
+    ],
+    [
+     "Oranje Rood",
+     4,
+     3,
+     "HDM"
+    ],
+    [
+     "Pinoke",
+     2,
+     2,
+     "Bloemendaal"
+    ],
+    [
+     "Rotterdam",
+     3,
+     4,
+     "Amsterdam"
+    ],
+    [
+     "Schaerweijde",
+     1,
+     2,
+     "Klein Zwitserland"
+    ],
+    [
+     "Tilburg",
+     0,
+     3,
+     "Den Bosch"
+    ]
+   ],
+   "f": [
+    [
+     "HGC",
+     0,
+     5,
+     "Den Bosch"
+    ],
+    [
+     "Hurley",
+     2,
+     1,
+     "Bloemendaal"
+    ],
+    [
+     "Kampong",
+     2,
+     2,
+     "Amsterdam"
+    ],
+    [
+     "Oranje Rood",
+     2,
+     1,
+     "Victoria"
+    ],
+    [
+     "Pinoke",
+     3,
+     2,
+     "HDM"
+    ],
+    [
+     "Rotterdam",
+     1,
+     4,
+     "SCHC"
+    ]
+   ],
+   "pais_en": "NETHERLANDS",
+   "color": "#FF6B00",
+   "fuente": "haagsetopsport.nl + Flashscore",
+   "tabla": {
+    "m": [
+     {
+      "eq": "Amsterdam",
+      "pts": 6,
+      "pj": 2,
+      "gf": 9,
+      "gc": 3
+     },
+     {
+      "eq": "Kampong",
+      "pts": 4,
+      "pj": 2,
+      "gf": 3,
+      "gc": 0
+     },
+     {
+      "eq": "Den Bosch",
+      "pts": 4,
+      "pj": 2,
+      "gf": 3,
+      "gc": 0
+     },
+     {
+      "eq": "Bloemendaal",
+      "pts": 4,
+      "pj": 2,
+      "gf": 5,
+      "gc": 3
+     },
+     {
+      "eq": "Oranje Rood",
+      "pts": 4,
+      "pj": 2,
+      "gf": 6,
+      "gc": 5
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pts": 4,
+      "pj": 2,
+      "gf": 5,
+      "gc": 4
+     },
+     {
+      "eq": "HDM",
+      "pts": 3,
+      "pj": 2,
+      "gf": 7,
+      "gc": 7
+     },
+     {
+      "eq": "Pinoke",
+      "pts": 2,
+      "pj": 2,
+      "gf": 5,
+      "gc": 5
+     },
+     {
+      "eq": "SCHC",
+      "pts": 1,
+      "pj": 2,
+      "gf": 2,
+      "gc": 5
+     },
+     {
+      "eq": "Schaerweijde",
+      "pts": 0,
+      "pj": 2,
+      "gf": 4,
+      "gc": 6
+     },
+     {
+      "eq": "Rotterdam",
+      "pts": 0,
+      "pj": 2,
+      "gf": 4,
+      "gc": 7
+     },
+     {
+      "eq": "Tilburg",
+      "pts": 0,
+      "pj": 2,
+      "gf": 0,
+      "gc": 8
+     }
+    ],
+    "f": [
+     {
+      "eq": "Den Bosch",
+      "pts": 6,
+      "pj": 2,
+      "gf": 12,
+      "gc": 1
+     },
+     {
+      "eq": "SCHC",
+      "pts": 6,
+      "pj": 2,
+      "gf": 6,
+      "gc": 2
+     },
+     {
+      "eq": "Hurley",
+      "pts": 6,
+      "pj": 2,
+      "gf": 4,
+      "gc": 2
+     },
+     {
+      "eq": "Amsterdam",
+      "pts": 4,
+      "pj": 2,
+      "gf": 6,
+      "gc": 3
+     },
+     {
+      "eq": "Kampong",
+      "pts": 4,
+      "pj": 2,
+      "gf": 5,
+      "gc": 2
+     },
+     {
+      "eq": "Rotterdam",
+      "pts": 3,
+      "pj": 2,
+      "gf": 4,
+      "gc": 5
+     },
+     {
+      "eq": "Oranje Rood",
+      "pts": 3,
+      "pj": 2,
+      "gf": 3,
+      "gc": 5
+     },
+     {
+      "eq": "Pinoke",
+      "pts": 3,
+      "pj": 2,
+      "gf": 4,
+      "gc": 9
+     },
+     {
+      "eq": "HDM",
+      "pts": 0,
+      "pj": 2,
+      "gf": 3,
+      "gc": 5
+     },
+     {
+      "eq": "Victoria",
+      "pts": 0,
+      "pj": 2,
+      "gf": 2,
+      "gc": 5
+     },
+     {
+      "eq": "Bloemendaal",
+      "pts": 0,
+      "pj": 2,
+      "gf": 1,
+      "gc": 5
+     },
+     {
+      "eq": "HGC",
+      "pts": 0,
+      "pj": 2,
+      "gf": 1,
+      "gc": 7
+     }
+    ]
+   },
+   "consulta": "2026-10-05 12:17"
+  },
+  {
+   "id": "be",
+   "pais": "BÉLGICA",
+   "pais_en": "BELGIUM",
+   "liga": "BELGIAN HOCKEY LEAGUE",
+   "jornada": "FECHA 4",
+   "fuente": "okey.be + Flashscore",
+   "m": [
+    [
+     "Braxgata",
+     4,
+     1,
+     "Namur"
+    ],
+    [
+     "Gantoise HC",
+     7,
+     0,
+     "Daring"
+    ],
+    [
+     "Herakles",
+     3,
+     1,
+     "Waterloo Ducks"
+    ],
+    [
+     "Racing",
+     3,
+     3,
+     "Oree"
+    ],
+    [
+     "Royal Léopold THC",
+     2,
+     1,
+     "KHC Dragons"
+    ],
+    [
+     "Uccle",
+     5,
+     2,
+     "Beerschot"
+    ]
+   ],
+   "f": [
+    [
+     "Gantoise",
+     2,
+     0,
+     "Antwerp"
+    ],
+    [
+     "Léopold",
+     2,
+     4,
+     "Dragons"
+    ],
+    [
+     "Racing",
+     1,
+     1,
+     "Wellington"
+    ],
+    [
+     "Uccle Sport",
+     2,
+     0,
+     "Beerschot"
+    ],
+    [
+     "Victory",
+     3,
+     1,
+     "Waterloo Ducks"
+    ],
+    [
+     "Braxgata",
+     1,
+     1,
+     "Louvain"
+    ]
+   ],
+   "tabla": {
+    "m": [
+     {
+      "eq": "Royal Léopold THC",
+      "pts": 10,
+      "pj": 4,
+      "gf": 15,
+      "gc": 8
+     },
+     {
+      "eq": "Gantoise HC",
+      "pts": 9,
+      "pj": 4,
+      "gf": 15,
+      "gc": 6
+     },
+     {
+      "eq": "Braxgata",
+      "pts": 9,
+      "pj": 4,
+      "gf": 14,
+      "gc": 7
+     },
+     {
+      "eq": "Waterloo Ducks",
+      "pts": 9,
+      "pj": 4,
+      "gf": 10,
+      "gc": 7
+     },
+     {
+      "eq": "Uccle",
+      "pts": 7,
+      "pj": 4,
+      "gf": 13,
+      "gc": 11
+     },
+     {
+      "eq": "Herakles",
+      "pts": 6,
+      "pj": 4,
+      "gf": 14,
+      "gc": 9
+     },
+     {
+      "eq": "Racing",
+      "pts": 6,
+      "pj": 4,
+      "gf": 8,
+      "gc": 7
+     },
+     {
+      "eq": "Oree",
+      "pts": 5,
+      "pj": 4,
+      "gf": 8,
+      "gc": 6
+     },
+     {
+      "eq": "KHC Dragons",
+      "pts": 4,
+      "pj": 4,
+      "gf": 5,
+      "gc": 10
+     },
+     {
+      "eq": "Beerschot",
+      "pts": 1,
+      "pj": 4,
+      "gf": 6,
+      "gc": 14
+     },
+     {
+      "eq": "Daring",
+      "pts": 1,
+      "pj": 4,
+      "gf": 5,
+      "gc": 20
+     },
+     {
+      "eq": "Namur",
+      "pts": 0,
+      "pj": 4,
+      "gf": 6,
+      "gc": 14
+     }
+    ]
+   },
+   "consulta": "2026-10-05 12:17"
+  },
+  {
+   "id": "es",
+   "pais": "ESPAÑA",
+   "pais_en": "SPAIN",
+   "liga": "DIVISIÓN DE HONOR · LIGA IBERDROLA",
+   "jornada": "",
+   "fuente": "Flashscore",
+   "m": [
+    [
+     "Complutense",
+     2,
+     3,
+     "Junior"
+    ],
+    [
+     "Taburiente",
+     3,
+     3,
+     "Egara"
+    ],
+    [
+     "Sardinero",
+     3,
+     8,
+     "Tenis"
+    ],
+    [
+     "C.D. Terrassa",
+     3,
+     2,
+     "Carpesa"
+    ],
+    [
+     "Polo",
+     5,
+     2,
+     "Campo"
+    ]
+   ],
+   "f": [
+    [
+     "FC Valencia",
+     2,
+     3,
+     "Real Sociedad"
+    ],
+    [
+     "Tenis",
+     2,
+     1,
+     "C.D. Terrassa"
+    ],
+    [
+     "Complutense",
+     1,
+     2,
+     "Campo"
+    ],
+    [
+     "Taburiente",
+     1,
+     5,
+     "Polo"
+    ]
+   ],
+   "tabla": {
+    "m": [
+     {
+      "eq": "Tenis",
+      "pts": 9,
+      "pj": 3,
+      "gf": 19,
+      "gc": 4
+     },
+     {
+      "eq": "C.D. Terrassa",
+      "pts": 9,
+      "pj": 3,
+      "gf": 11,
+      "gc": 6
+     },
+     {
+      "eq": "Junior",
+      "pts": 7,
+      "pj": 3,
+      "gf": 8,
+      "gc": 5
+     },
+     {
+      "eq": "Polo",
+      "pts": 6,
+      "pj": 3,
+      "gf": 12,
+      "gc": 7
+     },
+     {
+      "eq": "Egara",
+      "pts": 4,
+      "pj": 3,
+      "gf": 13,
+      "gc": 9
+     },
+     {
+      "eq": "Campo",
+      "pts": 4,
+      "pj": 3,
+      "gf": 9,
+      "gc": 11
+     },
+     {
+      "eq": "Complutense",
+      "pts": 3,
+      "pj": 3,
+      "gf": 10,
+      "gc": 8
+     },
+     {
+      "eq": "Atletic Terrassa",
+      "pts": 3,
+      "pj": 2,
+      "gf": 5,
+      "gc": 6
+     },
+     {
+      "eq": "Carpesa",
+      "pts": 3,
+      "pj": 3,
+      "gf": 5,
+      "gc": 8
+     },
+     {
+      "eq": "Taburiente",
+      "pts": 1,
+      "pj": 3,
+      "gf": 5,
+      "gc": 15
+     },
+     {
+      "eq": "Barcelona",
+      "pts": 0,
+      "pj": 2,
+      "gf": 1,
+      "gc": 8
+     },
+     {
+      "eq": "Sardinero",
+      "pts": 0,
+      "pj": 3,
+      "gf": 7,
+      "gc": 18
+     }
+    ],
+    "f": [
+     {
+      "eq": "Campo",
+      "pts": 9,
+      "pj": 3,
+      "gf": 10,
+      "gc": 2
+     },
+     {
+      "eq": "Polo",
+      "pts": 7,
+      "pj": 3,
+      "gf": 9,
+      "gc": 2
+     },
+     {
+      "eq": "Tenis",
+      "pts": 7,
+      "pj": 3,
+      "gf": 8,
+      "gc": 3
+     },
+     {
+      "eq": "Junior",
+      "pts": 6,
+      "pj": 2,
+      "gf": 5,
+      "gc": 1
+     },
+     {
+      "eq": "Atletic Terrassa",
+      "pts": 6,
+      "pj": 2,
+      "gf": 5,
+      "gc": 3
+     },
+     {
+      "eq": "Complutense",
+      "pts": 4,
+      "pj": 3,
+      "gf": 4,
+      "gc": 3
+     },
+     {
+      "eq": "FC Valencia",
+      "pts": 3,
+      "pj": 3,
+      "gf": 4,
+      "gc": 6
+     },
+     {
+      "eq": "Real Sociedad",
+      "pts": 3,
+      "pj": 3,
+      "gf": 3,
+      "gc": 8
+     },
+     {
+      "eq": "Egara",
+      "pts": 1,
+      "pj": 2,
+      "gf": 2,
+      "gc": 5
+     },
+     {
+      "eq": "C.D. Terrassa",
+      "pts": 0,
+      "pj": 3,
+      "gf": 3,
+      "gc": 6
+     },
+     {
+      "eq": "Sardinero",
+      "pts": 0,
+      "pj": 2,
+      "gf": 2,
+      "gc": 7
+     },
+     {
+      "eq": "Taburiente",
+      "pts": 0,
+      "pj": 3,
+      "gf": 2,
+      "gc": 11
+     }
+    ]
+   },
+   "consulta": "2026-10-05 12:17"
+  },
+  {
+   "id": "de",
+   "pais": "ALEMANIA",
+   "pais_en": "GERMANY",
+   "liga": "1. BUNDESLIGA",
+   "jornada": "",
+   "fuente": "Flashscore",
+   "m": [
+    [
+     "TSV Mannheim",
+     3,
+     3,
+     "Münchner SC",
+     {
+      "so": [
+       5,
+       3
+      ]
+     }
+    ],
+    [
+     "Hamburger Polo Club",
+     4,
+     2,
+     "DSD Dusseldorf"
+    ],
+    [
+     "Club an der Alster",
+     6,
+     2,
+     "Uhlenhorst Mülheim"
+    ],
+    [
+     "Mannheimer HC",
+     3,
+     0,
+     "Berliner HC"
+    ],
+    [
+     "UHC Hamburg",
+     1,
+     3,
+     "Rot-Weiß Köln"
+    ],
+    [
+     "Harvestehuder THC",
+     1,
+     3,
+     "Crefelder HTC"
+    ]
+   ],
+   "f": [
+    [
+     "Bremer HC",
+     1,
+     2,
+     "Rot-Weiß Köln"
+    ],
+    [
+     "Harvestehuder THC",
+     4,
+     5,
+     "Bremer HC"
+    ],
+    [
+     "TSV Mannheim",
+     2,
+     4,
+     "Münchner SC"
+    ],
+    [
+     "Club an der Alster",
+     2,
+     2,
+     "Düsseldorfer HC",
+     {
+      "so": [
+       1,
+       2
+      ]
+     }
+    ],
+    [
+     "Mannheimer HC",
+     3,
+     0,
+     "Berliner HC"
+    ],
+    [
+     "UHC Hamburg",
+     0,
+     6,
+     "Rot-Weiß Köln"
+    ]
+   ],
+   "tabla": {
+    "m": [
+     {
+      "eq": "Hamburger Polo Club",
+      "pts": 14,
+      "pj": 5,
+      "gf": 22,
+      "gc": 15
+     },
+     {
+      "eq": "Rot-Weiß Köln",
+      "pts": 13,
+      "pj": 5,
+      "gf": 16,
+      "gc": 5
+     },
+     {
+      "eq": "Mannheimer HC",
+      "pts": 12,
+      "pj": 4,
+      "gf": 15,
+      "gc": 5
+     },
+     {
+      "eq": "Crefelder HTC",
+      "pts": 10,
+      "pj": 5,
+      "gf": 19,
+      "gc": 11
+     },
+     {
+      "eq": "TSV Mannheim",
+      "pts": 8,
+      "pj": 4,
+      "gf": 12,
+      "gc": 12
+     },
+     {
+      "eq": "Club an der Alster",
+      "pts": 7,
+      "pj": 5,
+      "gf": 17,
+      "gc": 11
+     },
+     {
+      "eq": "Harvestehuder THC",
+      "pts": 5,
+      "pj": 4,
+      "gf": 6,
+      "gc": 8
+     },
+     {
+      "eq": "UHC Hamburg",
+      "pts": 4,
+      "pj": 4,
+      "gf": 12,
+      "gc": 15
+     },
+     {
+      "eq": "Berliner HC",
+      "pts": 3,
+      "pj": 4,
+      "gf": 4,
+      "gc": 12
+     },
+     {
+      "eq": "Uhlenhorst Mülheim",
+      "pts": 1,
+      "pj": 4,
+      "gf": 8,
+      "gc": 14
+     },
+     {
+      "eq": "Münchner SC",
+      "pts": 1,
+      "pj": 4,
+      "gf": 7,
+      "gc": 15
+     },
+     {
+      "eq": "DSD Dusseldorf",
+      "pts": 0,
+      "pj": 4,
+      "gf": 5,
+      "gc": 20
+     }
+    ],
+    "f": [
+     {
+      "eq": "Rot-Weiß Köln",
+      "pts": 14,
+      "pj": 6,
+      "gf": 12,
+      "gc": 4
+     },
+     {
+      "eq": "Bremer HC",
+      "pts": 11,
+      "pj": 5,
+      "gf": 16,
+      "gc": 13
+     },
+     {
+      "eq": "Club an der Alster",
+      "pts": 9,
+      "pj": 3,
+      "gf": 10,
+      "gc": 4
+     },
+     {
+      "eq": "Düsseldorfer HC",
+      "pts": 9,
+      "pj": 3,
+      "gf": 9,
+      "gc": 3
+     },
+     {
+      "eq": "Berliner HC",
+      "pts": 7,
+      "pj": 4,
+      "gf": 9,
+      "gc": 7
+     },
+     {
+      "eq": "Mannheimer HC",
+      "pts": 6,
+      "pj": 4,
+      "gf": 6,
+      "gc": 4
+     },
+     {
+      "eq": "DSD Dusseldorf",
+      "pts": 6,
+      "pj": 5,
+      "gf": 9,
+      "gc": 8
+     },
+     {
+      "eq": "Großflottbeker THGC",
+      "pts": 6,
+      "pj": 4,
+      "gf": 5,
+      "gc": 7
+     },
+     {
+      "eq": "Münchner SC",
+      "pts": 3,
+      "pj": 4,
+      "gf": 6,
+      "gc": 11
+     },
+     {
+      "eq": "Harvestehuder THC",
+      "pts": 2,
+      "pj": 4,
+      "gf": 5,
+      "gc": 10
+     },
+     {
+      "eq": "UHC Hamburg",
+      "pts": 2,
+      "pj": 4,
+      "gf": 4,
+      "gc": 12
+     },
+     {
+      "eq": "TSV Mannheim",
+      "pts": 0,
+      "pj": 4,
+      "gf": 3,
+      "gc": 11
+     }
+    ]
+   },
+   "consulta": "2026-10-05 12:17"
+  },
+  {
+   "id": "en",
+   "pais": "INGLATERRA",
+   "pais_en": "ENGLAND",
+   "liga": "PREMIER DIVISION",
+   "jornada": "",
+   "fuente": "Flashscore",
+   "m": [
+    [
+     "Bowdon",
+     2,
+     3,
+     "Beeston"
+    ],
+    [
+     "Cardiff",
+     1,
+     2,
+     "Exeter Univ."
+    ],
+    [
+     "East Grinstead",
+     4,
+     2,
+     "Reading HC"
+    ],
+    [
+     "Holcombe",
+     1,
+     2,
+     "Surbiton"
+    ],
+    [
+     "Wimbledon",
+     6,
+     1,
+     "Oxted"
+    ],
+    [
+     "Hampstead & Westminster",
+     1,
+     6,
+     "Old Georgians"
+    ]
+   ],
+   "f": [
+    [
+     "Surbiton",
+     4,
+     1,
+     "Loughborough"
+    ],
+    [
+     "Wimbledon",
+     6,
+     0,
+     "Nottingham Univ."
+    ],
+    [
+     "Hampstead & Westminster",
+     0,
+     1,
+     "Birmingham City"
+    ],
+    [
+     "East Grinstead",
+     0,
+     1,
+     "Durham City"
+    ],
+    [
+     "Teddington",
+     2,
+     1,
+     "Reading HC"
+    ],
+    [
+     "Buckingham",
+     1,
+     2,
+     "Bowdon"
+    ]
+   ],
+   "tabla": {
+    "m": [
+     {
+      "eq": "Wimbledon",
+      "pts": 6,
+      "pj": 2,
+      "gf": 13,
+      "gc": 4
+     },
+     {
+      "eq": "East Grinstead",
+      "pts": 6,
+      "pj": 2,
+      "gf": 7,
+      "gc": 3
+     },
+     {
+      "eq": "Exeter Univ.",
+      "pts": 6,
+      "pj": 2,
+      "gf": 6,
+      "gc": 3
+     },
+     {
+      "eq": "Surbiton",
+      "pts": 6,
+      "pj": 2,
+      "gf": 5,
+      "gc": 3
+     },
+     {
+      "eq": "Beeston",
+      "pts": 4,
+      "pj": 2,
+      "gf": 5,
+      "gc": 4
+     },
+     {
+      "eq": "Old Georgians",
+      "pts": 3,
+      "pj": 2,
+      "gf": 8,
+      "gc": 4
+     },
+     {
+      "eq": "Reading HC",
+      "pts": 3,
+      "pj": 2,
+      "gf": 4,
+      "gc": 5
+     },
+     {
+      "eq": "Cardiff",
+      "pts": 1,
+      "pj": 2,
+      "gf": 3,
+      "gc": 4
+     },
+     {
+      "eq": "Bowdon",
+      "pts": 0,
+      "pj": 2,
+      "gf": 3,
+      "gc": 6
+     },
+     {
+      "eq": "Holcombe",
+      "pts": 0,
+      "pj": 2,
+      "gf": 3,
+      "gc": 6
+     },
+     {
+      "eq": "Oxted",
+      "pts": 0,
+      "pj": 2,
+      "gf": 2,
+      "gc": 8
+     },
+     {
+      "eq": "Hampstead & Westminster",
+      "pts": 0,
+      "pj": 2,
+      "gf": 4,
+      "gc": 13
+     }
+    ],
+    "f": [
+     {
+      "eq": "Wimbledon",
+      "pts": 6,
+      "pj": 2,
+      "gf": 7,
+      "gc": 0
+     },
+     {
+      "eq": "Surbiton",
+      "pts": 6,
+      "pj": 2,
+      "gf": 7,
+      "gc": 2
+     },
+     {
+      "eq": "Birmingham City",
+      "pts": 6,
+      "pj": 2,
+      "gf": 3,
+      "gc": 0
+     },
+     {
+      "eq": "Durham City",
+      "pts": 6,
+      "pj": 2,
+      "gf": 2,
+      "gc": 0
+     },
+     {
+      "eq": "Loughborough",
+      "pts": 3,
+      "pj": 2,
+      "gf": 8,
+      "gc": 4
+     },
+     {
+      "eq": "East Grinstead",
+      "pts": 3,
+      "pj": 2,
+      "gf": 3,
+      "gc": 1
+     },
+     {
+      "eq": "Teddington",
+      "pts": 3,
+      "pj": 2,
+      "gf": 3,
+      "gc": 4
+     },
+     {
+      "eq": "Bowdon",
+      "pts": 3,
+      "pj": 2,
+      "gf": 2,
+      "gc": 4
+     },
+     {
+      "eq": "Reading HC",
+      "pts": 0,
+      "pj": 2,
+      "gf": 1,
+      "gc": 3
+     },
+     {
+      "eq": "Hampstead & Westminster",
+      "pts": 0,
+      "pj": 2,
+      "gf": 0,
+      "gc": 2
+     },
+     {
+      "eq": "Buckingham",
+      "pts": 0,
+      "pj": 2,
+      "gf": 1,
+      "gc": 9
+     },
+     {
+      "eq": "Nottingham Univ.",
+      "pts": 0,
+      "pj": 2,
+      "gf": 0,
+      "gc": 8
+     }
+    ]
+   },
+   "consulta": "2026-10-05 12:17"
+  },
+  {
+   "id": "it",
+   "pais": "ITALIA",
+   "pais_en": "ITALY",
+   "liga": "SERIE A ELITE",
+   "jornada": "",
+   "fuente": "hockeyitalia21.com + Flashscore",
+   "m": [
+    [
+     "Ferrini",
+     4,
+     4,
+     "Sardegna"
+    ],
+    [
+     "Amsicora",
+     10,
+     0,
+     "Butterfly Roma"
+    ],
+    [
+     "Bologna",
+     1,
+     2,
+     "Valchisone"
+    ],
+    [
+     "Bondeno",
+     1,
+     1,
+     "Tevere"
+    ],
+    [
+     "Bra",
+     2,
+     4,
+     "Lazio Rom"
+    ]
+   ],
+   "f": [
+    [
+     "Potenza Picena",
+     1,
+     0,
+     "HF Lorenzoni"
+    ],
+    [
+     "HC Tiberina",
+     0,
+     9,
+     "Milano HP"
+    ],
+    [
+     "Pol. Ferrini",
+     0,
+     3,
+     "SG Amsicora"
+    ],
+    [
+     "Lazio Hockey",
+     2,
+     1,
+     "Butterfly Roma"
+    ]
+   ],
+   "tabla": {
+    "m": [
+     {
+      "eq": "Amsicora",
+      "pts": 9,
+      "pj": 3,
+      "gf": 22,
+      "gc": 4
+     },
+     {
+      "eq": "Lazio Rom",
+      "pts": 9,
+      "pj": 3,
+      "gf": 12,
+      "gc": 5
+     },
+     {
+      "eq": "Tevere",
+      "pts": 7,
+      "pj": 3,
+      "gf": 6,
+      "gc": 4
+     },
+     {
+      "eq": "Bondeno",
+      "pts": 5,
+      "pj": 3,
+      "gf": 9,
+      "gc": 6
+     },
+     {
+      "eq": "Bra",
+      "pts": 3,
+      "pj": 3,
+      "gf": 11,
+      "gc": 9
+     },
+     {
+      "eq": "Valchisone",
+      "pts": 3,
+      "pj": 3,
+      "gf": 5,
+      "gc": 6
+     },
+     {
+      "eq": "Butterfly Roma",
+      "pts": 3,
+      "pj": 3,
+      "gf": 7,
+      "gc": 19
+     },
+     {
+      "eq": "Sardegna",
+      "pts": 2,
+      "pj": 3,
+      "gf": 7,
+      "gc": 12
+     },
+     {
+      "eq": "Ferrini",
+      "pts": 1,
+      "pj": 3,
+      "gf": 9,
+      "gc": 14
+     },
+     {
+      "eq": "Bologna",
+      "pts": 0,
+      "pj": 3,
+      "gf": 3,
+      "gc": 12
+     }
+    ]
+   },
+   "consulta": "2026-10-05 12:17"
+  },
+  {
+   "id": "ar",
+   "pais": "ARGENTINA",
+   "pais_en": "ARGENTINA",
+   "liga": "METROPOLITANO · PRIMERA A",
+   "jornada": "FECHA 24",
+   "fuente": "LarrySport TournamentTracker (AHBA)",
+   "m": [
+    [
+     "Hurling",
+     1,
+     0,
+     "S.A.G."
+    ],
+    [
+     "Ducilo",
+     2,
+     2,
+     "Ciudad"
+    ],
+    [
+     "Bco. Provincia",
+     2,
+     2,
+     "San Fernando"
+    ],
+    [
+     "U. La Plata",
+     1,
+     1,
+     "Mitre"
+    ],
+    [
+     "S. Bárbara",
+     5,
+     3,
+     "Quilmes"
+    ],
+    [
+     "G. y Esgrima",
+     6,
+     3,
+     "San Martín"
+    ],
+    [
+     "Ciudad B",
+     2,
+     1,
+     "Lomas"
+    ]
+   ],
+   "f": [
+    [
+     "Belgrano",
+     4,
+     2,
+     "Banco Nación"
+    ],
+    [
+     "S. Bárbara",
+     2,
+     1,
+     "Bco. Provincia"
+    ],
+    [
+     "Italiano",
+     4,
+     3,
+     "San Fernando"
+    ],
+    [
+     "San Lorenzo",
+     1,
+     2,
+     "Ciudad"
+    ],
+    [
+     "Arquitectura",
+     3,
+     1,
+     "Olivos"
+    ],
+    [
+     "S. Catherine's",
+     0,
+     1,
+     "River Plate"
+    ],
+    [
+     "Lomas",
+     2,
+     1,
+     "G. y Esgrima"
+    ]
+   ],
+   "tabla": {
+    "m": [
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 53,
+      "pj": 22,
+      "gf": 63,
+      "gc": 32
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 51,
+      "pj": 23,
+      "gf": 68,
+      "gc": 36
+     },
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 51,
+      "pj": 22,
+      "gf": 57,
+      "gc": 20
+     },
+     {
+      "eq": "MITRE",
+      "pts": 45,
+      "pj": 22,
+      "gf": 59,
+      "gc": 25
+     },
+     {
+      "eq": "G. Y ESGRIMA",
+      "pts": 43,
+      "pj": 23,
+      "gf": 70,
+      "gc": 44
+     },
+     {
+      "eq": "DUCILO",
+      "pts": 37,
+      "pj": 22,
+      "gf": 57,
+      "gc": 52
+     },
+     {
+      "eq": "U. LA PLATA",
+      "pts": 31,
+      "pj": 22,
+      "gf": 48,
+      "gc": 51
+     },
+     {
+      "eq": "HURLING",
+      "pts": 28,
+      "pj": 23,
+      "gf": 41,
+      "gc": 36
+     },
+     {
+      "eq": "S. BARBARA",
+      "pts": 27,
+      "pj": 22,
+      "gf": 47,
+      "gc": 50
+     },
+     {
+      "eq": "QUILMES",
+      "pts": 21,
+      "pj": 22,
+      "gf": 41,
+      "gc": 55
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 14,
+      "pj": 23,
+      "gf": 47,
+      "gc": 67
+     },
+     {
+      "eq": "SAN MARTÍN",
+      "pts": 12,
+      "pj": 22,
+      "gf": 38,
+      "gc": 65
+     },
+     {
+      "eq": "S.A.G.",
+      "pts": 9,
+      "pj": 22,
+      "gf": 25,
+      "gc": 78
+     },
+     {
+      "eq": "CIUDAD B",
+      "pts": 8,
+      "pj": 22,
+      "gf": 25,
+      "gc": 75
+     }
+    ],
+    "f": [
+     {
+      "eq": "S. BARBARA",
+      "pts": 47,
+      "pj": 24,
+      "gf": 40,
+      "gc": 25
+     },
+     {
+      "eq": "G. Y ESGRIMA",
+      "pts": 43,
+      "pj": 24,
+      "gf": 43,
+      "gc": 24
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 43,
+      "pj": 24,
+      "gf": 42,
+      "gc": 26
+     },
+     {
+      "eq": "ITALIANO",
+      "pts": 42,
+      "pj": 24,
+      "gf": 51,
+      "gc": 35
+     },
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 40,
+      "pj": 24,
+      "gf": 44,
+      "gc": 29
+     },
+     {
+      "eq": "BELGRANO",
+      "pts": 36,
+      "pj": 24,
+      "gf": 32,
+      "gc": 27
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 30,
+      "pj": 24,
+      "gf": 35,
+      "gc": 38
+     },
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 29,
+      "pj": 24,
+      "gf": 38,
+      "gc": 39
+     },
+     {
+      "eq": "RIVER PLATE",
+      "pts": 28,
+      "pj": 24,
+      "gf": 28,
+      "gc": 30
+     },
+     {
+      "eq": "S. CATHERINES",
+      "pts": 28,
+      "pj": 24,
+      "gf": 24,
+      "gc": 32
+     },
+     {
+      "eq": "BANCO NACION",
+      "pts": 27,
+      "pj": 24,
+      "gf": 38,
+      "gc": 43
+     },
+     {
+      "eq": "ARQUITECTURA",
+      "pts": 26,
+      "pj": 24,
+      "gf": 29,
+      "gc": 44
+     },
+     {
+      "eq": "OLIVOS",
+      "pts": 22,
+      "pj": 24,
+      "gf": 29,
+      "gc": 52
+     },
+     {
+      "eq": "SAN LORENZO",
+      "pts": 19,
+      "pj": 24,
+      "gf": 30,
+      "gc": 59
+     }
+    ]
+   },
+   "goleadores": {
+    "m": [
+     {
+      "nom": "Kiernan, Máximo",
+      "eq": "U. LA PLATA",
+      "g": 30,
+      "pj": 22
+     },
+     {
+      "nom": "Suarez, Tomas Agustin",
+      "eq": "G. Y ESGRIMA",
+      "g": 21,
+      "pj": 23
+     },
+     {
+      "nom": "Agostini Coliqueo, Franco Antonio",
+      "eq": "LOMAS",
+      "g": 19,
+      "pj": 20
+     },
+     {
+      "nom": "Merino, Gonzalo",
+      "eq": "BCO. PROVINCIA",
+      "g": 19,
+      "pj": 19
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 16,
+      "pj": 21
+     },
+     {
+      "nom": "Dulor Marchesi, Luca",
+      "eq": "DUCILO",
+      "g": 16,
+      "pj": 20
+     },
+     {
+      "nom": "Jimenez Jaurechi, Julian",
+      "eq": "QUILMES",
+      "g": 16,
+      "pj": 17
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 14,
+      "pj": 19
+     },
+     {
+      "nom": "Doherty, Alec Tadeo",
+      "eq": "HURLING",
+      "g": 13,
+      "pj": 23
+     },
+     {
+      "nom": "Tucceri, Santiago",
+      "eq": "CIUDAD",
+      "g": 13,
+      "pj": 21
+     }
+    ],
+    "f": [
+     {
+      "nom": "Piccardo, Alina",
+      "eq": "SAN FERNANDO",
+      "g": 18,
+      "pj": 22
+     },
+     {
+      "nom": "Arcidiacono, Julieta",
+      "eq": "BCO. PROVINCIA",
+      "g": 16,
+      "pj": 24
+     },
+     {
+      "nom": "Pisthon Santos, Pilar",
+      "eq": "BANCO NACION",
+      "g": 14,
+      "pj": 21
+     },
+     {
+      "nom": "Agostini Coliqueo, Chiara",
+      "eq": "LOMAS",
+      "g": 13,
+      "pj": 24
+     },
+     {
+      "nom": "Costa Biondi, Valentina",
+      "eq": "SAN FERNANDO",
+      "g": 13,
+      "pj": 22
+     },
+     {
+      "nom": "Cerundolo, Maria Constanza",
+      "eq": "BELGRANO",
+      "g": 12,
+      "pj": 20
+     },
+     {
+      "nom": "Santin, Agostina Sol",
+      "eq": "SAN LORENZO",
+      "g": 11,
+      "pj": 24
+     },
+     {
+      "nom": "Casas, Lara Agustina",
+      "eq": "ITALIANO",
+      "g": 11,
+      "pj": 15
+     },
+     {
+      "nom": "Ferola, Valentina",
+      "eq": "ITALIANO",
+      "g": 10,
+      "pj": 24
+     },
+     {
+      "nom": "Castellaro Morello, Juana",
+      "eq": "RIVER PLATE",
+      "g": 10,
+      "pj": 13
+     }
+    ]
+   },
+   "consulta": "2026-10-05 12:17"
+  }
+ ]
+}
