@@ -8,10 +8,10 @@ import { fileURLToPath } from 'url';
 const OUT = process.env.RES_OUT || fileURLToPath(new URL('./data', import.meta.url));
 const FS = 'https://www.flashscore.de/feldhockey/';
 const LIGAS = [
-  { id: 'nl', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
+  { id: 'nl', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', knhb: { m: 'lmdzprlesfiv', f: 'mqtcokvtpune' }, m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
   { id: 'be', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', m: 'belgien/hockey-league' },
   { id: 'es', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'DIVISIÓN DE HONOR · LIGA IBERDROLA', m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
-  { id: 'de', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
+  { id: 'de', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', dhb: { m: 'herren', f: 'damen' }, m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
   { id: 'en', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', m: 'england/premier-division', f: 'england/premier-division-frauen' },
   { id: 'it', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', m: 'italien/serie-a1' },
   { id: 'ar', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: true },
@@ -34,6 +34,68 @@ const limpiar = s => s.replace(/\s+F$/, '').trim(); // Flashscore agrega " F" a 
 
 // navegar con reintentos (Flashscore a veces tarda)
 async function ir(pg, url, opt) { for (let i = 0; ; i++) { try { return await pg.goto(url, opt); } catch (e) { if (i >= 2) throw e; await new Promise(r => setTimeout(r, 3000)); } } }
+
+// ---------- KNHB (Países Bajos, fuente oficial: Match Center de hockey.nl) ----------
+const MESES_NL = { januari: 0, februari: 1, maart: 2, april: 3, mei: 4, juni: 5, juli: 6, augustus: 7, september: 8, oktober: 9, november: 10, december: 11 };
+const sinEquipo = s => s.replace(/\s+[HD]1$/, '').trim(); // "Oranje-Rood H1" → "Oranje-Rood"
+async function knhb(pg, comp) {
+  const base = 'https://www.hockey.nl/match-center#/competitions/national/' + comp;
+  const R = fn => pg.evaluate(fn);
+  await ir(pg, base + '/overview', { waitUntil: 'networkidle2', timeout: 60000 });
+  await pg.waitForFunction(() => document.querySelector('match-center')?.shadowRoot?.querySelector('.standing .row'), { timeout: 20000 });
+  const filas = await R(() => [...document.querySelector('match-center').shadowRoot.querySelectorAll('.standing .row')].map(r => [...r.children].map(c => c.textContent.trim())));
+  const tabla = filas.filter(c => /^\d+$/.test(c[0])).map(c => ({ eq: sinEquipo(c[2]), pj: +c[3], pts: +c[4], dg: +c[5] }));
+  await ir(pg, 'about:blank');
+  await ir(pg, base + '/results', { waitUntil: 'networkidle2', timeout: 60000 });
+  await pg.waitForFunction(() => [...(document.querySelector('match-center')?.shadowRoot?.querySelectorAll('a') || [])].some(a => /\d+\s*-\s*\d+/.test(a.textContent)), { timeout: 20000 }).catch(() => {});
+  const items = await R(() => {
+    const out = []; let f = '';
+    for (const e of document.querySelector('match-center').shadowRoot.querySelectorAll('*')) {
+      const t = e.textContent.trim();
+      if (e.children.length === 0 && /^(maandag|dinsdag|woensdag|donderdag|vrijdag|zaterdag|zondag) \d{1,2} \w+ \d{4}$/i.test(t)) f = t;
+      if (e.tagName === 'A' && /\d+\s*-\s*\d+/.test(t)) out.push({ f, lines: e.innerText.split('\n').map(x => x.trim()).filter(Boolean) });
+    }
+    return out;
+  });
+  const ms = [];
+  for (const it of items) {
+    const m = /(\d{1,2}) (\w+) (\d{4})/.exec(it.f); if (!m) continue;
+    const d = new Date(+m[3], MESES_NL[m[2].toLowerCase()], +m[1], 12); if (!enFinde(d)) continue;
+    const si = it.lines.findIndex(x => /^\d+\s*-\s*\d+/.test(x)); if (si < 1) continue;
+    const [ga, gb] = it.lines[si].match(/\d+/g).map(Number);
+    const so = /\((\d+)\s*-\s*(\d+)\)/.exec(it.lines[si]); // tanda de shoot-outs, si la muestran
+    const row = [sinEquipo(it.lines[si - 1]), ga, gb, sinEquipo(it.lines[si + 1] || '')];
+    if (so) row.push({ so: [+so[1], +so[2]] });
+    ms.push(row);
+  }
+  return { ms, tabla };
+}
+
+// ---------- DHB (Alemania, fuente oficial: hockeybundesliga.de) ----------
+async function dhb(pg, rama) {
+  await ir(pg, 'https://www.hockeybundesliga.de/match-center/1-bundesliga-1/' + rama, { waitUntil: 'networkidle2', timeout: 60000 });
+  await pg.waitForSelector('tr.table-standings__table-row', { timeout: 20000 });
+  return pg.evaluate(() => {
+    const tabla = [...document.querySelectorAll('tr.table-standings__table-row')].map(tr => {
+      const c = [...tr.children].map(td => td.innerText.trim());
+      const g = c.find(x => /^\d+\s*:\s*\d+$/.test(x)) || '0:0', [gf, gc] = g.split(':').map(Number);
+      return { eq: tr.querySelector('.table__label--full')?.textContent.trim() || c[1], pj: +c[2], pts: +c[c.length - 1], gf, gc };
+    });
+    const gol = [...document.querySelectorAll('.matchcenter-top-scorers-wrapper tr')].map(tr => {
+      const q = k => tr.querySelector('.table-scorers__' + k)?.textContent.trim(), c = [...tr.children].map(td => td.innerText.trim());
+      return q('player-name') ? { nom: q('player-name'), eq: q('country-name'), pj: +c[1], g: +c[c.length - 1] } : null;
+    }).filter(Boolean).slice(0, 10);
+    return { tabla, gol };
+  });
+}
+// nombre de Flashscore → nombre oficial de la tabla (por coincidencia de palabras)
+const ALIAS = { rw: 'rot weiss', sw: 'schwarz weiss', bw: 'blau weiss' }; // abreviaturas de la tabla oficial
+const clave = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(' ').map(w => ALIAS[w] || w).join(' ').split(' ').filter(w => w.length > 2 && !['der', 'club', 'hockey', 'und', 'the'].includes(w));
+function oficial(n, nombres) {
+  const a = clave(n); let best = null, bs = 0;
+  for (const o of nombres) { const b = clave(o), sc = a.filter(w => b.some(x => x.startsWith(w) || w.startsWith(x))).length / Math.max(a.length, 1); if (sc > bs) { bs = sc; best = o; } }
+  return bs >= .5 ? best : n;
+}
 
 // ---------- Flashscore ----------
 async function fsResultados(pg, slug) {
@@ -151,7 +213,25 @@ for (const L of LIGAS) {
   const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga };
   DIAS_ANTES = L.id === 'au' ? 4 : 2;
   try {
-    if (L.larry) {
+    if (L.dhb) {
+      const tabla = { ...(p.tabla || {}) }, gol = { ...(p.goleadores || {}) };
+      for (const k of ['m', 'f']) {
+        let ofi = null;
+        try { ofi = await dhb(pg, L.dhb[k]); if (ofi.tabla.length) tabla[k] = ofi.tabla; if (ofi.gol.length) gol[k] = ofi.gol; } catch (e) { console.log(L.id, k, 'DHB falló:', e.message); }
+        const r = await fsResultados(pg, L[k]);
+        const nombres = (tabla[k] || []).map(x => x.eq);
+        if (r.ms.length) p[k] = r.ms.map(([a, ga, gb, b, x]) => x ? [oficial(a, nombres), ga, gb, oficial(b, nombres), x] : [oficial(a, nombres), ga, gb, oficial(b, nombres)]); else if (!old[k]) p[k] = [];
+        if (!ofi || !ofi.tabla.length) { const t = await fsTabla(pg, L[k]); if (t.some(x => x.pj > 0)) tabla[k] = t; }
+      }
+      p.tabla = tabla; p.goleadores = gol; p.fuente = 'hockeybundesliga.de (oficial) + Flashscore';
+    } else if (L.knhb) {
+      const tabla = { ...(p.tabla || {}) };
+      for (const k of ['m', 'f']) {
+        try { const r = await knhb(pg, L.knhb[k]); if (r.ms.length) p[k] = r.ms; else if (!old[k]) p[k] = []; if (r.tabla.length) tabla[k] = r.tabla; }
+        catch (e) { console.log(L.id, k, 'KNHB falló, uso Flashscore:', e.message); const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; const t = await fsTabla(pg, L[k]); if (t.some(x => x.pj > 0)) tabla[k] = t; }
+      }
+      p.tabla = tabla; p.fuente = 'KNHB · hockey.nl (oficial)';
+    } else if (L.larry) {
       await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
       const m = await larry(pg, 'Masculino', 'Caballeros A'), f = await larry(pg, 'Femenino', 'Damas A');
       Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: m.fecha ? 'FECHA ' + m.fecha : p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });

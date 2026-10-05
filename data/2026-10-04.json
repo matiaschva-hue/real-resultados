@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-05 12:37",
+ "actualizado": "2026-10-05 16:08",
  "paises": [
   {
    "id": "nl",
@@ -9,19 +9,13 @@
    "jornada": "FECHA 2",
    "m": [
     [
-     "Kampong",
-     3,
-     0,
-     "SCHC"
+     "Schaerweijde",
+     1,
+     2,
+     "Klein Zwitserland"
     ],
     [
-     "Oranje Rood",
-     4,
-     3,
-     "HDM"
-    ],
-    [
-     "Pinoke",
+     "Pinoké",
      2,
      2,
      "Bloemendaal"
@@ -33,24 +27,30 @@
      "Amsterdam"
     ],
     [
-     "Schaerweijde",
-     1,
-     2,
-     "Klein Zwitserland"
-    ],
-    [
      "Tilburg",
      0,
      3,
      "Den Bosch"
+    ],
+    [
+     "Kampong",
+     3,
+     0,
+     "SCHC"
+    ],
+    [
+     "Oranje-Rood",
+     4,
+     3,
+     "HDM"
     ]
    ],
    "f": [
     [
-     "HGC",
-     0,
-     5,
-     "Den Bosch"
+     "Pinoké",
+     3,
+     2,
+     "HDM"
     ],
     [
      "Hurley",
@@ -65,202 +65,178 @@
      "Amsterdam"
     ],
     [
-     "Oranje Rood",
+     "Oranje-Rood",
      2,
      1,
      "Victoria"
-    ],
-    [
-     "Pinoke",
-     3,
-     2,
-     "HDM"
     ],
     [
      "Rotterdam",
      1,
      4,
      "SCHC"
+    ],
+    [
+     "HGC",
+     0,
+     5,
+     "Den Bosch"
     ]
    ],
    "pais_en": "NETHERLANDS",
    "color": "#FF6B00",
-   "fuente": "Flashscore",
+   "fuente": "KNHB · hockey.nl (oficial)",
    "tabla": {
     "m": [
      {
       "eq": "Amsterdam",
+      "pj": 2,
       "pts": 6,
-      "pj": 2,
-      "gf": 9,
-      "gc": 3
-     },
-     {
-      "eq": "Kampong",
-      "pts": 4,
-      "pj": 2,
-      "gf": 3,
-      "gc": 0
+      "dg": 6
      },
      {
       "eq": "Den Bosch",
-      "pts": 4,
       "pj": 2,
-      "gf": 3,
-      "gc": 0
+      "pts": 4,
+      "dg": 3
+     },
+     {
+      "eq": "Kampong",
+      "pj": 2,
+      "pts": 4,
+      "dg": 3
      },
      {
       "eq": "Bloemendaal",
-      "pts": 4,
       "pj": 2,
-      "gf": 5,
-      "gc": 3
+      "pts": 4,
+      "dg": 2
      },
      {
-      "eq": "Oranje Rood",
-      "pts": 4,
+      "eq": "Oranje-Rood",
       "pj": 2,
-      "gf": 6,
-      "gc": 5
+      "pts": 4,
+      "dg": 1
      },
      {
       "eq": "Klein Zwitserland",
-      "pts": 4,
       "pj": 2,
-      "gf": 5,
-      "gc": 4
+      "pts": 4,
+      "dg": 1
      },
      {
       "eq": "HDM",
-      "pts": 3,
       "pj": 2,
-      "gf": 7,
-      "gc": 7
+      "pts": 3,
+      "dg": 0
      },
      {
-      "eq": "Pinoke",
-      "pts": 2,
+      "eq": "Pinoké",
       "pj": 2,
-      "gf": 5,
-      "gc": 5
+      "pts": 2,
+      "dg": 0
      },
      {
       "eq": "SCHC",
-      "pts": 1,
       "pj": 2,
-      "gf": 2,
-      "gc": 5
+      "pts": 1,
+      "dg": -3
      },
      {
       "eq": "Schaerweijde",
-      "pts": 0,
       "pj": 2,
-      "gf": 4,
-      "gc": 6
+      "pts": 0,
+      "dg": -2
      },
      {
       "eq": "Rotterdam",
-      "pts": 0,
       "pj": 2,
-      "gf": 4,
-      "gc": 7
+      "pts": 0,
+      "dg": -3
      },
      {
       "eq": "Tilburg",
-      "pts": 0,
       "pj": 2,
-      "gf": 0,
-      "gc": 8
+      "pts": 0,
+      "dg": -8
      }
     ],
     "f": [
      {
-      "eq": "Den Bosch",
-      "pts": 6,
-      "pj": 2,
-      "gf": 12,
-      "gc": 1
-     },
-     {
-      "eq": "SCHC",
-      "pts": 6,
-      "pj": 2,
-      "gf": 6,
-      "gc": 2
-     },
-     {
-      "eq": "Hurley",
-      "pts": 6,
-      "pj": 2,
-      "gf": 4,
-      "gc": 2
-     },
-     {
       "eq": "Amsterdam",
-      "pts": 4,
       "pj": 2,
-      "gf": 6,
-      "gc": 3
+      "pts": 6,
+      "dg": 6
+     },
+     {
+      "eq": "Den Bosch",
+      "pj": 2,
+      "pts": 4,
+      "dg": 3
      },
      {
       "eq": "Kampong",
+      "pj": 2,
       "pts": 4,
-      "pj": 2,
-      "gf": 5,
-      "gc": 2
-     },
-     {
-      "eq": "Rotterdam",
-      "pts": 3,
-      "pj": 2,
-      "gf": 4,
-      "gc": 5
-     },
-     {
-      "eq": "Oranje Rood",
-      "pts": 3,
-      "pj": 2,
-      "gf": 3,
-      "gc": 5
-     },
-     {
-      "eq": "Pinoke",
-      "pts": 3,
-      "pj": 2,
-      "gf": 4,
-      "gc": 9
-     },
-     {
-      "eq": "HDM",
-      "pts": 0,
-      "pj": 2,
-      "gf": 3,
-      "gc": 5
-     },
-     {
-      "eq": "Victoria",
-      "pts": 0,
-      "pj": 2,
-      "gf": 2,
-      "gc": 5
+      "dg": 3
      },
      {
       "eq": "Bloemendaal",
-      "pts": 0,
       "pj": 2,
-      "gf": 1,
-      "gc": 5
+      "pts": 4,
+      "dg": 2
      },
      {
-      "eq": "HGC",
-      "pts": 0,
+      "eq": "Oranje-Rood",
       "pj": 2,
-      "gf": 1,
-      "gc": 7
+      "pts": 4,
+      "dg": 1
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pj": 2,
+      "pts": 4,
+      "dg": 1
+     },
+     {
+      "eq": "HDM",
+      "pj": 2,
+      "pts": 3,
+      "dg": 0
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 2,
+      "pts": 2,
+      "dg": 0
+     },
+     {
+      "eq": "SCHC",
+      "pj": 2,
+      "pts": 1,
+      "dg": -3
+     },
+     {
+      "eq": "Schaerweijde",
+      "pj": 2,
+      "pts": 0,
+      "dg": -2
+     },
+     {
+      "eq": "Rotterdam",
+      "pj": 2,
+      "pts": 0,
+      "dg": -3
+     },
+     {
+      "eq": "Tilburg",
+      "pj": 2,
+      "pts": 0,
+      "dg": -8
      }
     ]
    },
-   "consulta": "2026-10-05 12:37",
+   "consulta": "2026-10-05 16:08",
    "estado": "jugada"
   },
   {
@@ -685,10 +661,10 @@
    "pais_en": "GERMANY",
    "liga": "1. BUNDESLIGA",
    "jornada": "",
-   "fuente": "Flashscore",
+   "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "m": [
     [
-     "TSV Mannheim",
+     "TSV Mannheim Hockey",
      3,
      3,
      "Münchner SC",
@@ -703,10 +679,10 @@
      "Hamburger Polo Club",
      4,
      2,
-     "DSD Dusseldorf"
+     "DSD Düsseldorf"
     ],
     [
-     "Club an der Alster",
+     "Der Club an der Alster",
      6,
      2,
      "Uhlenhorst Mülheim"
@@ -721,7 +697,7 @@
      "UHC Hamburg",
      1,
      3,
-     "Rot-Weiß Köln"
+     "RW Köln"
     ],
     [
      "Harvestehuder THC",
@@ -735,7 +711,7 @@
      "Bremer HC",
      1,
      2,
-     "Rot-Weiß Köln"
+     "RW Köln"
     ],
     [
      "Harvestehuder THC",
@@ -744,13 +720,13 @@
      "Bremer HC"
     ],
     [
-     "TSV Mannheim",
+     "TSV Mannheim Hockey",
      2,
      4,
      "Münchner SC"
     ],
     [
-     "Club an der Alster",
+     "Der Club an der Alster",
      2,
      2,
      "Düsseldorfer HC",
@@ -771,185 +747,311 @@
      "UHC Hamburg",
      0,
      6,
-     "Rot-Weiß Köln"
+     "RW Köln"
     ]
    ],
    "tabla": {
     "m": [
      {
       "eq": "Hamburger Polo Club",
-      "pts": 14,
       "pj": 5,
+      "pts": 14,
       "gf": 22,
       "gc": 15
      },
      {
-      "eq": "Rot-Weiß Köln",
-      "pts": 13,
+      "eq": "RW Köln",
       "pj": 5,
+      "pts": 13,
       "gf": 16,
       "gc": 5
      },
      {
       "eq": "Mannheimer HC",
-      "pts": 12,
       "pj": 4,
+      "pts": 12,
       "gf": 15,
       "gc": 5
      },
      {
       "eq": "Crefelder HTC",
-      "pts": 10,
       "pj": 5,
+      "pts": 10,
       "gf": 19,
       "gc": 11
      },
      {
-      "eq": "TSV Mannheim",
-      "pts": 8,
+      "eq": "TSV Mannheim Hockey",
       "pj": 4,
+      "pts": 8,
       "gf": 12,
       "gc": 12
      },
      {
-      "eq": "Club an der Alster",
-      "pts": 7,
+      "eq": "Der Club an der Alster",
       "pj": 5,
+      "pts": 7,
       "gf": 17,
       "gc": 11
      },
      {
       "eq": "Harvestehuder THC",
-      "pts": 5,
       "pj": 4,
+      "pts": 5,
       "gf": 6,
       "gc": 8
      },
      {
       "eq": "UHC Hamburg",
-      "pts": 4,
       "pj": 4,
+      "pts": 4,
       "gf": 12,
       "gc": 15
      },
      {
       "eq": "Berliner HC",
-      "pts": 3,
       "pj": 4,
+      "pts": 3,
       "gf": 4,
       "gc": 12
      },
      {
       "eq": "Uhlenhorst Mülheim",
-      "pts": 1,
       "pj": 4,
+      "pts": 1,
       "gf": 8,
       "gc": 14
      },
      {
       "eq": "Münchner SC",
-      "pts": 1,
       "pj": 4,
+      "pts": 1,
       "gf": 7,
       "gc": 15
      },
      {
-      "eq": "DSD Dusseldorf",
-      "pts": 0,
+      "eq": "DSD Düsseldorf",
       "pj": 4,
+      "pts": 0,
       "gf": 5,
       "gc": 20
      }
     ],
     "f": [
      {
-      "eq": "Rot-Weiß Köln",
-      "pts": 14,
+      "eq": "RW Köln",
       "pj": 6,
+      "pts": 14,
       "gf": 12,
       "gc": 4
      },
      {
-      "eq": "Bremer HC",
-      "pts": 11,
-      "pj": 5,
-      "gf": 16,
-      "gc": 13
-     },
-     {
-      "eq": "Club an der Alster",
-      "pts": 9,
-      "pj": 3,
-      "gf": 10,
-      "gc": 4
-     },
-     {
       "eq": "Düsseldorfer HC",
-      "pts": 9,
-      "pj": 3,
+      "pj": 4,
+      "pts": 11,
       "gf": 9,
       "gc": 3
      },
      {
-      "eq": "Berliner HC",
-      "pts": 7,
+      "eq": "Der Club an der Alster",
       "pj": 4,
-      "gf": 9,
-      "gc": 7
-     },
-     {
-      "eq": "Mannheimer HC",
-      "pts": 6,
-      "pj": 4,
-      "gf": 6,
+      "pts": 10,
+      "gf": 10,
       "gc": 4
      },
      {
-      "eq": "DSD Dusseldorf",
-      "pts": 6,
+      "eq": "Bremer HC",
       "pj": 5,
-      "gf": 9,
-      "gc": 8
+      "pts": 10,
+      "gf": 13,
+      "gc": 11
      },
      {
-      "eq": "Großflottbeker THGC",
-      "pts": 6,
+      "eq": "Mannheimer HC",
       "pj": 4,
-      "gf": 5,
+      "pts": 9,
+      "gf": 8,
+      "gc": 2
+     },
+     {
+      "eq": "Berliner HC",
+      "pj": 4,
+      "pts": 7,
+      "gf": 9,
       "gc": 7
      },
      {
-      "eq": "Münchner SC",
-      "pts": 3,
+      "eq": "Großflottbeker THGC",
       "pj": 4,
+      "pts": 7,
+      "gf": 6,
+      "gc": 7
+     },
+     {
+      "eq": "DSD Düsseldorf",
+      "pj": 5,
+      "pts": 3,
+      "gf": 7,
+      "gc": 10
+     },
+     {
+      "eq": "Münchner SC",
+      "pj": 4,
+      "pts": 3,
       "gf": 6,
       "gc": 11
      },
      {
       "eq": "Harvestehuder THC",
-      "pts": 2,
       "pj": 4,
-      "gf": 5,
-      "gc": 10
+      "pts": 2,
+      "gf": 3,
+      "gc": 8
      },
      {
       "eq": "UHC Hamburg",
-      "pts": 2,
       "pj": 4,
+      "pts": 2,
       "gf": 4,
       "gc": 12
      },
      {
-      "eq": "TSV Mannheim",
-      "pts": 0,
+      "eq": "TSV Mannheim Hockey",
       "pj": 4,
+      "pts": 0,
       "gf": 3,
       "gc": 11
      }
     ]
    },
-   "consulta": "2026-10-05 12:33",
-   "estado": "jugada"
+   "consulta": "2026-10-05 16:08",
+   "estado": "jugada",
+   "goleadores": {
+    "m": [
+     {
+      "nom": "Jeremy Hayward",
+      "eq": "Der Club an der Alster",
+      "pj": 5,
+      "g": 7
+     },
+     {
+      "nom": "Kane Elliot Mark Russell",
+      "eq": "Hamburger Polo Club",
+      "pj": 5,
+      "g": 6
+     },
+     {
+      "nom": "Raphael Hartkopf",
+      "eq": "RW Köln",
+      "pj": 5,
+      "g": 6
+     },
+     {
+      "nom": "Jonty  Elmes",
+      "eq": "Mannheimer HC",
+      "pj": 4,
+      "g": 5
+     },
+     {
+      "nom": "Florian Sperling",
+      "eq": "UHC Hamburg",
+      "pj": 4,
+      "g": 4
+     },
+     {
+      "nom": "Tom Craig",
+      "eq": "Hamburger Polo Club",
+      "pj": 5,
+      "g": 4
+     },
+     {
+      "nom": "Timothy Brand",
+      "eq": "Hamburger Polo Club",
+      "pj": 5,
+      "g": 4
+     },
+     {
+      "nom": "Paul Smith",
+      "eq": "Crefelder HTC",
+      "pj": 5,
+      "g": 4
+     },
+     {
+      "nom": "Lukas Windfeder",
+      "eq": "Uhlenhorst Mülheim",
+      "pj": 3,
+      "g": 3
+     },
+     {
+      "nom": "Tom Alexander Blümmel",
+      "eq": "Münchner SC",
+      "pj": 4,
+      "g": 3
+     }
+    ],
+    "f": [
+     {
+      "nom": "Lena Frerichs",
+      "eq": "Bremer HC",
+      "pj": 5,
+      "g": 4
+     },
+     {
+      "nom": "Felicia Wiedermann",
+      "eq": "RW Köln",
+      "pj": 3,
+      "g": 3
+     },
+     {
+      "nom": "Johanna Hachenberg",
+      "eq": "Der Club an der Alster",
+      "pj": 4,
+      "g": 3
+     },
+     {
+      "nom": "Manuela Ghigliotti",
+      "eq": "Bremer HC",
+      "pj": 5,
+      "g": 3
+     },
+     {
+      "nom": "Katharina Reuten",
+      "eq": "RW Köln",
+      "pj": 5,
+      "g": 3
+     },
+     {
+      "nom": "Victoria Käske",
+      "eq": "Berliner HC",
+      "pj": 2,
+      "g": 2
+     },
+     {
+      "nom": "Alessa Volkert",
+      "eq": "Berliner HC",
+      "pj": 3,
+      "g": 2
+     },
+     {
+      "nom": "Claire Behrend",
+      "eq": "UHC Hamburg",
+      "pj": 4,
+      "g": 2
+     },
+     {
+      "nom": "Kayla de Waal",
+      "eq": "TSV Mannheim Hockey",
+      "pj": 4,
+      "g": 2
+     },
+     {
+      "nom": "Aluhe Camps",
+      "eq": "Düsseldorfer HC",
+      "pj": 4,
+      "g": 2
+     }
+    ]
+   }
   },
   {
    "id": "en",
