@@ -13,7 +13,7 @@ const LIGAS = [
   { id: 'es', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'LIGA IATI · LIGA IBERDROLA', rfeh: { m: 1, f: 8 }, m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
   { id: 'de', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', dhb: { m: 'herren', f: 'damen' }, m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
   { id: 'en', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', nombres: { m: 'https://www.englandhockey.co.uk/competitions-and-events/open-men-s-hockey-league/ehl-open-men-premier-division', f: 'https://www.englandhockey.co.uk/competitions-and-events/womens-hockey-league/ehl-women-premier-division' }, m: 'england/premier-division', f: 'england/premier-division-frauen' },
-  { id: 'it', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', m: 'italien/serie-a1' },
+  { id: 'it', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', fih: true, m: 'italien/serie-a1' },
   { id: 'ar', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: true },
   { id: 'au', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
 ];
@@ -93,7 +93,7 @@ const ALIAS = { rw: 'rot weiss', sw: 'schwarz weiss', bw: 'blau weiss' }; // abr
 const clave = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(' ').map(w => ALIAS[w] || w).join(' ').split(' ').filter(w => w.length > 2 && !['der', 'club', 'hockey', 'und', 'the'].includes(w));
 function oficial(n, nombres) {
   const a = clave(n); let best = null, bs = 0;
-  for (const o of nombres) { const b = clave(o), sc = a.filter(w => b.some(x => x.startsWith(w) || w.startsWith(x))).length / Math.max(a.length, 1); if (sc > bs) { bs = sc; best = o; } }
+  for (const o of nombres) { const b = clave(o), n = a.filter(w => b.some(x => x.startsWith(w) || w.startsWith(x))).length, sc = (n / Math.max(a.length, 1) + n / Math.max(b.length, 1)) / 2; if (sc > bs) { bs = sc; best = o; } }
   return bs >= .5 ? best : n;
 }
 
@@ -176,6 +176,33 @@ async function sportlink(nombrePool) {
   const st = await (await fetch(SL('standing') + q)).json();
   const tabla = (st.data || []).map(x => ({ eq: nombreBE(x[1]), pj: +x[2], gf: +x[6], gc: +x[7], pts: +x[8] }));
   return { ms, tabla };
+}
+
+// ---------- Federhockey (Italia, fuente oficial: comunicados "#PRATO/I RISULTATI DELLE GARE DI ...") ----------
+const MESES_IT = { gennaio: 0, febbraio: 1, marzo: 2, aprile: 3, maggio: 4, giugno: 5, luglio: 6, agosto: 7, settembre: 8, ottobre: 9, novembre: 10, dicembre: 11 };
+const texto = html => html.replace(/<br\s*\/?>|<\/p>|<\/div>|<\/h\d>/gi, '\n').replace(/<[^>]+>/g, '')
+  .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#0?39;|&rsquo;/g, "'").replace(/&agrave;/g, 'à').replace(/&egrave;/g, 'è').replace(/&ograve;/g, 'ò').replace(/&ugrave;/g, 'ù').replace(/&igrave;/g, 'ì');
+async function federhockey() {
+  const base = 'https://www.federhockey.it';
+  const idx = await (await fetch(base + '/49-campionati/campionati-prato.html')).text();
+  const arts = [...new Set([...idx.matchAll(/href="([^"]*risultati-delle-gare-di-[a-z]+-(\d{1,2})-([a-z]+)-(\d{4})[^"]*\.html)"/g)].map(m => m[1]))];
+  const out = { m: [], f: [], jornada: '' };
+  for (const u of arts) {
+    const m = /-(\d{1,2})-([a-z]+)-(\d{4})/.exec(u); if (!m || MESES_IT[m[2]] == null) continue;
+    if (!enFinde(new Date(+m[3], MESES_IT[m[2]], +m[1], 12))) continue;
+    const lines = texto(await (await fetch(u.startsWith('http') ? u : base + u)).text()).split('\n').map(x => x.trim()).filter(Boolean);
+    let sec = null;
+    for (const l of lines) {
+      const h = /^SERIE A ELITE (MASCHILE|FEMMINILE).*?Giornata (\d+)/i.exec(l);
+      if (h) { sec = h[1].toUpperCase() === 'MASCHILE' ? 'm' : 'f'; if (sec === 'm') out.jornada = 'FECHA ' + h[2]; continue; }
+      if (/^(SERIE|COPPA|GIRONE|POULE|PLAY|FINAL|SUPERCOPPA)\b/i.test(l)) { sec = null; continue; } // otro encabezado (Serie A1, Coppa Federale...)
+      if (!sec) continue;
+      const g = /^(.+?)\s*-\s*(.+?)\s+(\d+)\s*-\s*(\d+)(?:\s*\((.*)\))?\s*$/.exec(l);
+      const sp = x => x.replace(/\s+/g, ' ').trim();
+      if (g) out[sec].push([sp(g[1]), +g[3], +g[4], sp(g[2])]);
+    }
+  }
+  return out;
 }
 
 // ---------- Flashscore ----------
@@ -294,7 +321,15 @@ for (const L of LIGAS) {
   const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga };
   DIAS_ANTES = L.id === 'au' ? 4 : 2;
   try {
-    if (L.sportlink) {
+    if (L.fih) {
+      const o = await federhockey();
+      if (o.m.length) p.m = o.m; else if (!old.m) p.m = [];
+      if (o.f.length) p.f = o.f; else if (!old.f) p.f = [];
+      if (o.jornada) p.jornada = o.jornada;
+      const tabla = { ...(p.tabla || {}) }, t = await fsTabla(pg, L.m), nombres = [...new Set([...(p.m || []), ...(old.m || [])].flatMap(x => [x[0], x[3]]))];
+      if (t.some(x => x.pj > 0)) tabla.m = t.map(x => ({ ...x, eq: oficial(x.eq, nombres) }));
+      p.tabla = tabla; p.fuente = 'Federhockey · federhockey.it (oficial) + Flashscore (tabla)';
+    } else if (L.sportlink) {
       const tabla = { ...(p.tabla || {}) };
       for (const k of ['m', 'f']) {
         try { const o = await sportlink(L.sportlink[k]); if (o.ms.length) p[k] = o.ms; else if (!old[k]) p[k] = []; if (o.tabla.length) tabla[k] = o.tabla; }

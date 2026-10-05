@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-05 16:18",
+ "actualizado": "2026-10-05 16:22",
  "paises": [
   {
    "id": "nl",
@@ -1566,38 +1566,38 @@
    "pais": "ITALIA",
    "pais_en": "ITALY",
    "liga": "SERIE A ELITE",
-   "jornada": "",
-   "fuente": "Flashscore",
+   "jornada": "FECHA 3",
+   "fuente": "Federhockey · federhockey.it (oficial) + Flashscore (tabla)",
    "m": [
     [
-     "Ferrini",
+     "Polisportiva Ferrini",
      4,
      4,
-     "Sardegna"
+     "HT Sardegna"
     ],
     [
-     "Amsicora",
+     "SG Amsicora",
      10,
      0,
-     "Butterfly Roma"
+     "Butterfly Roma HCC"
     ],
     [
-     "Bologna",
+     "HC Bondeno",
      1,
-     2,
-     "Valchisone"
+     1,
+     "HC Tevere Eur"
     ],
     [
-     "Bondeno",
-     1,
-     1,
-     "Tevere"
-    ],
-    [
-     "Bra",
+     "HC Bra",
      2,
      4,
-     "Lazio Rom"
+     "Lazio Hockey"
+    ],
+    [
+     "HT Bologna",
+     1,
+     2,
+     "HP Valchisone"
     ]
    ],
    "f": [
@@ -1623,13 +1623,13 @@
      "Lazio Hockey",
      2,
      1,
-     "Butterfly Roma"
+     "Butterfly Roma HCC"
     ]
    ],
    "tabla": {
     "m": [
      {
-      "eq": "Amsicora",
+      "eq": "SG Amsicora",
       "pts": 9,
       "pj": 3,
       "gf": 22,
@@ -1650,21 +1650,21 @@
       "gc": 4
      },
      {
-      "eq": "Bondeno",
+      "eq": "HC Bondeno",
       "pts": 5,
       "pj": 3,
       "gf": 9,
       "gc": 6
      },
      {
-      "eq": "Bra",
+      "eq": "HC Bra",
       "pts": 3,
       "pj": 3,
       "gf": 11,
       "gc": 9
      },
      {
-      "eq": "Valchisone",
+      "eq": "HP Valchisone",
       "pts": 3,
       "pj": 3,
       "gf": 5,
@@ -1678,7 +1678,7 @@
       "gc": 19
      },
      {
-      "eq": "Sardegna",
+      "eq": "HT Sardegna",
       "pts": 2,
       "pj": 3,
       "gf": 7,
@@ -1692,7 +1692,7 @@
       "gc": 14
      },
      {
-      "eq": "Bologna",
+      "eq": "HT Bologna",
       "pts": 0,
       "pj": 3,
       "gf": 3,
@@ -1700,7 +1700,7 @@
      }
     ]
    },
-   "consulta": "2026-10-05 12:33",
+   "consulta": "2026-10-05 16:22",
    "estado": "jugada"
   },
   {
