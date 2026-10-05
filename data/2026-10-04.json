@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-05 16:08",
+ "actualizado": "2026-10-05 16:10",
  "paises": [
   {
    "id": "nl",
@@ -1068,16 +1068,16 @@
      "Beeston"
     ],
     [
-     "Cardiff",
+     "Cardiff & Met",
      1,
      2,
-     "Exeter Univ."
+     "University of Exeter"
     ],
     [
      "East Grinstead",
      4,
      2,
-     "Reading HC"
+     "Reading"
     ],
     [
      "Holcombe",
@@ -1103,31 +1103,31 @@
      "Surbiton",
      4,
      1,
-     "Loughborough"
+     "Loughborough Students"
     ],
     [
      "Wimbledon",
      6,
      0,
-     "Nottingham Univ."
+     "University of Nottingham"
     ],
     [
      "Hampstead & Westminster",
      0,
      1,
-     "Birmingham City"
+     "University of Birmingham"
     ],
     [
      "East Grinstead",
      0,
      1,
-     "Durham City"
+     "Durham University"
     ],
     [
      "Teddington",
      2,
      1,
-     "Reading HC"
+     "Reading"
     ],
     [
      "Buckingham",
@@ -1153,7 +1153,7 @@
       "gc": 3
      },
      {
-      "eq": "Exeter Univ.",
+      "eq": "University of Exeter",
       "pts": 6,
       "pj": 2,
       "gf": 6,
@@ -1181,14 +1181,14 @@
       "gc": 4
      },
      {
-      "eq": "Reading HC",
+      "eq": "Reading",
       "pts": 3,
       "pj": 2,
       "gf": 4,
       "gc": 5
      },
      {
-      "eq": "Cardiff",
+      "eq": "Cardiff & Met",
       "pts": 1,
       "pj": 2,
       "gf": 3,
@@ -1239,21 +1239,21 @@
       "gc": 2
      },
      {
-      "eq": "Birmingham City",
+      "eq": "University of Birmingham",
       "pts": 6,
       "pj": 2,
       "gf": 3,
       "gc": 0
      },
      {
-      "eq": "Durham City",
+      "eq": "Durham University",
       "pts": 6,
       "pj": 2,
       "gf": 2,
       "gc": 0
      },
      {
-      "eq": "Loughborough",
+      "eq": "Loughborough Students",
       "pts": 3,
       "pj": 2,
       "gf": 8,
@@ -1281,7 +1281,7 @@
       "gc": 4
      },
      {
-      "eq": "Reading HC",
+      "eq": "Reading",
       "pts": 0,
       "pj": 2,
       "gf": 1,
@@ -1302,7 +1302,7 @@
       "gc": 9
      },
      {
-      "eq": "Nottingham Univ.",
+      "eq": "University of Nottingham",
       "pts": 0,
       "pj": 2,
       "gf": 0,
@@ -1310,7 +1310,7 @@
      }
     ]
    },
-   "consulta": "2026-10-05 12:33",
+   "consulta": "2026-10-05 16:10",
    "estado": "jugada"
   },
   {

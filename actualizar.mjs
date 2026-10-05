@@ -12,7 +12,7 @@ const LIGAS = [
   { id: 'be', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', m: 'belgien/hockey-league' },
   { id: 'es', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'DIVISIÓN DE HONOR · LIGA IBERDROLA', m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
   { id: 'de', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', dhb: { m: 'herren', f: 'damen' }, m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
-  { id: 'en', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', m: 'england/premier-division', f: 'england/premier-division-frauen' },
+  { id: 'en', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', nombres: { m: 'https://www.englandhockey.co.uk/competitions-and-events/open-men-s-hockey-league/ehl-open-men-premier-division', f: 'https://www.englandhockey.co.uk/competitions-and-events/womens-hockey-league/ehl-women-premier-division' }, m: 'england/premier-division', f: 'england/premier-division-frauen' },
   { id: 'it', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', m: 'italien/serie-a1' },
   { id: 'ar', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: true },
   { id: 'au', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
@@ -95,6 +95,15 @@ function oficial(n, nombres) {
   const a = clave(n); let best = null, bs = 0;
   for (const o of nombres) { const b = clave(o), sc = a.filter(w => b.some(x => x.startsWith(w) || w.startsWith(x))).length / Math.max(a.length, 1); if (sc > bs) { bs = sc; best = o; } }
   return bs >= .5 ? best : n;
+}
+
+// lista oficial de equipos (England Hockey publica los nombres, no las tablas): "CARDIFF & MET" → "Cardiff & Met"
+async function nombresOficiales(pg, url) {
+  await ir(pg, url, { waitUntil: 'networkidle2', timeout: 60000 });
+  const t = await pg.evaluate(() => (document.querySelector('main') || document.body).innerText);
+  const lines = t.split('\n').map(x => x.trim()), fin = lines.findIndex(x => /^INTERNATIONAL|^CONTINUE READING/.test(x));
+  return lines.slice(0, fin > 0 ? fin : undefined).filter(x => /^[A-Z0-9&'. -]{3,40}$/.test(x) && !/^\d/.test(x))
+    .map(x => x.toLowerCase().replace(/(^|[\s-])(\p{L})/gu, (a, b, c) => b + c.toUpperCase()).replace(/\bOf\b/g, 'of'));
 }
 
 // ---------- Flashscore ----------
@@ -240,8 +249,11 @@ for (const L of LIGAS) {
       for (const k of ['m', 'f']) {
         if (!L[k]) continue;
         const r = await fsResultados(pg, L[k]);
-        if (r.ms.length) p[k] = r.ms; else if (!old[k]) p[k] = [];
-        const t = await fsTabla(pg, L[k]); if (t.some(r => r.pj > 0)) tabla[k] = t;
+        let ofi = [];
+        if (L.nombres && L.nombres[k]) { try { ofi = await nombresOficiales(pg, L.nombres[k]); } catch (e) { console.log(L.id, k, 'nombres oficiales:', e.message); } }
+        const ren = n => ofi.length ? oficial(n, ofi) : n;
+        if (r.ms.length) p[k] = r.ms.map(([a, ga, gb, b, x]) => x ? [ren(a), ga, gb, ren(b), x] : [ren(a), ga, gb, ren(b)]); else if (!old[k]) p[k] = [];
+        const t = await fsTabla(pg, L[k]); if (t.some(r => r.pj > 0)) tabla[k] = t.map(x => ({ ...x, eq: ren(x.eq) }));
         const rn = /(\d+)\.\s*Runde|Spieltag\s*(\d+)/i.exec(r.ronda); if (k === 'm' && rn) p.jornada = 'FECHA ' + (rn[1] || rn[2]);
       }
       if (!(p.m || []).length && !(p.f || []).length) p.proximo = (await fsProximo(pg, L.m || L.f)) || L.inicio || '';
