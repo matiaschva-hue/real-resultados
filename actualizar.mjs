@@ -1,10 +1,11 @@
 // Lector automático de resultados y tablas para la app de resultados REAL.
 // Uso: node actualizar.mjs [AAAA-MM-DD domingo del finde] [ids,separados]
-// Escribe Documents\REAL Web\resultados\data\<domingo>.json (+ index.json). Lo que una fuente no trae se conserva del archivo anterior.
+// Escribe data/<domingo>.json (+ index.json) junto a este archivo. Lo que una fuente no trae se conserva del archivo anterior.
 import fs from 'fs';
 import puppeteer from 'puppeteer-core';
+import { fileURLToPath } from 'url';
 
-const OUT = process.env.RES_OUT || new URL('./data', import.meta.url).pathname.replace(/^/([A-Z]:)/, '$1');
+const OUT = process.env.RES_OUT || fileURLToPath(new URL('./data', import.meta.url));
 const FS = 'https://www.flashscore.de/feldhockey/';
 const LIGAS = [
   { id: 'nl', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
@@ -14,7 +15,7 @@ const LIGAS = [
   { id: 'en', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', m: 'england/premier-division', f: 'england/premier-division-frauen' },
   { id: 'it', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', m: 'italien/serie-a1' },
   { id: 'ar', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: true },
-  { id: 'au', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
+  { id: 'au', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
 ];
 
 // ---------- finde ----------
@@ -31,9 +32,12 @@ let DIAS_ANTES = 2;
 const enFinde = d => { const a = new Date(DOM), b = new Date(DOM); a.setDate(a.getDate() - DIAS_ANTES); a.setHours(0, 0, 0, 0); b.setDate(b.getDate() + 1); b.setHours(23, 59, 59, 0); return d >= a && d <= b; };
 const limpiar = s => s.replace(/\s+F$/, '').trim(); // Flashscore agrega " F" a los equipos femeninos
 
+// navegar con reintentos (Flashscore a veces tarda)
+async function ir(pg, url, opt) { for (let i = 0; ; i++) { try { return await pg.goto(url, opt); } catch (e) { if (i >= 2) throw e; await new Promise(r => setTimeout(r, 3000)); } } }
+
 // ---------- Flashscore ----------
 async function fsResultados(pg, slug) {
-  await pg.goto(FS + slug + '/ergebnisse/', { waitUntil: 'networkidle2', timeout: 60000 });
+  await ir(pg, FS + slug + '/ergebnisse/', { waitUntil: 'networkidle2', timeout: 60000 });
   await pg.waitForSelector('.event__match', { timeout: 15000 }).catch(() => {});
   const filas = await pg.evaluate(() => {
     let ronda = '';
@@ -66,7 +70,7 @@ async function fsResultados(pg, slug) {
   return { ms, ronda };
 }
 async function fsTabla(pg, slug) {
-  await pg.goto(FS + slug + '/tabelle/', { waitUntil: 'networkidle2', timeout: 60000 });
+  await ir(pg, FS + slug + '/tabelle/', { waitUntil: 'networkidle2', timeout: 60000 });
   await pg.waitForSelector('.ui-table__row', { timeout: 15000 }).catch(() => {});
   const rows = await pg.evaluate(() => [...document.querySelectorAll('.ui-table__row')].map(r => r.innerText.split('\n').map(s => s.trim()).filter(Boolean)));
   return rows.map(c => {
@@ -76,11 +80,19 @@ async function fsTabla(pg, slug) {
   }).filter(Boolean);
 }
 
+// próximo partido programado (para avisar cuándo arranca o sigue la liga)
+async function fsProximo(pg, slug) {
+  await ir(pg, FS + slug + '/begegnungen/', { waitUntil: 'networkidle2', timeout: 60000 });
+  await pg.waitForSelector('.event__match', { timeout: 10000 }).catch(() => {});
+  const t = await pg.evaluate(() => document.querySelector('.event__match .event__time')?.innerText || '');
+  const m = /(d{2}).(d{2})./.exec(t); return m ? `${m[1]}/${m[2]}` : '';
+}
+
 // ---------- LarrySport (Argentina) ----------
 const MES = { ene: 0, feb: 1, mar: 2, abr: 3, may: 4, jun: 5, jul: 6, ago: 7, sep: 8, oct: 9, nov: 10, dic: 11 };
 async function larry(pg, rama, torneo) {
   const base = 'https://tournamenttracker.buenosaireshockey.ar/';
-  await pg.goto(base, { waitUntil: 'networkidle2', timeout: 60000 });
+  await ir(pg, base, { waitUntil: 'networkidle2', timeout: 60000 });
   const click = async (fn, arg) => { const ok = await pg.evaluate(fn, arg); if (!ok) throw new Error('LarrySport: no encontré ' + arg); await new Promise(r => setTimeout(r, 1500)); };
   const exact = t => [...document.querySelectorAll('main *, button, span, div')].find(e => e.children.length <= 1 && e.innerText?.trim() === t);
   // rama: la página arranca en Femenino; para Masculino se abre el paso de la miga y se elige el botón
@@ -152,12 +164,16 @@ for (const L of LIGAS) {
         const t = await fsTabla(pg, L[k]); if (t.some(r => r.pj > 0)) tabla[k] = t;
         const rn = /(\d+)\.\s*Runde|Spieltag\s*(\d+)/i.exec(r.ronda); if (k === 'm' && rn) p.jornada = 'FECHA ' + (rn[1] || rn[2]);
       }
+      if (!(p.m || []).length && !(p.f || []).length) p.proximo = (await fsProximo(pg, L.m || L.f)) || L.inicio || '';
       p.tabla = tabla; p.fuente = old.fuente && !/flashscore/i.test(old.fuente) ? old.fuente + ' + Flashscore' : 'Flashscore';
     }
+    // aviso para la app (no se publica): se jugó / no se jugó la fecha / la liga no arrancó
+    const jugados = (p.m || []).length + (p.f || []).length, arranco = Object.values(p.tabla || {}).some(t => t.some(r => r.pj > 0));
+    p.estado = jugados ? 'jugada' : arranco ? 'sin-fecha' : 'no-arranco';
     p.consulta = sello;
     console.log(L.id, 'm', (p.m || []).length, 'f', (p.f || []).length, 'tabla', Object.keys(p.tabla || {}).join('/'), p.jornada || '');
   } catch (e) { console.log(L.id, 'ERROR', e.message); }
-  if ((p.m || []).length + (p.f || []).length || (p.tabla && Object.keys(p.tabla).length)) paises.push(p);
+  paises.push(p);
 }
 await br.close();
 const out = { fecha: `${pad(DOM.getDate())}.${pad(DOM.getMonth() + 1)}.${DOM.getFullYear()}`, actualizado: sello, paises };
