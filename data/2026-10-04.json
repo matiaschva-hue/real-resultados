@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-05 16:10",
+ "actualizado": "2026-10-05 16:18",
  "paises": [
   {
    "id": "nl",
@@ -245,8 +245,14 @@
    "pais_en": "BELGIUM",
    "liga": "BELGIAN HOCKEY LEAGUE",
    "jornada": "FECHA 4",
-   "fuente": "Flashscore",
+   "fuente": "Hockey Belgium · hockey.be (oficial)",
    "m": [
+    [
+     "Gantoise",
+     7,
+     0,
+     "Daring"
+    ],
     [
      "Braxgata",
      4,
@@ -254,54 +260,78 @@
      "Namur"
     ],
     [
-     "Gantoise HC",
-     7,
-     0,
-     "Daring"
+     "Uccle Sport",
+     5,
+     2,
+     "Beerschot"
+    ],
+    [
+     "Léopold",
+     2,
+     1,
+     "Dragons"
+    ],
+    [
+     "Racing",
+     3,
+     3,
+     "Orée"
     ],
     [
      "Herakles",
      3,
      1,
      "Waterloo Ducks"
-    ],
-    [
-     "Racing",
-     3,
-     3,
-     "Oree"
-    ],
-    [
-     "Royal Léopold THC",
-     2,
-     1,
-     "KHC Dragons"
-    ],
-    [
-     "Uccle",
-     5,
-     2,
-     "Beerschot"
     ]
    ],
    "f": [
+    [
+     "Racing",
+     1,
+     3,
+     "Leuven"
+    ],
+    [
+     "Dragons",
+     3,
+     3,
+     "Victory"
+    ],
+    [
+     "Beerschot",
+     0,
+     4,
+     "Gantoise"
+    ],
+    [
+     "Antwerp",
+     0,
+     1,
+     "Braxgata"
+    ],
+    [
+     "Waterloo Ducks",
+     3,
+     1,
+     "Uccle Sport"
+    ],
+    [
+     "Wellington",
+     1,
+     0,
+     "Léopold"
+    ],
+    [
+     "Victory",
+     3,
+     2,
+     "Waterloo Ducks"
+    ],
     [
      "Gantoise",
      2,
      0,
      "Antwerp"
-    ],
-    [
-     "Léopold",
-     2,
-     4,
-     "Dragons"
-    ],
-    [
-     "Racing",
-     1,
-     1,
-     "Wellington"
     ],
     [
      "Uccle Sport",
@@ -310,248 +340,340 @@
      "Beerschot"
     ],
     [
-     "Victory",
-     3,
+     "Racing",
      1,
-     "Waterloo Ducks"
+     1,
+     "Wellington"
+    ],
+    [
+     "Léopold",
+     2,
+     4,
+     "Dragons"
     ],
     [
      "Braxgata",
      1,
      1,
-     "Louvain"
+     "Leuven"
     ]
    ],
    "tabla": {
     "m": [
      {
-      "eq": "Royal Léopold THC",
-      "pts": 10,
+      "eq": "Léopold",
       "pj": 4,
       "gf": 15,
-      "gc": 8
+      "gc": 8,
+      "pts": 10
      },
      {
-      "eq": "Gantoise HC",
-      "pts": 9,
+      "eq": "Gantoise",
       "pj": 4,
       "gf": 15,
-      "gc": 6
+      "gc": 6,
+      "pts": 9
      },
      {
       "eq": "Braxgata",
-      "pts": 9,
       "pj": 4,
       "gf": 14,
-      "gc": 7
+      "gc": 7,
+      "pts": 9
      },
      {
       "eq": "Waterloo Ducks",
-      "pts": 9,
       "pj": 4,
       "gf": 10,
-      "gc": 7
+      "gc": 7,
+      "pts": 9
      },
      {
-      "eq": "Uccle",
-      "pts": 7,
+      "eq": "Uccle Sport",
       "pj": 4,
       "gf": 13,
-      "gc": 11
+      "gc": 11,
+      "pts": 7
      },
      {
       "eq": "Herakles",
-      "pts": 6,
       "pj": 4,
       "gf": 14,
-      "gc": 9
+      "gc": 9,
+      "pts": 6
      },
      {
       "eq": "Racing",
-      "pts": 6,
       "pj": 4,
       "gf": 8,
-      "gc": 7
+      "gc": 7,
+      "pts": 6
      },
      {
-      "eq": "Oree",
-      "pts": 5,
+      "eq": "Orée",
       "pj": 4,
       "gf": 8,
-      "gc": 6
+      "gc": 6,
+      "pts": 5
      },
      {
-      "eq": "KHC Dragons",
-      "pts": 4,
+      "eq": "Dragons",
       "pj": 4,
       "gf": 5,
-      "gc": 10
+      "gc": 10,
+      "pts": 4
      },
      {
       "eq": "Beerschot",
-      "pts": 1,
       "pj": 4,
       "gf": 6,
-      "gc": 14
+      "gc": 14,
+      "pts": 1
      },
      {
       "eq": "Daring",
-      "pts": 1,
       "pj": 4,
       "gf": 5,
-      "gc": 20
+      "gc": 20,
+      "pts": 1
      },
      {
       "eq": "Namur",
-      "pts": 0,
       "pj": 4,
       "gf": 6,
-      "gc": 14
+      "gc": 14,
+      "pts": 0
+     }
+    ],
+    "f": [
+     {
+      "eq": "Gantoise",
+      "pj": 4,
+      "gf": 12,
+      "gc": 4,
+      "pts": 12
+     },
+     {
+      "eq": "Dragons",
+      "pj": 4,
+      "gf": 16,
+      "gc": 8,
+      "pts": 10
+     },
+     {
+      "eq": "Leuven",
+      "pj": 4,
+      "gf": 10,
+      "gc": 5,
+      "pts": 8
+     },
+     {
+      "eq": "Waterloo Ducks",
+      "pj": 4,
+      "gf": 10,
+      "gc": 7,
+      "pts": 6
+     },
+     {
+      "eq": "Racing",
+      "pj": 4,
+      "gf": 6,
+      "gc": 5,
+      "pts": 5
+     },
+     {
+      "eq": "Victory",
+      "pj": 4,
+      "gf": 9,
+      "gc": 9,
+      "pts": 5
+     },
+     {
+      "eq": "Wellington",
+      "pj": 4,
+      "gf": 6,
+      "gc": 9,
+      "pts": 5
+     },
+     {
+      "eq": "Uccle Sport",
+      "pj": 4,
+      "gf": 5,
+      "gc": 7,
+      "pts": 4
+     },
+     {
+      "eq": "Antwerp",
+      "pj": 4,
+      "gf": 3,
+      "gc": 5,
+      "pts": 4
+     },
+     {
+      "eq": "Braxgata",
+      "pj": 4,
+      "gf": 3,
+      "gc": 6,
+      "pts": 4
+     },
+     {
+      "eq": "Beerschot",
+      "pj": 4,
+      "gf": 2,
+      "gc": 10,
+      "pts": 3
+     },
+     {
+      "eq": "Léopold",
+      "pj": 4,
+      "gf": 4,
+      "gc": 11,
+      "pts": 0
      }
     ]
    },
-   "consulta": "2026-10-05 12:33",
+   "consulta": "2026-10-05 16:18",
    "estado": "jugada"
   },
   {
    "id": "es",
    "pais": "ESPAÑA",
    "pais_en": "SPAIN",
-   "liga": "DIVISIÓN DE HONOR · LIGA IBERDROLA",
-   "jornada": "",
-   "fuente": "Flashscore",
+   "liga": "LIGA IATI · LIGA IBERDROLA",
+   "jornada": "FECHA 3",
+   "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "m": [
     [
-     "Complutense",
+     "RC Polo",
+     5,
      2,
-     3,
-     "Junior"
+     "Club de Campo"
     ],
     [
-     "Taburiente",
+     "CD Terrassa",
      3,
-     3,
-     "Egara"
+     2,
+     "CH Carpesa"
     ],
     [
      "Sardinero",
      3,
      8,
-     "Tenis"
+     "RS Tenis"
     ],
     [
-     "C.D. Terrassa",
+     "UD Taburiente",
      3,
-     2,
-     "Carpesa"
+     3,
+     "Club Egara"
     ],
     [
-     "Polo",
-     5,
+     "Sanse Complutense",
      2,
-     "Campo"
+     3,
+     "Junior FC"
     ]
    ],
    "f": [
     [
-     "FC Valencia",
+     "UD Taburiente",
+     1,
+     5,
+     "RC Polo"
+    ],
+    [
+     "Sanse Complutense",
+     1,
+     2,
+     "Club de Campo"
+    ],
+    [
+     "RS Tenis",
+     2,
+     1,
+     "CD Terrassa"
+    ],
+    [
+     "Valencia CH",
      2,
      3,
      "Real Sociedad"
-    ],
-    [
-     "Tenis",
-     2,
-     1,
-     "C.D. Terrassa"
-    ],
-    [
-     "Complutense",
-     1,
-     2,
-     "Campo"
-    ],
-    [
-     "Taburiente",
-     1,
-     5,
-     "Polo"
     ]
    ],
    "tabla": {
     "m": [
      {
-      "eq": "Tenis",
+      "eq": "RS Tenis",
       "pts": 9,
       "pj": 3,
       "gf": 19,
       "gc": 4
      },
      {
-      "eq": "C.D. Terrassa",
+      "eq": "CD Terrassa",
       "pts": 9,
       "pj": 3,
       "gf": 11,
       "gc": 6
      },
      {
-      "eq": "Junior",
+      "eq": "Junior FC",
       "pts": 7,
       "pj": 3,
       "gf": 8,
       "gc": 5
      },
      {
-      "eq": "Polo",
+      "eq": "RC Polo",
       "pts": 6,
       "pj": 3,
       "gf": 12,
       "gc": 7
      },
      {
-      "eq": "Egara",
+      "eq": "Club Egara",
       "pts": 4,
       "pj": 3,
       "gf": 13,
       "gc": 9
      },
      {
-      "eq": "Campo",
+      "eq": "Club de Campo",
       "pts": 4,
       "pj": 3,
       "gf": 9,
       "gc": 11
      },
      {
-      "eq": "Complutense",
+      "eq": "Sanse Complutense",
       "pts": 3,
       "pj": 3,
       "gf": 10,
       "gc": 8
      },
      {
-      "eq": "Atletic Terrassa",
+      "eq": "Atlètic Terrassa",
       "pts": 3,
       "pj": 2,
       "gf": 5,
       "gc": 6
      },
      {
-      "eq": "Carpesa",
+      "eq": "CH Carpesa",
       "pts": 3,
       "pj": 3,
       "gf": 5,
       "gc": 8
      },
      {
-      "eq": "Taburiente",
+      "eq": "UD Taburiente",
       "pts": 1,
       "pj": 3,
       "gf": 5,
       "gc": 15
      },
      {
-      "eq": "Barcelona",
+      "eq": "Futbol Club Barcelona",
       "pts": 0,
       "pj": 2,
       "gf": 1,
@@ -567,49 +689,49 @@
     ],
     "f": [
      {
-      "eq": "Campo",
+      "eq": "Club de Campo",
       "pts": 9,
       "pj": 3,
       "gf": 10,
       "gc": 2
      },
      {
-      "eq": "Polo",
+      "eq": "RC Polo",
       "pts": 7,
       "pj": 3,
       "gf": 9,
       "gc": 2
      },
      {
-      "eq": "Tenis",
+      "eq": "RS Tenis",
       "pts": 7,
       "pj": 3,
       "gf": 8,
       "gc": 3
      },
      {
-      "eq": "Junior",
+      "eq": "Junior FC",
       "pts": 6,
       "pj": 2,
       "gf": 5,
       "gc": 1
      },
      {
-      "eq": "Atletic Terrassa",
+      "eq": "Atlètic Terrassa",
       "pts": 6,
       "pj": 2,
       "gf": 5,
       "gc": 3
      },
      {
-      "eq": "Complutense",
+      "eq": "Sanse Complutense",
       "pts": 4,
       "pj": 3,
       "gf": 4,
       "gc": 3
      },
      {
-      "eq": "FC Valencia",
+      "eq": "Valencia CH",
       "pts": 3,
       "pj": 3,
       "gf": 4,
@@ -623,14 +745,14 @@
       "gc": 8
      },
      {
-      "eq": "Egara",
+      "eq": "Club Egara",
       "pts": 1,
       "pj": 2,
       "gf": 2,
       "gc": 5
      },
      {
-      "eq": "C.D. Terrassa",
+      "eq": "CD Terrassa",
       "pts": 0,
       "pj": 3,
       "gf": 3,
@@ -644,7 +766,7 @@
       "gc": 7
      },
      {
-      "eq": "Taburiente",
+      "eq": "UD Taburiente",
       "pts": 0,
       "pj": 3,
       "gf": 2,
@@ -652,8 +774,134 @@
      }
     ]
    },
-   "consulta": "2026-10-05 12:33",
-   "estado": "jugada"
+   "consulta": "2026-10-05 16:18",
+   "estado": "jugada",
+   "goleadores": {
+    "m": [
+     {
+      "nom": "Manuel Mondo Diaz Ramos",
+      "eq": "Sanse Complutense",
+      "g": 7,
+      "pj": 3
+     },
+     {
+      "nom": "Jose Basterra Ochoa",
+      "eq": "Club de Campo",
+      "g": 5,
+      "pj": 3
+     },
+     {
+      "nom": "Joaquin Puglisi",
+      "eq": "RS Tenis",
+      "g": 5,
+      "pj": 3
+     },
+     {
+      "nom": "Enrique Zorita Marquez",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Joan Francesc Fernandez Ros",
+      "eq": "Club Egara",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Leandro Martin Ojeda Ariza",
+      "eq": "Sardinero",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
+      "g": 3,
+      "pj": 3
+     }
+    ],
+    "f": [
+     {
+      "nom": "Flore Suzanne Bruggink",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Carmen Fernandez de Velasco Arroyo",
+      "eq": "RS Tenis",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Ana Paula Riera",
+      "eq": "CD Terrassa",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Nuria Carles Andreu",
+      "eq": "Atlètic Terrassa",
+      "g": 2,
+      "pj": 2
+     }
+    ]
+   }
   },
   {
    "id": "de",

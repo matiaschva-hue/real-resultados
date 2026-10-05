@@ -9,8 +9,8 @@ const OUT = process.env.RES_OUT || fileURLToPath(new URL('./data', import.meta.u
 const FS = 'https://www.flashscore.de/feldhockey/';
 const LIGAS = [
   { id: 'nl', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', knhb: { m: 'lmdzprlesfiv', f: 'mqtcokvtpune' }, m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
-  { id: 'be', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', m: 'belgien/hockey-league' },
-  { id: 'es', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'DIVISIÓN DE HONOR · LIGA IBERDROLA', m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
+  { id: 'be', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', sportlink: { m: "Men's Hockey League - A", f: "Women's Hockey League - A" }, m: 'belgien/hockey-league' },
+  { id: 'es', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'LIGA IATI · LIGA IBERDROLA', rfeh: { m: 1, f: 8 }, m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
   { id: 'de', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', dhb: { m: 'herren', f: 'damen' }, m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
   { id: 'en', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', nombres: { m: 'https://www.englandhockey.co.uk/competitions-and-events/open-men-s-hockey-league/ehl-open-men-premier-division', f: 'https://www.englandhockey.co.uk/competitions-and-events/womens-hockey-league/ehl-women-premier-division' }, m: 'england/premier-division', f: 'england/premier-division-frauen' },
   { id: 'it', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', m: 'italien/serie-a1' },
@@ -104,6 +104,78 @@ async function nombresOficiales(pg, url) {
   const lines = t.split('\n').map(x => x.trim()), fin = lines.findIndex(x => /^INTERNATIONAL|^CONTINUE READING/.test(x));
   return lines.slice(0, fin > 0 ? fin : undefined).filter(x => /^[A-Z0-9&'. -]{3,40}$/.test(x) && !/^\d/.test(x))
     .map(x => x.toLowerCase().replace(/(^|[\s-])(\p{L})/gu, (a, b, c) => b + c.toUpperCase()).replace(/\bOf\b/g, 'of'));
+}
+
+// ---------- RFEH (España, fuente oficial: resultadoshockey.isquad.es) ----------
+const temporada = () => { const y = DOM.getFullYear() % 100, m = DOM.getMonth(); return m >= 7 ? `${y}${y + 1}` : `${y - 1}${y}`; };
+// nombres oficiales largos → como se los conoce ("REAL CLUB DE CAMPO VILLA DE MADRID" → "Club de Campo")
+function nombreES(n) {
+  let x = n.replace(/,?\s*S\.?A\.?D\.?$/i, '').trim();
+  const fijo = { 'REAL CLUB DE CAMPO VILLA DE MADRID': 'Club de Campo', 'UNION DEPORTIVA TABURIENTE': 'UD Taburiente', 'VALENCIA CLUB DE HOCKEY': 'Valencia CH', 'SANSE COMPLUTENSE': 'Sanse Complutense' };
+  if (fijo[x.toUpperCase()]) return fijo[x.toUpperCase()];
+  x = x.replace(/\s+HOCKEY CLUB$/i, '').replace(/\s+CLUB DE HOCKEY$/i, ' CH').replace(/\s+HOCKEY$/i, '');
+  return x.toLowerCase().replace(/(^|[\s.(-])(\p{L})/gu, (a, b, c) => b + c.toUpperCase())
+    .replace(/\b(Rc|Cd|Ud|Rs|Fc|Ch|Sad|Cf|Hc)\b/g, w => w.toUpperCase()).replace(/\b(De|Del|La|Las|Los|Y)\b/g, w => w.toLowerCase());
+}
+async function rfeh(pg, cat) {
+  const url = `https://resultadoshockey.isquad.es/competicion.php?id_superficie=1&seleccion=0&id_categoria=${cat}&id_temp=${temporada()}&id_ambito=0&id_territorial=9999`;
+  await ir(pg, url, { waitUntil: 'networkidle2', timeout: 60000 });
+  const links = await pg.evaluate(() => Object.fromEntries([...document.querySelectorAll('a')].filter(a => /^(CLASIFICACIONES|GOLEADORAS|GOLEADORES|TODAS)$/.test(a.textContent.trim())).map(a => [a.textContent.trim(), a.href])));
+  const jorDef = ((await pg.evaluate(() => document.body.innerText)).match(/JORNADA \d+/) || [''])[0]; // jornada que muestra por defecto (la última jugada)
+  if (links.TODAS) { await ir(pg, links.TODAS, { waitUntil: 'networkidle2', timeout: 60000 }); }
+  const filas = await pg.evaluate(() => {
+    const out = []; let jor = '';
+    for (const e of document.querySelectorAll('*')) {
+      const t = e.children.length === 0 ? e.textContent.trim() : '';
+      if (/^JORNADA \d+$/.test(t)) jor = t;
+      if (e.tagName === 'TR' && /Finalizado/.test(e.innerText)) out.push({ jor, c: [...e.children].map(td => td.innerText.trim()) });
+    }
+    return out;
+  });
+  const ms = []; let jornada = '';
+  for (const { jor, c } of filas) {
+    const f = /(\d{2})\/(\d{2})\/(\d{4})/.exec(c.join(' ')); if (!f) continue;
+    if (!enFinde(new Date(+f[3], +f[2] - 1, +f[1], 12))) continue;
+    const eq = c[0].split('\n').map(x => x.trim()).filter(x => x && x !== 'VS' && x !== '-');
+    const g = (c[1].match(/\d+/g) || []).map(Number); if (eq.length < 2 || g.length < 2) continue;
+    ms.push([nombreES(eq[0]), g[0], g[1], nombreES(eq[1])]); jornada = jornada || jor;
+  }
+  let tabla = [], gol = [];
+  if (links.CLASIFICACIONES) {
+    await ir(pg, links.CLASIFICACIONES, { waitUntil: 'networkidle2', timeout: 60000 });
+    tabla = (await pg.evaluate(() => [...document.querySelectorAll('tr')].map(r => [...r.children].map(c => c.innerText.trim())))).filter(c => /^\d+$/.test(c[0]) && c.length >= 10)
+      .map(c => ({ eq: nombreES(c[1].replace(/^\d+\s+/, '').split('\n').pop().trim()), pts: +c[3], pj: +c[4], gf: parseInt(c[8]), gc: parseInt(c[9]) }));
+  }
+  const gl = links.GOLEADORAS || links.GOLEADORES;
+  if (gl) {
+    await ir(pg, gl, { waitUntil: 'networkidle2', timeout: 60000 });
+    await pg.waitForFunction(() => [...document.querySelectorAll('tr')].some(r => /^\d+$/.test(r.children[0]?.innerText.trim())), { timeout: 15000 }).catch(() => {});
+    gol = (await pg.evaluate(() => [...document.querySelectorAll('tr')].map(r => [...r.children].map(c => c.innerText.trim())))).filter(c => /^\d+$/.test(c[0]) && c[1])
+      .slice(0, 10).map(c => ({ nom: nombreES(c[1]).replace(/\b(Ch|CD|RC|UD|RS|FC|CH)\b/g, w => w[0] + w.slice(1).toLowerCase()), eq: nombreES(c[2]), g: +c[3], pj: +c[4] }));
+  }
+  return { ms, tabla, gol, jornada: jornada || jorDef };
+}
+
+// ---------- Hockey Belgium (fuente oficial: Sportlink de hockey.be, devuelve JSON) ----------
+const SL = ep => `https://hockey.be/wp-json/sportlink-api/cached?lang=fr&endpoint=${ep}&dump=&clubid=&facilityid=`; // el orden de los parámetros importa
+const ACENTOS_BE = { Oree: 'Orée', Leopold: 'Léopold' };
+const sinTags = h => String(h).replace(/<br\s*\/?>[\s\S]*$/, '').replace(/<[^>]+>/g, '').trim();
+const nombreBE = n => { const x = n.replace(/\s+[DH]-\d+$/, '').trim(); return ACENTOS_BE[x] || x; };
+let poolsBE = null;
+async function sportlink(nombrePool) {
+  if (!poolsBE) { // los id de las divisiones cambian cada temporada: se buscan por nombre en el buscador oficial
+    const html = await (await fetch('https://hockey.be/fr/competition/calendrier-resultats-et-classements/')).text();
+    poolsBE = [...html.matchAll(/<option value="(\d+)"[^>]*>([^<]+)<\/option>/g)].map(m => [m[1], m[2].trim()]);
+  }
+  const pool = (poolsBE.find(([, t]) => /Outdoor/.test(t) && t.endsWith(nombrePool)) || [])[0];
+  if (!pool) throw new Error('no encontré la división ' + nombrePool);
+  const a = new Date(DOM), b = new Date(DOM); a.setDate(a.getDate() - DIAS_ANTES); b.setDate(b.getDate() + 1);
+  const q = `&poolid=${pool}&from=${iso(a)}&to=${iso(b)}`;
+  const res = await (await fetch(SL('results') + q)).json();
+  const ms = (res.data || []).map(x => { const g = (sinTags(x[5]).match(/\d+/g) || []).map(Number); return g.length < 2 ? null : [nombreBE(sinTags(x[3])), g[0], g[1], nombreBE(sinTags(x[7]))]; }).filter(Boolean).reverse();
+  const st = await (await fetch(SL('standing') + q)).json();
+  const tabla = (st.data || []).map(x => ({ eq: nombreBE(x[1]), pj: +x[2], gf: +x[6], gc: +x[7], pts: +x[8] }));
+  return { ms, tabla };
 }
 
 // ---------- Flashscore ----------
@@ -222,7 +294,25 @@ for (const L of LIGAS) {
   const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga };
   DIAS_ANTES = L.id === 'au' ? 4 : 2;
   try {
-    if (L.dhb) {
+    if (L.sportlink) {
+      const tabla = { ...(p.tabla || {}) };
+      for (const k of ['m', 'f']) {
+        try { const o = await sportlink(L.sportlink[k]); if (o.ms.length) p[k] = o.ms; else if (!old[k]) p[k] = []; if (o.tabla.length) tabla[k] = o.tabla; }
+        catch (e) { console.log(L.id, k, 'Hockey Belgium falló:', e.message); if (L[k]) { const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; } }
+      }
+      p.tabla = tabla; p.fuente = 'Hockey Belgium · hockey.be (oficial)';
+    } else if (L.rfeh) {
+      const tabla = { ...(p.tabla || {}) }, gol = { ...(p.goleadores || {}) };
+      for (const k of ['m', 'f']) {
+        try {
+          const o = await rfeh(pg, L.rfeh[k]);
+          if (o.ms.length) p[k] = o.ms; else if (!old[k]) p[k] = [];
+          if (o.tabla.length) tabla[k] = o.tabla; if (o.gol.length) gol[k] = o.gol;
+          if (k === 'm' && o.jornada) p.jornada = o.jornada.replace('JORNADA', 'FECHA');
+        } catch (e) { console.log(L.id, k, 'RFEH falló, uso Flashscore:', e.message); const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; }
+      }
+      p.tabla = tabla; p.goleadores = gol; p.fuente = 'RFEH · resultadoshockey.isquad.es (oficial)';
+    } else if (L.dhb) {
       const tabla = { ...(p.tabla || {}) }, gol = { ...(p.goleadores || {}) };
       for (const k of ['m', 'f']) {
         let ofi = null;
