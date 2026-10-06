@@ -210,18 +210,21 @@ const ACENTOS_BE = { Oree: 'Orée', Leopold: 'Léopold' };
 const sinTags = h => String(h).replace(/<br\s*\/?>[\s\S]*$/, '').replace(/<[^>]+>/g, '').trim();
 const nombreBE = n => { const x = n.replace(/\s+[DH]-\d+$/, '').trim(); return ACENTOS_BE[x] || x; };
 let poolsBE = null;
-async function sportlink(nombrePool) {
+async function sportlink(nombrePool, pg) {
   if (!poolsBE) { // los id de las divisiones cambian cada temporada: se buscan por nombre en el buscador oficial
-    const html = await (await fetch('https://hockey.be/fr/competition/calendrier-resultats-et-classements/')).text();
+    await ir(pg, 'https://hockey.be/fr/competition/calendrier-resultats-et-classements/', { waitUntil: 'domcontentloaded', timeout: 90000 });
+    await pg.waitForSelector('select[name=poolid] option', { timeout: 30000 }).catch(() => {});
+    const html = await pg.content();
     poolsBE = [...html.matchAll(/<option value="(\d+)"[^>]*>([^<]+)<\/option>/g)].map(m => [m[1], m[2].trim()]);
   }
   const pool = (poolsBE.find(([, t]) => /Outdoor/.test(t) && t.endsWith(nombrePool)) || [])[0];
   if (!pool) throw new Error('no encontré la división ' + nombrePool);
   const a = new Date(DOM), b = new Date(DOM); a.setDate(a.getDate() - DIAS_ANTES); b.setDate(b.getDate() + 1);
   const q = `&poolid=${pool}&from=${iso(a)}&to=${iso(b)}`;
-  const res = await (await fetch(SL('results') + q)).json();
+  const pide = u => pg.evaluate(async u => (await fetch(u)).json(), u);
+  const res = await pide(SL('results') + q);
   const ms = (res.data || []).map(x => { const g = (sinTags(x[5]).match(/\d+/g) || []).map(Number); const d = String(x[0]).split('/').reverse().join('-'); return g.length < 2 ? null : [nombreBE(sinTags(x[3])), g[0], g[1], nombreBE(sinTags(x[7])), { d }]; }).filter(Boolean).reverse();
-  const st = await (await fetch(SL('standing') + q)).json();
+  const st = await pide(SL('standing') + q);
   const tabla = (st.data || []).map(x => ({ eq: nombreBE(x[1]), pj: +x[2], gf: +x[6], gc: +x[7], pts: +x[8] }));
   return { ms, tabla };
 }
@@ -414,7 +417,8 @@ const MES = { ene: 0, feb: 1, mar: 2, abr: 3, may: 4, jun: 5, jul: 6, ago: 7, se
 async function larry(pg, rama, torneo, copaLarry) {
   const base = 'https://tournamenttracker.buenosaireshockey.ar/';
   await ir(pg, base, { waitUntil: 'networkidle2', timeout: 60000 });
-  const click = async (fn, arg) => { const ok = await pg.evaluate(fn, arg); if (!ok) throw new Error('LarrySport: no encontré ' + arg); await new Promise(r => setTimeout(r, 1500)); };
+  await pg.waitForFunction(() => [...document.querySelectorAll('main button')].some(b => /^(Masculino|Femenino)$/.test(b.innerText.trim())) && document.querySelector('button[role=radio]'), { timeout: 45000 }).catch(() => {});
+  const click = async (fn, arg) => { for (let i = 0; i < 10 && !(await pg.evaluate(fn, arg)); i++) await new Promise(r => setTimeout(r, 1500)); const ok = true; if (!ok) throw new Error('LarrySport: no encontré ' + arg); await new Promise(r => setTimeout(r, 1500)); };
   const exact = t => [...document.querySelectorAll('main *, button, span, div')].find(e => e.children.length <= 1 && e.innerText?.trim() === t);
   // rama: la página arranca en Femenino; para Masculino se abre el paso de la miga y se elige el botón
   const actual = await pg.evaluate(() => [...document.querySelectorAll('main button')].map(b => b.innerText.trim()).find(t => /^(Masculino|Femenino)$/.test(t)));
@@ -503,7 +507,7 @@ for (const L of LIGAS) {
     } else if (L.sportlink) {
       const tabla = { ...(p.tabla || {}) };
       for (const k of ['m', 'f']) {
-        try { const o = await sportlink(L.sportlink[k]); if (o.ms.length) p[k] = o.ms; else if (!old[k]) p[k] = []; if (o.tabla.length) tabla[k] = o.tabla; }
+        try { const o = await sportlink(L.sportlink[k], pg); if (o.ms.length) p[k] = o.ms; else if (!old[k]) p[k] = []; if (o.tabla.length) tabla[k] = o.tabla; }
         catch (e) { console.log(L.id, k, 'Hockey Belgium falló:', e.message); if (L[k]) { const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; } }
       }
       p.tabla = tabla; p.fuente = 'Hockey Belgium · hockey.be (oficial)';
@@ -516,7 +520,7 @@ for (const L of LIGAS) {
           if (o.tabla.length) tabla[k] = o.tabla; if (o.gol.length) gol[k] = o.gol;
           if (k === 'm' && o.jornada) p.jornada = o.jornada.replace('JORNADA', 'FECHA');
           if (o.jornada) (p.jor ||= {})[k] = o.jornada.replace('JORNADA', 'FECHA');
-        } catch (e) { console.log(L.id, k, 'RFEH falló, uso Flashscore:', e.message); const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; }
+        } catch (e) { console.log(L.id, k, 'RFEH falló, uso Flashscore:', e.message); const r = await fsResultados(pg, L[k]); const nom = ((p.tabla || {})[k] || []).map(t => t.eq); if (r.ms.length) p[k] = r.ms.map(([a, ga, gb, b, x]) => [nom.length ? oficial(a, nom) : a, ga, gb, nom.length ? oficial(b, nom) : b, x]); }
       }
       p.tabla = tabla; p.goleadores = gol; p.fuente = 'RFEH · resultadoshockey.isquad.es (oficial)';
     } else if (L.dhb) {
