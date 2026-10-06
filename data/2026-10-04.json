@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 12:22",
+ "actualizado": "2026-10-06 12:28",
  "paises": [
   {
    "id": "nl",
@@ -272,7 +272,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 12:22",
+   "consulta": "2026-10-06 12:28",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -668,7 +668,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-06 12:22",
+   "consulta": "2026-10-06 12:28",
    "jornada": "RONDA:KO ronde 2",
    "grupo": "nl",
    "torneo": "Gold Cup"
@@ -682,15 +682,6 @@
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "m": [
     [
-     "Gantoise",
-     7,
-     0,
-     "Daring",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
      "Braxgata",
      4,
      1,
@@ -700,28 +691,10 @@
      }
     ],
     [
-     "Uccle Sport",
-     5,
-     2,
-     "Beerschot",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Léopold",
-     2,
-     1,
-     "Dragons",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Racing",
-     3,
-     3,
-     "Orée",
+     "Gantoise HC",
+     7,
+     0,
+     "Daring",
      {
       "d": "2026-10-04"
      }
@@ -731,6 +704,33 @@
      3,
      1,
      "Waterloo Ducks",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Racing",
+     3,
+     3,
+     "Oree",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Royal Léopold THC",
+     2,
+     1,
+     "KHC Dragons",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Uccle",
+     5,
+     2,
+     "Beerschot",
      {
       "d": "2026-10-04"
      }
@@ -1020,7 +1020,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:28",
    "estado": "jugada",
    "torneo": "Belgian Hockey League",
    "prox": {
@@ -1035,14 +1035,14 @@
      ],
      [
       "Daring",
-      "Uccle Sport",
+      "Uccle",
       {
        "d": "2026-10-11",
        "h": "15:00"
       }
      ],
      [
-      "Dragons",
+      "KHC Dragons",
       "Waterloo Ducks",
       {
        "d": "2026-10-11",
@@ -1058,7 +1058,7 @@
       }
      ],
      [
-      "Léopold",
+      "Royal Léopold THC",
       "Racing",
       {
        "d": "2026-10-11",
@@ -1086,84 +1086,84 @@
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "m": [
     [
-     "RC Polo",
-     5,
+     "Complutense",
      2,
-     "Club de Campo",
+     3,
+     "Junior",
      {
-      "d": "2026-10-03"
+      "d": "2026-10-04"
      }
     ],
     [
-     "CD Terrassa",
+     "Taburiente",
      3,
-     2,
-     "CH Carpesa",
+     3,
+     "Egara",
      {
-      "d": "2026-10-03"
+      "d": "2026-10-04"
      }
     ],
     [
      "Sardinero",
      3,
      8,
-     "RS Tenis",
+     "Tenis",
      {
       "d": "2026-10-03"
      }
     ],
     [
-     "UD Taburiente",
+     "C.D. Terrassa",
      3,
-     3,
-     "Club Egara",
+     2,
+     "Carpesa",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ],
     [
-     "Sanse Complutense",
+     "Polo",
+     5,
      2,
-     3,
-     "Junior FC",
+     "Campo",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ]
    ],
    "f": [
     [
-     "UD Taburiente",
-     1,
-     5,
-     "RC Polo",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     1,
-     2,
-     "Club de Campo",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "RS Tenis",
-     2,
-     1,
-     "CD Terrassa",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Valencia CH",
+     "FC Valencia",
      2,
      3,
      "Real Sociedad",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Tenis",
+     2,
+     1,
+     "C.D. Terrassa",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Complutense",
+     1,
+     2,
+     "Campo",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Taburiente",
+     1,
+     5,
+     "Polo",
      {
       "d": "2026-10-04"
      }
@@ -1343,7 +1343,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:28",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -1507,7 +1507,7 @@
       }
      ],
      [
-      "Sanse Complutense",
+      "Complutense",
       "Atlètic Terrassa",
       {
        "d": "2026-10-11",
@@ -1525,7 +1525,7 @@
       }
      ],
      [
-      "Sanse Complutense",
+      "Complutense",
       "Valencia CH",
       {
        "d": "2026-10-10",
@@ -1878,7 +1878,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:28",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -2485,7 +2485,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:28",
    "estado": "jugada",
    "torneo": "Premier Division",
    "prox": {
@@ -2825,7 +2825,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:28",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -3768,7 +3768,7 @@
    "jornada": "RONDA:Semi final",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-06 12:22",
+   "consulta": "2026-10-06 12:28",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -3783,7 +3783,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:28",
    "prox": {
     "m": [
      [
@@ -3903,7 +3903,7 @@
    "tabla": {},
    "fuente": "Flashscore",
    "estado": "no-arranco",
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:28",
    "torneo": "Hockey One",
    "prox": {
     "m": [
