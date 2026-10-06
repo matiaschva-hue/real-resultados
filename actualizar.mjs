@@ -44,6 +44,7 @@ async function ir(pg, url, opt) { for (let i = 0; ; i++) { try { return await pg
 
 // ---------- KNHB (Países Bajos, fuente oficial: Match Center de hockey.nl) ----------
 const MESES_NL = { januari: 0, februari: 1, maart: 2, april: 3, mei: 4, juni: 5, juli: 6, augustus: 7, september: 8, oktober: 9, november: 10, december: 11 };
+const faseNL = l => { const t = l.replace(/^.*?[–—]\s*/, ''); const k = /KO ronde \d+|(Kwart|Halve )?finale/i.exec(t); return k ? k[0] : t.split(' - ').pop().trim(); };
 const sinEquipo = s => s.replace(/\s+[HD]1$/, '').trim(); // "Oranje-Rood H1" → "Oranje-Rood"
 async function knhb(pg, comp, copa) {
   const base = 'https://www.hockey.nl/match-center#/competitions/national/' + comp;
@@ -73,7 +74,7 @@ async function knhb(pg, comp, copa) {
     const so = /\((\d+)\s*-\s*(\d+)\)/.exec(it.lines[si]); // tanda de shoot-outs, si la muestran
     const row = [sinEquipo(it.lines[si - 1]), ga, gb, sinEquipo(it.lines[si + 1] || '')], x = { d: iso(d) };
     if (so) x.so = [+so[1], +so[2]];
-    if (copa && si >= 2) x.fase = it.lines[si - 2].split(' - ').pop().trim();
+    if (copa && si >= 2) x.fase = faseNL(it.lines[si - 2]);
     if (Object.keys(x).length) row.push(x);
     ms.push(row);
   }
@@ -96,6 +97,26 @@ async function knhb(pg, comp, copa) {
   for (const m of Object.values(cache)) for (const [n, l] of m.g) { const eq = l === 'h' ? m.h : m.a, k = n + '|' + eq; cuenta[k] = (cuenta[k] || 0) + 1; }
   const gol = Object.entries(cuenta).map(([k, g]) => { const [nom, eq] = k.split('|'); return { nom, eq, g }; }).sort((x, y) => y.g - x.g || x.nom.localeCompare(y.nom)).slice(0, 10);
   return { ms, tabla, gol };
+}
+
+async function knhbProx(pg, comp, w) {
+  await ir(pg, 'about:blank'); await ir(pg, 'https://www.hockey.nl/match-center#/competitions/national/' + comp + '/program', { waitUntil: 'networkidle2', timeout: 60000 });
+  await pg.waitForFunction(() => document.querySelector('match-center')?.shadowRoot?.querySelector('a'), { timeout: 20000 }).catch(() => {});
+  await new Promise(r => setTimeout(r, 1500));
+  const items = await pg.evaluate(() => { const out = []; let f = '';
+    for (const e of document.querySelector('match-center').shadowRoot.querySelectorAll('*')) { const t = e.textContent.trim();
+      if (e.children.length === 0 && /^(maandag|dinsdag|woensdag|donderdag|vrijdag|zaterdag|zondag) \d{1,2} \w+/i.test(t)) f = t;
+      if (e.tagName === 'A' && /\d{1,2}:\d{2}/.test(t) && !/\d+\s*-\s*\d+/.test(t)) out.push({ f, lines: e.innerText.split('\n').map(x => x.trim()).filter(Boolean) }); }
+    return out; });
+  const out = [];
+  for (const it of items) {
+    const m = /(\d{1,2}) (\w+)(?: (\d{4}))?/.exec(it.f); if (!m || MESES_NL[m[2].toLowerCase()] == null) continue;
+    const d = new Date(+(m[3] || DOM.getFullYear()), MESES_NL[m[2].toLowerCase()], +m[1], 12); if (d < w.desde || d > w.hasta) continue;
+    const ti = it.lines.findIndex(x => /^\d{1,2}:\d{2}$/.test(x)); if (ti < 1) continue;
+    const fase = it.lines.find(x => /[–—]| - Poule/.test(x));
+    out.push([sinEquipo(it.lines[ti - 1]), sinEquipo(it.lines[ti + 2] || it.lines[ti + 1] || ''), fase ? { d: iso(d), h: it.lines[ti], fase: faseNL(fase) } : { d: iso(d), h: it.lines[ti] }]);
+  }
+  return out;
 }
 
 // ---------- DHB (Alemania, fuente oficial: hockeybundesliga.de) ----------
@@ -296,6 +317,23 @@ async function altiusNombres(pg, base, re) {
   return out;
 }
 
+function ventanaProx(copa, au) {
+  const NX = new Date(DOM); NX.setDate(NX.getDate() + 7);
+  const desde = new Date(copa ? DOM : NX), hasta = new Date(NX);
+  desde.setDate(desde.getDate() + (copa ? 1 : -(au ? 4 : 2))); desde.setHours(0, 0, 0, 0); hasta.setDate(hasta.getDate() + 1); hasta.setHours(23, 59, 0, 0);
+  return { desde, hasta };
+}
+const filasVs = (P, w) => { // "fecha / LOCAL / Vs / VISITANTE" (LarrySport)
+  const out = [];
+  for (let i = 0; i < P.length - 3; i++) {
+    const m = /^(lun|mar|mié|jue|vie|sáb|dom)\w* (\d{2}) (\w{3})(?: (\d{2}:\d{2}))?/.exec(P[i]);
+    if (!m || P[i + 2] !== 'Vs') continue;
+    const d = new Date(DOM.getFullYear(), MES[m[3]], +m[2], 12); if (d < w.desde || d > w.hasta) continue;
+    out.push([cap(P[i + 1].replace(/\s*\(N\.P\.\)/i, '')), cap(P[i + 3]), { d: iso(d), h: m[4] || '' }]);
+  }
+  return out;
+};
+
 // ---------- próxima fecha (Flashscore, hora argentina) ----------
 async function fsProgramma(pg, slug, desde, hasta) {
   // horario local de cada liga: la página se abre en el huso horario del país
@@ -373,7 +411,7 @@ async function fsProximo(pg, slug) {
 
 // ---------- LarrySport (Argentina) ----------
 const MES = { ene: 0, feb: 1, mar: 2, abr: 3, may: 4, jun: 5, jul: 6, ago: 7, sep: 8, oct: 9, nov: 10, dic: 11 };
-async function larry(pg, rama, torneo) {
+async function larry(pg, rama, torneo, copaLarry) {
   const base = 'https://tournamenttracker.buenosaireshockey.ar/';
   await ir(pg, base, { waitUntil: 'networkidle2', timeout: 60000 });
   const click = async (fn, arg) => { const ok = await pg.evaluate(fn, arg); if (!ok) throw new Error('LarrySport: no encontré ' + arg); await new Promise(r => setTimeout(r, 1500)); };
@@ -403,18 +441,16 @@ async function larry(pg, rama, torneo) {
     const sa = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 2]), sb = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 3]);
     if (sa && sb && enFinde(d)) { const sin = x => cap(x.replace(/\s*\(N\.P\.\)/i, '')); const row = [sin(L[i + 1]), +sa[1], +sb[1], sin(L[i + 4])], x = { d: iso(d) }; if (sa[2] != null && sb[2] != null) x.so = [+sa[2], +sb[2]]; if (ronda) x.fase = ronda; if (Object.keys(x).length) row.push(x); ms.push(row); }
   }
-  // próxima fecha: se abre la fecha siguiente del fixture ("LOCAL / Vs / VISITANTE")
-  const prox = [];
-  if (/^\d+$/.test(fecha)) {
-    const ok = await pg.evaluate(n => { const b = [...document.querySelectorAll('main button')].find(b => b.innerText.trim() === String(n)); if (!b) return false; b.click(); return true; }, +fecha + 1);
-    if (ok) {
-      await new Promise(r => setTimeout(r, 3000));
-      const P = (await pg.evaluate(() => document.querySelector('main').innerText)).split('\n').map(s => s.replace(/[\ue000-\uf8ff]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
-      for (let i = 0; i < P.length - 3; i++) {
-        const m = /^(lun|mar|mié|jue|vie|sáb|dom)\w* (\d{2}) (\w{3})(?: (\d{2}:\d{2}))?/.exec(P[i]);
-        if (m && P[i + 2] === 'Vs') prox.push([cap(P[i + 1]), cap(P[i + 3]), { d: iso(new Date(DOM.getFullYear(), MES[m[3]], +m[2], 12)), h: m[4] || '' }]);
-      }
-    }
+  // próxima fecha: se recorren las fechas siguientes del fixture y se toman las que caen en la ventana (puede haber dos en un finde)
+  const prox = [], proxFechas = [], w = ventanaProx(copaLarry);
+  const leer = async () => (await pg.evaluate(() => document.querySelector('main').innerText)).split('\n').map(s => s.replace(/[\ue000-\uf8ff]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+  if (copaLarry) prox.push(...filasVs(await leer(), w)); // en las copas el cuadro ya muestra lo que viene
+  else if (/^\d+$/.test(fecha)) for (let n = +fecha + 1; n <= +fecha + 3; n++) {
+    const ok = await pg.evaluate(n => { const b = [...document.querySelectorAll('main button')].find(b => b.innerText.trim() === String(n)); if (!b) return false; b.click(); return true; }, n);
+    if (!ok) break;
+    await new Promise(r => setTimeout(r, 3000));
+    const filas = filasVs(await leer(), w); if (!filas.length) break;
+    prox.push(...filas); proxFechas.push(n);
   }
   const tab = async t => { await pg.evaluate(t => [...document.querySelectorAll('main button, main [role=tab]')].find(b => b.innerText.trim() === t)?.click(), t); await new Promise(r => setTimeout(r, 2500)); return pg.evaluate(() => document.querySelector('main').innerText); };
   const pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
@@ -429,7 +465,7 @@ async function larry(pg, rama, torneo) {
     if (!/^\d+$/.test(gl[i])) break;
     gol.push({ nom: gl[i + 1], eq: gl[i + 2], g: +gl[i + 3], pj: +gl[i + 4] });
   }
-  return { ms, tabla, gol, fecha, prox };
+  return { ms, tabla, gol, fecha, prox, proxFechas };
 }
 // "BCO. PROVINCIA" → "Bco. Provincia"
 const ACENTOS = { Barbara: 'Bárbara', Nacion: 'Nación', Catherines: "Catherine's", Martin: 'Martín' };
@@ -503,10 +539,11 @@ for (const L of LIGAS) {
       p.tabla = L.copa ? {} : tabla; p.fuente = 'KNHB · hockey.nl (oficial)';
     } else if (L.larry) {
       await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
-      const m = await larry(pg, 'Masculino', L.larry.m), f = await larry(pg, 'Femenino', L.larry.f);
+      const m = await larry(pg, 'Masculino', L.larry.m, L.copa), f = await larry(pg, 'Femenino', L.larry.f, L.copa);
       Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: L.copa ? {} : { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: L.copa ? '' : m.fecha ? 'FECHA ' + m.fecha : p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });
       if (!L.copa) p.jor = { m: m.fecha ? 'FECHA ' + m.fecha : '', f: f.fecha ? 'FECHA ' + f.fecha : '' };
-      if (!L.copa && (m.prox.length || f.prox.length)) { p.prox = { m: m.prox, f: f.prox }; p.prox_jor = { m: m.fecha ? 'FECHA ' + (+m.fecha + 1) : '', f: f.fecha ? 'FECHA ' + (+f.fecha + 1) : '' }; const ds = [...m.prox, ...f.prox].map(x => x[2].d).sort(); p.prox_fecha = ds[0].slice(8, 10) + '.' + ds[0].slice(5, 7) + '–' + ds[ds.length - 1].slice(8, 10) + '.' + ds[ds.length - 1].slice(5, 7); p.prox_jornada = 'FECHA ' + (+m.fecha + 1); }
+      const fj = n => n.length > 1 ? `FECHAS ${n.slice(0, -1).join(', ')} Y ${n[n.length - 1]}` : n.length ? 'FECHA ' + n[0] : '';
+      if (m.prox.length || f.prox.length) { p.prox = { m: m.prox, f: f.prox }; p.prox_jor = L.copa ? {} : { m: fj(m.proxFechas), f: fj(f.proxFechas) }; const ds = [...m.prox, ...f.prox].map(x => x[2].d).sort(); p.prox_fecha = ds[0].slice(8, 10) + '.' + ds[0].slice(5, 7) + '–' + ds[ds.length - 1].slice(8, 10) + '.' + ds[ds.length - 1].slice(5, 7); p.prox_jornada = p.prox_jor.m || p.prox_jor.f || ''; }
     } else {
       const tabla = { ...(p.tabla || {}) };
       for (const k of ['m', 'f']) {
@@ -549,6 +586,7 @@ for (const L of LIGAS) {
     const desde = new Date(NX), hasta = new Date(NX); desde.setDate(desde.getDate() - (L.copa ? 6 : L.id === 'au' ? 4 : 2)); desde.setHours(0, 0, 0, 0); hasta.setDate(hasta.getDate() + 1); hasta.setHours(23, 59, 0, 0);
     const prox = {};
     for (const k of ['m', 'f']) {
+      if (L.knhb) { const w = ventanaProx(L.copa); const ms = await knhbProx(pg, L.knhb[k], w).catch(() => []); if (ms.length) { prox[k] = ms; continue; } }
       const slug = (L.fsProx || {})[k] || (L.altius || L.larry ? null : L[k]); if (!slug) continue;
       const nombres = [...new Set([...((p.tabla || {})[k] || []).map(t => t.eq), ...(p[k] || []).flatMap(x => [x[0], x[3]]), ...(L.altius ? await altiusNombres(pg, L.altius.base, L.altius[k]) : [])])];
       const ren = n => nombres.length ? oficial(n, nombres) : n;

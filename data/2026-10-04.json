@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 12:14",
+ "actualizado": "2026-10-06 12:22",
  "paises": [
   {
    "id": "nl",
@@ -272,7 +272,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 12:14",
+   "consulta": "2026-10-06 12:22",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -384,43 +384,48 @@
    "prox": {
     "m": [
      [
-      "Amsterdam",
-      "Pinoké",
+      "SCHC",
+      "Tilburg",
       {
-       "d": "2026-10-11",
-       "h": "15:00"
-      }
-     ],
-     [
-      "Bloemendaal",
-      "Schaerweijde",
-      {
-       "d": "2026-10-11",
-       "h": "15:00"
+       "d": "2026-10-10",
+       "h": "10:00",
+       "fase": "Poule A"
       }
      ],
      [
       "Den Bosch",
       "Rotterdam",
       {
-       "d": "2026-10-11",
-       "h": "15:00"
+       "d": "2026-10-10",
+       "h": "10:00",
+       "fase": "Poule A"
+      }
+     ],
+     [
+      "Amsterdam",
+      "Pinoké",
+      {
+       "d": "2026-10-10",
+       "h": "10:00",
+       "fase": "Poule A"
+      }
+     ],
+     [
+      "Bloemendaal",
+      "Schaerweijde",
+      {
+       "d": "2026-10-10",
+       "h": "10:00",
+       "fase": "Poule A"
       }
      ],
      [
       "Klein Zwitserland",
       "HDM",
       {
-       "d": "2026-10-11",
-       "h": "15:00"
-      }
-     ],
-     [
-      "SCHC",
-      "Tilburg",
-      {
-       "d": "2026-10-11",
-       "h": "15:00"
+       "d": "2026-10-10",
+       "h": "10:00",
+       "fase": "Poule A"
       }
      ]
     ],
@@ -429,48 +434,54 @@
       "Den Bosch",
       "Bloemendaal",
       {
-       "d": "2026-10-11",
-       "h": "12:45"
-      }
-     ],
-     [
-      "HGC",
-      "HDM",
-      {
-       "d": "2026-10-11",
-       "h": "12:45"
-      }
-     ],
-     [
-      "Hurley",
-      "Victoria",
-      {
-       "d": "2026-10-11",
-       "h": "12:45"
-      }
-     ],
-     [
-      "Kampong",
-      "SCHC",
-      {
-       "d": "2026-10-11",
-       "h": "12:45"
+       "d": "2026-10-10",
+       "h": "07:45",
+       "fase": "Poule A"
       }
      ],
      [
       "Pinoké",
       "Amsterdam",
       {
-       "d": "2026-10-11",
-       "h": "12:45"
+       "d": "2026-10-10",
+       "h": "07:45",
+       "fase": "Poule A"
+      }
+     ],
+     [
+      "Hurley",
+      "Victoria",
+      {
+       "d": "2026-10-10",
+       "h": "07:45",
+       "fase": "Poule A"
+      }
+     ],
+     [
+      "Kampong",
+      "SCHC",
+      {
+       "d": "2026-10-10",
+       "h": "07:45",
+       "fase": "Poule A"
+      }
+     ],
+     [
+      "HGC",
+      "HDM",
+      {
+       "d": "2026-10-10",
+       "h": "07:45",
+       "fase": "Poule A"
       }
      ],
      [
       "Rotterdam",
       "Oranje-Rood",
       {
-       "d": "2026-10-11",
-       "h": "12:45"
+       "d": "2026-10-10",
+       "h": "07:45",
+       "fase": "Poule A"
       }
      ]
     ]
@@ -499,7 +510,7 @@
      "SCHC",
      {
       "d": "2026-09-30",
-      "fase": "Poule A"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -509,7 +520,7 @@
      "Schaerweijde",
      {
       "d": "2026-09-30",
-      "fase": "Poule A"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -519,7 +530,7 @@
      "Amsterdam",
      {
       "d": "2026-09-30",
-      "fase": "Poule A"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -529,7 +540,7 @@
      "Laren",
      {
       "d": "2026-09-30",
-      "fase": "Poule A"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -539,7 +550,7 @@
      "Pinoké",
      {
       "d": "2026-09-30",
-      "fase": "Poule A"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -549,7 +560,7 @@
      "Hurley",
      {
       "d": "2026-09-30",
-      "fase": "Poule A"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -559,7 +570,7 @@
      "Leiden",
      {
       "d": "2026-09-30",
-      "fase": "Poule B"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -569,7 +580,7 @@
      "Victoria",
      {
       "d": "2026-09-30",
-      "fase": "Poule B"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -579,7 +590,7 @@
      "HDM",
      {
       "d": "2026-09-30",
-      "fase": "Poule B"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -589,7 +600,7 @@
      "Klein Zwitserland",
      {
       "d": "2026-09-30",
-      "fase": "Poule B"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -599,7 +610,7 @@
      "Ring Pass",
      {
       "d": "2026-09-30",
-      "fase": "Poule B"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -609,7 +620,7 @@
      "Were Di",
      {
       "d": "2026-09-30",
-      "fase": "Poule C"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -619,7 +630,7 @@
      "Den Bosch",
      {
       "d": "2026-09-30",
-      "fase": "Poule C"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -629,7 +640,7 @@
      "Oranje-Rood",
      {
       "d": "2026-09-30",
-      "fase": "Poule C"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -639,7 +650,7 @@
      "Nijmegen",
      {
       "d": "2026-09-30",
-      "fase": "Poule C"
+      "fase": "KO ronde 2"
      }
     ],
     [
@@ -649,7 +660,7 @@
      "Tilburg",
      {
       "d": "2026-09-30",
-      "fase": "Poule C"
+      "fase": "KO ronde 2"
      }
     ]
    ],
@@ -657,8 +668,8 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-06 12:14",
-   "jornada": "",
+   "consulta": "2026-10-06 12:22",
+   "jornada": "RONDA:KO ronde 2",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -3442,7 +3453,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:22",
    "estado": "jugada",
    "torneo": "Metropolitano",
    "prox": {
@@ -3757,7 +3768,7 @@
    "jornada": "RONDA:Semi final",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-06 12:04",
+   "consulta": "2026-10-06 12:22",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
