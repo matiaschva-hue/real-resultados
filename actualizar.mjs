@@ -16,7 +16,7 @@ const LIGAS = [
   { id: 'it', torneo: 'Serie A Elite', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', fih: true, m: 'italien/serie-a1' },
   { id: 'ar', torneo: 'Metropolitano', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: { m: 'Caballeros A', f: 'Damas A' } },
   { id: 'ar-copa', grupo: 'ar', torneo: 'Copa Buenos Aires', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'COPA BUENOS AIRES · CAMPEONATO', larry: { m: 'Copa Bs. As. Campeonato Finales', f: 'Copa Bs. As. Campeonato Finales' }, copa: true },
-  { id: 'eu-ehl', grupo: 'eu', torneo: 'Euro Hockey League', pais: 'EUROPA', pais_en: 'EUROPE', liga: 'EURO HOCKEY LEAGUE', altius: { base: 'https://eurohockey.altiusrt.com', m: /^Euro Hockey League\b.*\sMen\b/, f: /^Euro Hockey League\b.*\sWomen\b/ }, copa: true },
+  { id: 'eu-ehl', grupo: 'eu', torneo: 'Euro Hockey League', pais: 'EHL', pais_en: 'EHL', liga: 'EURO HOCKEY LEAGUE', altius: { base: 'https://eurohockey.altiusrt.com', m: /^Euro Hockey League\b.*\sMen\b/, f: /^Euro Hockey League\b.*\sWomen\b/ }, copa: true },
   { id: 'au', torneo: 'Hockey One', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
 ];
 
@@ -354,11 +354,13 @@ async function larry(pg, rama, torneo) {
   // la página antepone íconos (caracteres de uso privado) a las fechas: se limpian
   const L = fx.slice(Math.max(0, fx.indexOf('Todas las fechas') >= 0 ? fx.indexOf('Todas las fechas') : fx.indexOf('Llaves'))).split('\n').map(s => s.replace(/[-​-‏﻿]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
   if (process.env.DEBUG) console.log(rama, torneo, JSON.stringify(L.slice(0, 8)), [...(L[1] || '')].map(c => c.charCodeAt(0)).join(','));
+  let ronda = '';
   for (let i = 0; i < L.length - 4; i++) {
+    if (/^(Dieciseisavos|Octavos|Cuartos|Semi|Final|Tercer|3er)\b/i.test(L[i]) && !/\d/.test(L[i])) { ronda = L[i]; continue; }
     const m = /^(lun|mar|mié|jue|vie|sáb|dom)\w* (\d{2}) (\w{3})/.exec(L[i]); if (!m) continue;
     const d = new Date(DOM.getFullYear(), MES[m[3]], +m[2], 12);
     const sa = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 2]), sb = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 3]);
-    if (sa && sb && enFinde(d)) { const sin = x => cap(x.replace(/\s*\(N\.P\.\)/i, '')); const row = [sin(L[i + 1]), +sa[1], +sb[1], sin(L[i + 4])]; if (sa[2] != null && sb[2] != null) row.push({ so: [+sa[2], +sb[2]] }); ms.push(row); }
+    if (sa && sb && enFinde(d)) { const sin = x => cap(x.replace(/\s*\(N\.P\.\)/i, '')); const row = [sin(L[i + 1]), +sa[1], +sb[1], sin(L[i + 4])], x = {}; if (sa[2] != null && sb[2] != null) x.so = [+sa[2], +sb[2]]; if (ronda) x.fase = ronda; if (Object.keys(x).length) row.push(x); ms.push(row); }
   }
   const tab = async t => { await pg.evaluate(t => [...document.querySelectorAll('main button, main [role=tab]')].find(b => b.innerText.trim() === t)?.click(), t); await new Promise(r => setTimeout(r, 2500)); return pg.evaluate(() => document.querySelector('main').innerText); };
   const pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
@@ -468,6 +470,7 @@ for (const L of LIGAS) {
     console.log(L.id, 'm', (p.m || []).length, 'f', (p.f || []).length, 'tabla', Object.keys(p.tabla || {}).join('/'), p.jornada || '');
   } catch (e) { console.log(L.id, 'ERROR', e.message); }
   if (L.copa && !(p.m || []).length && !(p.f || []).length) continue;
+  if (L.copa) { const fs_ = [...new Set([...(p.m || []), ...(p.f || [])].map(x => x[4] && x[4].fase).filter(Boolean))]; p.jornada = fs_.length === 1 ? 'RONDA:' + fs_[0] : ''; }
   if (L.grupo) p.grupo = L.grupo;
   if (L.torneo) p.torneo = L.torneo;
   paises.push(p);

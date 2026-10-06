@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 11:00",
+ "actualizado": "2026-10-06 11:05",
  "paises": [
   {
    "id": "nl",
@@ -2475,14 +2475,18 @@
       "so": [
        4,
        3
-      ]
+      ],
+      "fase": "Semi final"
      }
     ],
     [
      "Quilmes",
      0,
      6,
-     "Mitre"
+     "Mitre",
+     {
+      "fase": "Semi final"
+     }
     ]
    ],
    "f": [
@@ -2490,13 +2494,19 @@
      "San Fernando",
      2,
      0,
-     "G. y Esgrima"
+     "G. y Esgrima",
+     {
+      "fase": "Semi final"
+     }
     ],
     [
      "S. Bárbara",
      1,
      0,
-     "Lomas"
+     "Lomas",
+     {
+      "fase": "Semi final"
+     }
     ]
    ],
    "tabla": {},
@@ -2626,10 +2636,10 @@
      }
     ]
    },
-   "jornada": "",
+   "jornada": "RONDA:Semi final",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-06 11:00",
+   "consulta": "2026-10-06 11:05",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
