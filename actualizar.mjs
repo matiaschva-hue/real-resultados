@@ -16,7 +16,10 @@ const LIGAS = [
   { id: 'it', torneo: 'Serie A Elite', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', fih: true, m: 'italien/serie-a1' },
   { id: 'ar', torneo: 'Metropolitano', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: { m: 'Caballeros A', f: 'Damas A' } },
   { id: 'ar-copa', grupo: 'ar', torneo: 'Copa Buenos Aires', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'COPA BUENOS AIRES · CAMPEONATO', larry: { m: 'Copa Bs. As. Campeonato Finales', f: 'Copa Bs. As. Campeonato Finales' }, copa: true },
-  { id: 'eu-ehl', grupo: 'eu', torneo: 'Euro Hockey League', pais: 'EHL', pais_en: 'EHL', liga: 'EURO HOCKEY LEAGUE', altius: { base: 'https://eurohockey.altiusrt.com', m: /^Euro Hockey League\b.*\sMen\b/, f: /^Euro Hockey League\b.*\sWomen\b/ }, copa: true },
+  { id: 'int-ehl', grupo: 'int', flag: 'eu', torneo: 'EHL', pais: 'EHL', pais_en: 'EHL', liga: 'EURO HOCKEY LEAGUE', altius: { base: 'https://eurohockey.altiusrt.com', m: /^Euro Hockey League\b.*\sMen\b/, f: /^Euro Hockey League\b.*\sWomen\b/ }, copa: true },
+  { id: 'int-pro', grupo: 'int', flag: 'un', torneo: 'Pro League', pais: 'PRO LEAGUE', pais_en: 'PRO LEAGUE', liga: 'FIH HOCKEY PRO LEAGUE', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /Pro League.*\((M|Men)\)/i, f: /Pro League.*\((W|Women)\)/i }, copa: true },
+  { id: 'int-mundial', grupo: 'int', flag: 'un', torneo: 'Mundial', pais: 'MUNDIAL', pais_en: 'WORLD CUP', liga: 'FIH HOCKEY WORLD CUP', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /^FIH Hockey World Cup(?!.*(Junior|Indoor|Para|5s)).*\((M|Men)\)/i, f: /^FIH Hockey World Cup(?!.*(Junior|Indoor|Para|5s)).*\((W|Women)\)/i }, copa: true },
+  { id: 'int-jjoo', grupo: 'int', flag: 'un', torneo: 'JJOO', pais: 'JJOO', pais_en: 'OLYMPICS', liga: 'JUEGOS OLÍMPICOS', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /Olympic Games.*(Men|\(M\))/i, f: /Olympic Games.*(Women|\(W\))/i }, copa: true },
   { id: 'au', torneo: 'Hockey One', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
 ];
 
@@ -28,7 +31,7 @@ function domingo(arg) {
   const d = new Date(); d.setHours(12, 0, 0, 0); d.setDate(d.getDate() - d.getDay()); return d; // domingo más reciente (hoy si es domingo)
 }
 const DOM = domingo(process.argv[2] && /^\d{4}-/.test(process.argv[2]) ? process.argv[2] : null);
-const ONLY = (process.argv.find(a => /^[a-z]{2}(-[a-z]+)?(,[a-z]{2}(-[a-z]+)?)*$/.test(a)) || '').split(',').filter(Boolean);
+const ONLY = (process.argv.find(a => /^[a-z]{2,3}(-[a-z]+)?(,[a-z]{2,3}(-[a-z]+)?)*$/.test(a)) || '').split(',').filter(Boolean);
 // ventana del finde: viernes a lunes; Hockey One (Australia) juega desde el miércoles
 let DIAS_ANTES = 2;
 const enFinde = d => { const a = new Date(DOM), b = new Date(DOM); a.setDate(a.getDate() - DIAS_ANTES); a.setHours(0, 0, 0, 0); b.setDate(b.getDate() + 1); b.setHours(23, 59, 59, 0); return d >= a && d <= b; };
@@ -394,7 +397,7 @@ for (const L of LIGAS) {
   const old = prev.paises.find(p => p.id === L.id) || {};
   if (ONLY.length && !ONLY.includes(L.id)) { if (old.id) paises.push(old); continue; }
   const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga };
-  DIAS_ANTES = L.copa ? 6 : L.id === 'au' ? 4 : 2; // copas: toda la semana (se juegan entre semana)
+  DIAS_ANTES = L.copa && L.grupo !== 'int' ? 6 : L.id === 'au' ? 4 : 2; // copas locales: toda la semana; internacionales y ligas: viernes a lunes
   try {
     if (L.altius) {
       const gol = {};
@@ -472,6 +475,8 @@ for (const L of LIGAS) {
   if (L.copa && !(p.m || []).length && !(p.f || []).length) continue;
   if (L.copa) { const fs_ = [...new Set([...(p.m || []), ...(p.f || [])].map(x => x[4] && x[4].fase).filter(Boolean))]; p.jornada = fs_.length === 1 ? 'RONDA:' + fs_[0] : ''; }
   if (L.grupo) p.grupo = L.grupo;
+  if (L.flag) p.flag = L.flag;
+  if (L.selecciones) p.selecciones = true;
   if (L.torneo) p.torneo = L.torneo;
   paises.push(p);
 }
