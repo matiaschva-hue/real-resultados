@@ -417,6 +417,7 @@ async function fsProximo(pg, slug) {
 }
 
 // ---------- LarrySport (Argentina) ----------
+const AJUSTES = (() => { try { return JSON.parse(fs.readFileSync(new URL('./ajustes.json', import.meta.url), 'utf8')); } catch (e) { return {}; } })();
 const MES = { ene: 0, feb: 1, mar: 2, abr: 3, may: 4, jun: 5, jul: 6, ago: 7, sep: 8, oct: 9, nov: 10, dic: 11 };
 async function larry(pg, rama, torneo, copaLarry) {
   const base = 'https://tournamenttracker.buenosaireshockey.ar/';
@@ -457,8 +458,12 @@ async function larry(pg, rama, torneo, copaLarry) {
     const ok = await pg.evaluate(n => { const b = [...document.querySelectorAll('main button')].find(b => b.innerText.trim() === String(n)); if (!b) return false; b.click(); return true; }, n);
     if (!ok) break;
     await new Promise(r => setTimeout(r, 3000));
-    const filas = filasVs(await leer(), w); if (!filas.length) break;
-    prox.push(...filas); proxFechas.push(n);
+    // ajustes.json: fechas que la AHBA movió y LarrySport todavía no actualizó, p. ej. { "ar": { "Masculino": { "26": { "d": "2026-10-12" } } } }
+    const aj = ((AJUSTES.ar || {})[rama] || {})[n];
+    let filas = filasVs(await leer(), aj ? { desde: new Date(0), hasta: new Date(8.64e15) } : w);
+    if (aj) filas = filas.map(([a, b, x]) => [a, b, { ...x, d: aj.d, h: aj.h || x.h }]).filter(([, , x]) => { const d = new Date(x.d + 'T12:00:00'); return d >= w.desde && d <= w.hasta; });
+    if (!filas.length) break;
+    prox.push(...filas.map(([a, b, x]) => [a, b, { ...x, fecha: n }])); proxFechas.push(n);
   }
   const tab = async t => { await pg.evaluate(t => [...document.querySelectorAll('main button, main [role=tab]')].find(b => b.innerText.trim() === t)?.click(), t); await new Promise(r => setTimeout(r, 2500)); return pg.evaluate(() => document.querySelector('main').innerText); };
   const pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
