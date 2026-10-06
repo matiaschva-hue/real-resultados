@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 10:41",
+ "actualizado": "2026-10-06 10:47",
  "paises": [
   {
    "id": "nl",
@@ -163,13 +163,25 @@
     ],
     "f": [
      {
-      "eq": "Amsterdam",
+      "eq": "Den Bosch",
       "pj": 2,
       "pts": 6,
-      "dg": 6
+      "dg": 11
      },
      {
-      "eq": "Den Bosch",
+      "eq": "SCHC",
+      "pj": 2,
+      "pts": 6,
+      "dg": 4
+     },
+     {
+      "eq": "Hurley",
+      "pj": 2,
+      "pts": 6,
+      "dg": 2
+     },
+     {
+      "eq": "Amsterdam",
       "pj": 2,
       "pts": 4,
       "dg": 3
@@ -181,63 +193,157 @@
       "dg": 3
      },
      {
-      "eq": "Bloemendaal",
+      "eq": "Rotterdam",
       "pj": 2,
-      "pts": 4,
-      "dg": 2
+      "pts": 3,
+      "dg": -1
      },
      {
       "eq": "Oranje-Rood",
       "pj": 2,
-      "pts": 4,
-      "dg": 1
-     },
-     {
-      "eq": "Klein Zwitserland",
-      "pj": 2,
-      "pts": 4,
-      "dg": 1
-     },
-     {
-      "eq": "HDM",
-      "pj": 2,
       "pts": 3,
-      "dg": 0
+      "dg": -2
      },
      {
       "eq": "Pinoké",
       "pj": 2,
-      "pts": 2,
-      "dg": 0
+      "pts": 3,
+      "dg": -5
      },
      {
-      "eq": "SCHC",
-      "pj": 2,
-      "pts": 1,
-      "dg": -3
-     },
-     {
-      "eq": "Schaerweijde",
+      "eq": "HDM",
       "pj": 2,
       "pts": 0,
       "dg": -2
      },
      {
-      "eq": "Rotterdam",
+      "eq": "Victoria",
       "pj": 2,
       "pts": 0,
       "dg": -3
      },
      {
-      "eq": "Tilburg",
+      "eq": "Bloemendaal",
       "pj": 2,
       "pts": 0,
-      "dg": -8
+      "dg": -4
+     },
+     {
+      "eq": "HGC",
+      "pj": 2,
+      "pts": 0,
+      "dg": -6
      }
     ]
    },
-   "consulta": "2026-10-05 16:08",
-   "estado": "jugada"
+   "consulta": "2026-10-06 10:47",
+   "estado": "jugada",
+   "goleadores": {
+    "m": [
+     {
+      "nom": "Fabian Verzuu",
+      "eq": "HDM",
+      "g": 4
+     },
+     {
+      "nom": "Duco Telgenkamp",
+      "eq": "Amsterdam",
+      "g": 3
+     },
+     {
+      "nom": "Timo Boers",
+      "eq": "Den Bosch",
+      "g": 3
+     },
+     {
+      "nom": "Dayaan Cassiem",
+      "eq": "Amsterdam",
+      "g": 2
+     },
+     {
+      "nom": "Hugo Labouchere",
+      "eq": "Pinoké",
+      "g": 2
+     },
+     {
+      "nom": "Joep Troost",
+      "eq": "Pinoké",
+      "g": 2
+     },
+     {
+      "nom": "Karst Timmer",
+      "eq": "Klein Zwitserland",
+      "g": 2
+     },
+     {
+      "nom": "Mustapha Cassiem",
+      "eq": "Amsterdam",
+      "g": 2
+     },
+     {
+      "nom": "Sam Lane",
+      "eq": "Klein Zwitserland",
+      "g": 2
+     },
+     {
+      "nom": "Struan Walker",
+      "eq": "Oranje-Rood",
+      "g": 2
+     }
+    ],
+    "f": [
+     {
+      "nom": "Frédérique Matla",
+      "eq": "Den Bosch",
+      "g": 5
+     },
+     {
+      "nom": "Yibbi Jansen",
+      "eq": "SCHC",
+      "g": 4
+     },
+     {
+      "nom": "Charlotte Englebert",
+      "eq": "Den Bosch",
+      "g": 3
+     },
+     {
+      "nom": "Charlotte Schrijvers",
+      "eq": "Oranje-Rood",
+      "g": 3
+     },
+     {
+      "nom": "Lana Kalse",
+      "eq": "Pinoké",
+      "g": 2
+     },
+     {
+      "nom": "Marijn Veen",
+      "eq": "Amsterdam",
+      "g": 2
+     },
+     {
+      "nom": "Teuntje Horn",
+      "eq": "Hurley",
+      "g": 2
+     },
+     {
+      "nom": "Trijntje Beljaars",
+      "eq": "Amsterdam",
+      "g": 2
+     },
+     {
+      "nom": "Amber van den Dijssel",
+      "eq": "Rotterdam",
+      "g": 1
+     },
+     {
+      "nom": "Belén van den Broek",
+      "eq": "HDM",
+      "g": 1
+     }
+    ]
+   }
   },
   {
    "id": "be",
@@ -1621,7 +1727,7 @@
    "pais_en": "ITALY",
    "liga": "SERIE A ELITE",
    "jornada": "FECHA 3",
-   "fuente": "Federhockey · federhockey.it (oficial) + Flashscore (tabla)",
+   "fuente": "Federhockey · federhockey.it (oficial)",
    "m": [
     [
      "Polisportiva Ferrini",
@@ -1684,78 +1790,242 @@
     "m": [
      {
       "eq": "SG Amsicora",
-      "pts": 9,
       "pj": 3,
+      "pts": 9,
       "gf": 22,
       "gc": 4
      },
      {
-      "eq": "Lazio Rom",
-      "pts": 9,
+      "eq": "Lazio Hockey",
       "pj": 3,
+      "pts": 9,
       "gf": 12,
       "gc": 5
      },
      {
-      "eq": "Tevere",
-      "pts": 7,
+      "eq": "HC Tevere Eur",
       "pj": 3,
+      "pts": 7,
       "gf": 6,
       "gc": 4
      },
      {
       "eq": "HC Bondeno",
-      "pts": 5,
       "pj": 3,
+      "pts": 5,
       "gf": 9,
       "gc": 6
      },
      {
       "eq": "HC Bra",
-      "pts": 3,
       "pj": 3,
+      "pts": 3,
       "gf": 11,
       "gc": 9
      },
      {
       "eq": "HP Valchisone",
-      "pts": 3,
       "pj": 3,
+      "pts": 3,
       "gf": 5,
       "gc": 6
      },
      {
-      "eq": "Butterfly Roma",
-      "pts": 3,
+      "eq": "Butterfly Roma HCC",
       "pj": 3,
+      "pts": 3,
       "gf": 7,
       "gc": 19
      },
      {
       "eq": "HT Sardegna",
-      "pts": 2,
       "pj": 3,
+      "pts": 2,
       "gf": 7,
       "gc": 12
      },
      {
-      "eq": "Ferrini",
-      "pts": 1,
+      "eq": "Polisportiva Ferrini",
       "pj": 3,
+      "pts": 1,
       "gf": 9,
       "gc": 14
      },
      {
       "eq": "HT Bologna",
-      "pts": 0,
       "pj": 3,
+      "pts": 0,
       "gf": 3,
       "gc": 12
      }
+    ],
+    "f": [
+     {
+      "eq": "Milano HP",
+      "pj": 2,
+      "pts": 6,
+      "gf": 10,
+      "gc": 0
+     },
+     {
+      "eq": "SG Amsicora",
+      "pj": 2,
+      "pts": 6,
+      "gf": 5,
+      "gc": 0
+     },
+     {
+      "eq": "Lazio Hockey",
+      "pj": 2,
+      "pts": 6,
+      "gf": 4,
+      "gc": 1
+     },
+     {
+      "eq": "HF Lorenzoni",
+      "pj": 2,
+      "pts": 3,
+      "gf": 12,
+      "gc": 1
+     },
+     {
+      "eq": "Potenza Picena",
+      "pj": 2,
+      "pts": 3,
+      "gf": 1,
+      "gc": 2
+     },
+     {
+      "eq": "Butterfly Roma HCC",
+      "pj": 2,
+      "pts": 0,
+      "gf": 1,
+      "gc": 3
+     },
+     {
+      "eq": "Pol. Ferrini",
+      "pj": 2,
+      "pts": 0,
+      "gf": 0,
+      "gc": 5
+     },
+     {
+      "eq": "HC Tiberina",
+      "pj": 2,
+      "pts": 0,
+      "gf": 0,
+      "gc": 21
+     }
     ]
    },
-   "consulta": "2026-10-05 16:22",
-   "estado": "jugada"
+   "consulta": "2026-10-06 10:47",
+   "estado": "jugada",
+   "goleadores": {
+    "m": [
+     {
+      "nom": "Sinkevicius",
+      "eq": "SG Amsicora",
+      "g": 7
+     },
+     {
+      "nom": "Drago",
+      "eq": "HT Sardegna",
+      "g": 5
+     },
+     {
+      "nom": "Atzori",
+      "eq": "SG Amsicora",
+      "g": 4
+     },
+     {
+      "nom": "Bernstein",
+      "eq": "SG Amsicora",
+      "g": 4
+     },
+     {
+      "nom": "Carta G.",
+      "eq": "SG Amsicora",
+      "g": 4
+     },
+     {
+      "nom": "Bhana",
+      "eq": "HC Bra",
+      "g": 3
+     },
+     {
+      "nom": "Chiesa",
+      "eq": "HC Bra",
+      "g": 3
+     },
+     {
+      "nom": "Koshelenko",
+      "eq": "HC Bra",
+      "g": 3
+     },
+     {
+      "nom": "Abdalla",
+      "eq": "Polisportiva Ferrini",
+      "g": 2
+     },
+     {
+      "nom": "Abdalla Ahmed",
+      "eq": "Polisportiva Ferrini",
+      "g": 2
+     }
+    ],
+    "f": [
+     {
+      "nom": "Norbis",
+      "eq": "Milano HP",
+      "g": 5
+     },
+     {
+      "nom": "Leonova",
+      "eq": "HF Lorenzoni",
+      "g": 4
+     },
+     {
+      "nom": "Vercelli",
+      "eq": "HF Lorenzoni",
+      "g": 3
+     },
+     {
+      "nom": "Colella",
+      "eq": "Lazio Hockey",
+      "g": 2
+     },
+     {
+      "nom": "Di Blasi",
+      "eq": "HF Lorenzoni",
+      "g": 2
+     },
+     {
+      "nom": "Musci",
+      "eq": "SG Amsicora",
+      "g": 2
+     },
+     {
+      "nom": "Ascione",
+      "eq": "Milano HP",
+      "g": 1
+     },
+     {
+      "nom": "Buzatto",
+      "eq": "SG Amsicora",
+      "g": 1
+     },
+     {
+      "nom": "Buzzi",
+      "eq": "Butterfly Roma HCC",
+      "g": 1
+     },
+     {
+      "nom": "Chiesa",
+      "eq": "HF Lorenzoni",
+      "g": 1
+     }
+    ]
+   }
   },
   {
    "id": "ar",
