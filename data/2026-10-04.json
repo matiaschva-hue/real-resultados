@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 10:47",
+ "actualizado": "2026-10-06 11:00",
  "paises": [
   {
    "id": "nl",
@@ -163,25 +163,13 @@
     ],
     "f": [
      {
-      "eq": "Den Bosch",
-      "pj": 2,
-      "pts": 6,
-      "dg": 11
-     },
-     {
-      "eq": "SCHC",
-      "pj": 2,
-      "pts": 6,
-      "dg": 4
-     },
-     {
-      "eq": "Hurley",
-      "pj": 2,
-      "pts": 6,
-      "dg": 2
-     },
-     {
       "eq": "Amsterdam",
+      "pj": 2,
+      "pts": 6,
+      "dg": 6
+     },
+     {
+      "eq": "Den Bosch",
       "pj": 2,
       "pts": 4,
       "dg": 3
@@ -193,50 +181,62 @@
       "dg": 3
      },
      {
-      "eq": "Rotterdam",
+      "eq": "Bloemendaal",
       "pj": 2,
-      "pts": 3,
-      "dg": -1
+      "pts": 4,
+      "dg": 2
      },
      {
       "eq": "Oranje-Rood",
       "pj": 2,
+      "pts": 4,
+      "dg": 1
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pj": 2,
+      "pts": 4,
+      "dg": 1
+     },
+     {
+      "eq": "HDM",
+      "pj": 2,
       "pts": 3,
-      "dg": -2
+      "dg": 0
      },
      {
       "eq": "Pinoké",
       "pj": 2,
-      "pts": 3,
-      "dg": -5
+      "pts": 2,
+      "dg": 0
      },
      {
-      "eq": "HDM",
+      "eq": "SCHC",
+      "pj": 2,
+      "pts": 1,
+      "dg": -3
+     },
+     {
+      "eq": "Schaerweijde",
       "pj": 2,
       "pts": 0,
       "dg": -2
      },
      {
-      "eq": "Victoria",
+      "eq": "Rotterdam",
       "pj": 2,
       "pts": 0,
       "dg": -3
      },
      {
-      "eq": "Bloemendaal",
+      "eq": "Tilburg",
       "pj": 2,
       "pts": 0,
-      "dg": -4
-     },
-     {
-      "eq": "HGC",
-      "pj": 2,
-      "pts": 0,
-      "dg": -6
+      "dg": -8
      }
     ]
    },
-   "consulta": "2026-10-06 10:47",
+   "consulta": "2026-10-06 11:00",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -343,7 +343,8 @@
       "g": 1
      }
     ]
-   }
+   },
+   "torneo": "Hoofdklasse"
   },
   {
    "id": "be",
@@ -692,8 +693,9 @@
      }
     ]
    },
-   "consulta": "2026-10-06 10:41",
-   "estado": "jugada"
+   "consulta": "2026-10-06 11:00",
+   "estado": "jugada",
+   "torneo": "Belgian Hockey League"
   },
   {
    "id": "es",
@@ -934,7 +936,7 @@
      }
     ]
    },
-   "consulta": "2026-10-05 16:18",
+   "consulta": "2026-10-06 11:00",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -945,14 +947,14 @@
       "pj": 3
      },
      {
-      "nom": "Jose Basterra Ochoa",
-      "eq": "Club de Campo",
+      "nom": "Joaquin Puglisi",
+      "eq": "RS Tenis",
       "g": 5,
       "pj": 3
      },
      {
-      "nom": "Joaquin Puglisi",
-      "eq": "RS Tenis",
+      "nom": "Jose Basterra Ochoa",
+      "eq": "Club de Campo",
       "g": 5,
       "pj": 3
      },
@@ -969,14 +971,14 @@
       "pj": 3
      },
      {
-      "nom": "Marc Miralles Portillo",
-      "eq": "RC Polo",
+      "nom": "Leandro Martin Ojeda Ariza",
+      "eq": "Sardinero",
       "g": 3,
       "pj": 3
      },
      {
-      "nom": "Leandro Martin Ojeda Ariza",
-      "eq": "Sardinero",
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 3
      },
@@ -1025,14 +1027,14 @@
       "pj": 3
      },
      {
-      "nom": "Carmen Fernandez de Velasco Arroyo",
-      "eq": "RS Tenis",
+      "nom": "Ana Paula Riera",
+      "eq": "CD Terrassa",
       "g": 2,
       "pj": 3
      },
      {
-      "nom": "Ana Paula Riera",
-      "eq": "CD Terrassa",
+      "nom": "Carmen Fernandez de Velasco Arroyo",
+      "eq": "RS Tenis",
       "g": 2,
       "pj": 3
      },
@@ -1043,14 +1045,14 @@
       "pj": 3
      },
      {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
       "g": 2,
       "pj": 3
      },
      {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 2,
       "pj": 3
      },
@@ -1061,7 +1063,8 @@
       "pj": 2
      }
     ]
-   }
+   },
+   "torneo": "Liga IATI · Iberdrola"
   },
   {
    "id": "de",
@@ -1332,7 +1335,7 @@
      }
     ]
    },
-   "consulta": "2026-10-05 16:08",
+   "consulta": "2026-10-06 11:00",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -1459,7 +1462,8 @@
       "g": 2
      }
     ]
-   }
+   },
+   "torneo": "Bundesliga"
   },
   {
    "id": "en",
@@ -1718,8 +1722,9 @@
      }
     ]
    },
-   "consulta": "2026-10-05 16:10",
-   "estado": "jugada"
+   "consulta": "2026-10-06 11:00",
+   "estado": "jugada",
+   "torneo": "Premier Division"
   },
   {
    "id": "it",
@@ -1918,7 +1923,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 10:47",
+   "consulta": "2026-10-06 11:00",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -2025,7 +2030,8 @@
       "g": 1
      }
     ]
-   }
+   },
+   "torneo": "Serie A Elite"
   },
   {
    "id": "ar",
@@ -2450,8 +2456,182 @@
      }
     ]
    },
-   "consulta": "2026-10-05 12:33",
-   "estado": "jugada"
+   "consulta": "2026-10-06 11:00",
+   "estado": "jugada",
+   "torneo": "Metropolitano"
+  },
+  {
+   "id": "ar-copa",
+   "pais": "ARGENTINA",
+   "pais_en": "ARGENTINA",
+   "liga": "COPA BUENOS AIRES · CAMPEONATO",
+   "m": [
+    [
+     "San Fernando",
+     3,
+     3,
+     "S. Bárbara",
+     {
+      "so": [
+       4,
+       3
+      ]
+     }
+    ],
+    [
+     "Quilmes",
+     0,
+     6,
+     "Mitre"
+    ]
+   ],
+   "f": [
+    [
+     "San Fernando",
+     2,
+     0,
+     "G. y Esgrima"
+    ],
+    [
+     "S. Bárbara",
+     1,
+     0,
+     "Lomas"
+    ]
+   ],
+   "tabla": {},
+   "goleadores": {
+    "m": [
+     {
+      "nom": "Poletti, Bautista",
+      "eq": "MITRE",
+      "g": 7,
+      "pj": 3
+     },
+     {
+      "nom": "Suarez, Tomas Agustin",
+      "eq": "G. Y ESGRIMA",
+      "g": 6,
+      "pj": 3
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 4,
+      "pj": 3
+     },
+     {
+      "nom": "Busquets, Santiago",
+      "eq": "S. BARBARA",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Fernandez, Juan Pedro",
+      "eq": "S. BARBARA",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Ganly, Marc",
+      "eq": "HURLING",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Pastor, Joaquin",
+      "eq": "HURLING",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Pietta, Mateo",
+      "eq": "G. Y ESGRIMA",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Andino, Alan",
+      "eq": "BANADE",
+      "g": 3,
+      "pj": 2
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 3,
+      "pj": 2
+     }
+    ],
+    "f": [
+     {
+      "nom": "Alimenti, Catalina",
+      "eq": "G. Y ESGRIMA",
+      "g": 4,
+      "pj": 4
+     },
+     {
+      "nom": "Sala, Morena",
+      "eq": "RIVER PLATE",
+      "g": 4,
+      "pj": 3
+     },
+     {
+      "nom": "Santin, Agostina Sol",
+      "eq": "SAN LORENZO",
+      "g": 4,
+      "pj": 2
+     },
+     {
+      "nom": "Bueloni, Julieta",
+      "eq": "S. BARBARA",
+      "g": 3,
+      "pj": 4
+     },
+     {
+      "nom": "Ovejero, Aylin Trinidad",
+      "eq": "LOMAS",
+      "g": 3,
+      "pj": 4
+     },
+     {
+      "nom": "Meira, Victoria",
+      "eq": "S. BARBARA",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Ambrosini, Chiara",
+      "eq": "FERRO C. O.",
+      "g": 3,
+      "pj": 1
+     },
+     {
+      "nom": "Guignet Guiñazu, Sol",
+      "eq": "G. Y ESGRIMA",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Agostini Coliqueo, Chiara",
+      "eq": "LOMAS",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Piccardo, Alina",
+      "eq": "SAN FERNANDO",
+      "g": 2,
+      "pj": 3
+     }
+    ]
+   },
+   "jornada": "",
+   "fuente": "LarrySport TournamentTracker (AHBA)",
+   "estado": "jugada",
+   "consulta": "2026-10-06 11:00",
+   "grupo": "ar",
+   "torneo": "Copa Buenos Aires"
   },
   {
    "id": "au",
@@ -2464,7 +2644,8 @@
    "tabla": {},
    "fuente": "Flashscore",
    "estado": "no-arranco",
-   "consulta": "2026-10-05 12:33"
+   "consulta": "2026-10-06 11:00",
+   "torneo": "Hockey One"
   }
  ]
 }

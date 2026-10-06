@@ -8,14 +8,16 @@ import { fileURLToPath } from 'url';
 const OUT = process.env.RES_OUT || fileURLToPath(new URL('./data', import.meta.url));
 const FS = 'https://www.flashscore.de/feldhockey/';
 const LIGAS = [
-  { id: 'nl', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', knhb: { m: 'lmdzprlesfiv', f: 'mqtcokvtpune' }, m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
-  { id: 'be', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', sportlink: { m: "Men's Hockey League - A", f: "Women's Hockey League - A" }, m: 'belgien/hockey-league' },
-  { id: 'es', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'LIGA IATI · LIGA IBERDROLA', rfeh: { m: 1, f: 8 }, m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
-  { id: 'de', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', dhb: { m: 'herren', f: 'damen' }, m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
-  { id: 'en', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', nombres: { m: 'https://www.englandhockey.co.uk/competitions-and-events/open-men-s-hockey-league/ehl-open-men-premier-division', f: 'https://www.englandhockey.co.uk/competitions-and-events/womens-hockey-league/ehl-women-premier-division' }, m: 'england/premier-division', f: 'england/premier-division-frauen' },
-  { id: 'it', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', fih: true, m: 'italien/serie-a1' },
-  { id: 'ar', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: true },
-  { id: 'au', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
+  { id: 'nl', torneo: 'Hoofdklasse', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', knhb: { m: 'lmdzprlesfiv', f: 'mqtcokvtpune' }, m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
+  { id: 'be', torneo: 'Belgian Hockey League', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', sportlink: { m: "Men's Hockey League - A", f: "Women's Hockey League - A" }, m: 'belgien/hockey-league' },
+  { id: 'es', torneo: 'Liga IATI · Iberdrola', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'LIGA IATI · LIGA IBERDROLA', rfeh: { m: 1, f: 8 }, m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
+  { id: 'de', torneo: 'Bundesliga', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', dhb: { m: 'herren', f: 'damen' }, m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
+  { id: 'en', torneo: 'Premier Division', pais: 'INGLATERRA', pais_en: 'ENGLAND', liga: 'PREMIER DIVISION', nombres: { m: 'https://www.englandhockey.co.uk/competitions-and-events/open-men-s-hockey-league/ehl-open-men-premier-division', f: 'https://www.englandhockey.co.uk/competitions-and-events/womens-hockey-league/ehl-women-premier-division' }, m: 'england/premier-division', f: 'england/premier-division-frauen' },
+  { id: 'it', torneo: 'Serie A Elite', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', fih: true, m: 'italien/serie-a1' },
+  { id: 'ar', torneo: 'Metropolitano', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: { m: 'Caballeros A', f: 'Damas A' } },
+  { id: 'ar-copa', grupo: 'ar', torneo: 'Copa Buenos Aires', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'COPA BUENOS AIRES · CAMPEONATO', larry: { m: 'Copa Bs. As. Campeonato Finales', f: 'Copa Bs. As. Campeonato Finales' }, copa: true },
+  { id: 'eu-ehl', grupo: 'eu', torneo: 'Euro Hockey League', pais: 'EUROPA', pais_en: 'EUROPE', liga: 'EURO HOCKEY LEAGUE', altius: { base: 'https://eurohockey.altiusrt.com', m: /^Euro Hockey League\b.*\sMen\b/, f: /^Euro Hockey League\b.*\sWomen\b/ }, copa: true },
+  { id: 'au', torneo: 'Hockey One', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
 ];
 
 // ---------- finde ----------
@@ -26,7 +28,7 @@ function domingo(arg) {
   const d = new Date(); d.setHours(12, 0, 0, 0); d.setDate(d.getDate() - d.getDay()); return d; // domingo más reciente (hoy si es domingo)
 }
 const DOM = domingo(process.argv[2] && /^\d{4}-/.test(process.argv[2]) ? process.argv[2] : null);
-const ONLY = (process.argv.find(a => /^[a-z]{2}(,[a-z]{2})*$/.test(a)) || '').split(',').filter(Boolean);
+const ONLY = (process.argv.find(a => /^[a-z]{2}(-[a-z]+)?(,[a-z]{2}(-[a-z]+)?)*$/.test(a)) || '').split(',').filter(Boolean);
 // ventana del finde: viernes a lunes; Hockey One (Australia) juega desde el miércoles
 let DIAS_ANTES = 2;
 const enFinde = d => { const a = new Date(DOM), b = new Date(DOM); a.setDate(a.getDate() - DIAS_ANTES); a.setHours(0, 0, 0, 0); b.setDate(b.getDate() + 1); b.setHours(23, 59, 59, 0); return d >= a && d <= b; };
@@ -243,6 +245,38 @@ async function federhockey() {
   return out;
 }
 
+// ---------- Altius (EuroHockey: EHL, fuente oficial eurohockey.altiusrt.com) ----------
+const MES_EN = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+const filasTabla = () => [...document.querySelectorAll('tr')].map(tr => [...tr.children].map(td => td.innerText.trim().replace(/\s+/g, ' ')));
+async function altius(pg, base, re) {
+  await ir(pg, base + '/', { waitUntil: 'networkidle2', timeout: 60000 });
+  const comps = (await pg.evaluate(() => [...document.querySelectorAll('a')].map(a => [a.textContent.trim().replace(/\s+/g, ' '), a.href]).filter(([, h]) => /\/competitions\/\d+$/.test(h))))
+    .filter(([t]) => re.test(t));
+  const ms = [], gol = {};
+  for (const [, url] of [...new Map(comps.map(c => [c[1], c])).values()]) {
+    await ir(pg, url + '/matches', { waitUntil: 'networkidle2', timeout: 60000 });
+    const filas = (await pg.evaluate(filasTabla)).filter(c => /\d{1,2} [A-Z][a-z]{2} \d{4}/.test(c[1] || '') && /Official|Final|Result/i.test(c[4] || ''));
+    const enVentana = filas.filter(c => { const m = /(\d{1,2}) ([A-Z][a-z]{2}) (\d{4})/.exec(c[1]); return enFinde(new Date(+m[3], MES_EN[m[2]], +m[1], 12)); });
+    if (!enVentana.length) continue;
+    await ir(pg, url + '/teams', { waitUntil: 'networkidle2', timeout: 60000 });
+    const corto = n => ({ 'Real Club de Campo Villa de Madrid': 'Club de Campo', 'Real Club de Polo': 'RC Polo' }[n] || n);
+    const nombres = Object.fromEntries((await pg.evaluate(filasTabla)).filter(c => c.length >= 2 && c[1]).map(c => [c[1], corto(c[0].replace(/\s*\([A-Z]{3}\)$/, '').trim())]));
+    for (const c of enVentana) {
+      const t = /^(.+?) v (.+?)(?: \(|$)/.exec(c[2]); const g = (c[3].match(/\d+/g) || []).map(Number); if (!t || g.length < 2) continue;
+      const row = [nombres[t[1]] || t[1], g[0], g[1], nombres[t[2]] || t[2]], x = {};
+      if (g.length >= 4) x.so = [g[2], g[3]];
+      const fase = (/\((.+)\)/.exec(c[2]) || [])[1]; if (fase) x.fase = fase;
+      ms.push(Object.keys(x).length ? [...row, x] : row);
+    }
+    await ir(pg, url + '/statistics', { waitUntil: 'networkidle2', timeout: 60000 });
+    for (const c of (await pg.evaluate(filasTabla)).filter(c => c.length === 7 && /\([A-Z]{3}\)$/.test(c[0]) && /^\d+$/.test(c[6]))) {
+      const eq = corto(c[0].replace(/\s*\([A-Z]{3}\)$/, '').trim()), w = c[2].split(' '), ap = w.filter(x => x === x.toUpperCase() && /\p{L}/u.test(x)), no = w.filter(x => !ap.includes(x));
+      const nom = [...no, ...ap.map(x => x[0] + x.slice(1).toLowerCase())].join(' '), k = nom + '|' + eq; gol[k] = (gol[k] || 0) + +c[6];
+    }
+  }
+  return { ms, gol: Object.entries(gol).map(([k, g]) => { const [nom, eq] = k.split('|'); return { nom, eq, g }; }).sort((a, b) => b.g - a.g).slice(0, 10) };
+}
+
 // ---------- Flashscore ----------
 async function fsResultados(pg, slug) {
   await ir(pg, FS + slug + '/ergebnisse/', { waitUntil: 'networkidle2', timeout: 60000 });
@@ -318,12 +352,13 @@ async function larry(pg, rama, torneo) {
   const fx = await pg.evaluate(() => document.querySelector('main').innerText);
   const ms = [];
   // la página antepone íconos (caracteres de uso privado) a las fechas: se limpian
-  const L = fx.slice(fx.indexOf('Todas las fechas')).split('\n').map(s => s.replace(/[-​-‏﻿]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+  const L = fx.slice(Math.max(0, fx.indexOf('Todas las fechas') >= 0 ? fx.indexOf('Todas las fechas') : fx.indexOf('Llaves'))).split('\n').map(s => s.replace(/[-​-‏﻿]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
   if (process.env.DEBUG) console.log(rama, torneo, JSON.stringify(L.slice(0, 8)), [...(L[1] || '')].map(c => c.charCodeAt(0)).join(','));
   for (let i = 0; i < L.length - 4; i++) {
     const m = /^(lun|mar|mié|jue|vie|sáb|dom)\w* (\d{2}) (\w{3})/.exec(L[i]); if (!m) continue;
     const d = new Date(DOM.getFullYear(), MES[m[3]], +m[2], 12);
-    if (/^\d+$/.test(L[i + 2]) && /^\d+$/.test(L[i + 3]) && enFinde(d)) ms.push([cap(L[i + 1]), +L[i + 2], +L[i + 3], cap(L[i + 4])]);
+    const sa = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 2]), sb = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 3]);
+    if (sa && sb && enFinde(d)) { const sin = x => cap(x.replace(/\s*\(N\.P\.\)/i, '')); const row = [sin(L[i + 1]), +sa[1], +sb[1], sin(L[i + 4])]; if (sa[2] != null && sb[2] != null) row.push({ so: [+sa[2], +sb[2]] }); ms.push(row); }
   }
   const tab = async t => { await pg.evaluate(t => [...document.querySelectorAll('main button, main [role=tab]')].find(b => b.innerText.trim() === t)?.click(), t); await new Promise(r => setTimeout(r, 2500)); return pg.evaluate(() => document.querySelector('main').innerText); };
   const pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
@@ -357,9 +392,13 @@ for (const L of LIGAS) {
   const old = prev.paises.find(p => p.id === L.id) || {};
   if (ONLY.length && !ONLY.includes(L.id)) { if (old.id) paises.push(old); continue; }
   const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga };
-  DIAS_ANTES = L.id === 'au' ? 4 : 2;
+  DIAS_ANTES = L.copa ? 6 : L.id === 'au' ? 4 : 2; // copas: toda la semana (se juegan entre semana)
   try {
-    if (L.fih) {
+    if (L.altius) {
+      const gol = {};
+      for (const k of ['m', 'f']) { const o = await altius(pg, L.altius.base, L.altius[k]); p[k] = o.ms; if (o.gol.length) gol[k] = o.gol; }
+      p.goleadores = gol; p.tabla = {}; p.fuente = 'European Hockey Federation · eurohockey.altiusrt.com (oficial)';
+    } else if (L.fih) {
       const o = await federhockey();
       if (o.m.length) p.m = o.m; else if (!old.m) p.m = [];
       if (o.f.length) p.f = o.f; else if (!old.f) p.f = [];
@@ -405,8 +444,8 @@ for (const L of LIGAS) {
       p.tabla = tabla; p.fuente = 'KNHB · hockey.nl (oficial)';
     } else if (L.larry) {
       await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
-      const m = await larry(pg, 'Masculino', 'Caballeros A'), f = await larry(pg, 'Femenino', 'Damas A');
-      Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: m.fecha ? 'FECHA ' + m.fecha : p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });
+      const m = await larry(pg, 'Masculino', L.larry.m), f = await larry(pg, 'Femenino', L.larry.f);
+      Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: L.copa ? {} : { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: L.copa ? '' : m.fecha ? 'FECHA ' + m.fecha : p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });
     } else {
       const tabla = { ...(p.tabla || {}) };
       for (const k of ['m', 'f']) {
@@ -428,6 +467,9 @@ for (const L of LIGAS) {
     p.consulta = sello;
     console.log(L.id, 'm', (p.m || []).length, 'f', (p.f || []).length, 'tabla', Object.keys(p.tabla || {}).join('/'), p.jornada || '');
   } catch (e) { console.log(L.id, 'ERROR', e.message); }
+  if (L.copa && !(p.m || []).length && !(p.f || []).length) continue;
+  if (L.grupo) p.grupo = L.grupo;
+  if (L.torneo) p.torneo = L.torneo;
   paises.push(p);
 }
 await br.close();
