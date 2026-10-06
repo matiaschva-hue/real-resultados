@@ -17,7 +17,7 @@ const LIGAS = [
   { id: 'it', torneo: 'Serie A Elite', pais: 'ITALIA', pais_en: 'ITALY', liga: 'SERIE A ELITE', fih: true, m: 'italien/serie-a1' },
   { id: 'ar', torneo: 'Metropolitano', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'METROPOLITANO · PRIMERA A', larry: { m: 'Caballeros A', f: 'Damas A' } },
   { id: 'ar-copa', grupo: 'ar', torneo: 'Copa Buenos Aires', pais: 'ARGENTINA', pais_en: 'ARGENTINA', liga: 'COPA BUENOS AIRES · CAMPEONATO', larry: { m: 'Copa Bs. As. Campeonato Finales', f: 'Copa Bs. As. Campeonato Finales' }, copa: true },
-  { id: 'int-ehl', grupo: 'int', flag: 'eu', torneo: 'EHL', pais: 'EHL', pais_en: 'EHL', liga: 'EURO HOCKEY LEAGUE', altius: { base: 'https://eurohockey.altiusrt.com', m: /^Euro Hockey League\b.*\sMen\b/, f: /^Euro Hockey League\b.*\sWomen\b/ }, copa: true },
+  { id: 'int-ehl', grupo: 'int', flag: 'eu', torneo: 'EHL', pais: 'EHL', pais_en: 'EHL', liga: 'EURO HOCKEY LEAGUE', fsProx: { m: 'europa/euro-hockey-league', f: 'europa/euro-hockey-league-frauen' }, altius: { base: 'https://eurohockey.altiusrt.com', m: /^Euro Hockey League\b.*\sMen\b/, f: /^Euro Hockey League\b.*\sWomen\b/ }, copa: true },
   { id: 'int-pro', grupo: 'int', flag: 'un', torneo: 'Pro League', pais: 'PRO LEAGUE', pais_en: 'PRO LEAGUE', liga: 'FIH HOCKEY PRO LEAGUE', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /Pro League.*\((M|Men)\)/i, f: /Pro League.*\((W|Women)\)/i }, copa: true },
   { id: 'int-mundial', grupo: 'int', flag: 'un', torneo: 'Mundial', pais: 'MUNDIAL', pais_en: 'WORLD CUP', liga: 'FIH HOCKEY WORLD CUP', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /^FIH Hockey World Cup(?!.*(Junior|Indoor|Para|5s)).*\((M|Men)\)/i, f: /^FIH Hockey World Cup(?!.*(Junior|Indoor|Para|5s)).*\((W|Women)\)/i }, copa: true },
   { id: 'int-jjoo', grupo: 'int', flag: 'un', torneo: 'JJOO', pais: 'JJOO', pais_en: 'OLYMPICS', liga: 'JUEGOS OLÍMPICOS', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /Olympic Games.*(Men|\(M\))/i, f: /Olympic Games.*(Women|\(W\))/i }, copa: true },
@@ -35,6 +35,7 @@ const DOM = domingo(process.argv[2] && /^\d{4}-/.test(process.argv[2]) ? process
 const ONLY = (process.argv.find(a => /^[a-z]{2,3}(-[a-z]+)?(,[a-z]{2,3}(-[a-z]+)?)*$/.test(a)) || '').split(',').filter(Boolean);
 // ventana del finde: viernes a lunes; Hockey One (Australia) juega desde el miércoles
 let DIAS_ANTES = 2;
+let ID_ACTUAL = ''; // liga que se está leyendo (para el huso horario)
 const enFinde = d => { const a = new Date(DOM), b = new Date(DOM); a.setDate(a.getDate() - DIAS_ANTES); a.setHours(0, 0, 0, 0); b.setDate(b.getDate() + 1); b.setHours(23, 59, 59, 0); return d >= a && d <= b; };
 const limpiar = s => s.replace(/\s+F$/, '').trim(); // Flashscore agrega " F" a los equipos femeninos
 
@@ -70,7 +71,7 @@ async function knhb(pg, comp, copa) {
     const si = it.lines.findIndex(x => /^\d+\s*-\s*\d+/.test(x)); if (si < 1) continue;
     const [ga, gb] = it.lines[si].match(/\d+/g).map(Number);
     const so = /\((\d+)\s*-\s*(\d+)\)/.exec(it.lines[si]); // tanda de shoot-outs, si la muestran
-    const row = [sinEquipo(it.lines[si - 1]), ga, gb, sinEquipo(it.lines[si + 1] || '')], x = {};
+    const row = [sinEquipo(it.lines[si - 1]), ga, gb, sinEquipo(it.lines[si + 1] || '')], x = { d: iso(d) };
     if (so) x.so = [+so[1], +so[2]];
     if (copa && si >= 2) x.fase = it.lines[si - 2].split(' - ').pop().trim();
     if (Object.keys(x).length) row.push(x);
@@ -164,7 +165,7 @@ async function rfeh(pg, cat) {
     if (!enFinde(new Date(+f[3], +f[2] - 1, +f[1], 12))) continue;
     const eq = c[0].split('\n').map(x => x.trim()).filter(x => x && x !== 'VS' && x !== '-');
     const g = (c[1].match(/\d+/g) || []).map(Number); if (eq.length < 2 || g.length < 2) continue;
-    ms.push([nombreES(eq[0]), g[0], g[1], nombreES(eq[1])]); jornada = jornada || jor;
+    ms.push([nombreES(eq[0]), g[0], g[1], nombreES(eq[1]), { d: `${f[3]}-${f[2]}-${f[1]}` }]); jornada = jornada || jor;
   }
   let tabla = [], gol = [];
   if (links.CLASIFICACIONES) {
@@ -243,7 +244,7 @@ async function federhockey() {
       for (const [lista, club] of [[mh, h], [ma, a]]) for (const x of lista.split(',').map(z => z.trim()).filter(Boolean)) {
         const mm = /^(.+?)(?:\s+(\d+))?$/.exec(x); const key = mm[1] + '|' + club; goles[key] = (goles[key] || 0) + (+mm[2] || 1);
       }
-      if (enFinde(new Date(d.fecha + 'T12:00:00'))) { out[k].push([h, gh, ga, a]); if (k === 'm' && d.jor.m) out.jornada = 'FECHA ' + d.jor.m; }
+      if (enFinde(new Date(d.fecha + 'T12:00:00'))) { out[k].push([h, gh, ga, a, { d: d.fecha }]); if (k === 'm' && d.jor.m) out.jornada = 'FECHA ' + d.jor.m; }
     }
     out.tabla[k] = Object.values(pts).sort((x, y) => y.pts - x.pts || (y.gf - y.gc) - (x.gf - x.gc) || y.gf - x.gf);
     out.gol[k] = Object.entries(goles).map(([kk, g]) => { const [nom, eq] = kk.split('|'); return { nom, eq, g }; }).sort((x, y) => y.g - x.g || x.nom.localeCompare(y.nom)).slice(0, 10);
@@ -269,7 +270,8 @@ async function altius(pg, base, re) {
     const nombres = Object.fromEntries((await pg.evaluate(filasTabla)).filter(c => c.length >= 2 && c[1]).map(c => [c[1], corto(c[0].replace(/\s*\([A-Z]{3}\)$/, '').trim())]));
     for (const c of enVentana) {
       const t = /^(.+?) v (.+?)(?: \(|$)/.exec(c[2]); const g = (c[3].match(/\d+/g) || []).map(Number); if (!t || g.length < 2) continue;
-      const row = [nombres[t[1]] || t[1], g[0], g[1], nombres[t[2]] || t[2]], x = {};
+      const md = /(\d{1,2}) ([A-Z][a-z]{2}) (\d{4})/.exec(c[1]);
+      const row = [nombres[t[1]] || t[1], g[0], g[1], nombres[t[2]] || t[2]], x = { d: iso(new Date(+md[3], MES_EN[md[2]], +md[1], 12)) };
       if (g.length >= 4) x.so = [g[2], g[3]];
       const fase = (/\((.+)\)/.exec(c[2]) || [])[1]; if (fase) x.fase = fase;
       ms.push(Object.keys(x).length ? [...row, x] : row);
@@ -281,6 +283,39 @@ async function altius(pg, base, re) {
     }
   }
   return { ms, gol: Object.entries(gol).map(([k, g]) => { const [nom, eq] = k.split('|'); return { nom, eq, g }; }).sort((a, b) => b.g - a.g).slice(0, 10) };
+}
+
+async function altiusNombres(pg, base, re) {
+  await ir(pg, base + '/', { waitUntil: 'networkidle2', timeout: 60000 });
+  const comps = (await pg.evaluate(() => [...document.querySelectorAll('a')].map(a => [a.textContent.trim().replace(/\s+/g, ' '), a.href]))).filter(([t, h]) => re.test(t) && /\/competitions\/\d+$/.test(h));
+  const out = [];
+  for (const [, url] of comps.slice(0, 3)) {
+    await ir(pg, url + '/teams', { waitUntil: 'networkidle2', timeout: 60000 });
+    for (const c of await pg.evaluate(() => [...document.querySelectorAll('tr')].map(tr => [...tr.children].map(td => td.innerText.trim())))) if (c.length >= 2 && c[1] && /\([A-Z]{3}\)$/.test(c[0])) out.push(c[0].replace(/\s*\([A-Z]{3}\)$/, '').trim());
+  }
+  return out;
+}
+
+// ---------- próxima fecha (Flashscore, hora argentina) ----------
+async function fsProgramma(pg, slug, desde, hasta) {
+  // horario local de cada liga: la página se abre en el huso horario del país
+  const TZ = { en: "Europe/London", au: "Australia/Sydney" };
+  await pg.emulateTimezone(TZ[ID_ACTUAL] || "Europe/Amsterdam");
+  await ir(pg, FS + slug + '/begegnungen/', { waitUntil: 'networkidle2', timeout: 60000 });
+  await pg.waitForSelector('.event__match', { timeout: 15000 }).catch(() => {});
+  const filas = await pg.evaluate(() => [...document.querySelectorAll('.event__match')].map(e => {
+    const q = s => e.querySelector(s)?.innerText.trim() ?? '';
+    return { time: q('.event__time') || e.innerText, home: q('[class*="event__participant--home"], .event__homeParticipant'), away: q('[class*="event__participant--away"], .event__awayParticipant') };
+  }));
+  await pg.emulateTimezone(process.env.TZ || "America/Argentina/Buenos_Aires");
+  const out = [];
+  for (const f of filas) {
+    const m = /(\d{2})\.(\d{2})\.\s*(\d{2}:\d{2})?/.exec(f.time); if (!m || !f.home) continue;
+    let y = DOM.getFullYear(); if (+m[2] - 1 < DOM.getMonth() - 6) y++;
+    const d = new Date(y, +m[2] - 1, +m[1], 12); if (d < desde || d > hasta) continue;
+    out.push([limpiar(f.home), limpiar(f.away), { d: iso(d), h: m[3] || '' }]);
+  }
+  return out;
 }
 
 // ---------- Flashscore ----------
@@ -307,12 +342,12 @@ async function fsResultados(pg, slug) {
     let d = new Date(anio, +m[2] - 1, +m[1], 12); if (d - DOM > 200 * 864e5) d = new Date(anio - 1, +m[2] - 1, +m[1], 12);
     if (!enFinde(d)) continue;
     let ga = parseInt(f.sh), gb = parseInt(f.sa); if (isNaN(ga) || isNaN(gb)) continue;
-    const x = {};
+    const x = { d: iso(d) };
     if (/n\.\s?P\./.test(f.raw)) { // definido por penales: el total incluye la tanda → restar los dos últimos números
       const nums = f.raw.split('\n').map(s => s.trim()).filter(s => /^\d+$/.test(s)).map(Number);
       const so = nums.slice(-2); x.so = so; ga -= so[0]; gb -= so[1];
     }
-    ms.push(Object.keys(x).length ? [limpiar(f.home), ga, gb, limpiar(f.away), x] : [limpiar(f.home), ga, gb, limpiar(f.away)]);
+    ms.push([limpiar(f.home), ga, gb, limpiar(f.away), x]);
     ronda = ronda || f.ronda;
   }
   return { ms, ronda };
@@ -366,7 +401,20 @@ async function larry(pg, rama, torneo) {
     const m = /^(lun|mar|mié|jue|vie|sáb|dom)\w* (\d{2}) (\w{3})/.exec(L[i]); if (!m) continue;
     const d = new Date(DOM.getFullYear(), MES[m[3]], +m[2], 12);
     const sa = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 2]), sb = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 3]);
-    if (sa && sb && enFinde(d)) { const sin = x => cap(x.replace(/\s*\(N\.P\.\)/i, '')); const row = [sin(L[i + 1]), +sa[1], +sb[1], sin(L[i + 4])], x = {}; if (sa[2] != null && sb[2] != null) x.so = [+sa[2], +sb[2]]; if (ronda) x.fase = ronda; if (Object.keys(x).length) row.push(x); ms.push(row); }
+    if (sa && sb && enFinde(d)) { const sin = x => cap(x.replace(/\s*\(N\.P\.\)/i, '')); const row = [sin(L[i + 1]), +sa[1], +sb[1], sin(L[i + 4])], x = { d: iso(d) }; if (sa[2] != null && sb[2] != null) x.so = [+sa[2], +sb[2]]; if (ronda) x.fase = ronda; if (Object.keys(x).length) row.push(x); ms.push(row); }
+  }
+  // próxima fecha: se abre la fecha siguiente del fixture ("LOCAL / Vs / VISITANTE")
+  const prox = [];
+  if (/^\d+$/.test(fecha)) {
+    const ok = await pg.evaluate(n => { const b = [...document.querySelectorAll('main button')].find(b => b.innerText.trim() === String(n)); if (!b) return false; b.click(); return true; }, +fecha + 1);
+    if (ok) {
+      await new Promise(r => setTimeout(r, 3000));
+      const P = (await pg.evaluate(() => document.querySelector('main').innerText)).split('\n').map(s => s.replace(/[\ue000-\uf8ff]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+      for (let i = 0; i < P.length - 3; i++) {
+        const m = /^(lun|mar|mié|jue|vie|sáb|dom)\w* (\d{2}) (\w{3})(?: (\d{2}:\d{2}))?/.exec(P[i]);
+        if (m && P[i + 2] === 'Vs') prox.push([cap(P[i + 1]), cap(P[i + 3]), { d: iso(new Date(DOM.getFullYear(), MES[m[3]], +m[2], 12)), h: m[4] || '' }]);
+      }
+    }
   }
   const tab = async t => { await pg.evaluate(t => [...document.querySelectorAll('main button, main [role=tab]')].find(b => b.innerText.trim() === t)?.click(), t); await new Promise(r => setTimeout(r, 2500)); return pg.evaluate(() => document.querySelector('main').innerText); };
   const pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
@@ -381,7 +429,7 @@ async function larry(pg, rama, torneo) {
     if (!/^\d+$/.test(gl[i])) break;
     gol.push({ nom: gl[i + 1], eq: gl[i + 2], g: +gl[i + 3], pj: +gl[i + 4] });
   }
-  return { ms, tabla, gol, fecha };
+  return { ms, tabla, gol, fecha, prox };
 }
 // "BCO. PROVINCIA" → "Bco. Provincia"
 const ACENTOS = { Barbara: 'Bárbara', Nacion: 'Nación', Catherines: "Catherine's", Martin: 'Martín' };
@@ -400,6 +448,7 @@ for (const L of LIGAS) {
   const old = prev.paises.find(p => p.id === L.id) || {};
   if (ONLY.length && !ONLY.includes(L.id)) { if (old.id) paises.push(old); continue; }
   const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga };
+  ID_ACTUAL = L.id;
   DIAS_ANTES = L.copa && L.grupo !== 'int' ? 6 : L.id === 'au' ? 4 : 2; // copas locales: toda la semana; internacionales y ligas: viernes a lunes
   try {
     if (L.altius) {
@@ -454,6 +503,7 @@ for (const L of LIGAS) {
       await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
       const m = await larry(pg, 'Masculino', L.larry.m), f = await larry(pg, 'Femenino', L.larry.f);
       Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: L.copa ? {} : { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: L.copa ? '' : m.fecha ? 'FECHA ' + m.fecha : p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });
+      if (!L.copa && (m.prox.length || f.prox.length)) { p.prox = { m: m.prox, f: f.prox }; const ds = [...m.prox, ...f.prox].map(x => x[2].d).sort(); p.prox_fecha = ds[0].slice(8, 10) + '.' + ds[0].slice(5, 7) + '–' + ds[ds.length - 1].slice(8, 10) + '.' + ds[ds.length - 1].slice(5, 7); p.prox_jornada = 'FECHA ' + (+m.fecha + 1); }
     } else {
       const tabla = { ...(p.tabla || {}) };
       for (const k of ['m', 'f']) {
@@ -479,7 +529,23 @@ for (const L of LIGAS) {
     const base = paises.find(x => x.id === L.soloPrimera) || prev.paises.find(x => x.id === L.soloPrimera) || {};
     for (const k of ['m', 'f']) { const pri = ((base.tabla || {})[k] || []).map(t => t.eq); if (pri.length) p[k] = (p[k] || []).filter(x => pri.includes(oficial(x[0], pri)) || pri.includes(oficial(x[3], pri))); }
   }
-  if (L.copa && !(p.m || []).length && !(p.f || []).length) continue;
+  // próxima fecha: el finde siguiente (copas e internacionales: toda la semana que viene)
+  try {
+    const NX = new Date(DOM); NX.setDate(NX.getDate() + 7);
+    const desde = new Date(NX), hasta = new Date(NX); desde.setDate(desde.getDate() - (L.copa ? 6 : L.id === 'au' ? 4 : 2)); desde.setHours(0, 0, 0, 0); hasta.setDate(hasta.getDate() + 1); hasta.setHours(23, 59, 0, 0);
+    const prox = {};
+    for (const k of ['m', 'f']) {
+      const slug = (L.fsProx || {})[k] || (L.altius || L.larry ? null : L[k]); if (!slug) continue;
+      const nombres = [...new Set([...((p.tabla || {})[k] || []).map(t => t.eq), ...(p[k] || []).flatMap(x => [x[0], x[3]]), ...(L.altius ? await altiusNombres(pg, L.altius.base, L.altius[k]) : [])])];
+      const ren = n => nombres.length ? oficial(n, nombres) : n;
+      const ms = await fsProgramma(pg, slug, desde, hasta);
+      if (ms.length) prox[k] = ms.map(([a, b, x]) => [ren(a), ren(b), x]);
+    }
+    if (L.larry) { /* Argentina: la próxima fecha ya vino de LarrySport */ }
+    else if (Object.keys(prox).length) { p.prox = prox; p.prox_fecha = `${pad(desde.getDate() + (L.copa ? 0 : 0))}.${pad(desde.getMonth() + 1)}–${pad(hasta.getDate())}.${pad(hasta.getMonth() + 1)}`; }
+    else delete p.prox;
+  } catch (e) { console.log(L.id, 'próxima fecha:', e.message); }
+  if (L.copa && !(p.m || []).length && !(p.f || []).length && !p.prox) continue;
   if (L.copa) { const fs_ = [...new Set([...(p.m || []), ...(p.f || [])].map(x => x[4] && x[4].fase).filter(Boolean))]; p.jornada = fs_.length === 1 ? 'RONDA:' + fs_[0] : ''; }
   if (L.grupo) p.grupo = L.grupo;
   if (L.flag) p.flag = L.flag;
