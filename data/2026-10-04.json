@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 11:52",
+ "actualizado": "2026-10-06 12:14",
  "paises": [
   {
    "id": "nl",
@@ -9,30 +9,21 @@
    "jornada": "FECHA 2",
    "m": [
     [
-     "Kampong",
-     3,
-     0,
-     "SCHC",
+     "Schaerweijde",
+     1,
+     2,
+     "Klein Zwitserland",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ],
     [
-     "Oranje Rood",
-     4,
-     3,
-     "HDM",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Pinoke",
+     "Pinoké",
      2,
      2,
      "Bloemendaal",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ],
     [
@@ -41,16 +32,7 @@
      4,
      "Amsterdam",
      {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Schaerweijde",
-     1,
-     2,
-     "Klein Zwitserland",
-     {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ],
     [
@@ -59,18 +41,36 @@
      3,
      "Den Bosch",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
+     }
+    ],
+    [
+     "Kampong",
+     3,
+     0,
+     "SCHC",
+     {
+      "d": "2026-10-03"
+     }
+    ],
+    [
+     "Oranje-Rood",
+     4,
+     3,
+     "HDM",
+     {
+      "d": "2026-10-03"
      }
     ]
    ],
    "f": [
     [
-     "HGC",
-     0,
-     5,
-     "Den Bosch",
+     "Pinoké",
+     3,
+     2,
+     "HDM",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ],
     [
@@ -79,7 +79,7 @@
      1,
      "Bloemendaal",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ],
     [
@@ -88,25 +88,16 @@
      2,
      "Amsterdam",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ],
     [
-     "Oranje Rood",
+     "Oranje-Rood",
      2,
      1,
      "Victoria",
      {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Pinoke",
-     3,
-     2,
-     "HDM",
-     {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
      }
     ],
     [
@@ -115,7 +106,16 @@
      4,
      "SCHC",
      {
-      "d": "2026-10-04"
+      "d": "2026-10-03"
+     }
+    ],
+    [
+     "HGC",
+     0,
+     5,
+     "Den Bosch",
+     {
+      "d": "2026-10-03"
      }
     ]
    ],
@@ -126,177 +126,153 @@
     "m": [
      {
       "eq": "Amsterdam",
+      "pj": 2,
       "pts": 6,
-      "pj": 2,
-      "gf": 9,
-      "gc": 3
-     },
-     {
-      "eq": "Kampong",
-      "pts": 4,
-      "pj": 2,
-      "gf": 3,
-      "gc": 0
+      "dg": 6
      },
      {
       "eq": "Den Bosch",
-      "pts": 4,
       "pj": 2,
-      "gf": 3,
-      "gc": 0
+      "pts": 4,
+      "dg": 3
+     },
+     {
+      "eq": "Kampong",
+      "pj": 2,
+      "pts": 4,
+      "dg": 3
      },
      {
       "eq": "Bloemendaal",
-      "pts": 4,
       "pj": 2,
-      "gf": 5,
-      "gc": 3
+      "pts": 4,
+      "dg": 2
      },
      {
-      "eq": "Oranje Rood",
-      "pts": 4,
+      "eq": "Oranje-Rood",
       "pj": 2,
-      "gf": 6,
-      "gc": 5
+      "pts": 4,
+      "dg": 1
      },
      {
       "eq": "Klein Zwitserland",
-      "pts": 4,
       "pj": 2,
-      "gf": 5,
-      "gc": 4
+      "pts": 4,
+      "dg": 1
      },
      {
       "eq": "HDM",
-      "pts": 3,
       "pj": 2,
-      "gf": 7,
-      "gc": 7
+      "pts": 3,
+      "dg": 0
      },
      {
-      "eq": "Pinoke",
-      "pts": 2,
+      "eq": "Pinoké",
       "pj": 2,
-      "gf": 5,
-      "gc": 5
+      "pts": 2,
+      "dg": 0
      },
      {
       "eq": "SCHC",
-      "pts": 1,
       "pj": 2,
-      "gf": 2,
-      "gc": 5
+      "pts": 1,
+      "dg": -3
      },
      {
       "eq": "Schaerweijde",
-      "pts": 0,
       "pj": 2,
-      "gf": 4,
-      "gc": 6
+      "pts": 0,
+      "dg": -2
      },
      {
       "eq": "Rotterdam",
-      "pts": 0,
       "pj": 2,
-      "gf": 4,
-      "gc": 7
+      "pts": 0,
+      "dg": -3
      },
      {
       "eq": "Tilburg",
-      "pts": 0,
       "pj": 2,
-      "gf": 0,
-      "gc": 8
+      "pts": 0,
+      "dg": -8
      }
     ],
     "f": [
      {
-      "eq": "Den Bosch",
-      "pts": 6,
-      "pj": 2,
-      "gf": 12,
-      "gc": 1
-     },
-     {
-      "eq": "SCHC",
-      "pts": 6,
-      "pj": 2,
-      "gf": 6,
-      "gc": 2
-     },
-     {
-      "eq": "Hurley",
-      "pts": 6,
-      "pj": 2,
-      "gf": 4,
-      "gc": 2
-     },
-     {
       "eq": "Amsterdam",
-      "pts": 4,
       "pj": 2,
-      "gf": 6,
-      "gc": 3
+      "pts": 6,
+      "dg": 6
+     },
+     {
+      "eq": "Den Bosch",
+      "pj": 2,
+      "pts": 4,
+      "dg": 3
      },
      {
       "eq": "Kampong",
+      "pj": 2,
       "pts": 4,
-      "pj": 2,
-      "gf": 5,
-      "gc": 2
-     },
-     {
-      "eq": "Rotterdam",
-      "pts": 3,
-      "pj": 2,
-      "gf": 4,
-      "gc": 5
-     },
-     {
-      "eq": "Oranje Rood",
-      "pts": 3,
-      "pj": 2,
-      "gf": 3,
-      "gc": 5
-     },
-     {
-      "eq": "Pinoke",
-      "pts": 3,
-      "pj": 2,
-      "gf": 4,
-      "gc": 9
-     },
-     {
-      "eq": "HDM",
-      "pts": 0,
-      "pj": 2,
-      "gf": 3,
-      "gc": 5
-     },
-     {
-      "eq": "Victoria",
-      "pts": 0,
-      "pj": 2,
-      "gf": 2,
-      "gc": 5
+      "dg": 3
      },
      {
       "eq": "Bloemendaal",
-      "pts": 0,
       "pj": 2,
-      "gf": 1,
-      "gc": 5
+      "pts": 4,
+      "dg": 2
      },
      {
-      "eq": "HGC",
-      "pts": 0,
+      "eq": "Oranje-Rood",
       "pj": 2,
-      "gf": 1,
-      "gc": 7
+      "pts": 4,
+      "dg": 1
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pj": 2,
+      "pts": 4,
+      "dg": 1
+     },
+     {
+      "eq": "HDM",
+      "pj": 2,
+      "pts": 3,
+      "dg": 0
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 2,
+      "pts": 2,
+      "dg": 0
+     },
+     {
+      "eq": "SCHC",
+      "pj": 2,
+      "pts": 1,
+      "dg": -3
+     },
+     {
+      "eq": "Schaerweijde",
+      "pj": 2,
+      "pts": 0,
+      "dg": -2
+     },
+     {
+      "eq": "Rotterdam",
+      "pj": 2,
+      "pts": 0,
+      "dg": -3
+     },
+     {
+      "eq": "Tilburg",
+      "pj": 2,
+      "pts": 0,
+      "dg": -8
      }
     ]
    },
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:14",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -409,7 +385,7 @@
     "m": [
      [
       "Amsterdam",
-      "Pinoke",
+      "Pinoké",
       {
        "d": "2026-10-11",
        "h": "15:00"
@@ -482,7 +458,7 @@
       }
      ],
      [
-      "Pinoke",
+      "Pinoké",
       "Amsterdam",
       {
        "d": "2026-10-11",
@@ -491,7 +467,7 @@
      ],
      [
       "Rotterdam",
-      "Oranje Rood",
+      "Oranje-Rood",
       {
        "d": "2026-10-11",
        "h": "12:45"
@@ -499,7 +475,16 @@
      ]
     ]
    },
-   "prox_fecha": "09.10–12.10"
+   "prox_fecha": "09.10–12.10",
+   "jor": {
+    "m": "FECHA 2",
+    "f": "FECHA 2"
+   },
+   "prox_jor": {
+    "m": "FECHA 3",
+    "f": "FECHA 3"
+   },
+   "prox_jornada": "FECHA 3"
   },
   {
    "id": "nl-gold",
@@ -672,7 +657,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:14",
    "jornada": "",
    "grupo": "nl",
    "torneo": "Gold Cup"
@@ -1024,7 +1009,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "estado": "jugada",
    "torneo": "Belgian Hockey League",
    "prox": {
@@ -1071,7 +1056,15 @@
      ]
     ]
    },
-   "prox_fecha": "09.10–12.10"
+   "prox_fecha": "09.10–12.10",
+   "jor": {
+    "m": "FECHA 4",
+    "f": "FECHAS 3 Y 4"
+   },
+   "prox_jor": {
+    "m": "FECHA 5"
+   },
+   "prox_jornada": "FECHA 5"
   },
   {
    "id": "es",
@@ -1339,7 +1332,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -1350,15 +1343,21 @@
       "pj": 3
      },
      {
+      "nom": "Joaquin Puglisi",
+      "eq": "RS Tenis",
+      "g": 5,
+      "pj": 3
+     },
+     {
       "nom": "Jose Basterra Ochoa",
       "eq": "Club de Campo",
       "g": 5,
       "pj": 3
      },
      {
-      "nom": "Joaquin Puglisi",
-      "eq": "RS Tenis",
-      "g": 5,
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
+      "g": 3,
       "pj": 3
      },
      {
@@ -1368,8 +1367,20 @@
       "pj": 3
      },
      {
-      "nom": "Marc Miralles Portillo",
-      "eq": "RC Polo",
+      "nom": "Enrique Zorita Marquez",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Joan Francesc Fernandez Ros",
+      "eq": "Club Egara",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
       "g": 3,
       "pj": 3
      },
@@ -1384,39 +1395,9 @@
       "eq": "CD Terrassa",
       "g": 3,
       "pj": 3
-     },
-     {
-      "nom": "Marco Aguirregomezcorta Gonzalez",
-      "eq": "Club Egara",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Alvaro Lopez-Alonso Ribalaygua",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Enrique Zorita Marquez",
-      "eq": "Club de Campo",
-      "g": 3,
-      "pj": 3
      }
     ],
     "f": [
-     {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
-      "g": 3,
-      "pj": 3
-     },
      {
       "nom": "Flore Suzanne Bruggink",
       "eq": "Club de Campo",
@@ -1430,27 +1411,15 @@
       "pj": 3
      },
      {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
-      "g": 2,
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
       "pj": 3
      },
      {
-      "nom": "Nuria Carles Andreu",
-      "eq": "Atlètic Terrassa",
-      "g": 2,
-      "pj": 2
-     },
-     {
-      "nom": "Anna Borras Massaguer",
-      "eq": "Club Egara",
-      "g": 2,
-      "pj": 2
-     },
-     {
-      "nom": "Ana Paula Riera",
-      "eq": "CD Terrassa",
-      "g": 2,
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
+      "g": 3,
       "pj": 3
      },
      {
@@ -1460,10 +1429,34 @@
       "pj": 3
      },
      {
+      "nom": "Ana Paula Riera",
+      "eq": "CD Terrassa",
+      "g": 2,
+      "pj": 3
+     },
+     {
       "nom": "Cecilia Lainz Puente",
       "eq": "RS Tenis",
       "g": 2,
       "pj": 3
+     },
+     {
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Nuria Carles Andreu",
+      "eq": "Atlètic Terrassa",
+      "g": 2,
+      "pj": 2
      }
     ]
    },
@@ -1562,14 +1555,23 @@
      ]
     ]
    },
-   "prox_fecha": "09.10–12.10"
+   "prox_fecha": "09.10–12.10",
+   "jor": {
+    "m": "FECHA 3",
+    "f": "FECHA 3"
+   },
+   "prox_jor": {
+    "m": "FECHA 4",
+    "f": "FECHA 4"
+   },
+   "prox_jornada": "FECHA 4"
   },
   {
    "id": "de",
    "pais": "ALEMANIA",
    "pais_en": "GERMANY",
    "liga": "1. BUNDESLIGA",
-   "jornada": "",
+   "jornada": "FECHA 5",
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "m": [
     [
@@ -1865,7 +1867,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -2168,14 +2170,23 @@
      ]
     ]
    },
-   "prox_fecha": "09.10–12.10"
+   "prox_fecha": "09.10–12.10",
+   "jor": {
+    "m": "FECHA 5",
+    "f": "FECHAS 5 Y 6"
+   },
+   "prox_jor": {
+    "m": "FECHAS 6 Y 7",
+    "f": "FECHAS 7 Y 8"
+   },
+   "prox_jornada": "FECHAS 6 Y 7"
   },
   {
    "id": "en",
    "pais": "INGLATERRA",
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
-   "jornada": "",
+   "jornada": "FECHA 2",
    "fuente": "Flashscore",
    "m": [
     [
@@ -2463,7 +2474,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "estado": "jugada",
    "torneo": "Premier Division",
    "prox": {
@@ -2568,7 +2579,16 @@
      ]
     ]
    },
-   "prox_fecha": "09.10–12.10"
+   "prox_fecha": "09.10–12.10",
+   "jor": {
+    "m": "FECHA 2",
+    "f": "FECHA 2"
+   },
+   "prox_jor": {
+    "m": "FECHA 3",
+    "f": "FECHA 3"
+   },
+   "prox_jornada": "FECHA 3"
   },
   {
    "id": "it",
@@ -2794,7 +2814,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -2947,7 +2967,15 @@
      ]
     ]
    },
-   "prox_fecha": "09.10–12.10"
+   "prox_fecha": "09.10–12.10",
+   "jor": {
+    "m": "FECHA 3",
+    "f": "FECHA 2"
+   },
+   "prox_jor": {
+    "m": "FECHA 4"
+   },
+   "prox_jornada": "FECHA 4"
   },
   {
    "id": "ar",
@@ -3414,7 +3442,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "estado": "jugada",
    "torneo": "Metropolitano",
    "prox": {
@@ -3536,7 +3564,15 @@
     ]
    },
    "prox_fecha": "10.10–11.10",
-   "prox_jornada": "FECHA 25"
+   "prox_jornada": "FECHA 25",
+   "jor": {
+    "m": "FECHA 24",
+    "f": "FECHA 24"
+   },
+   "prox_jor": {
+    "m": "FECHA 25",
+    "f": "FECHA 25"
+   }
   },
   {
    "id": "ar-copa",
@@ -3721,7 +3757,7 @@
    "jornada": "RONDA:Semi final",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -3736,7 +3772,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "prox": {
     "m": [
      [
@@ -3841,7 +3877,9 @@
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
-   "torneo": "EHL"
+   "torneo": "EHL",
+   "prox_jor": {},
+   "prox_jornada": ""
   },
   {
    "id": "au",
@@ -3854,7 +3892,7 @@
    "tabla": {},
    "fuente": "Flashscore",
    "estado": "no-arranco",
-   "consulta": "2026-10-06 11:52",
+   "consulta": "2026-10-06 12:04",
    "torneo": "Hockey One",
    "prox": {
     "m": [
@@ -3926,7 +3964,11 @@
      ]
     ]
    },
-   "prox_fecha": "07.10–12.10"
+   "prox_fecha": "07.10–12.10",
+   "jor": {},
+   "jornada": "",
+   "prox_jor": {},
+   "prox_jornada": ""
   }
  ]
 }

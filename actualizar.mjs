@@ -49,7 +49,7 @@ async function knhb(pg, comp, copa) {
   const base = 'https://www.hockey.nl/match-center#/competitions/national/' + comp;
   const R = fn => pg.evaluate(fn);
   await ir(pg, base + '/overview', { waitUntil: 'networkidle2', timeout: 60000 });
-  await pg.waitForFunction(() => document.querySelector('match-center')?.shadowRoot?.querySelector(copa ? 'a' : '.standing .row'), { timeout: 20000 }, ).catch(e => { if (!copa) throw e; });
+  await pg.waitForFunction(sel => document.querySelector('match-center')?.shadowRoot?.querySelector(sel), { timeout: 20000 }, copa ? 'a' : '.standing .row').catch(e => { if (!copa) throw e; });
   const filas = await R(() => [...document.querySelector('match-center').shadowRoot.querySelectorAll('.standing .row')].map(r => [...r.children].map(c => c.textContent.trim())));
   const tabla = filas.filter(c => /^\d+$/.test(c[0])).map(c => ({ eq: sinEquipo(c[2]), pj: +c[3], pts: +c[4], dg: +c[5] }));
   await ir(pg, 'about:blank');
@@ -234,7 +234,7 @@ async function federhockey() {
     cache[u] = d;
   }
   fs.writeFileSync(cacheF, JSON.stringify(cache));
-  const out = { m: [], f: [], jornada: '', tabla: {}, gol: {} };
+  const out = { m: [], f: [], jornada: '', jor: {}, tabla: {}, gol: {} };
   for (const k of ['m', 'f']) {
     const pts = {}, goles = {};
     const eq = n => (pts[n] ||= { eq: n, pj: 0, pts: 0, gf: 0, gc: 0 });
@@ -244,7 +244,7 @@ async function federhockey() {
       for (const [lista, club] of [[mh, h], [ma, a]]) for (const x of lista.split(',').map(z => z.trim()).filter(Boolean)) {
         const mm = /^(.+?)(?:\s+(\d+))?$/.exec(x); const key = mm[1] + '|' + club; goles[key] = (goles[key] || 0) + (+mm[2] || 1);
       }
-      if (enFinde(new Date(d.fecha + 'T12:00:00'))) { out[k].push([h, gh, ga, a, { d: d.fecha }]); if (k === 'm' && d.jor.m) out.jornada = 'FECHA ' + d.jor.m; }
+      if (enFinde(new Date(d.fecha + 'T12:00:00'))) { out[k].push([h, gh, ga, a, { d: d.fecha }]); if (k === 'm' && d.jor.m) out.jornada = 'FECHA ' + d.jor.m; if (d.jor[k]) out.jor[k] = 'FECHA ' + d.jor[k]; }
     }
     out.tabla[k] = Object.values(pts).sort((x, y) => y.pts - x.pts || (y.gf - y.gc) - (x.gf - x.gc) || y.gf - x.gf);
     out.gol[k] = Object.entries(goles).map(([kk, g]) => { const [nom, eq] = kk.split('|'); return { nom, eq, g }; }).sort((x, y) => y.g - x.g || x.nom.localeCompare(y.nom)).slice(0, 10);
@@ -460,6 +460,7 @@ for (const L of LIGAS) {
       if (o.m.length) p.m = o.m; else if (!old.m) p.m = [];
       if (o.f.length) p.f = o.f; else if (!old.f) p.f = [];
       if (o.jornada) p.jornada = o.jornada;
+      p.jor = { ...o.jor };
       p.tabla = { ...(p.tabla || {}), ...Object.fromEntries(Object.entries(o.tabla).filter(([, t]) => t.length)) };
       p.goleadores = { ...(p.goleadores || {}), ...Object.fromEntries(Object.entries(o.gol).filter(([, g]) => g.length)) };
       p.fuente = 'Federhockey · federhockey.it (oficial)';
@@ -478,6 +479,7 @@ for (const L of LIGAS) {
           if (o.ms.length) p[k] = o.ms; else if (!old[k]) p[k] = [];
           if (o.tabla.length) tabla[k] = o.tabla; if (o.gol.length) gol[k] = o.gol;
           if (k === 'm' && o.jornada) p.jornada = o.jornada.replace('JORNADA', 'FECHA');
+          if (o.jornada) (p.jor ||= {})[k] = o.jornada.replace('JORNADA', 'FECHA');
         } catch (e) { console.log(L.id, k, 'RFEH falló, uso Flashscore:', e.message); const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; }
       }
       p.tabla = tabla; p.goleadores = gol; p.fuente = 'RFEH · resultadoshockey.isquad.es (oficial)';
@@ -503,7 +505,8 @@ for (const L of LIGAS) {
       await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
       const m = await larry(pg, 'Masculino', L.larry.m), f = await larry(pg, 'Femenino', L.larry.f);
       Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: L.copa ? {} : { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: L.copa ? '' : m.fecha ? 'FECHA ' + m.fecha : p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });
-      if (!L.copa && (m.prox.length || f.prox.length)) { p.prox = { m: m.prox, f: f.prox }; const ds = [...m.prox, ...f.prox].map(x => x[2].d).sort(); p.prox_fecha = ds[0].slice(8, 10) + '.' + ds[0].slice(5, 7) + '–' + ds[ds.length - 1].slice(8, 10) + '.' + ds[ds.length - 1].slice(5, 7); p.prox_jornada = 'FECHA ' + (+m.fecha + 1); }
+      if (!L.copa) p.jor = { m: m.fecha ? 'FECHA ' + m.fecha : '', f: f.fecha ? 'FECHA ' + f.fecha : '' };
+      if (!L.copa && (m.prox.length || f.prox.length)) { p.prox = { m: m.prox, f: f.prox }; p.prox_jor = { m: m.fecha ? 'FECHA ' + (+m.fecha + 1) : '', f: f.fecha ? 'FECHA ' + (+f.fecha + 1) : '' }; const ds = [...m.prox, ...f.prox].map(x => x[2].d).sort(); p.prox_fecha = ds[0].slice(8, 10) + '.' + ds[0].slice(5, 7) + '–' + ds[ds.length - 1].slice(8, 10) + '.' + ds[ds.length - 1].slice(5, 7); p.prox_jornada = 'FECHA ' + (+m.fecha + 1); }
     } else {
       const tabla = { ...(p.tabla || {}) };
       for (const k of ['m', 'f']) {
@@ -529,6 +532,17 @@ for (const L of LIGAS) {
     const base = paises.find(x => x.id === L.soloPrimera) || prev.paises.find(x => x.id === L.soloPrimera) || {};
     for (const k of ['m', 'f']) { const pri = ((base.tabla || {})[k] || []).map(t => t.eq); if (pri.length) p[k] = (p[k] || []).filter(x => pri.includes(oficial(x[0], pri)) || pri.includes(oficial(x[3], pri))); }
   }
+  // número de fecha: si la fuente no lo trae, sale de la tabla (máximo de partidos jugados); si un equipo jugó dos veces, fueron dos fechas
+  const vecesPorEquipo = ms => { const c = {}; for (const x of ms || []) for (const e of [x[0], x[1] === undefined ? '' : x[3]]) c[e] = (c[e] || 0) + 1; return Math.max(0, ...Object.values(c)); };
+  if (!L.copa) {
+    p.jor = { ...(p.jor || {}) };
+    for (const k of ['m', 'f']) {
+      if (p.jor[k] || !(p[k] || []).length) continue;
+      const pj = Math.max(0, ...(((p.tabla || {})[k]) || []).map(t => t.pj || 0)), dos = vecesPorEquipo(p[k]) >= 2;
+      if (pj) p.jor[k] = dos ? `FECHAS ${pj - 1} Y ${pj}` : 'FECHA ' + pj;
+    }
+    if (!p.jornada || !/^FECHA/.test(p.jornada)) p.jornada = p.jor.m || p.jor.f || '';
+  }
   // próxima fecha: el finde siguiente (copas e internacionales: toda la semana que viene)
   try {
     const NX = new Date(DOM); NX.setDate(NX.getDate() + 7);
@@ -542,7 +556,13 @@ for (const L of LIGAS) {
       if (ms.length) prox[k] = ms.map(([a, b, x]) => [ren(a), ren(b), x]);
     }
     if (L.larry) { /* Argentina: la próxima fecha ya vino de LarrySport */ }
-    else if (Object.keys(prox).length) { p.prox = prox; p.prox_fecha = `${pad(desde.getDate() + (L.copa ? 0 : 0))}.${pad(desde.getMonth() + 1)}–${pad(hasta.getDate())}.${pad(hasta.getMonth() + 1)}`; }
+    else if (Object.keys(prox).length) { p.prox = prox;
+      p.prox_jor = {};
+      for (const kk of ['m', 'f']) {
+        const ult = +((/(\d+)\s*$/.exec((p.jor || {})[kk] || '') || [])[1] || 0), veces = {}; for (const [a, b] of prox[kk] || []) { veces[a] = (veces[a] || 0) + 1; veces[b] = (veces[b] || 0) + 1; }
+        if (!L.copa && ult && (prox[kk] || []).length) p.prox_jor[kk] = Math.max(...Object.values(veces)) >= 2 ? `FECHAS ${ult + 1} Y ${ult + 2}` : 'FECHA ' + (ult + 1);
+      }
+      p.prox_jornada = p.prox_jor.m || p.prox_jor.f || ''; p.prox_fecha = `${pad(desde.getDate() + (L.copa ? 0 : 0))}.${pad(desde.getMonth() + 1)}–${pad(hasta.getDate())}.${pad(hasta.getMonth() + 1)}`; }
     else delete p.prox;
   } catch (e) { console.log(L.id, 'próxima fecha:', e.message); }
   if (L.copa && !(p.m || []).length && !(p.f || []).length && !p.prox) continue;
