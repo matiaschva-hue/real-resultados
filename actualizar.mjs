@@ -172,7 +172,7 @@ async function sportlink(nombrePool) {
   const a = new Date(DOM), b = new Date(DOM); a.setDate(a.getDate() - DIAS_ANTES); b.setDate(b.getDate() + 1);
   const q = `&poolid=${pool}&from=${iso(a)}&to=${iso(b)}`;
   const res = await (await fetch(SL('results') + q)).json();
-  const ms = (res.data || []).map(x => { const g = (sinTags(x[5]).match(/\d+/g) || []).map(Number); return g.length < 2 ? null : [nombreBE(sinTags(x[3])), g[0], g[1], nombreBE(sinTags(x[7]))]; }).filter(Boolean).reverse();
+  const ms = (res.data || []).map(x => { const g = (sinTags(x[5]).match(/\d+/g) || []).map(Number); const d = String(x[0]).split('/').reverse().join('-'); return g.length < 2 ? null : [nombreBE(sinTags(x[3])), g[0], g[1], nombreBE(sinTags(x[7])), { d }]; }).filter(Boolean).reverse();
   const st = await (await fetch(SL('standing') + q)).json();
   const tabla = (st.data || []).map(x => ({ eq: nombreBE(x[1]), pj: +x[2], gf: +x[6], gc: +x[7], pts: +x[8] }));
   return { ms, tabla };

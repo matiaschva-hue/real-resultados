@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-05 16:22",
+ "actualizado": "2026-10-06 10:41",
  "paises": [
   {
    "id": "nl",
@@ -251,37 +251,55 @@
      "Gantoise",
      7,
      0,
-     "Daring"
+     "Daring",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Braxgata",
      4,
      1,
-     "Namur"
+     "Namur",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Uccle Sport",
      5,
      2,
-     "Beerschot"
+     "Beerschot",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Léopold",
      2,
      1,
-     "Dragons"
+     "Dragons",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Racing",
      3,
      3,
-     "Orée"
+     "Orée",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Herakles",
      3,
      1,
-     "Waterloo Ducks"
+     "Waterloo Ducks",
+     {
+      "d": "2026-10-04"
+     }
     ]
    ],
    "f": [
@@ -289,73 +307,109 @@
      "Racing",
      1,
      3,
-     "Leuven"
+     "Leuven",
+     {
+      "d": "2026-10-02"
+     }
     ],
     [
      "Dragons",
      3,
      3,
-     "Victory"
+     "Victory",
+     {
+      "d": "2026-10-02"
+     }
     ],
     [
      "Beerschot",
      0,
      4,
-     "Gantoise"
+     "Gantoise",
+     {
+      "d": "2026-10-02"
+     }
     ],
     [
      "Antwerp",
      0,
      1,
-     "Braxgata"
+     "Braxgata",
+     {
+      "d": "2026-10-02"
+     }
     ],
     [
      "Waterloo Ducks",
      3,
      1,
-     "Uccle Sport"
+     "Uccle Sport",
+     {
+      "d": "2026-10-02"
+     }
     ],
     [
      "Wellington",
      1,
      0,
-     "Léopold"
+     "Léopold",
+     {
+      "d": "2026-10-02"
+     }
     ],
     [
      "Victory",
      3,
      2,
-     "Waterloo Ducks"
+     "Waterloo Ducks",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Gantoise",
      2,
      0,
-     "Antwerp"
+     "Antwerp",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Uccle Sport",
      2,
      0,
-     "Beerschot"
+     "Beerschot",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Racing",
      1,
      1,
-     "Wellington"
+     "Wellington",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Léopold",
      2,
      4,
-     "Dragons"
+     "Dragons",
+     {
+      "d": "2026-10-04"
+     }
     ],
     [
      "Braxgata",
      1,
      1,
-     "Leuven"
+     "Leuven",
+     {
+      "d": "2026-10-04"
+     }
     ]
    ],
    "tabla": {
@@ -532,7 +586,7 @@
      }
     ]
    },
-   "consulta": "2026-10-05 16:18",
+   "consulta": "2026-10-06 10:41",
    "estado": "jugada"
   },
   {
