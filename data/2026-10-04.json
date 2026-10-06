@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 11:17",
+ "actualizado": "2026-10-06 11:40",
  "paises": [
   {
    "id": "nl",
@@ -345,6 +345,103 @@
     ]
    },
    "torneo": "Hoofdklasse"
+  },
+  {
+   "id": "nl-gold",
+   "pais": "PAÍSES BAJOS",
+   "pais_en": "NETHERLANDS",
+   "liga": "GOLD CUP",
+   "m": [
+    [
+     "Almere",
+     0,
+     4,
+     "SCHC",
+     {
+      "fase": "Poule A"
+     }
+    ],
+    [
+     "AMVJ",
+     1,
+     1,
+     "Schaerweijde",
+     {
+      "fase": "Poule A"
+     }
+    ],
+    [
+     "Voordaan",
+     2,
+     6,
+     "Amsterdam",
+     {
+      "fase": "Poule A"
+     }
+    ],
+    [
+     "Gooische",
+     5,
+     8,
+     "Pinoké",
+     {
+      "fase": "Poule A"
+     }
+    ],
+    [
+     "HBS",
+     2,
+     5,
+     "HDM",
+     {
+      "fase": "Poule B"
+     }
+    ],
+    [
+     "Forescate",
+     1,
+     4,
+     "Klein Zwitserland",
+     {
+      "fase": "Poule B"
+     }
+    ],
+    [
+     "Breda",
+     0,
+     10,
+     "Den Bosch",
+     {
+      "fase": "Poule C"
+     }
+    ],
+    [
+     "Push",
+     3,
+     4,
+     "Oranje-Rood",
+     {
+      "fase": "Poule C"
+     }
+    ],
+    [
+     "HCAS",
+     3,
+     2,
+     "Tilburg",
+     {
+      "fase": "Poule C"
+     }
+    ]
+   ],
+   "f": [],
+   "tabla": {},
+   "fuente": "KNHB · hockey.nl (oficial)",
+   "estado": "jugada",
+   "consulta": "2026-10-06 11:40",
+   "jornada": "",
+   "grupo": "nl",
+   "torneo": "Gold Cup"
   },
   {
    "id": "be",

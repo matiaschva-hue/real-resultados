@@ -9,6 +9,7 @@ const OUT = process.env.RES_OUT || fileURLToPath(new URL('./data', import.meta.u
 const FS = 'https://www.flashscore.de/feldhockey/';
 const LIGAS = [
   { id: 'nl', torneo: 'Hoofdklasse', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', knhb: { m: 'lmdzprlesfiv', f: 'mqtcokvtpune' }, m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
+  { id: 'nl-gold', grupo: 'nl', torneo: 'Gold Cup', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'GOLD CUP', knhb: { m: 'iezytzblznnht', f: 'eprcsvgfooofj' }, copa: true, soloPrimera: 'nl' },
   { id: 'be', torneo: 'Belgian Hockey League', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', sportlink: { m: "Men's Hockey League - A", f: "Women's Hockey League - A" }, m: 'belgien/hockey-league' },
   { id: 'es', torneo: 'Liga IATI · Iberdrola', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'LIGA IATI · LIGA IBERDROLA', rfeh: { m: 1, f: 8 }, m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
   { id: 'de', torneo: 'Bundesliga', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', dhb: { m: 'herren', f: 'damen' }, m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },
@@ -43,11 +44,11 @@ async function ir(pg, url, opt) { for (let i = 0; ; i++) { try { return await pg
 // ---------- KNHB (Países Bajos, fuente oficial: Match Center de hockey.nl) ----------
 const MESES_NL = { januari: 0, februari: 1, maart: 2, april: 3, mei: 4, juni: 5, juli: 6, augustus: 7, september: 8, oktober: 9, november: 10, december: 11 };
 const sinEquipo = s => s.replace(/\s+[HD]1$/, '').trim(); // "Oranje-Rood H1" → "Oranje-Rood"
-async function knhb(pg, comp) {
+async function knhb(pg, comp, copa) {
   const base = 'https://www.hockey.nl/match-center#/competitions/national/' + comp;
   const R = fn => pg.evaluate(fn);
   await ir(pg, base + '/overview', { waitUntil: 'networkidle2', timeout: 60000 });
-  await pg.waitForFunction(() => document.querySelector('match-center')?.shadowRoot?.querySelector('.standing .row'), { timeout: 20000 });
+  await pg.waitForFunction(() => document.querySelector('match-center')?.shadowRoot?.querySelector(copa ? 'a' : '.standing .row'), { timeout: 20000 }, ).catch(e => { if (!copa) throw e; });
   const filas = await R(() => [...document.querySelector('match-center').shadowRoot.querySelectorAll('.standing .row')].map(r => [...r.children].map(c => c.textContent.trim())));
   const tabla = filas.filter(c => /^\d+$/.test(c[0])).map(c => ({ eq: sinEquipo(c[2]), pj: +c[3], pts: +c[4], dg: +c[5] }));
   await ir(pg, 'about:blank');
@@ -69,13 +70,15 @@ async function knhb(pg, comp) {
     const si = it.lines.findIndex(x => /^\d+\s*-\s*\d+/.test(x)); if (si < 1) continue;
     const [ga, gb] = it.lines[si].match(/\d+/g).map(Number);
     const so = /\((\d+)\s*-\s*(\d+)\)/.exec(it.lines[si]); // tanda de shoot-outs, si la muestran
-    const row = [sinEquipo(it.lines[si - 1]), ga, gb, sinEquipo(it.lines[si + 1] || '')];
-    if (so) row.push({ so: [+so[1], +so[2]] });
+    const row = [sinEquipo(it.lines[si - 1]), ga, gb, sinEquipo(it.lines[si + 1] || '')], x = {};
+    if (so) x.so = [+so[1], +so[2]];
+    if (copa && si >= 2) x.fase = it.lines[si - 2].split(' - ').pop().trim();
+    if (Object.keys(x).length) row.push(x);
     ms.push(row);
   }
   // goleadores: se suman los goles del detalle oficial de cada partido de la temporada (con caché: cada partido se lee una sola vez)
   const cacheF = `${OUT}/goles_nl_${comp}.json`, cache = fs.existsSync(cacheF) ? JSON.parse(fs.readFileSync(cacheF, 'utf8')) : {};
-  for (const it of items) {
+  for (const it of copa ? [] : items) { // en copas no se suman goleadores
     if (!it.id || cache[it.id]) continue;
     const si = it.lines.findIndex(x => /^\d+\s*-\s*\d+/.test(x)); if (si < 1) continue;
     try {
@@ -443,10 +446,10 @@ for (const L of LIGAS) {
     } else if (L.knhb) {
       const tabla = { ...(p.tabla || {}) };
       for (const k of ['m', 'f']) {
-        try { const r = await knhb(pg, L.knhb[k]); if (r.ms.length) p[k] = r.ms; else if (!old[k]) p[k] = []; if (r.tabla.length) tabla[k] = r.tabla; if (r.gol.length) (p.goleadores ||= {})[k] = r.gol; }
+        try { const r = await knhb(pg, L.knhb[k], L.copa); if (r.ms.length) p[k] = r.ms; else if (!old[k]) p[k] = []; if (r.tabla.length) tabla[k] = r.tabla; if (r.gol.length) (p.goleadores ||= {})[k] = r.gol; }
         catch (e) { console.log(L.id, k, 'KNHB falló, uso Flashscore:', e.message); const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; const t = await fsTabla(pg, L[k]); if (t.some(x => x.pj > 0)) tabla[k] = t; }
       }
-      p.tabla = tabla; p.fuente = 'KNHB · hockey.nl (oficial)';
+      p.tabla = L.copa ? {} : tabla; p.fuente = 'KNHB · hockey.nl (oficial)';
     } else if (L.larry) {
       await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
       const m = await larry(pg, 'Masculino', L.larry.m), f = await larry(pg, 'Femenino', L.larry.f);
@@ -472,6 +475,10 @@ for (const L of LIGAS) {
     p.consulta = sello;
     console.log(L.id, 'm', (p.m || []).length, 'f', (p.f || []).length, 'tabla', Object.keys(p.tabla || {}).join('/'), p.jornada || '');
   } catch (e) { console.log(L.id, 'ERROR', e.message); }
+  if (L.soloPrimera) { // copas abiertas: solo los partidos donde juega al menos un equipo de primera
+    const base = paises.find(x => x.id === L.soloPrimera) || prev.paises.find(x => x.id === L.soloPrimera) || {};
+    for (const k of ['m', 'f']) { const pri = ((base.tabla || {})[k] || []).map(t => t.eq); if (pri.length) p[k] = (p[k] || []).filter(x => pri.includes(oficial(x[0], pri)) || pri.includes(oficial(x[3], pri))); }
+  }
   if (L.copa && !(p.m || []).length && !(p.f || []).length) continue;
   if (L.copa) { const fs_ = [...new Set([...(p.m || []), ...(p.f || [])].map(x => x[4] && x[4].fase).filter(Boolean))]; p.jornada = fs_.length === 1 ? 'RONDA:' + fs_[0] : ''; }
   if (L.grupo) p.grupo = L.grupo;
