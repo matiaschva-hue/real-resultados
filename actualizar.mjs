@@ -9,7 +9,7 @@ const OUT = process.env.RES_OUT || fileURLToPath(new URL('./data', import.meta.u
 const FS = 'https://www.flashscore.de/feldhockey/';
 const LIGAS = [
   { id: 'nl', torneo: 'Hoofdklasse', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'HOOFDKLASSE', knhb: { m: 'lmdzprlesfiv', f: 'mqtcokvtpune' }, m: 'niederlande/hoofdklasse', f: 'niederlande/hoofdklasse-frauen' },
-  { id: 'nl-gold', grupo: 'nl', torneo: 'Gold Cup', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'GOLD CUP', knhb: { m: 'iezytzblznnht', f: 'eprcsvgfooofj' }, copa: true, soloPrimera: 'nl' },
+  { id: 'nl-gold', grupo: 'nl', torneo: 'Gold Cup', pais: 'PAÍSES BAJOS', pais_en: 'NETHERLANDS', liga: 'GOLD CUP', knhb: { m: 'iezytzblznnht', f: 'eprcsvgfooofj' }, copa: true },
   { id: 'be', torneo: 'Belgian Hockey League', pais: 'BÉLGICA', pais_en: 'BELGIUM', liga: 'BELGIAN HOCKEY LEAGUE', sportlink: { m: "Men's Hockey League - A", f: "Women's Hockey League - A" }, m: 'belgien/hockey-league' },
   { id: 'es', torneo: 'Liga IATI · Iberdrola', pais: 'ESPAÑA', pais_en: 'SPAIN', liga: 'LIGA IATI · LIGA IBERDROLA', rfeh: { m: 1, f: 8 }, m: 'spanien/division-de-honor', f: 'spanien/liga-iberdrola-frauen' },
   { id: 'de', torneo: 'Bundesliga', pais: 'ALEMANIA', pais_en: 'GERMANY', liga: '1. BUNDESLIGA', dhb: { m: 'herren', f: 'damen' }, m: 'deutschland/1-bundesliga', f: 'deutschland/1-bundesliga-frauen' },

@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 11:40",
+ "actualizado": "2026-10-06 11:41",
  "paises": [
   {
    "id": "nl",
@@ -380,12 +380,48 @@
      }
     ],
     [
+     "Huizen",
+     3,
+     1,
+     "Laren",
+     {
+      "fase": "Poule A"
+     }
+    ],
+    [
      "Gooische",
      5,
      8,
      "Pinoké",
      {
       "fase": "Poule A"
+     }
+    ],
+    [
+     "GCHC",
+     4,
+     2,
+     "Hurley",
+     {
+      "fase": "Poule A"
+     }
+    ],
+    [
+     "Leonidas",
+     0,
+     4,
+     "Leiden",
+     {
+      "fase": "Poule B"
+     }
+    ],
+    [
+     "Roomburg",
+     4,
+     3,
+     "Victoria",
+     {
+      "fase": "Poule B"
      }
     ],
     [
@@ -407,6 +443,24 @@
      }
     ],
     [
+     "HGC",
+     3,
+     2,
+     "Ring Pass",
+     {
+      "fase": "Poule B"
+     }
+    ],
+    [
+     "Houten",
+     2,
+     3,
+     "Were Di",
+     {
+      "fase": "Poule C"
+     }
+    ],
+    [
      "Breda",
      0,
      10,
@@ -425,6 +479,15 @@
      }
     ],
     [
+     "HOD",
+     4,
+     5,
+     "Nijmegen",
+     {
+      "fase": "Poule C"
+     }
+    ],
+    [
      "HCAS",
      3,
      2,
@@ -438,7 +501,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-06 11:40",
+   "consulta": "2026-10-06 11:41",
    "jornada": "",
    "grupo": "nl",
    "torneo": "Gold Cup"
