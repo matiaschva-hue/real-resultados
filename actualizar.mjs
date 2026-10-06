@@ -100,6 +100,10 @@ async function knhb(pg, comp, copa) {
 }
 
 async function knhbProx(pg, comp, w) {
+  await pg.emulateTimezone('Europe/Amsterdam'); // horarios en hora holandesa
+  try { return await knhbProx0(pg, comp, w); } finally { await pg.emulateTimezone(process.env.TZ || 'America/Argentina/Buenos_Aires'); }
+}
+async function knhbProx0(pg, comp, w) {
   await ir(pg, 'about:blank'); await ir(pg, 'https://www.hockey.nl/match-center#/competitions/national/' + comp + '/program', { waitUntil: 'networkidle2', timeout: 60000 });
   await pg.waitForFunction(() => document.querySelector('match-center')?.shadowRoot?.querySelector('a'), { timeout: 20000 }).catch(() => {});
   await new Promise(r => setTimeout(r, 1500));
