@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-06 15:47",
+ "actualizado": "2026-10-09 03:10",
  "paises": [
   {
    "id": "nl",
@@ -272,7 +272,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -331,12 +331,22 @@
      {
       "nom": "Frédérique Matla",
       "eq": "Den Bosch",
-      "g": 5
+      "g": 7
      },
      {
       "nom": "Yibbi Jansen",
       "eq": "SCHC",
+      "g": 7
+     },
+     {
+      "nom": "Bente van der Veldt",
+      "eq": "Kampong",
       "g": 4
+     },
+     {
+      "nom": "Ankelein Baardemans",
+      "eq": "Bloemendaal",
+      "g": 3
      },
      {
       "nom": "Charlotte Englebert",
@@ -349,34 +359,24 @@
       "g": 3
      },
      {
+      "nom": "Imke Verstraeten",
+      "eq": "Amsterdam",
+      "g": 3
+     },
+     {
+      "nom": "Iris de Kemp",
+      "eq": "Kampong",
+      "g": 3
+     },
+     {
+      "nom": "Juul Sauer",
+      "eq": "Pinoké",
+      "g": 3
+     },
+     {
       "nom": "Lana Kalse",
       "eq": "Pinoké",
-      "g": 2
-     },
-     {
-      "nom": "Marijn Veen",
-      "eq": "Amsterdam",
-      "g": 2
-     },
-     {
-      "nom": "Teuntje Horn",
-      "eq": "Hurley",
-      "g": 2
-     },
-     {
-      "nom": "Trijntje Beljaars",
-      "eq": "Amsterdam",
-      "g": 2
-     },
-     {
-      "nom": "Amber van den Dijssel",
-      "eq": "Rotterdam",
-      "g": 1
-     },
-     {
-      "nom": "Belén van den Broek",
-      "eq": "HDM",
-      "g": 1
+      "g": 3
      }
     ]
    },
@@ -668,7 +668,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "jornada": "RONDA:KO ronde 2",
    "grupo": "nl",
    "torneo": "Gold Cup"
@@ -682,15 +682,6 @@
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "m": [
     [
-     "Gantoise",
-     7,
-     0,
-     "Daring",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
      "Braxgata",
      4,
      1,
@@ -700,28 +691,10 @@
      }
     ],
     [
-     "Uccle Sport",
-     5,
-     2,
-     "Beerschot",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Léopold",
-     2,
-     1,
-     "Dragons",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Racing",
-     3,
-     3,
-     "Orée",
+     "Gantoise HC",
+     7,
+     0,
+     "Daring",
      {
       "d": "2026-10-04"
      }
@@ -731,6 +704,33 @@
      3,
      1,
      "Waterloo Ducks",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Racing",
+     3,
+     3,
+     "Oree",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Royal Léopold THC",
+     2,
+     1,
+     "KHC Dragons",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Uccle",
+     5,
+     2,
+     "Beerschot",
      {
       "d": "2026-10-04"
      }
@@ -1020,7 +1020,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "estado": "jugada",
    "torneo": "Belgian Hockey League",
    "prox": {
@@ -1035,14 +1035,14 @@
      ],
      [
       "Daring",
-      "Uccle Sport",
+      "Uccle",
       {
        "d": "2026-10-11",
        "h": "15:00"
       }
      ],
      [
-      "Dragons",
+      "KHC Dragons",
       "Waterloo Ducks",
       {
        "d": "2026-10-11",
@@ -1058,7 +1058,7 @@
       }
      ],
      [
-      "Léopold",
+      "Royal Léopold THC",
       "Racing",
       {
        "d": "2026-10-11",
@@ -1086,10 +1086,28 @@
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "m": [
     [
-     "RC Polo",
-     5,
+     "Sanse Complutense",
      2,
-     "Club de Campo",
+     3,
+     "Junior FC",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "UD Taburiente",
+     3,
+     3,
+     "Club Egara",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Sardinero",
+     3,
+     8,
+     "RS Tenis",
      {
       "d": "2026-10-03"
      }
@@ -1104,48 +1122,21 @@
      }
     ],
     [
-     "Sardinero",
-     3,
-     8,
-     "RS Tenis",
+     "RC Polo",
+     5,
+     2,
+     "Club de Campo",
      {
       "d": "2026-10-03"
-     }
-    ],
-    [
-     "UD Taburiente",
-     3,
-     3,
-     "Club Egara",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     2,
-     3,
-     "Junior FC",
-     {
-      "d": "2026-10-04"
      }
     ]
    ],
    "f": [
     [
-     "UD Taburiente",
-     1,
-     5,
-     "RC Polo",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     1,
+     "Valencia CH",
      2,
-     "Club de Campo",
+     3,
+     "Real Sociedad",
      {
       "d": "2026-10-04"
      }
@@ -1160,10 +1151,19 @@
      }
     ],
     [
-     "Valencia CH",
+     "Sanse Complutense",
+     1,
      2,
-     3,
-     "Real Sociedad",
+     "Club de Campo",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "UD Taburiente",
+     1,
+     5,
+     "RC Polo",
      {
       "d": "2026-10-04"
      }
@@ -1343,7 +1343,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -1525,19 +1525,19 @@
       }
      ],
      [
+      "Junior FC",
+      "Sardinero",
+      {
+       "d": "2026-10-10",
+       "h": "16:45"
+      }
+     ],
+     [
       "Sanse Complutense",
       "Valencia CH",
       {
        "d": "2026-10-10",
        "h": "17:00"
-      }
-     ],
-     [
-      "Junior FC",
-      "Sardinero",
-      {
-       "d": "2026-10-11",
-       "h": "11:00"
       }
      ],
      [
@@ -1563,6 +1563,14 @@
        "d": "2026-10-11",
        "h": "12:30"
       }
+     ],
+     [
+      "Club Egara",
+      "Sardinero",
+      {
+       "d": "2026-10-11",
+       "h": "14:00"
+      }
      ]
     ]
    },
@@ -1573,7 +1581,7 @@
    },
    "prox_jor": {
     "m": "FECHA 4",
-    "f": "FECHA 4"
+    "f": "FECHAS 4 Y 5"
    },
    "prox_jornada": "FECHA 4"
   },
@@ -1878,7 +1886,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -1971,17 +1979,17 @@
      {
       "nom": "Katharina Reuten",
       "eq": "RW Köln",
-      "pj": 5,
+      "pj": 6,
       "g": 3
      },
      {
-      "nom": "Victoria Käske",
+      "nom": "Alessa Volkert",
       "eq": "Berliner HC",
-      "pj": 2,
+      "pj": 3,
       "g": 2
      },
      {
-      "nom": "Alessa Volkert",
+      "nom": "Victoria K.",
       "eq": "Berliner HC",
       "pj": 3,
       "g": 2
@@ -2485,7 +2493,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "estado": "jugada",
    "torneo": "Premier Division",
    "prox": {
@@ -2495,23 +2503,7 @@
       "University of Exeter",
       {
        "d": "2026-10-10",
-       "h": "17:00"
-      }
-     ],
-     [
-      "East Grinstead",
-      "Hampstead & Westminster",
-      {
-       "d": "2026-10-10",
-       "h": "17:00"
-      }
-     ],
-     [
-      "Old Georgians",
-      "Holcombe",
-      {
-       "d": "2026-10-10",
-       "h": "17:00"
+       "h": "16:30"
       }
      ],
      [
@@ -2519,15 +2511,23 @@
       "Bowdon",
       {
        "d": "2026-10-10",
-       "h": "17:00"
+       "h": "16:30"
       }
      ],
      [
-      "Reading",
-      "Wimbledon",
+      "East Grinstead",
+      "Hampstead & Westminster",
       {
        "d": "2026-10-10",
-       "h": "17:00"
+       "h": "18:00"
+      }
+     ],
+     [
+      "Old Georgians",
+      "Holcombe",
+      {
+       "d": "2026-10-10",
+       "h": "18:00"
       }
      ],
      [
@@ -2535,17 +2535,25 @@
       "Cardiff & Met",
       {
        "d": "2026-10-10",
-       "h": "17:00"
+       "h": "18:00"
       }
      ]
     ],
     "f": [
      [
+      "Buckingham",
+      "Surbiton",
+      {
+       "d": "2026-10-10",
+       "h": "12:00"
+      }
+     ],
+     [
       "University of Birmingham",
       "Teddington",
       {
        "d": "2026-10-10",
-       "h": "16:00"
+       "h": "14:30"
       }
      ],
      [
@@ -2553,15 +2561,7 @@
       "Loughborough Students",
       {
        "d": "2026-10-10",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Buckingham",
-      "Surbiton",
-      {
-       "d": "2026-10-10",
-       "h": "16:00"
+       "h": "15:15"
       }
      ],
      [
@@ -2825,7 +2825,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -3126,106 +3126,7 @@
     ]
    ],
    "tabla": {
-    "m": [
-     {
-      "eq": "BCO. PROVINCIA",
-      "pts": 53,
-      "pj": 22,
-      "gf": 63,
-      "gc": 32
-     },
-     {
-      "eq": "CIUDAD",
-      "pts": 51,
-      "pj": 23,
-      "gf": 68,
-      "gc": 36
-     },
-     {
-      "eq": "SAN FERNANDO",
-      "pts": 51,
-      "pj": 22,
-      "gf": 57,
-      "gc": 20
-     },
-     {
-      "eq": "MITRE",
-      "pts": 45,
-      "pj": 22,
-      "gf": 59,
-      "gc": 25
-     },
-     {
-      "eq": "G. Y ESGRIMA",
-      "pts": 43,
-      "pj": 23,
-      "gf": 70,
-      "gc": 44
-     },
-     {
-      "eq": "DUCILO",
-      "pts": 37,
-      "pj": 22,
-      "gf": 57,
-      "gc": 52
-     },
-     {
-      "eq": "U. LA PLATA",
-      "pts": 31,
-      "pj": 22,
-      "gf": 48,
-      "gc": 51
-     },
-     {
-      "eq": "HURLING",
-      "pts": 28,
-      "pj": 23,
-      "gf": 41,
-      "gc": 36
-     },
-     {
-      "eq": "S. BARBARA",
-      "pts": 27,
-      "pj": 22,
-      "gf": 47,
-      "gc": 50
-     },
-     {
-      "eq": "QUILMES",
-      "pts": 21,
-      "pj": 22,
-      "gf": 41,
-      "gc": 55
-     },
-     {
-      "eq": "LOMAS",
-      "pts": 14,
-      "pj": 23,
-      "gf": 47,
-      "gc": 67
-     },
-     {
-      "eq": "SAN MARTÍN",
-      "pts": 12,
-      "pj": 22,
-      "gf": 38,
-      "gc": 65
-     },
-     {
-      "eq": "S.A.G.",
-      "pts": 9,
-      "pj": 22,
-      "gf": 25,
-      "gc": 78
-     },
-     {
-      "eq": "CIUDAD B",
-      "pts": 8,
-      "pj": 22,
-      "gf": 25,
-      "gc": 75
-     }
-    ],
+    "m": [],
     "f": [
      {
       "eq": "S. BARBARA",
@@ -3328,68 +3229,7 @@
     ]
    },
    "goleadores": {
-    "m": [
-     {
-      "nom": "Kiernan, Máximo",
-      "eq": "U. LA PLATA",
-      "g": 30,
-      "pj": 22
-     },
-     {
-      "nom": "Suarez, Tomas Agustin",
-      "eq": "G. Y ESGRIMA",
-      "g": 21,
-      "pj": 23
-     },
-     {
-      "nom": "Agostini Coliqueo, Franco Antonio",
-      "eq": "LOMAS",
-      "g": 19,
-      "pj": 20
-     },
-     {
-      "nom": "Merino, Gonzalo",
-      "eq": "BCO. PROVINCIA",
-      "g": 19,
-      "pj": 19
-     },
-     {
-      "nom": "Ferrero Farias, Lautaro",
-      "eq": "SAN FERNANDO",
-      "g": 16,
-      "pj": 21
-     },
-     {
-      "nom": "Dulor Marchesi, Luca",
-      "eq": "DUCILO",
-      "g": 16,
-      "pj": 20
-     },
-     {
-      "nom": "Jimenez Jaurechi, Julian",
-      "eq": "QUILMES",
-      "g": 16,
-      "pj": 17
-     },
-     {
-      "nom": "Infanzon, Ramiro Nicolas",
-      "eq": "DUCILO",
-      "g": 14,
-      "pj": 19
-     },
-     {
-      "nom": "Doherty, Alec Tadeo",
-      "eq": "HURLING",
-      "g": 13,
-      "pj": 23
-     },
-     {
-      "nom": "Tucceri, Santiago",
-      "eq": "CIUDAD",
-      "g": 13,
-      "pj": 21
-     }
-    ],
+    "m": [],
     "f": [
      {
       "nom": "Piccardo, Alina",
@@ -3453,7 +3293,7 @@
      }
     ]
    },
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "estado": "jugada",
    "torneo": "Metropolitano",
    "prox": {
@@ -3654,8 +3494,8 @@
    "prox_fecha": "10.10–12.10",
    "prox_jornada": "FECHAS 25 Y 26",
    "jor": {
-    "m": "FECHA 24",
-    "f": "FECHA 24"
+    "m": "",
+    "f": "FECHA 25"
    },
    "prox_jor": {
     "m": "FECHAS 25 Y 26",
@@ -3845,7 +3685,7 @@
    "jornada": "RONDA:Semi final",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -3860,7 +3700,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-06 15:47",
+   "consulta": "2026-10-09 03:10",
    "prox": {
     "m": [
      [
@@ -3977,21 +3817,130 @@
    "m": [],
    "f": [],
    "proximo": "08/10",
-   "tabla": {},
+   "tabla": {
+    "m": [
+     {
+      "eq": "Canberra Chill",
+      "pts": 5,
+      "pj": 1,
+      "gf": 9,
+      "gc": 1
+     },
+     {
+      "eq": "Perth Thundersticks",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "HC Melbourne",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Tassie Tigers",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Brisbane Blaze",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "NSW Pride",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Melbourne Cobras",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Adelaide Fire",
+      "pts": 0,
+      "pj": 1,
+      "gf": 1,
+      "gc": 9
+     }
+    ],
+    "f": [
+     {
+      "eq": "Canberra Chill",
+      "pts": 5,
+      "pj": 1,
+      "gf": 7,
+      "gc": 3
+     },
+     {
+      "eq": "HC Melbourne",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Brisbane Blaze",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Perth Thundersticks",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "NSW Pride",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Tassie Tigers",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Melbourne Cobras",
+      "pts": 0,
+      "pj": 0,
+      "gf": 0,
+      "gc": 0
+     },
+     {
+      "eq": "Adelaide Fire",
+      "pts": 0,
+      "pj": 1,
+      "gf": 3,
+      "gc": 7
+     }
+    ]
+   },
    "fuente": "Flashscore",
-   "estado": "no-arranco",
-   "consulta": "2026-10-06 15:47",
+   "estado": "sin-fecha",
+   "consulta": "2026-10-09 03:10",
    "torneo": "Hockey One",
    "prox": {
     "m": [
-     [
-      "Canberra Chill",
-      "Adelaide Fire",
-      {
-       "d": "2026-10-08",
-       "h": "19:45"
-      }
-     ],
      [
       "Brisbane Blaze",
       "HC Melbourne",
@@ -4018,14 +3967,6 @@
      ]
     ],
     "f": [
-     [
-      "Canberra Chill",
-      "Adelaide Fire",
-      {
-       "d": "2026-10-08",
-       "h": "18:00"
-      }
-     ],
      [
       "Brisbane Blaze",
       "HC Melbourne",
