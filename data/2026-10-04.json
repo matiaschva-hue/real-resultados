@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-09 10:19",
+ "actualizado": "2026-10-09 11:47",
  "paises": [
   {
    "id": "nl",
@@ -272,7 +272,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -668,7 +668,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "jornada": "RONDA:KO ronde 2",
    "grupo": "nl",
    "torneo": "Gold Cup"
@@ -682,6 +682,15 @@
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "m": [
     [
+     "Gantoise",
+     7,
+     0,
+     "Daring",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
      "Braxgata",
      4,
      1,
@@ -691,10 +700,28 @@
      }
     ],
     [
-     "Gantoise HC",
-     7,
-     0,
-     "Daring",
+     "Uccle Sport",
+     5,
+     2,
+     "Beerschot",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Léopold",
+     2,
+     1,
+     "Dragons",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Racing",
+     3,
+     3,
+     "Orée",
      {
       "d": "2026-10-04"
      }
@@ -704,33 +731,6 @@
      3,
      1,
      "Waterloo Ducks",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Racing",
-     3,
-     3,
-     "Oree",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Royal Léopold THC",
-     2,
-     1,
-     "KHC Dragons",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Uccle",
-     5,
-     2,
-     "Beerschot",
      {
       "d": "2026-10-04"
      }
@@ -1020,7 +1020,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "estado": "jugada",
    "torneo": "Belgian Hockey League",
    "prox": {
@@ -1035,14 +1035,14 @@
      ],
      [
       "Daring",
-      "Uccle",
+      "Uccle Sport",
       {
        "d": "2026-10-11",
        "h": "15:00"
       }
      ],
      [
-      "KHC Dragons",
+      "Dragons",
       "Waterloo Ducks",
       {
        "d": "2026-10-11",
@@ -1058,7 +1058,7 @@
       }
      ],
      [
-      "Royal Léopold THC",
+      "Léopold",
       "Racing",
       {
        "d": "2026-10-11",
@@ -1082,32 +1082,14 @@
    "pais": "ESPAÑA",
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
-   "jornada": "FECHA 3",
+   "jornada": "FECHA 4",
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "m": [
     [
-     "Sanse Complutense",
+     "RC Polo",
+     5,
      2,
-     3,
-     "Junior FC",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "UD Taburiente",
-     3,
-     3,
-     "Club Egara",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Sardinero",
-     3,
-     8,
-     "RS Tenis",
+     "Club de Campo",
      {
       "d": "2026-10-03"
      }
@@ -1122,30 +1104,39 @@
      }
     ],
     [
-     "RC Polo",
-     5,
-     2,
-     "Club de Campo",
+     "Sardinero",
+     3,
+     8,
+     "RS Tenis",
      {
       "d": "2026-10-03"
      }
-    ]
-   ],
-   "f": [
+    ],
     [
-     "Valencia CH",
-     2,
+     "UD Taburiente",
      3,
-     "Real Sociedad",
+     3,
+     "Club Egara",
      {
       "d": "2026-10-04"
      }
     ],
     [
-     "RS Tenis",
+     "Sanse Complutense",
      2,
+     3,
+     "Junior FC",
+     {
+      "d": "2026-10-04"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "UD Taburiente",
      1,
-     "CD Terrassa",
+     5,
+     "RC Polo",
      {
       "d": "2026-10-04"
      }
@@ -1160,10 +1151,19 @@
      }
     ],
     [
-     "UD Taburiente",
+     "RS Tenis",
+     2,
      1,
-     5,
-     "RC Polo",
+     "CD Terrassa",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Valencia CH",
+     2,
+     3,
+     "Real Sociedad",
      {
       "d": "2026-10-04"
      }
@@ -1343,7 +1343,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -1366,24 +1366,6 @@
       "pj": 3
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Marco Aguirregomezcorta Gonzalez",
-      "eq": "Club Egara",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Alvaro Lopez-Alonso Ribalaygua",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 3
-     },
-     {
       "nom": "Enrique Zorita Marquez",
       "eq": "Club de Campo",
       "g": 3,
@@ -1396,8 +1378,20 @@
       "pj": 3
      },
      {
-      "nom": "Leandro Martin Ojeda Ariza",
-      "eq": "Sardinero",
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
       "g": 3,
       "pj": 3
      },
@@ -1406,21 +1400,15 @@
       "eq": "RC Polo",
       "g": 3,
       "pj": 3
+     },
+     {
+      "nom": "Leandro Martin Ojeda Ariza",
+      "eq": "Sardinero",
+      "g": 3,
+      "pj": 3
      }
     ],
     "f": [
-     {
-      "nom": "Flore Suzanne Bruggink",
-      "eq": "Club de Campo",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Patricia Alvarez Nardiz",
-      "eq": "RC Polo",
-      "g": 3,
-      "pj": 3
-     },
      {
       "nom": "Xantal Gine Patsi",
       "eq": "RC Polo",
@@ -1434,21 +1422,15 @@
       "pj": 3
      },
      {
-      "nom": "Cecilia Lainz Puente",
-      "eq": "RS Tenis",
-      "g": 2,
+      "nom": "Flore Suzanne Bruggink",
+      "eq": "Club de Campo",
+      "g": 3,
       "pj": 3
      },
      {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
-      "g": 2,
-      "pj": 3
-     },
-     {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
-      "g": 2,
+      "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
+      "g": 3,
       "pj": 3
      },
      {
@@ -1468,6 +1450,24 @@
       "eq": "Club Egara",
       "g": 2,
       "pj": 2
+     },
+     {
+      "nom": "Ana Paula Riera",
+      "eq": "CD Terrassa",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Carmen Fernandez de Velasco Arroyo",
+      "eq": "RS Tenis",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 2,
+      "pj": 3
      }
     ]
    },
@@ -1576,14 +1576,14 @@
    },
    "prox_fecha": "09.10–12.10",
    "jor": {
-    "m": "FECHA 3",
-    "f": "FECHA 3"
+    "m": "FECHA 4",
+    "f": "FECHA 4"
    },
    "prox_jor": {
-    "m": "FECHA 4",
-    "f": "FECHAS 4 Y 5"
+    "m": "FECHA 5",
+    "f": "FECHAS 5 Y 6"
    },
-   "prox_jornada": "FECHA 4"
+   "prox_jornada": "FECHA 5"
   },
   {
    "id": "de",
@@ -1886,7 +1886,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -2493,7 +2493,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "estado": "jugada",
    "torneo": "Premier Division",
    "prox": {
@@ -2825,7 +2825,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -3126,7 +3126,106 @@
     ]
    ],
    "tabla": {
-    "m": [],
+    "m": [
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 53,
+      "pj": 22,
+      "gf": 63,
+      "gc": 32
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 51,
+      "pj": 23,
+      "gf": 68,
+      "gc": 36
+     },
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 51,
+      "pj": 22,
+      "gf": 57,
+      "gc": 20
+     },
+     {
+      "eq": "MITRE",
+      "pts": 45,
+      "pj": 22,
+      "gf": 59,
+      "gc": 25
+     },
+     {
+      "eq": "G. Y ESGRIMA",
+      "pts": 43,
+      "pj": 23,
+      "gf": 70,
+      "gc": 44
+     },
+     {
+      "eq": "DUCILO",
+      "pts": 37,
+      "pj": 22,
+      "gf": 57,
+      "gc": 52
+     },
+     {
+      "eq": "U. LA PLATA",
+      "pts": 31,
+      "pj": 22,
+      "gf": 48,
+      "gc": 51
+     },
+     {
+      "eq": "HURLING",
+      "pts": 28,
+      "pj": 23,
+      "gf": 41,
+      "gc": 36
+     },
+     {
+      "eq": "S. BARBARA",
+      "pts": 27,
+      "pj": 22,
+      "gf": 47,
+      "gc": 50
+     },
+     {
+      "eq": "QUILMES",
+      "pts": 21,
+      "pj": 22,
+      "gf": 41,
+      "gc": 55
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 14,
+      "pj": 23,
+      "gf": 47,
+      "gc": 67
+     },
+     {
+      "eq": "SAN MARTÍN",
+      "pts": 12,
+      "pj": 22,
+      "gf": 38,
+      "gc": 65
+     },
+     {
+      "eq": "S.A.G.",
+      "pts": 9,
+      "pj": 22,
+      "gf": 25,
+      "gc": 78
+     },
+     {
+      "eq": "CIUDAD B",
+      "pts": 8,
+      "pj": 22,
+      "gf": 25,
+      "gc": 75
+     }
+    ],
     "f": [
      {
       "eq": "S. BARBARA",
@@ -3229,7 +3328,68 @@
     ]
    },
    "goleadores": {
-    "m": [],
+    "m": [
+     {
+      "nom": "Kiernan, Máximo",
+      "eq": "U. LA PLATA",
+      "g": 30,
+      "pj": 22
+     },
+     {
+      "nom": "Suarez, Tomas Agustin",
+      "eq": "G. Y ESGRIMA",
+      "g": 21,
+      "pj": 23
+     },
+     {
+      "nom": "Agostini Coliqueo, Franco Antonio",
+      "eq": "LOMAS",
+      "g": 19,
+      "pj": 20
+     },
+     {
+      "nom": "Merino, Gonzalo",
+      "eq": "BCO. PROVINCIA",
+      "g": 19,
+      "pj": 19
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 16,
+      "pj": 21
+     },
+     {
+      "nom": "Dulor Marchesi, Luca",
+      "eq": "DUCILO",
+      "g": 16,
+      "pj": 20
+     },
+     {
+      "nom": "Jimenez Jaurechi, Julian",
+      "eq": "QUILMES",
+      "g": 16,
+      "pj": 17
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 14,
+      "pj": 19
+     },
+     {
+      "nom": "Doherty, Alec Tadeo",
+      "eq": "HURLING",
+      "g": 13,
+      "pj": 23
+     },
+     {
+      "nom": "Tucceri, Santiago",
+      "eq": "CIUDAD",
+      "g": 13,
+      "pj": 21
+     }
+    ],
     "f": [
      {
       "nom": "Piccardo, Alina",
@@ -3293,7 +3453,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "estado": "jugada",
    "torneo": "Metropolitano",
    "prox": {
@@ -3494,8 +3654,8 @@
    "prox_fecha": "10.10–12.10",
    "prox_jornada": "FECHAS 25 Y 26",
    "jor": {
-    "m": "",
-    "f": "FECHA 25"
+    "m": "FECHA 24",
+    "f": "FECHA 24"
    },
    "prox_jor": {
     "m": "FECHAS 25 Y 26",
@@ -3685,7 +3845,7 @@
    "jornada": "RONDA:Semi final",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -3700,7 +3860,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "prox": {
     "m": [
      [
@@ -3921,7 +4081,7 @@
    },
    "fuente": "Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-10-09 10:19",
+   "consulta": "2026-10-09 11:47",
    "torneo": "Hockey One",
    "prox": {
     "m": [

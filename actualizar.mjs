@@ -435,7 +435,7 @@ async function larry(pg, rama, torneo, copaLarry) {
   await click(() => { const b = [...document.querySelectorAll('button[role=radio]')].find(b => /^Primera/.test(b.innerText)); if (!b) return false; b.click(); return true; }, 'Primera');
   await click(t => { const e = [...document.querySelectorAll('main *')].find(e => e.children.length === 0 && e.innerText?.trim() === t); if (!e) return false; e.click(); return true; }, torneo);
   await new Promise(r => setTimeout(r, 1500));
-  const fecha = await pg.evaluate(() => [...document.querySelectorAll('button.ms-Button--primary')].map(b => b.innerText.trim()).find(t => /^\d+$/.test(t)) || '');
+  let fecha = await pg.evaluate(() => [...document.querySelectorAll('button.ms-Button--primary')].map(b => b.innerText.trim()).find(t => /^\d+$/.test(t)) || '');
   await pg.waitForFunction(() => /Todas las fechas[\s\S]*\d{2} \w{3} \d{2}:\d{2}/.test(document.querySelector('main')?.innerText || ''), { timeout: 15000 }).catch(() => {});
   const fx = await pg.evaluate(() => document.querySelector('main').innerText);
   const ms = [];
@@ -453,6 +453,8 @@ async function larry(pg, rama, torneo, copaLarry) {
   // próxima fecha: se recorren las fechas siguientes del fixture y se toman las que caen en la ventana (puede haber dos en un finde)
   const prox = [], proxFechas = [], w = ventanaProx(copaLarry);
   const leer = async () => (await pg.evaluate(() => document.querySelector('main').innerText)).split('\n').map(s => s.replace(/[\ue000-\uf8ff]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+  // desde el viernes LarrySport marca como "actual" la fecha que viene: si todavía no se jugó, la del finde pasado es la anterior
+  if (!copaLarry && /^\d+$/.test(fecha) && filasVs(await leer(), { desde: new Date(DOM.getTime() + 864e5), hasta: new Date(8.64e15) }).length) fecha = String(+fecha - 1);
   if (copaLarry) prox.push(...filasVs(await leer(), w)); // en las copas el cuadro ya muestra lo que viene
   else if (/^\d+$/.test(fecha)) for (let n = +fecha + 1; n <= +fecha + 3; n++) {
     const ok = await pg.evaluate(n => { const b = [...document.querySelectorAll('main button')].find(b => b.innerText.trim() === String(n)); if (!b) return false; b.click(); return true; }, n);
@@ -578,6 +580,13 @@ for (const L of LIGAS) {
     p.consulta = sello;
     console.log(L.id, 'm', (p.m || []).length, 'f', (p.f || []).length, 'tabla', Object.keys(p.tabla || {}).join('/'), p.jornada || '');
   } catch (e) { console.log(L.id, 'ERROR', e.message); }
+  // si una parte vino vacía (la fuente falló o tardó), se queda con lo último que se había leído
+  for (const k of ['m', 'f']) {
+    if (!(p[k] || []).length && (old[k] || []).length) p[k] = old[k];
+    if (!L.copa && !((p.tabla || {})[k] || []).length && ((old.tabla || {})[k] || []).length) { console.log(L.id, k, 'tabla vacía: queda la anterior'); (p.tabla = { ...(p.tabla || {}) })[k] = old.tabla[k]; }
+    if (!((p.goleadores || {})[k] || []).length && ((old.goleadores || {})[k] || []).length) (p.goleadores = { ...(p.goleadores || {}) })[k] = old.goleadores[k];
+    if (!(p.jor || {})[k] && (old.jor || {})[k] && (p[k] || []).length) (p.jor = { ...(p.jor || {}) })[k] = old.jor[k];
+  }
   if (L.soloPrimera) { // copas abiertas: solo los partidos donde juega al menos un equipo de primera
     const base = paises.find(x => x.id === L.soloPrimera) || prev.paises.find(x => x.id === L.soloPrimera) || {};
     for (const k of ['m', 'f']) { const pri = ((base.tabla || {})[k] || []).map(t => t.eq); if (pri.length) p[k] = (p[k] || []).filter(x => pri.includes(oficial(x[0], pri)) || pri.includes(oficial(x[3], pri))); }
@@ -614,7 +623,7 @@ for (const L of LIGAS) {
         if (!L.copa && ult && (prox[kk] || []).length) p.prox_jor[kk] = Math.max(...Object.values(veces)) >= 2 ? `FECHAS ${ult + 1} Y ${ult + 2}` : 'FECHA ' + (ult + 1);
       }
       p.prox_jornada = p.prox_jor.m || p.prox_jor.f || ''; p.prox_fecha = `${pad(desde.getDate() + (L.copa ? 0 : 0))}.${pad(desde.getMonth() + 1)}–${pad(hasta.getDate())}.${pad(hasta.getMonth() + 1)}`; }
-    else delete p.prox;
+    else if (!old.prox) delete p.prox; // si no vino nada, queda la próxima fecha que ya se tenía
   } catch (e) { console.log(L.id, 'próxima fecha:', e.message); }
   if (L.copa && !(p.m || []).length && !(p.f || []).length && !p.prox) continue;
   if (L.copa) { const fs_ = [...new Set([...(p.m || []), ...(p.f || [])].map(x => x[4] && x[4].fase).filter(Boolean))]; p.jornada = fs_.length === 1 ? 'RONDA:' + fs_[0] : ''; }
