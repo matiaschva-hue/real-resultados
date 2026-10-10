@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-09 21:03",
+ "actualizado": "2026-10-10 01:45",
  "paises": [
   {
    "id": "nl",
@@ -272,7 +272,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -668,7 +668,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "jornada": "RONDA:KO ronde 2",
    "grupo": "nl",
    "torneo": "Gold Cup"
@@ -682,6 +682,15 @@
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "m": [
     [
+     "Gantoise",
+     7,
+     0,
+     "Daring",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
      "Braxgata",
      4,
      1,
@@ -691,10 +700,28 @@
      }
     ],
     [
-     "Gantoise HC",
-     7,
-     0,
-     "Daring",
+     "Uccle Sport",
+     5,
+     2,
+     "Beerschot",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Léopold",
+     2,
+     1,
+     "Dragons",
+     {
+      "d": "2026-10-04"
+     }
+    ],
+    [
+     "Racing",
+     3,
+     3,
+     "Orée",
      {
       "d": "2026-10-04"
      }
@@ -704,33 +731,6 @@
      3,
      1,
      "Waterloo Ducks",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Racing",
-     3,
-     3,
-     "Oree",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Royal Léopold THC",
-     2,
-     1,
-     "KHC Dragons",
-     {
-      "d": "2026-10-04"
-     }
-    ],
-    [
-     "Uccle",
-     5,
-     2,
-     "Beerschot",
      {
       "d": "2026-10-04"
      }
@@ -1020,7 +1020,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "estado": "jugada",
    "torneo": "Belgian Hockey League",
    "prox": {
@@ -1035,14 +1035,14 @@
      ],
      [
       "Daring",
-      "Uccle",
+      "Uccle Sport",
       {
        "d": "2026-10-11",
        "h": "15:00"
       }
      ],
      [
-      "KHC Dragons",
+      "Dragons",
       "Waterloo Ducks",
       {
        "d": "2026-10-11",
@@ -1058,7 +1058,7 @@
       }
      ],
      [
-      "Royal Léopold THC",
+      "Léopold",
       "Racing",
       {
        "d": "2026-10-11",
@@ -1343,7 +1343,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -1384,20 +1384,14 @@
       "pj": 3
      },
      {
-      "nom": "Joan Francesc Fernandez Ros",
-      "eq": "Club Egara",
-      "g": 3,
-      "pj": 3
-     },
-     {
       "nom": "Enrique Zorita Marquez",
       "eq": "Club de Campo",
       "g": 3,
       "pj": 3
      },
      {
-      "nom": "Marc Miralles Portillo",
-      "eq": "RC Polo",
+      "nom": "Joan Francesc Fernandez Ros",
+      "eq": "Club Egara",
       "g": 3,
       "pj": 3
      },
@@ -1406,9 +1400,21 @@
       "eq": "Sardinero",
       "g": 3,
       "pj": 3
+     },
+     {
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 3
      }
     ],
     "f": [
+     {
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 3
+     },
      {
       "nom": "Flore Suzanne Bruggink",
       "eq": "Club de Campo",
@@ -1428,20 +1434,26 @@
       "pj": 3
      },
      {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
-      "g": 3,
+      "nom": "Anna Borras Massaguer",
+      "eq": "Club Egara",
+      "g": 2,
+      "pj": 2
+     },
+     {
+      "nom": "Ana Paula Riera",
+      "eq": "CD Terrassa",
+      "g": 2,
       "pj": 3
      },
      {
-      "nom": "Cecilia Lainz Puente",
+      "nom": "Carmen Fernandez de Velasco Arroyo",
       "eq": "RS Tenis",
       "g": 2,
       "pj": 3
      },
      {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
       "g": 2,
       "pj": 3
      },
@@ -1452,22 +1464,10 @@
       "pj": 3
      },
      {
-      "nom": "Nuria Carles Andreu",
-      "eq": "Atlètic Terrassa",
-      "g": 2,
-      "pj": 2
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
       "g": 2,
       "pj": 3
-     },
-     {
-      "nom": "Anna Borras Massaguer",
-      "eq": "Club Egara",
-      "g": 2,
-      "pj": 2
      }
     ]
    },
@@ -1886,7 +1886,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -2493,7 +2493,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "estado": "jugada",
    "torneo": "Premier Division",
    "prox": {
@@ -2825,7 +2825,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -3453,11 +3453,138 @@
      }
     ]
    },
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "estado": "jugada",
    "torneo": "Metropolitano",
    "prox": {
-    "m": [],
+    "m": [
+     [
+      "S.A.G.",
+      "Lomas",
+      {
+       "d": "2026-10-10",
+       "h": "16:00",
+       "fecha": 25
+      }
+     ],
+     [
+      "San Martín",
+      "Ciudad B",
+      {
+       "d": "2026-10-10",
+       "h": "16:00",
+       "fecha": 25
+      }
+     ],
+     [
+      "Quilmes",
+      "G. y Esgrima",
+      {
+       "d": "2026-10-10",
+       "h": "16:00",
+       "fecha": 25
+      }
+     ],
+     [
+      "Mitre",
+      "S. Bárbara",
+      {
+       "d": "2026-10-10",
+       "h": "16:00",
+       "fecha": 25
+      }
+     ],
+     [
+      "San Fernando",
+      "U. La Plata",
+      {
+       "d": "2026-10-10",
+       "h": "16:00",
+       "fecha": 25
+      }
+     ],
+     [
+      "Ciudad",
+      "Bco. Provincia",
+      {
+       "d": "2026-10-10",
+       "h": "16:00",
+       "fecha": 25
+      }
+     ],
+     [
+      "Hurling",
+      "Ducilo",
+      {
+       "d": "2026-10-10",
+       "h": "15:30",
+       "fecha": 25
+      }
+     ],
+     [
+      "Ducilo",
+      "S.A.G.",
+      {
+       "d": "2026-10-12",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "Bco. Provincia",
+      "Hurling",
+      {
+       "d": "2026-10-12",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "U. La Plata",
+      "Ciudad",
+      {
+       "d": "2026-10-12",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "S. Bárbara",
+      "San Fernando",
+      {
+       "d": "2026-10-12",
+       "h": "15:30",
+       "fecha": 26
+      }
+     ],
+     [
+      "G. y Esgrima",
+      "Mitre",
+      {
+       "d": "2026-10-12",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "Ciudad B",
+      "Quilmes",
+      {
+       "d": "2026-10-12",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "Lomas",
+      "San Martín",
+      {
+       "d": "2026-10-12",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ]
+    ],
     "f": [
      [
       "Banco Nación",
@@ -3524,14 +3651,14 @@
      ]
     ]
    },
-   "prox_fecha": "10.10–11.10",
-   "prox_jornada": "FECHA 25",
+   "prox_fecha": "10.10–12.10",
+   "prox_jornada": "FECHAS 25 Y 26",
    "jor": {
     "m": "FECHA 24",
     "f": "FECHA 24"
    },
    "prox_jor": {
-    "m": "",
+    "m": "FECHAS 25 Y 26",
     "f": "FECHA 25"
    }
   },
@@ -3718,7 +3845,7 @@
    "jornada": "RONDA:Semi final",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -3733,7 +3860,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "prox": {
     "m": [
      [
@@ -3938,7 +4065,7 @@
    },
    "fuente": "Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-10-09 21:03",
+   "consulta": "2026-10-10 01:45",
    "torneo": "Hockey One",
    "prox": {
     "m": [
@@ -3960,14 +4087,6 @@
      ]
     ],
     "f": [
-     [
-      "Tassie Tigers",
-      "Perth Thundersticks",
-      {
-       "d": "2026-10-10",
-       "h": "14:30"
-      }
-     ],
      [
       "Melbourne Cobras",
       "NSW Pride",

@@ -625,6 +625,12 @@ for (const L of LIGAS) {
       p.prox_jornada = p.prox_jor.m || p.prox_jor.f || ''; p.prox_fecha = `${pad(desde.getDate() + (L.copa ? 0 : 0))}.${pad(desde.getMonth() + 1)}–${pad(hasta.getDate())}.${pad(hasta.getMonth() + 1)}`; }
     else if (!old.prox) delete p.prox; // si no vino nada, queda la próxima fecha que ya se tenía
   } catch (e) { console.log(L.id, 'próxima fecha:', e.message); }
+  // próxima fecha, rama por rama: si una vino vacía y antes había partidos, quedan los anteriores
+  for (const k of ['m', 'f']) if (!((p.prox || {})[k] || []).length && ((old.prox || {})[k] || []).length) {
+    console.log(L.id, k, 'próxima fecha vacía: queda la anterior');
+    p.prox = { ...(p.prox || {}), [k]: old.prox[k] }; p.prox_jor = { ...(p.prox_jor || {}), [k]: (old.prox_jor || {})[k] || '' };
+    if (!p.prox_fecha) p.prox_fecha = old.prox_fecha; p.prox_jornada = p.prox_jor.m || p.prox_jor.f || p.prox_jornada || '';
+  }
   if (L.copa && !(p.m || []).length && !(p.f || []).length && !p.prox) continue;
   if (L.copa) { const fs_ = [...new Set([...(p.m || []), ...(p.f || [])].map(x => x[4] && x[4].fase).filter(Boolean))]; p.jornada = fs_.length === 1 ? 'RONDA:' + fs_[0] : ''; }
   if (L.grupo) p.grupo = L.grupo;
