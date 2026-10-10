@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-10 01:51",
+ "actualizado": "2026-10-10 02:54",
  "paises": [
   {
    "id": "nl",
@@ -267,7 +267,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -572,7 +572,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -827,27 +827,15 @@
       "pj": 3
      },
      {
-      "nom": "Joaquin Puglisi",
-      "eq": "RS Tenis",
-      "g": 5,
-      "pj": 3
-     },
-     {
       "nom": "Jose Basterra Ochoa",
       "eq": "Club de Campo",
       "g": 5,
       "pj": 3
      },
      {
-      "nom": "Marco Aguirregomezcorta Gonzalez",
-      "eq": "Club Egara",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Alvaro Lopez-Alonso Ribalaygua",
+      "nom": "Joaquin Puglisi",
       "eq": "RS Tenis",
-      "g": 3,
+      "g": 5,
       "pj": 3
      },
      {
@@ -863,14 +851,14 @@
       "pj": 3
      },
      {
-      "nom": "Leandro Martin Ojeda Ariza",
-      "eq": "Sardinero",
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 3
      },
      {
-      "nom": "Marc Miralles Portillo",
-      "eq": "RC Polo",
+      "nom": "Leandro Martin Ojeda Ariza",
+      "eq": "Sardinero",
       "g": 3,
       "pj": 3
      },
@@ -879,15 +867,21 @@
       "eq": "CH Carpesa",
       "g": 3,
       "pj": 3
-     }
-    ],
-    "f": [
+     },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
       "g": 3,
       "pj": 3
      },
+     {
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
+      "g": 3,
+      "pj": 3
+     }
+    ],
+    "f": [
      {
       "nom": "Lucia Abajo Saenz de Tejada",
       "eq": "Club de Campo",
@@ -907,15 +901,9 @@
       "pj": 3
      },
      {
-      "nom": "Nuria Carles Andreu",
-      "eq": "Atlètic Terrassa",
-      "g": 2,
-      "pj": 2
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
-      "g": 2,
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
       "pj": 3
      },
      {
@@ -941,12 +929,24 @@
       "eq": "RS Tenis",
       "g": 2,
       "pj": 3
+     },
+     {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
+      "g": 2,
+      "pj": 3
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "prox": {
     "m": [
      [
@@ -1366,7 +1366,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -1740,7 +1740,7 @@
    },
    "fuente": "Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -2098,7 +2098,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "jornada": "",
    "prox": {
     "m": [
@@ -2487,11 +2487,11 @@
    "jornada": "FECHA 25",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "jor": {
-    "m": "FECHA 25",
+    "m": "",
     "f": "FECHA 24"
    },
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "torneo": "Metropolitano"
   },
   {
@@ -2599,7 +2599,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -2631,6 +2631,15 @@
     ]
    ],
    "f": [
+    [
+     "Tassie Tigers",
+     0,
+     3,
+     "Perth Thundersticks",
+     {
+      "d": "2026-10-10"
+     }
+    ],
     [
      "Brisbane Blaze",
      2,
@@ -2718,6 +2727,13 @@
       "gc": 3
      },
      {
+      "eq": "Perth Thundersticks",
+      "pts": 5,
+      "pj": 1,
+      "gf": 3,
+      "gc": 0
+     },
+     {
       "eq": "HC Melbourne",
       "pts": 5,
       "pj": 1,
@@ -2725,21 +2741,7 @@
       "gc": 2
      },
      {
-      "eq": "Perth Thundersticks",
-      "pts": 0,
-      "pj": 0,
-      "gf": 0,
-      "gc": 0
-     },
-     {
       "eq": "NSW Pride",
-      "pts": 0,
-      "pj": 0,
-      "gf": 0,
-      "gc": 0
-     },
-     {
-      "eq": "Tassie Tigers",
       "pts": 0,
       "pj": 0,
       "gf": 0,
@@ -2760,6 +2762,13 @@
       "gc": 3
      },
      {
+      "eq": "Tassie Tigers",
+      "pts": 0,
+      "pj": 1,
+      "gf": 0,
+      "gc": 3
+     },
+     {
       "eq": "Adelaide Fire",
       "pts": 0,
       "pj": 1,
@@ -2770,7 +2779,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 01:51",
+   "consulta": "2026-10-10 02:54",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
