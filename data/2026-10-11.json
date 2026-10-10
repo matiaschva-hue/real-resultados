@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-10 14:52",
+ "actualizado": "2026-10-10 18:45",
  "paises": [
   {
    "id": "nl",
@@ -267,7 +267,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -572,7 +572,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -639,19 +639,19 @@
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "m": [
     [
-     "Futbol Club Barcelona",
+     "RS Tenis",
+     2,
      1,
-     9,
-     "Club de Campo",
+     "Club Egara",
      {
       "d": "2026-10-10"
      }
     ],
     [
-     "RS Tenis",
-     2,
+     "Futbol Club Barcelona",
      1,
-     "Club Egara",
+     9,
+     "Club de Campo",
      {
       "d": "2026-10-10"
      }
@@ -664,10 +664,10 @@
    },
    "f": [
     [
-     "CD Terrassa",
-     0,
-     3,
-     "Club Egara",
+     "Sanse Complutense",
+     4,
+     1,
+     "Valencia CH",
      {
       "d": "2026-10-10"
      }
@@ -682,10 +682,10 @@
      }
     ],
     [
-     "Sanse Complutense",
-     4,
-     1,
-     "Valencia CH",
+     "CD Terrassa",
+     0,
+     3,
+     "Club Egara",
      {
       "d": "2026-10-10"
      }
@@ -993,7 +993,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "prox": {
     "m": [
      [
@@ -1526,7 +1526,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
@@ -1729,6 +1729,33 @@
    "liga": "PREMIER DIVISION",
    "m": [
     [
+     "East Grinstead",
+     3,
+     2,
+     "Hampstead & Westminster",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "Old Georgians",
+     5,
+     2,
+     "Holcombe",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "Surbiton",
+     6,
+     1,
+     "Cardiff & Met",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
      "Beeston",
      4,
      4,
@@ -1807,6 +1834,20 @@
    "tabla": {
     "m": [
      {
+      "eq": "Surbiton",
+      "pts": 9,
+      "pj": 3,
+      "gf": 11,
+      "gc": 4
+     },
+     {
+      "eq": "East Grinstead",
+      "pts": 9,
+      "pj": 3,
+      "gf": 10,
+      "gc": 5
+     },
+     {
       "eq": "University of Exeter",
       "pts": 7,
       "pj": 3,
@@ -1821,18 +1862,11 @@
       "gc": 4
      },
      {
-      "eq": "East Grinstead",
+      "eq": "Old Georgians",
       "pts": 6,
-      "pj": 2,
-      "gf": 7,
-      "gc": 3
-     },
-     {
-      "eq": "Surbiton",
-      "pts": 6,
-      "pj": 2,
-      "gf": 5,
-      "gc": 3
+      "pj": 3,
+      "gf": 13,
+      "gc": 6
      },
      {
       "eq": "Beeston",
@@ -1840,13 +1874,6 @@
       "pj": 3,
       "gf": 9,
       "gc": 8
-     },
-     {
-      "eq": "Old Georgians",
-      "pts": 3,
-      "pj": 2,
-      "gf": 8,
-      "gc": 4
      },
      {
       "eq": "Reading",
@@ -1865,16 +1892,9 @@
      {
       "eq": "Cardiff & Met",
       "pts": 1,
-      "pj": 2,
-      "gf": 3,
-      "gc": 4
-     },
-     {
-      "eq": "Holcombe",
-      "pts": 0,
-      "pj": 2,
-      "gf": 3,
-      "gc": 6
+      "pj": 3,
+      "gf": 4,
+      "gc": 10
      },
      {
       "eq": "Bowdon",
@@ -1884,11 +1904,18 @@
       "gc": 11
      },
      {
+      "eq": "Holcombe",
+      "pts": 0,
+      "pj": 3,
+      "gf": 5,
+      "gc": 11
+     },
+     {
       "eq": "Hampstead & Westminster",
       "pts": 0,
-      "pj": 2,
-      "gf": 4,
-      "gc": 13
+      "pj": 3,
+      "gf": 6,
+      "gc": 16
      }
     ],
     "f": [
@@ -1980,7 +2007,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2344,7 +2371,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "jornada": "",
    "prox": {
     "m": [
@@ -2733,11 +2760,11 @@
    "jornada": "FECHA 25",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "jor": {
-    "m": "FECHA 25",
+    "m": "",
     "f": "FECHA 24"
    },
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "torneo": "Metropolitano"
   },
   {
@@ -2885,7 +2912,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -3074,7 +3101,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 14:52",
+   "consulta": "2026-10-10 18:45",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
