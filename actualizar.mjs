@@ -29,7 +29,9 @@ const pad = n => String(n).padStart(2, '0');
 const iso = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 function domingo(arg) {
   if (arg) return new Date(arg + 'T12:00:00');
-  const d = new Date(); d.setHours(12, 0, 0, 0); d.setDate(d.getDate() - d.getDay()); return d; // domingo más reciente (hoy si es domingo)
+  // domingo del finde que corresponde: desde el sábado, el finde en curso (así los partidos del viernes y el sábado
+  // aparecen en vivo); de lunes a viernes, el que pasó (el viernes se publica la "próxima fecha", que está en ese archivo)
+  const d = new Date(); d.setHours(12, 0, 0, 0); d.setDate(d.getDate() + (d.getDay() === 6 ? 1 : -d.getDay())); return d;
 }
 const DOM = domingo(process.argv[2] && /^\d{4}-/.test(process.argv[2]) ? process.argv[2] : null);
 const ONLY = (process.argv.find(a => /^[a-z]{2,3}(-[a-z]+)?(,[a-z]{2,3}(-[a-z]+)?)*$/.test(a)) || '').split(',').filter(Boolean);
