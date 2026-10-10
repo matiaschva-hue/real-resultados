@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-10 02:54",
+ "actualizado": "2026-10-10 09:33",
  "paises": [
   {
    "id": "nl",
@@ -267,7 +267,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 02:54",
+   "consulta": "2026-10-10 09:33",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -572,7 +572,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 02:54",
+   "consulta": "2026-10-10 09:33",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -946,7 +946,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 02:54",
+   "consulta": "2026-10-10 09:33",
    "prox": {
     "m": [
      [
@@ -1062,7 +1062,26 @@
    "pais": "ALEMANIA",
    "pais_en": "GERMANY",
    "liga": "1. BUNDESLIGA",
-   "m": [],
+   "m": [
+    [
+     "Münchner SC",
+     1,
+     6,
+     "DSD Düsseldorf",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "Berliner HC",
+     1,
+     2,
+     "Uhlenhorst Mülheim",
+     {
+      "d": "2026-10-10"
+     }
+    ]
+   ],
    "f": [],
    "tabla": {
     "m": [
@@ -1082,159 +1101,159 @@
      },
      {
       "eq": "Mannheimer HC",
-      "pj": 4,
-      "pts": 12,
+      "pj": 5,
+      "pts": 13,
       "gf": 15,
       "gc": 5
      },
      {
       "eq": "Crefelder HTC",
-      "pj": 5,
-      "pts": 10,
-      "gf": 19,
-      "gc": 11
-     },
-     {
-      "eq": "TSV Mannheim Hockey",
-      "pj": 4,
-      "pts": 8,
-      "gf": 12,
-      "gc": 12
+      "pj": 6,
+      "pts": 11,
+      "gf": 21,
+      "gc": 13
      },
      {
       "eq": "Der Club an der Alster",
+      "pj": 6,
+      "pts": 9,
+      "gf": 19,
+      "gc": 13
+     },
+     {
+      "eq": "TSV Mannheim Hockey",
+      "pj": 5,
+      "pts": 8,
+      "gf": 12,
+      "gc": 14
+     },
+     {
+      "eq": "UHC Hamburg",
       "pj": 5,
       "pts": 7,
-      "gf": 17,
-      "gc": 11
+      "gf": 14,
+      "gc": 15
      },
      {
       "eq": "Harvestehuder THC",
-      "pj": 4,
-      "pts": 5,
+      "pj": 5,
+      "pts": 6,
       "gf": 6,
       "gc": 8
      },
      {
-      "eq": "UHC Hamburg",
-      "pj": 4,
+      "eq": "Uhlenhorst Mülheim",
+      "pj": 5,
       "pts": 4,
-      "gf": 12,
+      "gf": 10,
       "gc": 15
      },
      {
       "eq": "Berliner HC",
-      "pj": 4,
+      "pj": 5,
       "pts": 3,
-      "gf": 4,
-      "gc": 12
-     },
-     {
-      "eq": "Uhlenhorst Mülheim",
-      "pj": 4,
-      "pts": 1,
-      "gf": 8,
+      "gf": 5,
       "gc": 14
      },
      {
-      "eq": "Münchner SC",
-      "pj": 4,
-      "pts": 1,
-      "gf": 7,
-      "gc": 15
+      "eq": "DSD Düsseldorf",
+      "pj": 5,
+      "pts": 3,
+      "gf": 11,
+      "gc": 21
      },
      {
-      "eq": "DSD Düsseldorf",
-      "pj": 4,
-      "pts": 0,
-      "gf": 5,
-      "gc": 20
+      "eq": "Münchner SC",
+      "pj": 5,
+      "pts": 1,
+      "gf": 8,
+      "gc": 21
      }
     ],
     "f": [
      {
       "eq": "RW Köln",
+      "pj": 7,
+      "pts": 15,
+      "gf": 13,
+      "gc": 5
+     },
+     {
+      "eq": "Bremer HC",
       "pj": 6,
-      "pts": 14,
-      "gf": 12,
-      "gc": 4
+      "pts": 13,
+      "gf": 15,
+      "gc": 12
+     },
+     {
+      "eq": "Mannheimer HC",
+      "pj": 5,
+      "pts": 12,
+      "gf": 11,
+      "gc": 3
      },
      {
       "eq": "Düsseldorfer HC",
-      "pj": 4,
-      "pts": 11,
+      "pj": 5,
+      "pts": 12,
       "gf": 9,
       "gc": 3
      },
      {
       "eq": "Der Club an der Alster",
-      "pj": 4,
-      "pts": 10,
-      "gf": 10,
-      "gc": 4
-     },
-     {
-      "eq": "Bremer HC",
       "pj": 5,
       "pts": 10,
-      "gf": 13,
-      "gc": 11
+      "gf": 11,
+      "gc": 6
      },
      {
-      "eq": "Mannheimer HC",
-      "pj": 4,
+      "eq": "Großflottbeker THGC",
+      "pj": 5,
       "pts": 9,
-      "gf": 8,
-      "gc": 2
+      "gf": 7,
+      "gc": 8
      },
      {
       "eq": "Berliner HC",
-      "pj": 4,
-      "pts": 7,
+      "pj": 5,
+      "pts": 8,
       "gf": 9,
       "gc": 7
      },
      {
-      "eq": "Großflottbeker THGC",
-      "pj": 4,
-      "pts": 7,
-      "gf": 6,
-      "gc": 7
+      "eq": "UHC Hamburg",
+      "pj": 5,
+      "pts": 5,
+      "gf": 7,
+      "gc": 13
      },
      {
       "eq": "DSD Düsseldorf",
-      "pj": 5,
-      "pts": 3,
+      "pj": 6,
+      "pts": 4,
       "gf": 7,
       "gc": 10
      },
      {
       "eq": "Münchner SC",
-      "pj": 4,
-      "pts": 3,
+      "pj": 5,
+      "pts": 4,
       "gf": 6,
       "gc": 11
      },
      {
       "eq": "Harvestehuder THC",
-      "pj": 4,
-      "pts": 2,
-      "gf": 3,
-      "gc": 8
-     },
-     {
-      "eq": "UHC Hamburg",
-      "pj": 4,
+      "pj": 5,
       "pts": 2,
       "gf": 4,
-      "gc": 12
+      "gc": 11
      },
      {
       "eq": "TSV Mannheim Hockey",
-      "pj": 4,
+      "pj": 5,
       "pts": 0,
-      "gf": 3,
-      "gc": 11
+      "gf": 4,
+      "gc": 14
      }
     ]
    },
@@ -1244,7 +1263,7 @@
       "nom": "Jeremy Hayward",
       "eq": "Der Club an der Alster",
       "pj": 5,
-      "g": 7
+      "g": 9
      },
      {
       "nom": "Kane Elliot Mark Russell",
@@ -1263,6 +1282,12 @@
       "eq": "Mannheimer HC",
       "pj": 4,
       "g": 5
+     },
+     {
+      "nom": "Benedikt Schwarzhaupt",
+      "eq": "UHC Hamburg",
+      "pj": 4,
+      "g": 4
      },
      {
       "nom": "Florian Sperling",
@@ -1289,14 +1314,8 @@
       "g": 4
      },
      {
-      "nom": "Lukas Windfeder",
-      "eq": "Uhlenhorst Mülheim",
-      "pj": 3,
-      "g": 3
-     },
-     {
-      "nom": "Tom Alexander Blümmel",
-      "eq": "Münchner SC",
+      "nom": "Hans Neethling",
+      "eq": "Crefelder HTC",
       "pj": 4,
       "g": 3
      }
@@ -1306,7 +1325,7 @@
       "nom": "Lena Frerichs",
       "eq": "Bremer HC",
       "pj": 5,
-      "g": 4
+      "g": 5
      },
      {
       "nom": "Felicia Wiedermann",
@@ -1315,8 +1334,20 @@
       "g": 3
      },
      {
+      "nom": "Martina Reisenegger Lillo",
+      "eq": "Der Club an der Alster",
+      "pj": 4,
+      "g": 3
+     },
+     {
       "nom": "Johanna Hachenberg",
       "eq": "Der Club an der Alster",
+      "pj": 4,
+      "g": 3
+     },
+     {
+      "nom": "Alice Arnott",
+      "eq": "Mannheimer HC",
       "pj": 4,
       "g": 3
      },
@@ -1327,48 +1358,38 @@
       "g": 3
      },
      {
+      "nom": "Sophie Prumbaum",
+      "eq": "RW Köln",
+      "pj": 6,
+      "g": 3
+     },
+     {
       "nom": "Katharina Reuten",
       "eq": "RW Köln",
       "pj": 6,
       "g": 3
      },
      {
+      "nom": "Verena Neumann",
+      "eq": "Mannheimer HC",
+      "pj": 1,
+      "g": 2
+     },
+     {
       "nom": "Alessa Volkert",
       "eq": "Berliner HC",
       "pj": 3,
-      "g": 2
-     },
-     {
-      "nom": "Victoria K.",
-      "eq": "Berliner HC",
-      "pj": 3,
-      "g": 2
-     },
-     {
-      "nom": "Claire Behrend",
-      "eq": "UHC Hamburg",
-      "pj": 4,
-      "g": 2
-     },
-     {
-      "nom": "Kayla de Waal",
-      "eq": "TSV Mannheim Hockey",
-      "pj": 4,
-      "g": 2
-     },
-     {
-      "nom": "Aluhe Camps",
-      "eq": "Düsseldorfer HC",
-      "pj": 4,
       "g": 2
      }
     ]
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-10 02:54",
-   "jor": {},
-   "jornada": "",
+   "estado": "jugada",
+   "consulta": "2026-10-10 09:33",
+   "jor": {
+    "m": "FECHA 6"
+   },
+   "jornada": "FECHA 6",
    "prox": {
     "m": [
      [
@@ -1551,8 +1572,10 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "m": "FECHAS 7 Y 8"
+   },
+   "prox_jornada": "FECHAS 7 Y 8",
    "prox_fecha": "16.10–19.10",
    "torneo": "Bundesliga"
   },
@@ -1740,7 +1763,7 @@
    },
    "fuente": "Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 02:54",
+   "consulta": "2026-10-10 09:33",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -2098,7 +2121,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 02:54",
+   "consulta": "2026-10-10 09:33",
    "jornada": "",
    "prox": {
     "m": [
@@ -2491,7 +2514,7 @@
     "f": "FECHA 24"
    },
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 02:54",
+   "consulta": "2026-10-10 09:33",
    "torneo": "Metropolitano"
   },
   {
@@ -2539,6 +2562,16 @@
       "d": "2026-10-09",
       "fase": "Pool C"
      }
+    ],
+    [
+     "SV Arminen",
+     3,
+     2,
+     "Edinburgh University Men's HC",
+     {
+      "d": "2026-10-10",
+      "fase": "Pool A"
+     }
     ]
    ],
    "f": [],
@@ -2547,7 +2580,7 @@
      {
       "nom": "Jamie Golden",
       "eq": "Edinburgh University Men's HC",
-      "g": 3
+      "g": 4
      },
      {
       "nom": "Jakob Brilla",
@@ -2555,13 +2588,18 @@
       "g": 2
      },
      {
-      "nom": "Robin Aebi",
-      "eq": "HC Rotweiss Wettingen",
-      "g": 1
-     },
-     {
       "nom": "Tom Cahalin",
       "eq": "Edinburgh University Men's HC",
+      "g": 2
+     },
+     {
+      "nom": "Florian Steyrer",
+      "eq": "SV Arminen",
+      "g": 2
+     },
+     {
+      "nom": "Robin Aebi",
+      "eq": "HC Rotweiss Wettingen",
       "g": 1
      },
      {
@@ -2575,6 +2613,11 @@
       "g": 1
      },
      {
+      "nom": "Florian Hackl",
+      "eq": "SV Arminen",
+      "g": 1
+     },
+     {
       "nom": "Borja Lacalle",
       "eq": "HC Oranje-Rood",
       "g": 1
@@ -2583,23 +2626,13 @@
       "nom": "German Lezcano",
       "eq": "CAM 92",
       "g": 1
-     },
-     {
-      "nom": "Fabio Seitz",
-      "eq": "KTHC Rot-Weiss Köln",
-      "g": 1
-     },
-     {
-      "nom": "Struan Walker",
-      "eq": "HC Oranje-Rood",
-      "g": 1
      }
     ]
    },
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-10 02:54",
+   "consulta": "2026-10-10 09:33",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -2611,6 +2644,15 @@
    "pais_en": "AUSTRALIA",
    "liga": "HOCKEY ONE",
    "m": [
+    [
+     "Tassie Tigers",
+     4,
+     2,
+     "Perth Thundersticks",
+     {
+      "d": "2026-10-10"
+     }
+    ],
     [
      "Brisbane Blaze",
      3,
@@ -2676,18 +2718,11 @@
       "gc": 3
      },
      {
-      "eq": "Perth Thundersticks",
-      "pts": 0,
-      "pj": 0,
-      "gf": 0,
-      "gc": 0
-     },
-     {
       "eq": "Tassie Tigers",
-      "pts": 0,
-      "pj": 0,
-      "gf": 0,
-      "gc": 0
+      "pts": 5,
+      "pj": 1,
+      "gf": 4,
+      "gc": 2
      },
      {
       "eq": "NSW Pride",
@@ -2709,6 +2744,13 @@
       "pj": 1,
       "gf": 3,
       "gc": 5
+     },
+     {
+      "eq": "Perth Thundersticks",
+      "pts": 0,
+      "pj": 1,
+      "gf": 2,
+      "gc": 4
      },
      {
       "eq": "Adelaide Fire",
@@ -2779,7 +2821,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 02:54",
+   "consulta": "2026-10-10 09:33",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
