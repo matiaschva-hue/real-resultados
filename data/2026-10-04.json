@@ -1,6 +1,6 @@
 {
  "fecha": "04.10.2026",
- "actualizado": "2026-10-09 16:32",
+ "actualizado": "2026-10-09 21:03",
  "paises": [
   {
    "id": "nl",
@@ -272,7 +272,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -668,7 +668,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "jornada": "RONDA:KO ronde 2",
    "grupo": "nl",
    "torneo": "Gold Cup"
@@ -1020,7 +1020,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "estado": "jugada",
    "torneo": "Belgian Hockey League",
    "prox": {
@@ -1343,7 +1343,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -1354,15 +1354,33 @@
       "pj": 3
      },
      {
+      "nom": "Jose Basterra Ochoa",
+      "eq": "Club de Campo",
+      "g": 5,
+      "pj": 3
+     },
+     {
       "nom": "Joaquin Puglisi",
       "eq": "RS Tenis",
       "g": 5,
       "pj": 3
      },
      {
-      "nom": "Jose Basterra Ochoa",
-      "eq": "Club de Campo",
-      "g": 5,
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Alvaro Lopez-Alonso Ribalaygua",
+      "eq": "RS Tenis",
+      "g": 3,
       "pj": 3
      },
      {
@@ -1388,27 +1406,15 @@
       "eq": "Sardinero",
       "g": 3,
       "pj": 3
-     },
-     {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Marco Aguirregomezcorta Gonzalez",
-      "eq": "Club Egara",
-      "g": 3,
-      "pj": 3
      }
     ],
     "f": [
+     {
+      "nom": "Flore Suzanne Bruggink",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 3
+     },
      {
       "nom": "Patricia Alvarez Nardiz",
       "eq": "RC Polo",
@@ -1428,9 +1434,9 @@
       "pj": 3
      },
      {
-      "nom": "Flore Suzanne Bruggink",
-      "eq": "Club de Campo",
-      "g": 3,
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 2,
       "pj": 3
      },
      {
@@ -1462,12 +1468,6 @@
       "eq": "Club Egara",
       "g": 2,
       "pj": 2
-     },
-     {
-      "nom": "Ana Paula Riera",
-      "eq": "CD Terrassa",
-      "g": 2,
-      "pj": 3
      }
     ]
    },
@@ -1886,7 +1886,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -2493,7 +2493,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "estado": "jugada",
    "torneo": "Premier Division",
    "prox": {
@@ -2825,7 +2825,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "estado": "jugada",
    "goleadores": {
     "m": [
@@ -3453,7 +3453,7 @@
      }
     ]
    },
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "estado": "jugada",
    "torneo": "Metropolitano",
    "prox": {
@@ -3718,7 +3718,7 @@
    "jornada": "RONDA:Semi final",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -3733,7 +3733,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "prox": {
     "m": [
      [
@@ -3938,7 +3938,7 @@
    },
    "fuente": "Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-10-09 16:32",
+   "consulta": "2026-10-09 21:03",
    "torneo": "Hockey One",
    "prox": {
     "m": [
