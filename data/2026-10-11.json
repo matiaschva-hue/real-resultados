@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-10 22:00",
+ "actualizado": "2026-10-11 04:13",
  "paises": [
   {
    "id": "nl",
@@ -267,7 +267,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 22:00",
+   "consulta": "2026-10-11 04:13",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -572,7 +572,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 22:00",
+   "consulta": "2026-10-11 04:13",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -639,19 +639,19 @@
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "m": [
     [
-     "Futbol Club Barcelona",
+     "RS Tenis",
+     2,
      1,
-     9,
-     "Club de Campo",
+     "Club Egara",
      {
       "d": "2026-10-10"
      }
     ],
     [
-     "RS Tenis",
-     2,
+     "Futbol Club Barcelona",
      1,
-     "Club Egara",
+     9,
+     "Club de Campo",
      {
       "d": "2026-10-10"
      }
@@ -664,10 +664,10 @@
    },
    "f": [
     [
-     "CD Terrassa",
-     0,
-     3,
-     "Club Egara",
+     "Sanse Complutense",
+     4,
+     1,
+     "Valencia CH",
      {
       "d": "2026-10-10"
      }
@@ -682,10 +682,10 @@
      }
     ],
     [
-     "Sanse Complutense",
-     4,
-     1,
-     "Valencia CH",
+     "CD Terrassa",
+     0,
+     3,
+     "Club Egara",
      {
       "d": "2026-10-10"
      }
@@ -993,7 +993,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-10 22:00",
+   "consulta": "2026-10-11 04:13",
    "prox": {
     "m": [
      [
@@ -1526,7 +1526,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 22:00",
+   "consulta": "2026-10-11 04:13",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
@@ -2007,7 +2007,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 22:00",
+   "consulta": "2026-10-11 04:13",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2371,7 +2371,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 22:00",
+   "consulta": "2026-10-11 04:13",
    "jornada": "",
    "prox": {
     "m": [
@@ -2428,7 +2428,17 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "m": [],
-   "f": [],
+   "f": [
+    [
+     "Belgrano",
+     0,
+     1,
+     "S. Bárbara",
+     {
+      "d": "2026-10-10"
+     }
+    ]
+   ],
    "tabla": {
     "m": [
      {
@@ -2761,10 +2771,10 @@
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "jor": {
     "m": "",
-    "f": "FECHA 24"
+    "f": "FECHA 25"
    },
-   "estado": "sin-fecha",
-   "consulta": "2026-10-10 22:00",
+   "estado": "jugada",
+   "consulta": "2026-10-11 04:13",
    "torneo": "Metropolitano"
   },
   {
@@ -2912,7 +2922,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-10 22:00",
+   "consulta": "2026-10-11 04:13",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -2924,6 +2934,15 @@
    "pais_en": "AUSTRALIA",
    "liga": "HOCKEY ONE",
    "m": [
+    [
+     "Melbourne Cobras",
+     2,
+     3,
+     "NSW Pride",
+     {
+      "d": "2026-10-11"
+     }
+    ],
     [
      "Tassie Tigers",
      4,
@@ -2953,6 +2972,15 @@
     ]
    ],
    "f": [
+    [
+     "Melbourne Cobras",
+     5,
+     4,
+     "NSW Pride",
+     {
+      "d": "2026-10-11"
+     }
+    ],
     [
      "Tassie Tigers",
      0,
@@ -3006,17 +3034,17 @@
      },
      {
       "eq": "NSW Pride",
-      "pts": 0,
-      "pj": 0,
-      "gf": 0,
-      "gc": 0
+      "pts": 5,
+      "pj": 1,
+      "gf": 3,
+      "gc": 2
      },
      {
       "eq": "Melbourne Cobras",
       "pts": 0,
-      "pj": 0,
-      "gf": 0,
-      "gc": 0
+      "pj": 1,
+      "gf": 2,
+      "gc": 3
      },
      {
       "eq": "Brisbane Blaze",
@@ -3056,6 +3084,13 @@
       "gc": 0
      },
      {
+      "eq": "Melbourne Cobras",
+      "pts": 5,
+      "pj": 1,
+      "gf": 5,
+      "gc": 4
+     },
+     {
       "eq": "HC Melbourne",
       "pts": 5,
       "pj": 1,
@@ -3065,16 +3100,9 @@
      {
       "eq": "NSW Pride",
       "pts": 0,
-      "pj": 0,
-      "gf": 0,
-      "gc": 0
-     },
-     {
-      "eq": "Melbourne Cobras",
-      "pts": 0,
-      "pj": 0,
-      "gf": 0,
-      "gc": 0
+      "pj": 1,
+      "gf": 4,
+      "gc": 5
      },
      {
       "eq": "Brisbane Blaze",
@@ -3101,7 +3129,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 22:00",
+   "consulta": "2026-10-11 04:13",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
