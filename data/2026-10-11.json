@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-11 15:55",
+ "actualizado": "2026-10-11 19:55",
  "paises": [
   {
    "id": "nl",
@@ -293,82 +293,82 @@
     ],
     "f": [
      {
-      "eq": "Den Bosch",
-      "pj": 4,
-      "pts": 12,
-      "dg": 16
-     },
-     {
-      "eq": "SCHC",
-      "pj": 4,
-      "pts": 12,
-      "dg": 10
-     },
-     {
       "eq": "Amsterdam",
-      "pj": 4,
-      "pts": 10,
-      "dg": 8
-     },
-     {
-      "eq": "Hurley",
-      "pj": 4,
+      "pj": 3,
       "pts": 9,
-      "dg": 5
-     },
-     {
-      "eq": "Kampong",
-      "pj": 4,
-      "pts": 7,
-      "dg": 10
-     },
-     {
-      "eq": "Rotterdam",
-      "pj": 4,
-      "pts": 7,
-      "dg": 0
-     },
-     {
-      "eq": "Oranje-Rood",
-      "pj": 4,
-      "pts": 4,
-      "dg": -7
-     },
-     {
-      "eq": "Pinoké",
-      "pj": 4,
-      "pts": 4,
-      "dg": -9
-     },
-     {
-      "eq": "HDM",
-      "pj": 4,
-      "pts": 3,
-      "dg": -3
+      "dg": 7
      },
      {
       "eq": "Bloemendaal",
-      "pj": 4,
-      "pts": 1,
-      "dg": -7
+      "pj": 3,
+      "pts": 7,
+      "dg": 10
      },
      {
-      "eq": "HGC",
-      "pj": 4,
-      "pts": 0,
-      "dg": -8
+      "eq": "Den Bosch",
+      "pj": 3,
+      "pts": 7,
+      "dg": 4
      },
      {
-      "eq": "Victoria",
-      "pj": 4,
+      "eq": "Klein Zwitserland",
+      "pj": 3,
+      "pts": 5,
+      "dg": 1
+     },
+     {
+      "eq": "Kampong",
+      "pj": 2,
+      "pts": 4,
+      "dg": 3
+     },
+     {
+      "eq": "Oranje-Rood",
+      "pj": 2,
+      "pts": 4,
+      "dg": 1
+     },
+     {
+      "eq": "HDM",
+      "pj": 3,
+      "pts": 4,
+      "dg": 0
+     },
+     {
+      "eq": "SCHC",
+      "pj": 3,
+      "pts": 4,
+      "dg": -2
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 3,
+      "pts": 2,
+      "dg": -1
+     },
+     {
+      "eq": "Rotterdam",
+      "pj": 3,
       "pts": 0,
-      "dg": -15
+      "dg": -4
+     },
+     {
+      "eq": "Tilburg",
+      "pj": 3,
+      "pts": 0,
+      "dg": -9
+     },
+     {
+      "eq": "Schaerweijde",
+      "pj": 3,
+      "pts": 0,
+      "dg": -10
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "jor": {
     "f": "FECHA 2",
     "m": "FECHA 3"
@@ -780,7 +780,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "jor": {
     "f": "FECHA 5",
     "m": "FECHA 4"
@@ -1269,7 +1269,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "prox": {
     "m": [
      [
@@ -1904,7 +1904,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
@@ -2385,7 +2385,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2749,7 +2749,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "jornada": "",
    "prox": {
     "m": [
@@ -2807,6 +2807,60 @@
    "liga": "METROPOLITANO · PRIMERA A",
    "m": [],
    "f": [
+    [
+     "Banco Nación",
+     1,
+     1,
+     "G. y Esgrima",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "River Plate",
+     0,
+     0,
+     "Lomas",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Olivos",
+     0,
+     0,
+     "S. Catherine's",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Ciudad",
+     2,
+     0,
+     "Arquitectura",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "San Fernando",
+     1,
+     1,
+     "San Lorenzo",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Bco. Provincia",
+     0,
+     2,
+     "Italiano",
+     {
+      "d": "2026-10-11"
+     }
+    ],
     [
      "Belgrano",
      0,
@@ -2927,6 +2981,20 @@
       "gc": 25
      },
      {
+      "eq": "ITALIANO",
+      "pts": 45,
+      "pj": 25,
+      "gf": 53,
+      "gc": 35
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 44,
+      "pj": 25,
+      "gf": 42,
+      "gc": 26
+     },
+     {
       "eq": "G. Y ESGRIMA",
       "pts": 43,
       "pj": 24,
@@ -2934,25 +3002,11 @@
       "gc": 24
      },
      {
-      "eq": "LOMAS",
-      "pts": 43,
-      "pj": 24,
-      "gf": 42,
-      "gc": 26
-     },
-     {
-      "eq": "ITALIANO",
-      "pts": 42,
-      "pj": 24,
-      "gf": 51,
-      "gc": 35
-     },
-     {
       "eq": "SAN FERNANDO",
-      "pts": 40,
-      "pj": 24,
-      "gf": 44,
-      "gc": 29
+      "pts": 41,
+      "pj": 25,
+      "gf": 45,
+      "gc": 30
      },
      {
       "eq": "BELGRANO",
@@ -2963,31 +3017,31 @@
      },
      {
       "eq": "CIUDAD",
-      "pts": 30,
-      "pj": 24,
-      "gf": 35,
+      "pts": 33,
+      "pj": 25,
+      "gf": 37,
       "gc": 38
      },
      {
-      "eq": "BCO. PROVINCIA",
-      "pts": 29,
-      "pj": 24,
-      "gf": 38,
-      "gc": 39
-     },
-     {
       "eq": "RIVER PLATE",
-      "pts": 28,
-      "pj": 24,
+      "pts": 29,
+      "pj": 25,
       "gf": 28,
       "gc": 30
      },
      {
       "eq": "S. CATHERINES",
-      "pts": 28,
-      "pj": 24,
+      "pts": 29,
+      "pj": 25,
       "gf": 24,
       "gc": 32
+     },
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 29,
+      "pj": 25,
+      "gf": 38,
+      "gc": 41
      },
      {
       "eq": "BANCO NACION",
@@ -2999,23 +3053,23 @@
      {
       "eq": "ARQUITECTURA",
       "pts": 26,
-      "pj": 24,
+      "pj": 25,
       "gf": 29,
-      "gc": 44
+      "gc": 46
      },
      {
       "eq": "OLIVOS",
-      "pts": 22,
-      "pj": 24,
+      "pts": 23,
+      "pj": 25,
       "gf": 29,
       "gc": 52
      },
      {
       "eq": "SAN LORENZO",
-      "pts": 19,
-      "pj": 24,
-      "gf": 30,
-      "gc": 59
+      "pts": 20,
+      "pj": 25,
+      "gf": 31,
+      "gc": 60
      }
     ]
    },
@@ -3087,13 +3141,13 @@
       "nom": "Piccardo, Alina",
       "eq": "SAN FERNANDO",
       "g": 18,
-      "pj": 22
+      "pj": 23
      },
      {
       "nom": "Arcidiacono, Julieta",
       "eq": "BCO. PROVINCIA",
       "g": 16,
-      "pj": 24
+      "pj": 25
      },
      {
       "nom": "Pisthon Santos, Pilar",
@@ -3105,7 +3159,7 @@
       "nom": "Agostini Coliqueo, Chiara",
       "eq": "LOMAS",
       "g": 13,
-      "pj": 24
+      "pj": 25
      },
      {
       "nom": "Costa Biondi, Valentina",
@@ -3123,19 +3177,19 @@
       "nom": "Santin, Agostina Sol",
       "eq": "SAN LORENZO",
       "g": 11,
-      "pj": 24
+      "pj": 25
      },
      {
       "nom": "Casas, Lara Agustina",
       "eq": "ITALIANO",
       "g": 11,
-      "pj": 15
+      "pj": 16
      },
      {
       "nom": "Ferola, Valentina",
       "eq": "ITALIANO",
       "g": 10,
-      "pj": 24
+      "pj": 25
      },
      {
       "nom": "Castellaro Morello, Juana",
@@ -3152,7 +3206,7 @@
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "torneo": "Metropolitano"
   },
   {
@@ -3340,7 +3394,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -3547,7 +3601,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 15:55",
+   "consulta": "2026-10-11 19:55",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
