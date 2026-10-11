@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-10 18:45",
+ "actualizado": "2026-10-10 22:00",
  "paises": [
   {
    "id": "nl",
@@ -267,7 +267,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -572,7 +572,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "jor": {},
    "jornada": "",
    "prox": {
@@ -639,19 +639,19 @@
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "m": [
     [
-     "RS Tenis",
-     2,
+     "Futbol Club Barcelona",
      1,
-     "Club Egara",
+     9,
+     "Club de Campo",
      {
       "d": "2026-10-10"
      }
     ],
     [
-     "Futbol Club Barcelona",
+     "RS Tenis",
+     2,
      1,
-     9,
-     "Club de Campo",
+     "Club Egara",
      {
       "d": "2026-10-10"
      }
@@ -664,10 +664,10 @@
    },
    "f": [
     [
-     "Sanse Complutense",
-     4,
-     1,
-     "Valencia CH",
+     "CD Terrassa",
+     0,
+     3,
+     "Club Egara",
      {
       "d": "2026-10-10"
      }
@@ -682,10 +682,10 @@
      }
     ],
     [
-     "CD Terrassa",
-     0,
-     3,
-     "Club Egara",
+     "Sanse Complutense",
+     4,
+     1,
+     "Valencia CH",
      {
       "d": "2026-10-10"
      }
@@ -892,14 +892,26 @@
       "pj": 4
      },
      {
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
+      "g": 3,
+      "pj": 3
+     },
+     {
       "nom": "Enrique Zorita Marquez",
       "eq": "Club de Campo",
       "g": 3,
       "pj": 4
      },
      {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 3,
+      "pj": 3
+     },
+     {
+      "nom": "Joan Francesc Fernandez Ros",
+      "eq": "Club Egara",
       "g": 3,
       "pj": 3
      },
@@ -914,21 +926,21 @@
       "eq": "RC Polo",
       "g": 3,
       "pj": 3
-     },
-     {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Joan Francesc Fernandez Ros",
-      "eq": "Club Egara",
-      "g": 3,
-      "pj": 3
      }
     ],
     "f": [
+     {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
+      "g": 3,
+      "pj": 4
+     },
+     {
+      "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 3
+     },
      {
       "nom": "Xantal Gine Patsi",
       "eq": "RC Polo",
@@ -948,16 +960,10 @@
       "pj": 3
      },
      {
-      "nom": "Patricia Alvarez Nardiz",
-      "eq": "RC Polo",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
-      "g": 3,
-      "pj": 4
+      "nom": "Nuria Carles Andreu",
+      "eq": "Atlètic Terrassa",
+      "g": 2,
+      "pj": 2
      },
      {
       "nom": "Cristina Caro Gil",
@@ -982,18 +988,12 @@
       "eq": "CD Terrassa",
       "g": 2,
       "pj": 4
-     },
-     {
-      "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
-      "g": 2,
-      "pj": 4
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "prox": {
     "m": [
      [
@@ -1526,7 +1526,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
@@ -2007,7 +2007,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2371,7 +2371,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "jornada": "",
    "prox": {
     "m": [
@@ -2764,7 +2764,7 @@
     "f": "FECHA 24"
    },
    "estado": "sin-fecha",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "torneo": "Metropolitano"
   },
   {
@@ -2912,7 +2912,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -3101,7 +3101,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-10 18:45",
+   "consulta": "2026-10-10 22:00",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
