@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-12 12:16",
+ "actualizado": "2026-10-12 19:56",
  "paises": [
   {
    "id": "nl",
@@ -368,7 +368,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "jor": {
     "f": "FECHA 2",
     "m": "FECHA 3"
@@ -780,7 +780,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "jor": {
     "f": "FECHA 5",
     "m": "FECHA 4"
@@ -1168,6 +1168,12 @@
       "pj": 4
      },
      {
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 4,
+      "pj": 4
+     },
+     {
       "nom": "Tyler Tomsett",
       "eq": "UD Taburiente",
       "g": 4,
@@ -1180,20 +1186,8 @@
       "pj": 4
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 4,
-      "pj": 4
-     },
-     {
-      "nom": "Alvaro Lopez-Alonso Ribalaygua",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 4
-     },
-     {
-      "nom": "Marc Miralles Portillo",
-      "eq": "RC Polo",
+      "nom": "Joan Francesc Fernandez Ros",
+      "eq": "Club Egara",
       "g": 3,
       "pj": 3
      },
@@ -1202,6 +1196,12 @@
       "eq": "Sardinero",
       "g": 3,
       "pj": 4
+     },
+     {
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 3
      }
     ],
     "f": [
@@ -1236,6 +1236,12 @@
       "pj": 4
      },
      {
+      "nom": "Mireia Herrero Garcia",
+      "eq": "Club Egara",
+      "g": 2,
+      "pj": 4
+     },
+     {
       "nom": "Alejandra de la Llama Andreu",
       "eq": "Sanse Complutense",
       "g": 2,
@@ -1254,12 +1260,6 @@
       "pj": 4
      },
      {
-      "nom": "Ana Paula Riera",
-      "eq": "CD Terrassa",
-      "g": 2,
-      "pj": 4
-     },
-     {
       "nom": "Marta Burgos Ortega",
       "eq": "Sardinero",
       "g": 2,
@@ -1269,7 +1269,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "prox": {
     "m": [
      [
@@ -1904,7 +1904,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
@@ -2385,7 +2385,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2749,7 +2749,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "jornada": "",
    "prox": {
     "m": [
@@ -3206,7 +3206,7 @@
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "torneo": "Metropolitano"
   },
   {
@@ -3394,7 +3394,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -3601,7 +3601,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 12:16",
+   "consulta": "2026-10-12 19:56",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
