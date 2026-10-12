@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-12 02:51",
+ "actualizado": "2026-10-12 12:16",
  "paises": [
   {
    "id": "nl",
@@ -368,7 +368,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "jor": {
     "f": "FECHA 2",
     "m": "FECHA 3"
@@ -780,7 +780,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "jor": {
     "f": "FECHA 5",
     "m": "FECHA 4"
@@ -1192,28 +1192,28 @@
       "pj": 4
      },
      {
-      "nom": "Marco Aguirregomezcorta Gonzalez",
-      "eq": "Club Egara",
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
       "g": 3,
-      "pj": 4
+      "pj": 3
      },
      {
-      "nom": "Enrique Zorita Marquez",
-      "eq": "Club de Campo",
+      "nom": "Leandro Martin Ojeda Ariza",
+      "eq": "Sardinero",
       "g": 3,
       "pj": 4
      }
     ],
     "f": [
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
       "g": 3,
       "pj": 4
      },
      {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
+      "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 4
      },
@@ -1230,27 +1230,9 @@
       "pj": 4
      },
      {
-      "nom": "Patricia Alvarez Nardiz",
+      "nom": "Xantal Gine Patsi",
       "eq": "RC Polo",
       "g": 3,
-      "pj": 4
-     },
-     {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Mireia Herrero Garcia",
-      "eq": "Club Egara",
-      "g": 2,
       "pj": 4
      },
      {
@@ -1264,12 +1246,30 @@
       "eq": "Club Egara",
       "g": 2,
       "pj": 4
+     },
+     {
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Ana Paula Riera",
+      "eq": "CD Terrassa",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Marta Burgos Ortega",
+      "eq": "Sardinero",
+      "g": 2,
+      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "prox": {
     "m": [
      [
@@ -1785,12 +1785,6 @@
       "g": 9
      },
      {
-      "nom": "Jonty  Elmes",
-      "eq": "Mannheimer HC",
-      "pj": 5,
-      "g": 6
-     },
-     {
       "nom": "Raphael Hartkopf",
       "eq": "RW Köln",
       "pj": 5,
@@ -1803,37 +1797,43 @@
       "g": 6
      },
      {
+      "nom": "Jonty  Elmes",
+      "eq": "Mannheimer HC",
+      "pj": 6,
+      "g": 6
+     },
+     {
       "nom": "Benedikt Schwarzhaupt",
       "eq": "UHC Hamburg",
-      "pj": 5,
+      "pj": 6,
       "g": 6
      },
      {
       "nom": "Ben Hasbach",
       "eq": "Mannheimer HC",
-      "pj": 5,
+      "pj": 6,
       "g": 5
      },
      {
       "nom": "Maico Casella",
       "eq": "TSV Mannheim Hockey",
-      "pj": 5,
+      "pj": 6,
       "g": 5
      },
      {
       "nom": "Florian Sperling",
       "eq": "UHC Hamburg",
-      "pj": 5,
+      "pj": 6,
       "g": 5
      },
      {
-      "nom": "Tom Alexander Blümmel",
-      "eq": "Münchner SC",
+      "nom": "Tom Craig",
+      "eq": "Hamburger Polo Club",
       "pj": 5,
       "g": 4
      },
      {
-      "nom": "Tom Craig",
+      "nom": "Timothy Brand",
       "eq": "Hamburger Polo Club",
       "pj": 5,
       "g": 4
@@ -1843,68 +1843,68 @@
      {
       "nom": "Lena Frerichs",
       "eq": "Bremer HC",
-      "pj": 6,
+      "pj": 7,
       "g": 6
      },
      {
       "nom": "Alice Arnott",
       "eq": "Mannheimer HC",
-      "pj": 5,
+      "pj": 6,
       "g": 4
      },
      {
       "nom": "Sophie Prumbaum",
       "eq": "RW Köln",
-      "pj": 7,
+      "pj": 8,
       "g": 4
      },
      {
       "nom": "Felicia Wiedermann",
       "eq": "RW Köln",
-      "pj": 4,
+      "pj": 5,
       "g": 3
      },
      {
       "nom": "Philine Drumm",
       "eq": "Berliner HC",
-      "pj": 5,
+      "pj": 6,
       "g": 3
      },
      {
       "nom": "Martina Reisenegger Lillo",
       "eq": "Der Club an der Alster",
-      "pj": 5,
+      "pj": 6,
       "g": 3
      },
      {
       "nom": "Johanna Hachenberg",
       "eq": "Der Club an der Alster",
-      "pj": 5,
+      "pj": 6,
       "g": 3
      },
      {
       "nom": "Josefina Rübenacker",
       "eq": "Bremer HC",
-      "pj": 6,
+      "pj": 7,
       "g": 3
      },
      {
       "nom": "Manuela Ghigliotti",
       "eq": "Bremer HC",
-      "pj": 6,
+      "pj": 7,
       "g": 3
      },
      {
       "nom": "Katharina Reuten",
       "eq": "RW Köln",
-      "pj": 7,
+      "pj": 8,
       "g": 3
      }
     ]
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
@@ -2385,7 +2385,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2749,7 +2749,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "jornada": "",
    "prox": {
     "m": [
@@ -2809,7 +2809,7 @@
    "f": [
     [
      "Banco Nación",
-     1,
+     2,
      1,
      "G. y Esgrima",
      {
@@ -2997,9 +2997,9 @@
      {
       "eq": "G. Y ESGRIMA",
       "pts": 43,
-      "pj": 24,
-      "gf": 43,
-      "gc": 24
+      "pj": 25,
+      "gf": 44,
+      "gc": 26
      },
      {
       "eq": "SAN FERNANDO",
@@ -3023,6 +3023,13 @@
       "gc": 38
      },
      {
+      "eq": "BANCO NACION",
+      "pts": 30,
+      "pj": 25,
+      "gf": 40,
+      "gc": 44
+     },
+     {
       "eq": "RIVER PLATE",
       "pts": 29,
       "pj": 25,
@@ -3042,13 +3049,6 @@
       "pj": 25,
       "gf": 38,
       "gc": 41
-     },
-     {
-      "eq": "BANCO NACION",
-      "pts": 27,
-      "pj": 24,
-      "gf": 38,
-      "gc": 43
      },
      {
       "eq": "ARQUITECTURA",
@@ -3153,7 +3153,7 @@
       "nom": "Pisthon Santos, Pilar",
       "eq": "BANCO NACION",
       "g": 14,
-      "pj": 21
+      "pj": 22
      },
      {
       "nom": "Agostini Coliqueo, Chiara",
@@ -3206,7 +3206,7 @@
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "torneo": "Metropolitano"
   },
   {
@@ -3394,7 +3394,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -3601,7 +3601,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 02:51",
+   "consulta": "2026-10-12 12:16",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
