@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-11 19:55",
+ "actualizado": "2026-10-11 23:25",
  "paises": [
   {
    "id": "nl",
@@ -368,7 +368,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "jor": {
     "f": "FECHA 2",
     "m": "FECHA 3"
@@ -780,7 +780,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "jor": {
     "f": "FECHA 5",
     "m": "FECHA 4"
@@ -1269,7 +1269,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "prox": {
     "m": [
      [
@@ -1904,7 +1904,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
@@ -2385,7 +2385,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2749,7 +2749,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "jornada": "",
    "prox": {
     "m": [
@@ -3206,7 +3206,7 @@
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "torneo": "Metropolitano"
   },
   {
@@ -3394,7 +3394,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -3601,7 +3601,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 19:55",
+   "consulta": "2026-10-11 23:25",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
