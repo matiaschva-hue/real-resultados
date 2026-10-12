@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-11 23:25",
+ "actualizado": "2026-10-12 02:51",
  "paises": [
   {
    "id": "nl",
@@ -368,7 +368,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "jor": {
     "f": "FECHA 2",
     "m": "FECHA 3"
@@ -780,7 +780,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "jor": {
     "f": "FECHA 5",
     "m": "FECHA 4"
@@ -852,10 +852,28 @@
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "m": [
     [
-     "Sanse Complutense",
-     3,
+     "Futbol Club Barcelona",
      1,
-     "Atlètic Terrassa",
+     9,
+     "Club de Campo",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "RS Tenis",
+     2,
+     1,
+     "Club Egara",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "Sardinero",
+     2,
+     4,
+     "CD Terrassa",
      {
       "d": "2026-10-11"
      }
@@ -870,30 +888,12 @@
      }
     ],
     [
-     "Sardinero",
-     2,
-     4,
-     "CD Terrassa",
+     "Sanse Complutense",
+     3,
+     1,
+     "Atlètic Terrassa",
      {
       "d": "2026-10-11"
-     }
-    ],
-    [
-     "RS Tenis",
-     2,
-     1,
-     "Club Egara",
-     {
-      "d": "2026-10-10"
-     }
-    ],
-    [
-     "Futbol Club Barcelona",
-     1,
-     9,
-     "Club de Campo",
-     {
-      "d": "2026-10-10"
      }
     ]
    ],
@@ -913,37 +913,10 @@
      }
     ],
     [
-     "Atlètic Terrassa",
-     1,
+     "CD Terrassa",
      0,
-     "RS Tenis",
-     {
-      "d": "2026-10-11"
-     }
-    ],
-    [
-     "RC Polo",
-     0,
-     0,
-     "Club de Campo",
-     {
-      "d": "2026-10-11"
-     }
-    ],
-    [
-     "Real Sociedad",
-     2,
-     0,
-     "UD Taburiente",
-     {
-      "d": "2026-10-11"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     4,
-     1,
-     "Valencia CH",
+     3,
+     "Club Egara",
      {
       "d": "2026-10-10"
      }
@@ -958,12 +931,39 @@
      }
     ],
     [
-     "CD Terrassa",
-     0,
-     3,
-     "Club Egara",
+     "Sanse Complutense",
+     4,
+     1,
+     "Valencia CH",
      {
       "d": "2026-10-10"
+     }
+    ],
+    [
+     "Real Sociedad",
+     2,
+     0,
+     "UD Taburiente",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "RC Polo",
+     0,
+     0,
+     "Club de Campo",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     1,
+     0,
+     "RS Tenis",
+     {
+      "d": "2026-10-11"
      }
     ]
    ],
@@ -1168,6 +1168,12 @@
       "pj": 4
      },
      {
+      "nom": "Tyler Tomsett",
+      "eq": "UD Taburiente",
+      "g": 4,
+      "pj": 4
+     },
+     {
       "nom": "Enric Miralles Portillo",
       "eq": "CD Terrassa",
       "g": 4,
@@ -1180,9 +1186,9 @@
       "pj": 4
      },
      {
-      "nom": "Tyler Tomsett",
-      "eq": "UD Taburiente",
-      "g": 4,
+      "nom": "Alvaro Lopez-Alonso Ribalaygua",
+      "eq": "RS Tenis",
+      "g": 3,
       "pj": 4
      },
      {
@@ -1196,18 +1202,18 @@
       "eq": "Club de Campo",
       "g": 3,
       "pj": 4
-     },
-     {
-      "nom": "Pablo Rubio Baldor",
-      "eq": "Sardinero",
-      "g": 3,
-      "pj": 4
      }
     ],
     "f": [
      {
-      "nom": "Patricia Alvarez Nardiz",
+      "nom": "Xantal Gine Patsi",
       "eq": "RC Polo",
+      "g": 3,
+      "pj": 4
+     },
+     {
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
       "g": 3,
       "pj": 4
      },
@@ -1224,43 +1230,37 @@
       "pj": 4
      },
      {
-      "nom": "Xantal Gine Patsi",
+      "nom": "Patricia Alvarez Nardiz",
       "eq": "RC Polo",
       "g": 3,
       "pj": 4
      },
      {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
-      "g": 3,
-      "pj": 4
-     },
-     {
-      "nom": "Laia Vidosa I Artigas",
-      "eq": "Junior FC",
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 2,
       "pj": 4
      },
      {
-      "nom": "Carmen Fernandez de Velasco Arroyo",
+      "nom": "Michelle Fillet",
       "eq": "RS Tenis",
       "g": 2,
       "pj": 4
      },
      {
-      "nom": "Cecilia Lainz Puente",
-      "eq": "RS Tenis",
+      "nom": "Mireia Herrero Garcia",
+      "eq": "Club Egara",
       "g": 2,
       "pj": 4
      },
      {
-      "nom": "Nuria Carles Andreu",
-      "eq": "Atlètic Terrassa",
+      "nom": "Alejandra de la Llama Andreu",
+      "eq": "Sanse Complutense",
       "g": 2,
-      "pj": 3
+      "pj": 4
      },
      {
-      "nom": "Laia Recasens Llobet",
+      "nom": "Anna Borras Massaguer",
       "eq": "Club Egara",
       "g": 2,
       "pj": 4
@@ -1269,7 +1269,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "prox": {
     "m": [
      [
@@ -1904,7 +1904,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
@@ -2385,7 +2385,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2749,7 +2749,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "jornada": "",
    "prox": {
     "m": [
@@ -3206,7 +3206,7 @@
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "torneo": "Metropolitano"
   },
   {
@@ -3394,7 +3394,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -3601,7 +3601,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-11 23:25",
+   "consulta": "2026-10-12 02:51",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
