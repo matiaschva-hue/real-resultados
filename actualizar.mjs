@@ -375,9 +375,10 @@ async function fsResultados(pg, slug) {
     for (const e of document.querySelectorAll('.event__round, .event__match')) {
       if (e.matches('.event__round')) { ronda = e.innerText.trim(); continue; }
       const q = s => e.querySelector(s)?.innerText.trim() ?? '';
-      const parts = [...e.querySelectorAll('[class*="event__part--home"]')].map(x => x.innerText.trim());
+      // goles por tiempo (event__part--1, --2…; la tanda de penales viene como la última parte)
+      const partes = lado => [...e.querySelectorAll(`[class*="event__part--${lado}"]`)].map(x => ({ n: +((/event__part--(\d+)/.exec(x.className) || [])[1] || 0), g: parseInt(x.innerText) }));
       out.push({ ronda, time: q('.event__time'), home: q('[class*="event__participant--home"], .event__homeParticipant'), away: q('[class*="event__participant--away"], .event__awayParticipant'),
-        sh: q('[class*="event__score--home"]'), sa: q('[class*="event__score--away"]'), stage: q('.event__stage'), raw: e.innerText });
+        sh: q('[class*="event__score--home"]'), sa: q('[class*="event__score--away"]'), ph: partes('home'), pa: partes('away'), stage: q('.event__stage'), raw: e.innerText });
     }
     return out;
   });
@@ -390,9 +391,13 @@ async function fsResultados(pg, slug) {
     if (!enFinde(d)) continue;
     let ga = parseInt(f.sh), gb = parseInt(f.sa); if (isNaN(ga) || isNaN(gb)) continue;
     const x = { d: iso(d) };
-    if (/n\.\s?P\./.test(f.raw)) { // definido por penales: el total incluye la tanda → restar los dos últimos números
-      const nums = f.raw.split('\n').map(s => s.trim()).filter(s => /^\d+$/.test(s)).map(Number);
-      const so = nums.slice(-2); x.so = so; ga -= so[0]; gb -= so[1];
+    if (/n\.\s?P\./.test(f.raw)) {
+      // definido por penales: Flashscore le suma 1 gol al ganador de la tanda en el marcador (3–3 y 5–3 en penales → 4–3).
+      // El resultado de los 60 minutos es la suma de los tiempos; la tanda es la última parte.
+      const ult = Math.max(...f.ph.map(p => p.n)), tanda = [f.ph.find(p => p.n === ult)?.g, f.pa.find(p => p.n === ult)?.g];
+      const suma = arr => arr.filter(p => p.n !== ult).reduce((s, p) => s + (isNaN(p.g) ? NaN : p.g), 0);
+      if (f.ph.length >= 2 && tanda.every(v => Number.isInteger(v))) { x.so = tanda; const ra = suma(f.ph), rb = suma(f.pa); if (Number.isInteger(ra) && Number.isInteger(rb)) { ga = ra; gb = rb; } else if (tanda[0] > tanda[1]) ga--; else gb--; }
+      else { const nums = f.raw.split('\n').map(s => s.trim()).filter(s => /^\d+$/.test(s)).map(Number), so = nums.slice(-2); x.so = so; if (so[0] > so[1]) ga--; else gb--; }
     }
     ms.push([limpiar(f.home), ga, gb, limpiar(f.away), x]);
     ronda = ronda || f.ronda;
@@ -639,6 +644,10 @@ for (const L of LIGAS) {
   if (L.flag) p.flag = L.flag;
   if (L.selecciones) p.selecciones = true;
   if (L.torneo) p.torneo = L.torneo;
+  // control final: un marcador tiene que ser de números enteros entre 0 y 40 (y la tanda de penales, si hay, también);
+  // si alguna fuente trae algo raro, ese partido se descarta y queda anotado acá, nunca llega a una historia
+  const golOk = v => Number.isInteger(v) && v >= 0 && v <= 40;
+  for (const k of ['m', 'f']) if (p[k]) p[k] = p[k].filter(x => { const ok = golOk(x[1]) && golOk(x[2]) && (!x[4] || !x[4].so || (golOk(x[4].so[0]) && golOk(x[4].so[1]))); if (!ok) console.log(L.id, k, 'MARCADOR INVÁLIDO, se descarta:', JSON.stringify(x)); return ok; });
   paises.push(p);
 }
 await br.close();

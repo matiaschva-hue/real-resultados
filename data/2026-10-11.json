@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-12 19:56",
+ "actualizado": "2026-10-14 09:44",
  "paises": [
   {
    "id": "nl",
@@ -1433,8 +1433,8 @@
     ],
     [
      "TSV Mannheim Hockey",
-     -1,
-     0,
+     3,
+     3,
      "UHC Hamburg",
      {
       "d": "2026-10-10",
@@ -1446,8 +1446,8 @@
     ],
     [
      "Crefelder HTC",
-     0,
-     0,
+     2,
+     2,
      "Der Club an der Alster",
      {
       "d": "2026-10-10",
@@ -1590,8 +1590,8 @@
     ],
     [
      "RW Köln",
-     0,
-     0,
+     1,
+     1,
      "Großflottbeker THGC",
      {
       "d": "2026-10-10",
@@ -1904,7 +1904,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 19:56",
+   "consulta": "2026-10-14 09:44",
    "jor": {
     "m": "FECHA 6",
     "f": "FECHA 7"
