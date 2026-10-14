@@ -21,6 +21,7 @@ const LIGAS = [
   { id: 'int-pro', grupo: 'int', flag: 'un', torneo: 'Pro League', pais: 'PRO LEAGUE', pais_en: 'PRO LEAGUE', liga: 'FIH HOCKEY PRO LEAGUE', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /Pro League.*\((M|Men)\)/i, f: /Pro League.*\((W|Women)\)/i }, copa: true },
   { id: 'int-mundial', grupo: 'int', flag: 'un', torneo: 'Mundial', pais: 'MUNDIAL', pais_en: 'WORLD CUP', liga: 'FIH HOCKEY WORLD CUP', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /^FIH Hockey World Cup(?!.*(Junior|Indoor|Para|5s)).*\((M|Men)\)/i, f: /^FIH Hockey World Cup(?!.*(Junior|Indoor|Para|5s)).*\((W|Women)\)/i }, copa: true },
   { id: 'int-jjoo', grupo: 'int', flag: 'un', torneo: 'JJOO', pais: 'JJOO', pais_en: 'OLYMPICS', liga: 'JUEGOS OLÍMPICOS', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /Olympic Games.*(Men|\(M\))/i, f: /Olympic Games.*(Women|\(W\))/i }, copa: true },
+  { id: 'fr', torneo: 'Élite', pais: 'FRANCIA', pais_en: 'FRANCE', liga: 'ÉLITE HOMMES · ÉLITE DAMES', ffh: { m: 'Elite HOMMES', f: 'Elite DAMES' } },
   { id: 'au', torneo: 'Hockey One', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
 ];
 
@@ -502,6 +503,46 @@ async function larry(pg, rama, torneo, copaLarry) {
 const ACENTOS = { Barbara: 'Bárbara', Nacion: 'Nación', Catherines: "Catherine's", Martin: 'Martín' };
 const cap = s => s.toLowerCase().replace(/(^|[\s.(-])(\p{L})/gu, (a, b, c) => b + c.toUpperCase()).replace(/\bY\b/g, 'y').replace(/\p{L}+/gu, w => ACENTOS[w] || w);
 
+// ---------- FFH (Francia, fuente oficial: championnats.ffhockey.org, servicio de la federación) ----------
+const FFH = 'https://championnats.ffhockey.org/rest2/Championnats/';
+const ffhPide = async (metodo, q) => { const r = await fetch(FFH + metodo + '?' + new URLSearchParams(q), { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/141.0 Safari/537.36' }, signal: AbortSignal.timeout(40000) }); if (!r.ok) throw new Error('FFH ' + r.status); const j = await r.json(); if (j.ResponseCode !== '200') throw new Error('FFH ' + j.ResponseMessage); return j.Response; };
+// "RACING CLUB DE FRANCE" → "Racing Club de France", "PHC MARCQ-EN-BAROEUL" → "PHC Marcq-en-Baroeul"
+const nombreFR = n => String(n).toLowerCase().replace(/(^|[\s-])(\p{L})/gu, (a, b, c) => b + c.toUpperCase())
+  .replace(/\b(Hc|Ac|Fc|Phc|Ih|Cf|Rc|Hcc|Sc|Asc|Us|As|Ca|Ol|Mhc|Lmhc|Lhc|Ufolep)\b/g, w => w.toUpperCase())
+  .replace(/([\s-])(De|Du|Des|La|Le|Les|En|Et|Sur)(?=[\s-])/g, (a, b, w) => b + w.toLowerCase()); // solo en el medio ("Le Touquet" queda igual)
+async function ffh(rama) {
+  const anio = DOM.getMonth() >= 7 ? DOM.getFullYear() + 1 : DOM.getFullYear(); // temporada 2026-27 = "2027"
+  const champs = Object.values((await ffhPide('ListerChamps', { SaisonAnnee: anio, ManifSexe: rama === 'Elite HOMMES' ? 'M' : 'F', DiscCode: 'GAZON' })).ChampsArray || {});
+  const c = champs.find(x => x.ManifLib.trim().toLowerCase() === rama.toLowerCase() && x.StructureOrganisatrice.StructureNomCourt === 'FFH'); if (!c) throw new Error('FFH: no encontré ' + rama);
+  const rs = Object.values((await ffhPide('ListerRencontres', { SaisonAnnee: anio, ManifId: c.ManifId })).RencontresArray || {});
+  const fechaDe = x => new Date((x.RencDateDerog || x.Journee.JourDate).replace(' ', 'T'));
+  const n = v => v === '' || v == null ? NaN : +v;
+  const ms = [], jor = new Set(), prox = [], proxJor = new Set(), w = ventanaProx(false), poules = {};
+  for (const x of rs) {
+    if (x.RencNonJoue === 'O' || x.Scores?.RencForfait === 'O') continue;
+    const d = fechaDe(x), a = nombreFR(x.Equipe1.EquipeNom), b = nombreFR(x.Equipe2.EquipeNom), ga = n(x.Scores?.RencButsEqp1), gb = n(x.Scores?.RencButsEqp2);
+    if (/championnat/i.test(x.Phase?.PhaseLib || '')) poules[x.Poule.PouleId] = (poules[x.Poule.PouleId] || 0) + 1;
+    const d12 = new Date(d); d12.setHours(12, 0, 0, 0);
+    if (enFinde(d12) && Number.isInteger(ga) && Number.isInteger(gb)) {
+      const o = { d: iso(d) }, pa = n(x.Scores.RencPenEqp1), pb = n(x.Scores.RencPenEqp2);
+      if (Number.isInteger(pa) && Number.isInteger(pb)) o.so = [pa, pb];
+      ms.push([a, ga, gb, b, o]); jor.add(+x.Journee.JourNum);
+    } else if (d12 >= w.desde && d12 <= w.hasta && !Number.isInteger(ga)) {
+      prox.push([a, b, { d: iso(d), h: pad(d.getHours()) + ':' + pad(d.getMinutes()) }]); proxJor.add(+x.Journee.JourNum);
+    }
+  }
+  const pouleId = Object.entries(poules).sort((p, q) => q[1] - p[1])[0]?.[0];
+  let tabla = [], gol = [];
+  if (pouleId) {
+    const t = await ffhPide('ClassementEquipes', { SaisonAnnee: anio, PouleId: pouleId });
+    tabla = (t.Classement?.ClassmentLignes || []).sort((p, q) => +p.ClassmPos - +q.ClassmPos).map(l => ({ eq: nombreFR(l.Equipe.EquipeNom), pj: +l.ClassmMatchJ, pts: +l.ClassmPts, gf: +l.ClassmButP, gc: +l.ClassmButC }));
+    const g = await ffhPide('ClassementButeurs', { SaisonAnnee: anio, PouleId: pouleId });
+    gol = (g.ClassementButeurs?.ClassmentButeursLignes || []).filter(l => +l.ClasButButs > 0).map(l => ({ nom: nombreFR(l.Personne.PersonneNom) + ', ' + nombreFR(l.Personne.PersonnePrenom), eq: nombreFR(l.Structure?.StructureNomCourt || ''), g: +l.ClasButButs })).slice(0, 10);
+  }
+  const fj = set => { const v = [...set].sort((p, q) => p - q); return v.length > 1 ? `FECHAS ${v.slice(0, -1).join(', ')} Y ${v[v.length - 1]}` : v.length ? 'FECHA ' + v[0] : ''; };
+  return { ms, tabla, gol, jor: fj(jor), prox, proxJor: fj(proxJor) };
+}
+
 // ---------- principal ----------
 const file = `${OUT}/${iso(DOM)}.json`;
 const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : { paises: [] };
@@ -568,6 +609,10 @@ for (const L of LIGAS) {
         catch (e) { console.log(L.id, k, 'KNHB falló, uso Flashscore:', e.message); const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; const t = await fsTabla(pg, L[k]); if (t.some(x => x.pj > 0)) tabla[k] = t; }
       }
       p.tabla = L.copa ? {} : tabla; p.fuente = 'KNHB · hockey.nl (oficial)';
+    } else if (L.ffh) {
+      const m = await ffh(L.ffh.m), f = await ffh(L.ffh.f);
+      Object.assign(p, { m: m.ms, f: f.ms, tabla: { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jor: { m: m.jor, f: f.jor }, jornada: m.jor || f.jor, fuente: 'FFH · championnats.ffhockey.org (oficial)' });
+      if (m.prox.length || f.prox.length) { p.prox = { m: m.prox, f: f.prox }; p.prox_jor = { m: m.proxJor, f: f.proxJor }; p.prox_jornada = m.proxJor || f.proxJor; const ds = [...m.prox, ...f.prox].map(x => x[2].d).sort(); p.prox_fecha = ds[0].slice(8, 10) + '.' + ds[0].slice(5, 7) + '–' + ds[ds.length - 1].slice(8, 10) + '.' + ds[ds.length - 1].slice(5, 7); }
     } else if (L.larry) {
       await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
       const m = await larry(pg, 'Masculino', L.larry.m, L.copa), f = await larry(pg, 'Femenino', L.larry.f, L.copa);
@@ -631,7 +676,7 @@ for (const L of LIGAS) {
       const ms = await fsProgramma(pg, slug, desde, hasta);
       if (ms.length) prox[k] = ms.map(([a, b, x]) => [ren(a), ren(b), x]);
     }
-    if (L.larry) { /* Argentina: la próxima fecha ya vino de LarrySport */ }
+    if (L.larry || L.ffh) { /* Argentina y Francia: la próxima fecha ya vino de la fuente oficial */ }
     else if (Object.keys(prox).length) { p.prox = prox;
       p.prox_jor = {};
       for (const kk of ['m', 'f']) {

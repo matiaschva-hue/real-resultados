@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-14 09:52",
+ "actualizado": "2026-10-14 09:56",
  "paises": [
   {
    "id": "nl",
@@ -3487,6 +3487,441 @@
    "grupo": "int",
    "flag": "eu",
    "torneo": "EHL"
+  },
+  {
+   "id": "fr",
+   "pais": "FRANCIA",
+   "pais_en": "FRANCE",
+   "liga": "ÉLITE HOMMES · ÉLITE DAMES",
+   "m": [
+    [
+     "Le Touquet AC",
+     3,
+     1,
+     "FC Lyon",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Saint-Germain HC",
+     4,
+     4,
+     "PHC Marcq-en-Baroeul",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "IH Lambersart",
+     2,
+     6,
+     "HC Nantes",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Stade Français",
+     1,
+     2,
+     "Racing Club de France",
+     {
+      "d": "2026-10-11"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "Cambrai HC",
+     3,
+     1,
+     "FC Lyon",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Saint-Germain HC",
+     0,
+     0,
+     "PHC Marcq-en-Baroeul",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Villa Primrose",
+     2,
+     3,
+     "Racing Club de France",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "IH Lambersart",
+     1,
+     0,
+     "Wattignies HC",
+     {
+      "d": "2026-10-11"
+     }
+    ]
+   ],
+   "tabla": {
+    "m": [
+     {
+      "eq": "Racing Club de France",
+      "pj": 5,
+      "pts": 15,
+      "gf": 20,
+      "gc": 5
+     },
+     {
+      "eq": "Saint-Germain HC",
+      "pj": 5,
+      "pts": 8,
+      "gf": 10,
+      "gc": 9
+     },
+     {
+      "eq": "Lille MHC",
+      "pj": 3,
+      "pts": 7,
+      "gf": 8,
+      "gc": 4
+     },
+     {
+      "eq": "Stade Français",
+      "pj": 5,
+      "pts": 7,
+      "gf": 10,
+      "gc": 7
+     },
+     {
+      "eq": "Le Touquet AC",
+      "pj": 5,
+      "pts": 7,
+      "gf": 9,
+      "gc": 11
+     },
+     {
+      "eq": "CA Montrouge 92",
+      "pj": 4,
+      "pts": 6,
+      "gf": 14,
+      "gc": 6
+     },
+     {
+      "eq": "PHC Marcq-en-Baroeul",
+      "pj": 5,
+      "pts": 6,
+      "gf": 15,
+      "gc": 12
+     },
+     {
+      "eq": "HC Nantes",
+      "pj": 4,
+      "pts": 3,
+      "gf": 6,
+      "gc": 13
+     },
+     {
+      "eq": "IH Lambersart",
+      "pj": 5,
+      "pts": 3,
+      "gf": 7,
+      "gc": 17
+     },
+     {
+      "eq": "FC Lyon",
+      "pj": 5,
+      "pts": 1,
+      "gf": 3,
+      "gc": 18
+     }
+    ],
+    "f": [
+     {
+      "eq": "Saint-Germain HC",
+      "pj": 5,
+      "pts": 13,
+      "gf": 24,
+      "gc": 1
+     },
+     {
+      "eq": "Lille MHC",
+      "pj": 4,
+      "pts": 12,
+      "gf": 16,
+      "gc": 3
+     },
+     {
+      "eq": "IH Lambersart",
+      "pj": 5,
+      "pts": 10,
+      "gf": 7,
+      "gc": 6
+     },
+     {
+      "eq": "PHC Marcq-en-Baroeul",
+      "pj": 5,
+      "pts": 7,
+      "gf": 7,
+      "gc": 2
+     },
+     {
+      "eq": "Wattignies HC",
+      "pj": 5,
+      "pts": 7,
+      "gf": 8,
+      "gc": 11
+     },
+     {
+      "eq": "Racing Club de France",
+      "pj": 5,
+      "pts": 5,
+      "gf": 6,
+      "gc": 12
+     },
+     {
+      "eq": "Cambrai HC",
+      "pj": 4,
+      "pts": 4,
+      "gf": 4,
+      "gc": 11
+     },
+     {
+      "eq": "CA Montrouge 92",
+      "pj": 3,
+      "pts": 2,
+      "gf": 2,
+      "gc": 5
+     },
+     {
+      "eq": "Villa Primrose",
+      "pj": 5,
+      "pts": 1,
+      "gf": 9,
+      "gc": 15
+     },
+     {
+      "eq": "FC Lyon",
+      "pj": 5,
+      "pts": 1,
+      "gf": 5,
+      "gc": 22
+     }
+    ]
+   },
+   "goleadores": {
+    "m": [
+     {
+      "nom": "Charlet, Victor",
+      "eq": "PHC Marcq-en-Baroeul",
+      "g": 6
+     },
+     {
+      "nom": "Mercurio, Kevin",
+      "eq": "Saint-Germain HC",
+      "g": 5
+     },
+     {
+      "nom": "Plauche, Arthur",
+      "eq": "Racing Club de France",
+      "g": 5
+     },
+     {
+      "nom": "Hannoir, Yvan",
+      "eq": "Lille MHC",
+      "g": 4
+     },
+     {
+      "nom": "Tesson-Fleaca, Adrien",
+      "eq": "HC Nantes",
+      "g": 4
+     },
+     {
+      "nom": "Bailleul, Louis",
+      "eq": "Racing Club de France",
+      "g": 4
+     },
+     {
+      "nom": "Psaume, Nathanael",
+      "eq": "PHC Marcq-en-Baroeul",
+      "g": 4
+     },
+     {
+      "nom": "Texier, Jonas",
+      "eq": "Stade Français",
+      "g": 4
+     },
+     {
+      "nom": "Gaillard, Tom",
+      "eq": "CA Montrouge",
+      "g": 3
+     },
+     {
+      "nom": "Liddiard, James",
+      "eq": "CA Montrouge",
+      "g": 3
+     }
+    ],
+    "f": [
+     {
+      "nom": "Lhopital, Yohanna",
+      "eq": "Saint-Germain HC",
+      "g": 9
+     },
+     {
+      "nom": "Verzura, Eve",
+      "eq": "Lille MHC",
+      "g": 5
+     },
+     {
+      "nom": "Cadot, Clemence",
+      "eq": "Saint-Germain HC",
+      "g": 5
+     },
+     {
+      "nom": "Rolando, Martina",
+      "eq": "PHC Marcq-en-Baroeul",
+      "g": 5
+     },
+     {
+      "nom": "Moroni, Agueda",
+      "eq": "Villa Primrose",
+      "g": 4
+     },
+     {
+      "nom": "La Guerche, Alice",
+      "eq": "Villa Primrose",
+      "g": 3
+     },
+     {
+      "nom": "Calleja, Floriana",
+      "eq": "Lille MHC",
+      "g": 3
+     },
+     {
+      "nom": "Bartholome, Maya",
+      "eq": "Wattignies HC",
+      "g": 3
+     },
+     {
+      "nom": "Cohignac, Maelys",
+      "eq": "Saint-Germain HC",
+      "g": 3
+     },
+     {
+      "nom": "Arnaud, Victoire",
+      "eq": "FC Lyon Hockey",
+      "g": 3
+     }
+    ]
+   },
+   "jor": {
+    "m": "FECHA 5",
+    "f": "FECHA 5"
+   },
+   "jornada": "FECHA 5",
+   "fuente": "FFH · championnats.ffhockey.org (oficial)",
+   "prox": {
+    "m": [
+     [
+      "IH Lambersart",
+      "Le Touquet AC",
+      {
+       "d": "2026-10-18",
+       "h": "13:30"
+      }
+     ],
+     [
+      "PHC Marcq-en-Baroeul",
+      "HC Nantes",
+      {
+       "d": "2026-10-18",
+       "h": "16:00"
+      }
+     ],
+     [
+      "Lille MHC",
+      "Saint-Germain HC",
+      {
+       "d": "2026-10-18",
+       "h": "16:00"
+      }
+     ],
+     [
+      "CA Montrouge 92",
+      "Racing Club de France",
+      {
+       "d": "2026-10-18",
+       "h": "16:00"
+      }
+     ],
+     [
+      "Stade Français",
+      "FC Lyon",
+      {
+       "d": "2026-10-18",
+       "h": "16:00"
+      }
+     ]
+    ],
+    "f": [
+     [
+      "FC Lyon",
+      "Villa Primrose",
+      {
+       "d": "2026-10-18",
+       "h": "10:30"
+      }
+     ],
+     [
+      "CA Montrouge 92",
+      "Racing Club de France",
+      {
+       "d": "2026-10-18",
+       "h": "13:45"
+      }
+     ],
+     [
+      "Lille MHC",
+      "Saint-Germain HC",
+      {
+       "d": "2026-10-18",
+       "h": "13:45"
+      }
+     ],
+     [
+      "IH Lambersart",
+      "Cambrai HC",
+      {
+       "d": "2026-10-18",
+       "h": "15:45"
+      }
+     ],
+     [
+      "PHC Marcq-en-Baroeul",
+      "Wattignies HC",
+      {
+       "d": "2026-10-18",
+       "h": "13:45"
+      }
+     ]
+    ]
+   },
+   "prox_jor": {
+    "m": "FECHA 6",
+    "f": "FECHA 6"
+   },
+   "prox_jornada": "FECHA 6",
+   "prox_fecha": "18.10–18.10",
+   "estado": "jugada",
+   "consulta": "2026-10-14 09:56",
+   "torneo": "Élite"
   },
   {
    "id": "au",
