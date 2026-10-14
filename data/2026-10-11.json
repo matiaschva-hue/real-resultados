@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-14 09:44",
+ "actualizado": "2026-10-14 09:52",
  "paises": [
   {
    "id": "nl",
@@ -2506,138 +2506,224 @@
    "pais": "ITALIA",
    "pais_en": "ITALY",
    "liga": "SERIE A ELITE",
-   "m": [],
-   "f": [],
-   "jor": {},
+   "m": [
+    [
+     "Butterfly Roma HCC",
+     4,
+     1,
+     "HT Bologna",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "HT Sardegna",
+     0,
+     3,
+     "SG Amsicora",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "HC Tevere Eur",
+     3,
+     1,
+     "Polisportiva Ferrini",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "Lazio Hockey",
+     1,
+     1,
+     "HC Bondeno",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "HP Valchisone",
+     1,
+     2,
+     "HC Bra",
+     {
+      "d": "2026-10-10"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "HF Lorenzoni",
+     2,
+     1,
+     "Pol. Ferrini",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "HC Tiberina",
+     0,
+     2,
+     "Potenza Picena",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Butterfly Roma HCC",
+     0,
+     2,
+     "SG Amsicora",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Milano HP",
+     2,
+     0,
+     "Lazio Hockey",
+     {
+      "d": "2026-10-11"
+     }
+    ]
+   ],
+   "jor": {
+    "m": "FECHA 4",
+    "f": "FECHA 3"
+   },
    "tabla": {
     "m": [
      {
       "eq": "SG Amsicora",
-      "pj": 3,
-      "pts": 9,
-      "gf": 22,
+      "pj": 4,
+      "pts": 12,
+      "gf": 25,
       "gc": 4
      },
      {
       "eq": "Lazio Hockey",
-      "pj": 3,
-      "pts": 9,
-      "gf": 12,
-      "gc": 5
+      "pj": 4,
+      "pts": 10,
+      "gf": 13,
+      "gc": 6
      },
      {
       "eq": "HC Tevere Eur",
-      "pj": 3,
-      "pts": 7,
-      "gf": 6,
-      "gc": 4
-     },
-     {
-      "eq": "HC Bondeno",
-      "pj": 3,
-      "pts": 5,
+      "pj": 4,
+      "pts": 10,
       "gf": 9,
-      "gc": 6
+      "gc": 5
      },
      {
       "eq": "HC Bra",
-      "pj": 3,
-      "pts": 3,
-      "gf": 11,
-      "gc": 9
+      "pj": 4,
+      "pts": 6,
+      "gf": 13,
+      "gc": 10
      },
      {
-      "eq": "HP Valchisone",
-      "pj": 3,
-      "pts": 3,
-      "gf": 5,
-      "gc": 6
+      "eq": "HC Bondeno",
+      "pj": 4,
+      "pts": 6,
+      "gf": 10,
+      "gc": 7
      },
      {
       "eq": "Butterfly Roma HCC",
-      "pj": 3,
+      "pj": 4,
+      "pts": 6,
+      "gf": 11,
+      "gc": 20
+     },
+     {
+      "eq": "HP Valchisone",
+      "pj": 4,
       "pts": 3,
-      "gf": 7,
-      "gc": 19
+      "gf": 6,
+      "gc": 8
      },
      {
       "eq": "HT Sardegna",
-      "pj": 3,
+      "pj": 4,
       "pts": 2,
       "gf": 7,
-      "gc": 12
+      "gc": 15
      },
      {
       "eq": "Polisportiva Ferrini",
-      "pj": 3,
+      "pj": 4,
       "pts": 1,
-      "gf": 9,
-      "gc": 14
+      "gf": 10,
+      "gc": 17
      },
      {
       "eq": "HT Bologna",
-      "pj": 3,
+      "pj": 4,
       "pts": 0,
-      "gf": 3,
-      "gc": 12
+      "gf": 4,
+      "gc": 16
      }
     ],
     "f": [
      {
       "eq": "Milano HP",
-      "pj": 2,
-      "pts": 6,
-      "gf": 10,
+      "pj": 3,
+      "pts": 9,
+      "gf": 12,
       "gc": 0
      },
      {
       "eq": "SG Amsicora",
-      "pj": 2,
-      "pts": 6,
-      "gf": 5,
+      "pj": 3,
+      "pts": 9,
+      "gf": 7,
       "gc": 0
      },
      {
-      "eq": "Lazio Hockey",
-      "pj": 2,
+      "eq": "HF Lorenzoni",
+      "pj": 3,
       "pts": 6,
-      "gf": 4,
-      "gc": 1
+      "gf": 14,
+      "gc": 2
      },
      {
-      "eq": "HF Lorenzoni",
-      "pj": 2,
-      "pts": 3,
-      "gf": 12,
-      "gc": 1
+      "eq": "Lazio Hockey",
+      "pj": 3,
+      "pts": 6,
+      "gf": 4,
+      "gc": 3
      },
      {
       "eq": "Potenza Picena",
-      "pj": 2,
-      "pts": 3,
-      "gf": 1,
+      "pj": 3,
+      "pts": 6,
+      "gf": 3,
       "gc": 2
      },
      {
       "eq": "Butterfly Roma HCC",
-      "pj": 2,
+      "pj": 3,
       "pts": 0,
       "gf": 1,
-      "gc": 3
-     },
-     {
-      "eq": "Pol. Ferrini",
-      "pj": 2,
-      "pts": 0,
-      "gf": 0,
       "gc": 5
      },
      {
+      "eq": "Pol. Ferrini",
+      "pj": 3,
+      "pts": 0,
+      "gf": 1,
+      "gc": 7
+     },
+     {
       "eq": "HC Tiberina",
-      "pj": 2,
+      "pj": 3,
       "pts": 0,
       "gf": 0,
-      "gc": 21
+      "gc": 23
      }
     ]
    },
@@ -2646,7 +2732,7 @@
      {
       "nom": "Sinkevicius",
       "eq": "SG Amsicora",
-      "g": 7
+      "g": 8
      },
      {
       "nom": "Drago",
@@ -2664,22 +2750,22 @@
       "g": 4
      },
      {
+      "nom": "Bhana",
+      "eq": "HC Bra",
+      "g": 4
+     },
+     {
       "nom": "Carta G.",
       "eq": "SG Amsicora",
       "g": 4
      },
      {
-      "nom": "Bhana",
+      "nom": "Koshelenko",
       "eq": "HC Bra",
-      "g": 3
+      "g": 4
      },
      {
       "nom": "Chiesa",
-      "eq": "HC Bra",
-      "g": 3
-     },
-     {
-      "nom": "Koshelenko",
       "eq": "HC Bra",
       "g": 3
      },
@@ -2706,6 +2792,21 @@
       "g": 4
      },
      {
+      "nom": "Di Blasi",
+      "eq": "HF Lorenzoni",
+      "g": 3
+     },
+     {
+      "nom": "Musci",
+      "eq": "SG Amsicora",
+      "g": 3
+     },
+     {
+      "nom": "Varoqui",
+      "eq": "Milano HP",
+      "g": 3
+     },
+     {
       "nom": "Vercelli",
       "eq": "HF Lorenzoni",
       "g": 3
@@ -2716,14 +2817,9 @@
       "g": 2
      },
      {
-      "nom": "Di Blasi",
+      "nom": "Agrò",
       "eq": "HF Lorenzoni",
-      "g": 2
-     },
-     {
-      "nom": "Musci",
-      "eq": "SG Amsicora",
-      "g": 2
+      "g": 1
      },
      {
       "nom": "Ascione",
@@ -2734,23 +2830,13 @@
       "nom": "Buzatto",
       "eq": "SG Amsicora",
       "g": 1
-     },
-     {
-      "nom": "Buzzi",
-      "eq": "Butterfly Roma HCC",
-      "g": 1
-     },
-     {
-      "nom": "Chiesa",
-      "eq": "HF Lorenzoni",
-      "g": 1
      }
     ]
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-12 19:56",
-   "jornada": "",
+   "estado": "jugada",
+   "consulta": "2026-10-14 09:52",
+   "jornada": "FECHA 4",
    "prox": {
     "m": [
      [
@@ -2795,8 +2881,10 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "m": "FECHA 5"
+   },
+   "prox_jornada": "FECHA 5",
    "prox_fecha": "16.10–19.10",
    "torneo": "Serie A Elite"
   },

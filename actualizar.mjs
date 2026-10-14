@@ -239,18 +239,27 @@ async function sportlink(nombrePool, pg) {
 const MESES_IT = { gennaio: 0, febbraio: 1, marzo: 2, aprile: 3, maggio: 4, giugno: 5, luglio: 6, agosto: 7, settembre: 8, ottobre: 9, novembre: 10, dicembre: 11 };
 const texto = html => html.replace(/<br\s*\/?>|<\/p>|<\/div>|<\/h\d>/gi, '\n').replace(/<[^>]+>/g, '')
   .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#0?39;|&rsquo;/g, "'").replace(/&agrave;/g, 'à').replace(/&egrave;/g, 'è').replace(/&ograve;/g, 'ò').replace(/&ugrave;/g, 'ù').replace(/&igrave;/g, 'ì');
-async function federhockey() {
+// páginas de la federación italiana: como un navegador (desde la nube, un pedido "de programa" puede ser rechazado),
+// con reintentos; si igual falla, se pide a través del navegador automático
+async function pideIT(u, pg) {
+  const H = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36', 'Accept-Language': 'it-IT,it;q=0.9,es;q=0.8', Accept: 'text/html,application/xhtml+xml' };
+  for (let i = 0; i < 3; i++) { try { const r = await fetch(u, { headers: H, signal: AbortSignal.timeout(30000) }); if (r.ok) return await r.text(); console.log('federhockey', r.status, u.slice(-60)); } catch (e) { console.log('federhockey', e.message, u.slice(-60)); } await new Promise(r => setTimeout(r, 2000)); }
+  if (!pg) throw new Error('federhockey no responde');
+  await ir(pg, u, { waitUntil: 'domcontentloaded', timeout: 60000 }); return pg.content();
+}
+async function federhockey(pg) {
   // todos los comunicados de resultados de la temporada (archivo del blog + página de campeonatos), con caché por comunicado
   const base = 'https://www.federhockey.it', urls = new Set();
-  const junta = html => { for (const m of html.matchAll(/href="([^"]*risultati-delle-gare-di-[a-z]+-\d{1,2}-[a-z]+-\d{4}[^"]*\.html)"/g)) urls.add(m[1].startsWith('http') ? m[1] : base + m[1]); };
-  junta(await (await fetch(base + '/49-campionati/campionati-prato.html')).text());
-  for (let st = 0; st <= 200; st += 10) { const n = urls.size; junta(await (await fetch(base + '/home/fih/comunicati-stampa/comunicati-stampa-blog.html?start=' + st)).text()); if (st > 0 && urls.size === n) break; }
+  const junta = html => { for (const m of html.matchAll(/href="([^"]*risultati-delle-gare-di-[a-z]+-\d{1,2}-[a-z]+-\d{4}[^"]*\.html)"/g)) { const u = m[1].startsWith('http') ? m[1].replace(/^http:/, 'https:').replace('federhockey.it//', 'federhockey.it/') : base + m[1]; if (u.startsWith(base + '/')) urls.add(u); } }; // solo comunicados de la federación (no los botones de compartir)
+  junta(await pideIT(base + '/49-campionati/campionati-prato.html', pg));
+  for (let st = 0; st <= 200; st += 10) { const n = urls.size; junta(await pideIT(base + '/home/fih/comunicati-stampa/comunicati-stampa-blog.html?start=' + st, pg)); if (st > 0 && urls.size === n) break; }
   const cacheF = `${OUT}/it_comunicados.json`, cache = fs.existsSync(cacheF) ? JSON.parse(fs.readFileSync(cacheF, 'utf8')) : {};
   for (const u of urls) {
     const m = /-(\d{1,2})-([a-z]+)-(\d{4})/.exec(u); if (!m || MESES_IT[m[2]] == null) continue;
     const fecha = iso(new Date(+m[3], MESES_IT[m[2]], +m[1], 12));
     if (cache[u] && fecha < iso(new Date(Date.now() - 3 * 864e5))) continue; // los recientes se releen por si corrigen algo
-    const lines = texto(await (await fetch(u)).text()).split('\n').map(x => x.trim()).filter(Boolean);
+    let html; try { html = await pideIT(u, pg); } catch (e) { console.log('federhockey: no se pudo leer', u.slice(-70)); continue; } // un comunicado que falla no frena a los demás
+    const lines = texto(html).split('\n').map(x => x.trim()).filter(Boolean);
     const d = { fecha, m: [], f: [], jor: {} }; let sec = null;
     for (const l of lines) {
       const h = /^SERIE A ELITE (MASCHILE|FEMMINILE).*?Giornata (\d+)/i.exec(l);
@@ -514,7 +523,7 @@ for (const L of LIGAS) {
       for (const k of ['m', 'f']) { const o = await altius(pg, L.altius.base, L.altius[k]); p[k] = o.ms; if (o.gol.length) gol[k] = o.gol; }
       p.goleadores = gol; p.tabla = {}; p.fuente = 'European Hockey Federation · eurohockey.altiusrt.com (oficial)';
     } else if (L.fih) {
-      const o = await federhockey();
+      const o = await federhockey(pg);
       if (o.m.length) p.m = o.m; else if (!old.m) p.m = [];
       if (o.f.length) p.f = o.f; else if (!old.f) p.f = [];
       if (o.jornada) p.jornada = o.jornada;
