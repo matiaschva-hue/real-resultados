@@ -467,22 +467,35 @@ async function larry(pg, rama, torneo, copaLarry) {
     const sa = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 2]), sb = /^(\d+)(?: \((\d+)\))?$/.exec(L[i + 3]);
     if (sa && sb && enFinde(d)) { const sin = x => cap(x.replace(/\s*\(N\.P\.\)/i, '')); const row = [sin(L[i + 1]), +sa[1], +sb[1], sin(L[i + 4])], x = { d: iso(d) }; if (sa[2] != null && sb[2] != null) x.so = [+sa[2], +sb[2]]; if (ronda) x.fase = ronda; if (Object.keys(x).length) row.push(x); ms.push(row); }
   }
-  // próxima fecha: se recorren las fechas siguientes del fixture y se toman las que caen en la ventana (puede haber dos en un finde)
-  const prox = [], proxFechas = [], w = ventanaProx(copaLarry);
+  // Ligas: no se confía en la fecha que el sitio marca como "actual" (puede quedar trabada en una fecha con partidos
+  // suspendidos). Se recorren las fechas cercanas: de cada una se toman los partidos con resultado que cayeron en el finde
+  // y los que se juegan el finde que viene.
+  const prox = [], proxFechas = [], jorFechas = [], w = ventanaProx(copaLarry);
   const leer = async () => (await pg.evaluate(() => document.querySelector('main').innerText)).split('\n').map(s => s.replace(/[\ue000-\uf8ff]/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
-  // desde el viernes LarrySport marca como "actual" la fecha que viene: si todavía no se jugó, la del finde pasado es la anterior
-  if (!copaLarry && /^\d+$/.test(fecha) && filasVs(await leer(), { desde: new Date(DOM.getTime() + 864e5), hasta: new Date(8.64e15) }).length) fecha = String(+fecha - 1);
   if (copaLarry) prox.push(...filasVs(await leer(), w)); // en las copas el cuadro ya muestra lo que viene
-  else if (/^\d+$/.test(fecha)) for (let n = +fecha + 1; n <= +fecha + 3; n++) {
-    const ok = await pg.evaluate(n => { const b = [...document.querySelectorAll('main button')].find(b => b.innerText.trim() === String(n)); if (!b) return false; b.click(); return true; }, n);
-    if (!ok) break;
-    await new Promise(r => setTimeout(r, 3000));
-    // ajustes.json: fechas que la AHBA movió y LarrySport todavía no actualizó, p. ej. { "ar": { "Masculino": { "26": { "d": "2026-10-12" } } } }
-    const aj = ((AJUSTES.ar || {})[rama] || {})[n];
-    let filas = filasVs(await leer(), aj ? { desde: new Date(0), hasta: new Date(8.64e15) } : w);
-    if (aj) filas = filas.map(([a, b, x]) => [a, b, { ...x, d: aj.d, h: aj.h || x.h }]).filter(([, , x]) => { const d = new Date(x.d + 'T12:00:00'); return d >= w.desde && d <= w.hasta; });
-    if (!filas.length) break;
-    prox.push(...filas.map(([a, b, x]) => [a, b, { ...x, fecha: n }])); proxFechas.push(n);
+  else if (/^\d+$/.test(fecha)) {
+    ms.length = 0; // los resultados salen de recorrer las fechas
+    const cur = +fecha;
+    for (let n = Math.max(1, cur - 3); n <= cur + 4; n++) {
+      const ok = await pg.evaluate(n => { const b = [...document.querySelectorAll('main button')].find(b => b.innerText.trim() === String(n)); if (!b) return false; b.click(); return true; }, n);
+      if (!ok) continue;
+      await new Promise(r => setTimeout(r, 2500));
+      const P = await leer();
+      // ajustes.json: fechas que la AHBA movió y LarrySport todavía no actualizó, p. ej. { "ar": { "Masculino": { "26": { "d": "2026-10-12" } } } }
+      const aj = ((AJUSTES.ar || {})[rama] || {})[n];
+      let jugo = false;
+      for (let i = 0; i < P.length - 4; i++) {
+        const m = /^(lun|mar|mié|jue|vie|sáb|dom)\w* (\d{2}) (\w{3})/.exec(P[i]); if (!m) continue;
+        const sa = /^(\d+)(?: \((\d+)\))?$/.exec(P[i + 2]), sb = /^(\d+)(?: \((\d+)\))?$/.exec(P[i + 3]); if (!sa || !sb) continue;
+        const d = aj ? new Date(aj.d + 'T12:00:00') : new Date(DOM.getFullYear(), MES[m[3]], +m[2], 12); if (!enFinde(d)) continue;
+        const sin = x => cap(x.replace(/\s*\(N\.P\.\)/i, '')), x = { d: iso(d), fecha: n }; if (sa[2] != null && sb[2] != null) x.so = [+sa[2], +sb[2]];
+        ms.push([sin(P[i + 1]), +sa[1], +sb[1], sin(P[i + 4]), x]); jugo = true;
+      }
+      if (jugo) jorFechas.push(n);
+      let filas = filasVs(P, aj ? { desde: new Date(0), hasta: new Date(8.64e15) } : w);
+      if (aj) filas = filas.map(([a, b, x]) => [a, b, { ...x, d: aj.d, h: aj.h || x.h }]).filter(([, , x]) => { const d = new Date(x.d + 'T12:00:00'); return d >= w.desde && d <= w.hasta; });
+      if (filas.length) { prox.push(...filas.map(([a, b, x]) => [a, b, { ...x, fecha: n }])); proxFechas.push(n); }
+    }
   }
   const tab = async t => { await pg.evaluate(t => [...document.querySelectorAll('main button, main [role=tab]')].find(b => b.innerText.trim() === t)?.click(), t); await new Promise(r => setTimeout(r, 2500)); return pg.evaluate(() => document.querySelector('main').innerText); };
   const pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
@@ -497,7 +510,7 @@ async function larry(pg, rama, torneo, copaLarry) {
     if (!/^\d+$/.test(gl[i])) break;
     gol.push({ nom: gl[i + 1], eq: gl[i + 2], g: +gl[i + 3], pj: +gl[i + 4] });
   }
-  return { ms, tabla, gol, fecha, prox, proxFechas };
+  return { ms, tabla, gol, fecha, jorFechas, prox, proxFechas };
 }
 // "BCO. PROVINCIA" → "Bco. Provincia"
 const ACENTOS = { Barbara: 'Bárbara', Nacion: 'Nación', Catherines: "Catherine's", Martin: 'Martín' };
@@ -614,10 +627,11 @@ for (const L of LIGAS) {
       Object.assign(p, { m: m.ms, f: f.ms, tabla: { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jor: { m: m.jor, f: f.jor }, jornada: m.jor || f.jor, fuente: 'FFH · championnats.ffhockey.org (oficial)' });
       if (m.prox.length || f.prox.length) { p.prox = { m: m.prox, f: f.prox }; p.prox_jor = { m: m.proxJor, f: f.proxJor }; p.prox_jornada = m.proxJor || f.proxJor; const ds = [...m.prox, ...f.prox].map(x => x[2].d).sort(); p.prox_fecha = ds[0].slice(8, 10) + '.' + ds[0].slice(5, 7) + '–' + ds[ds.length - 1].slice(8, 10) + '.' + ds[ds.length - 1].slice(5, 7); }
     } else if (L.larry) {
+      const fjL = n => n.length > 1 ? `FECHAS ${n.slice(0, -1).join(', ')} Y ${n[n.length - 1]}` : n.length ? 'FECHA ' + n[0] : '';
       await pg.setExtraHTTPHeaders({ 'Accept-Language': 'es-AR' });
       const m = await larry(pg, 'Masculino', L.larry.m, L.copa), f = await larry(pg, 'Femenino', L.larry.f, L.copa);
-      Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: L.copa ? {} : { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: L.copa ? '' : m.fecha ? 'FECHA ' + m.fecha : p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });
-      if (!L.copa) p.jor = { m: m.fecha ? 'FECHA ' + m.fecha : '', f: f.fecha ? 'FECHA ' + f.fecha : '' };
+      Object.assign(p, { m: m.ms.length ? m.ms : (p.m || []), f: f.ms.length ? f.ms : (p.f || []), tabla: L.copa ? {} : { m: m.tabla, f: f.tabla }, goleadores: { m: m.gol, f: f.gol }, jornada: L.copa ? '' : fjL(m.jorFechas || []) || fjL(f.jorFechas || []) || p.jornada, fuente: 'LarrySport TournamentTracker (AHBA)' });
+      if (!L.copa) p.jor = { m: fjL(m.jorFechas || []), f: fjL(f.jorFechas || []) };
       const fj = n => n.length > 1 ? `FECHAS ${n.slice(0, -1).join(', ')} Y ${n[n.length - 1]}` : n.length ? 'FECHA ' + n[0] : '';
       if (m.prox.length || f.prox.length) { p.prox = { m: m.prox, f: f.prox }; p.prox_jor = L.copa ? {} : { m: fj(m.proxFechas), f: fj(f.proxFechas) }; const ds = [...m.prox, ...f.prox].map(x => x[2].d).sort(); p.prox_fecha = ds[0].slice(8, 10) + '.' + ds[0].slice(5, 7) + '–' + ds[ds.length - 1].slice(8, 10) + '.' + ds[ds.length - 1].slice(5, 7); p.prox_jornada = p.prox_jor.m || p.prox_jor.f || ''; }
     } else {

@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-14 09:56",
+ "actualizado": "2026-10-15 10:38",
  "paises": [
   {
    "id": "nl",
@@ -2893,7 +2893,78 @@
    "pais": "ARGENTINA",
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
-   "m": [],
+   "m": [
+    [
+     "S.A.G.",
+     1,
+     3,
+     "Lomas",
+     {
+      "d": "2026-10-10",
+      "fecha": 25
+     }
+    ],
+    [
+     "San Martín",
+     4,
+     1,
+     "Ciudad B",
+     {
+      "d": "2026-10-10",
+      "fecha": 25
+     }
+    ],
+    [
+     "Quilmes",
+     2,
+     4,
+     "G. y Esgrima",
+     {
+      "d": "2026-10-10",
+      "fecha": 25
+     }
+    ],
+    [
+     "Mitre",
+     4,
+     2,
+     "S. Bárbara",
+     {
+      "d": "2026-10-10",
+      "fecha": 25
+     }
+    ],
+    [
+     "San Fernando",
+     5,
+     1,
+     "U. La Plata",
+     {
+      "d": "2026-10-10",
+      "fecha": 25
+     }
+    ],
+    [
+     "Ciudad",
+     2,
+     2,
+     "Bco. Provincia",
+     {
+      "d": "2026-10-10",
+      "fecha": 25
+     }
+    ],
+    [
+     "Hurling",
+     1,
+     2,
+     "Ducilo",
+     {
+      "d": "2026-10-10",
+      "fecha": 25
+     }
+    ]
+   ],
    "f": [
     [
      "Banco Nación",
@@ -2901,7 +2972,8 @@
      1,
      "G. y Esgrima",
      {
-      "d": "2026-10-11"
+      "d": "2026-10-11",
+      "fecha": 25
      }
     ],
     [
@@ -2910,7 +2982,8 @@
      0,
      "Lomas",
      {
-      "d": "2026-10-11"
+      "d": "2026-10-11",
+      "fecha": 25
      }
     ],
     [
@@ -2919,7 +2992,8 @@
      0,
      "S. Catherine's",
      {
-      "d": "2026-10-11"
+      "d": "2026-10-11",
+      "fecha": 25
      }
     ],
     [
@@ -2928,7 +3002,8 @@
      0,
      "Arquitectura",
      {
-      "d": "2026-10-11"
+      "d": "2026-10-11",
+      "fecha": 25
      }
     ],
     [
@@ -2937,7 +3012,8 @@
      1,
      "San Lorenzo",
      {
-      "d": "2026-10-11"
+      "d": "2026-10-11",
+      "fecha": 25
      }
     ],
     [
@@ -2946,7 +3022,8 @@
      2,
      "Italiano",
      {
-      "d": "2026-10-11"
+      "d": "2026-10-11",
+      "fecha": 25
      }
     ],
     [
@@ -2955,109 +3032,110 @@
      1,
      "S. Bárbara",
      {
-      "d": "2026-10-10"
+      "d": "2026-10-10",
+      "fecha": 25
      }
     ]
    ],
    "tabla": {
     "m": [
      {
+      "eq": "SAN FERNANDO",
+      "pts": 57,
+      "pj": 24,
+      "gf": 66,
+      "gc": 22
+     },
+     {
       "eq": "BCO. PROVINCIA",
-      "pts": 53,
-      "pj": 22,
-      "gf": 63,
-      "gc": 32
+      "pts": 55,
+      "pj": 24,
+      "gf": 66,
+      "gc": 35
      },
      {
       "eq": "CIUDAD",
-      "pts": 51,
-      "pj": 23,
-      "gf": 68,
-      "gc": 36
-     },
-     {
-      "eq": "SAN FERNANDO",
-      "pts": 51,
-      "pj": 22,
-      "gf": 57,
-      "gc": 20
+      "pts": 52,
+      "pj": 25,
+      "gf": 70,
+      "gc": 39
      },
      {
       "eq": "MITRE",
-      "pts": 45,
-      "pj": 22,
-      "gf": 59,
-      "gc": 25
+      "pts": 51,
+      "pj": 24,
+      "gf": 66,
+      "gc": 29
      },
      {
       "eq": "G. Y ESGRIMA",
-      "pts": 43,
-      "pj": 23,
-      "gf": 70,
-      "gc": 44
+      "pts": 47,
+      "pj": 25,
+      "gf": 75,
+      "gc": 47
      },
      {
       "eq": "DUCILO",
-      "pts": 37,
-      "pj": 22,
-      "gf": 57,
-      "gc": 52
+      "pts": 43,
+      "pj": 24,
+      "gf": 65,
+      "gc": 55
      },
      {
       "eq": "U. LA PLATA",
-      "pts": 31,
-      "pj": 22,
-      "gf": 48,
-      "gc": 51
+      "pts": 34,
+      "pj": 24,
+      "gf": 52,
+      "gc": 58
      },
      {
       "eq": "HURLING",
-      "pts": 28,
-      "pj": 23,
-      "gf": 41,
-      "gc": 36
+      "pts": 31,
+      "pj": 25,
+      "gf": 45,
+      "gc": 39
      },
      {
       "eq": "S. BARBARA",
       "pts": 27,
-      "pj": 22,
-      "gf": 47,
-      "gc": 50
+      "pj": 24,
+      "gf": 51,
+      "gc": 57
      },
      {
       "eq": "QUILMES",
       "pts": 21,
-      "pj": 22,
-      "gf": 41,
-      "gc": 55
-     },
-     {
-      "eq": "LOMAS",
-      "pts": 14,
-      "pj": 23,
-      "gf": 47,
-      "gc": 67
+      "pj": 24,
+      "gf": 44,
+      "gc": 63
      },
      {
       "eq": "SAN MARTÍN",
-      "pts": 12,
-      "pj": 22,
-      "gf": 38,
-      "gc": 65
+      "pts": 18,
+      "pj": 24,
+      "gf": 43,
+      "gc": 66
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 17,
+      "pj": 25,
+      "gf": 51,
+      "gc": 71
      },
      {
       "eq": "S.A.G.",
       "pts": 9,
-      "pj": 22,
-      "gf": 25,
-      "gc": 78
+      "pj": 24,
+      "gf": 28,
+      "gc": 84
      },
      {
       "eq": "CIUDAD B",
       "pts": 8,
-      "pj": 22,
-      "gf": 25,
-      "gc": 75
+      "pj": 24,
+      "gf": 28,
+      "gc": 85
      }
     ],
     "f": [
@@ -3166,38 +3244,44 @@
      {
       "nom": "Kiernan, Máximo",
       "eq": "U. LA PLATA",
-      "g": 30,
-      "pj": 22
+      "g": 31,
+      "pj": 24
      },
      {
       "nom": "Suarez, Tomas Agustin",
       "eq": "G. Y ESGRIMA",
-      "g": 21,
-      "pj": 23
+      "g": 22,
+      "pj": 25
      },
      {
       "nom": "Agostini Coliqueo, Franco Antonio",
       "eq": "LOMAS",
-      "g": 19,
-      "pj": 20
+      "g": 20,
+      "pj": 22
      },
      {
       "nom": "Merino, Gonzalo",
       "eq": "BCO. PROVINCIA",
-      "g": 19,
-      "pj": 19
+      "g": 20,
+      "pj": 21
      },
      {
       "nom": "Ferrero Farias, Lautaro",
       "eq": "SAN FERNANDO",
-      "g": 16,
+      "g": 18,
+      "pj": 23
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 17,
       "pj": 21
      },
      {
       "nom": "Dulor Marchesi, Luca",
       "eq": "DUCILO",
       "g": 16,
-      "pj": 20
+      "pj": 22
      },
      {
       "nom": "Jimenez Jaurechi, Julian",
@@ -3206,22 +3290,16 @@
       "pj": 17
      },
      {
-      "nom": "Infanzon, Ramiro Nicolas",
-      "eq": "DUCILO",
-      "g": 14,
-      "pj": 19
-     },
-     {
       "nom": "Doherty, Alec Tadeo",
       "eq": "HURLING",
-      "g": 13,
-      "pj": 23
+      "g": 15,
+      "pj": 25
      },
      {
-      "nom": "Tucceri, Santiago",
-      "eq": "CIUDAD",
+      "nom": "Falchetto, Facundo",
+      "eq": "MITRE",
       "g": 13,
-      "pj": 21
+      "pj": 24
      }
     ],
     "f": [
@@ -3290,12 +3368,32 @@
    "jornada": "FECHA 25",
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "jor": {
-    "m": "",
+    "m": "FECHA 25",
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-12 19:56",
-   "torneo": "Metropolitano"
+   "consulta": "2026-10-15 10:38",
+   "torneo": "Metropolitano",
+   "prox": {
+    "m": [
+     [
+      "S.A.G.",
+      "Ciudad B",
+      {
+       "d": "2026-10-16",
+       "h": "21:00",
+       "fecha": 23
+      }
+     ]
+    ],
+    "f": []
+   },
+   "prox_jor": {
+    "m": "FECHA 23",
+    "f": ""
+   },
+   "prox_fecha": "16.10–16.10",
+   "prox_jornada": "FECHA 23"
   },
   {
    "id": "int-ehl",

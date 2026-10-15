@@ -1,9 +1,11 @@
 name: Actualizar resultados
 on:
   schedule:
-    # cada hora de viernes a domingo y cada 2 horas los lunes (UTC)
+    # cada hora de viernes a domingo, cada 2 horas los lunes y cada 6 horas de martes a jueves (UTC):
+    # en la semana entran las correcciones de las ligas y la próxima fecha queda al día
     - cron: '15 * * * 5,6,0'
     - cron: '15 */2 * * 1'
+    - cron: '15 */6 * * 2,3,4'
   workflow_dispatch: {}
 permissions:
   contents: write
