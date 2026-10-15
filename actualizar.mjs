@@ -498,7 +498,8 @@ async function larry(pg, rama, torneo, copaLarry) {
     }
   }
   const tab = async t => { await pg.evaluate(t => [...document.querySelectorAll('main button, main [role=tab]')].find(b => b.innerText.trim() === t)?.click(), t); await new Promise(r => setTimeout(r, 2500)); return pg.evaluate(() => document.querySelector('main').innerText); };
-  const pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
+  let pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean);
+  for (let i = 0; i < 3 && !/^\d+$/.test(pos[pos.indexOf('PB') + 1] || ''); i++) { await new Promise(r => setTimeout(r, 3000)); pos = (await tab('Posiciones')).split('\n').map(s => s.trim()).filter(Boolean); } // a veces tarda en cargar
   const tabla = [];
   for (let i = pos.indexOf('PB') + 1; i < pos.length - 10; i += 11) {
     if (!/^\d+$/.test(pos[i])) break;
@@ -568,7 +569,7 @@ const paises = [];
 for (const L of LIGAS) {
   const old = prev.paises.find(p => p.id === L.id) || {};
   if (ONLY.length && !ONLY.includes(L.id)) { if (old.id) paises.push(old); continue; }
-  const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga };
+  const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga, jor: {}, jornada: '' };
   ID_ACTUAL = L.id;
   DIAS_ANTES = L.copa && L.grupo !== 'int' ? 6 : L.id === 'au' ? 4 : 2; // copas locales: toda la semana; internacionales y ligas: viernes a lunes
   try {
@@ -660,7 +661,7 @@ for (const L of LIGAS) {
     if (!(p[k] || []).length && (old[k] || []).length) p[k] = old[k];
     if (!L.copa && !((p.tabla || {})[k] || []).length && ((old.tabla || {})[k] || []).length) { console.log(L.id, k, 'tabla vacía: queda la anterior'); (p.tabla = { ...(p.tabla || {}) })[k] = old.tabla[k]; }
     if (!((p.goleadores || {})[k] || []).length && ((old.goleadores || {})[k] || []).length) (p.goleadores = { ...(p.goleadores || {}) })[k] = old.goleadores[k];
-    if (!(p.jor || {})[k] && (old.jor || {})[k] && (p[k] || []).length) (p.jor = { ...(p.jor || {}) })[k] = old.jor[k];
+    // el número de fecha no se arrastra de corridas anteriores: lo da la fuente o se calcula con la tabla (más abajo)
   }
   if (L.soloPrimera) { // copas abiertas: solo los partidos donde juega al menos un equipo de primera
     const base = paises.find(x => x.id === L.soloPrimera) || prev.paises.find(x => x.id === L.soloPrimera) || {};

@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-15 10:38",
+ "actualizado": "2026-10-15 10:48",
  "paises": [
   {
    "id": "nl",
@@ -368,12 +368,12 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 19:56",
+   "consulta": "2026-10-15 10:48",
    "jor": {
-    "f": "FECHA 2",
-    "m": "FECHA 3"
+    "m": "FECHA 3",
+    "f": "FECHA 3"
    },
-   "jornada": "FECHA 2",
+   "jornada": "FECHA 3",
    "prox": {
     "m": [
      [
@@ -490,7 +490,7 @@
    },
    "prox_jor": {
     "m": "FECHA 4",
-    "f": "FECHA 3"
+    "f": "FECHA 4"
    },
    "prox_jornada": "FECHA 4",
    "prox_fecha": "16.10–19.10",
@@ -503,25 +503,7 @@
    "liga": "BELGIAN HOCKEY LEAGUE",
    "m": [
     [
-     "Beerschot",
-     2,
-     1,
-     "Herakles",
-     {
-      "d": "2026-10-11"
-     }
-    ],
-    [
-     "Daring",
-     2,
-     2,
-     "Uccle",
-     {
-      "d": "2026-10-11"
-     }
-    ],
-    [
-     "KHC Dragons",
+     "Dragons",
      1,
      4,
      "Waterloo Ducks",
@@ -533,16 +515,34 @@
      "Namur",
      0,
      4,
-     "Gantoise HC",
+     "Gantoise",
      {
       "d": "2026-10-11"
      }
     ],
     [
-     "Royal Léopold THC",
+     "Beerschot",
+     2,
+     1,
+     "Herakles",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Léopold",
      2,
      0,
      "Racing",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Daring",
+     2,
+     2,
+     "Uccle Sport",
      {
       "d": "2026-10-11"
      }
@@ -608,17 +608,24 @@
     "m": [
      {
       "eq": "Léopold",
-      "pj": 4,
-      "gf": 15,
+      "pj": 5,
+      "gf": 17,
       "gc": 8,
-      "pts": 10
+      "pts": 13
      },
      {
       "eq": "Gantoise",
-      "pj": 4,
-      "gf": 15,
+      "pj": 5,
+      "gf": 19,
       "gc": 6,
-      "pts": 9
+      "pts": 12
+     },
+     {
+      "eq": "Waterloo Ducks",
+      "pj": 5,
+      "gf": 14,
+      "gc": 8,
+      "pts": 12
      },
      {
       "eq": "Braxgata",
@@ -628,31 +635,24 @@
       "pts": 9
      },
      {
-      "eq": "Waterloo Ducks",
-      "pj": 4,
-      "gf": 10,
-      "gc": 7,
-      "pts": 9
-     },
-     {
       "eq": "Uccle Sport",
-      "pj": 4,
-      "gf": 13,
-      "gc": 11,
-      "pts": 7
+      "pj": 5,
+      "gf": 15,
+      "gc": 13,
+      "pts": 8
      },
      {
       "eq": "Herakles",
-      "pj": 4,
-      "gf": 14,
-      "gc": 9,
+      "pj": 5,
+      "gf": 15,
+      "gc": 11,
       "pts": 6
      },
      {
       "eq": "Racing",
-      "pj": 4,
+      "pj": 5,
       "gf": 8,
-      "gc": 7,
+      "gc": 9,
       "pts": 6
      },
      {
@@ -663,31 +663,31 @@
       "pts": 5
      },
      {
-      "eq": "Dragons",
-      "pj": 4,
-      "gf": 5,
-      "gc": 10,
+      "eq": "Beerschot",
+      "pj": 5,
+      "gf": 8,
+      "gc": 15,
       "pts": 4
      },
      {
-      "eq": "Beerschot",
-      "pj": 4,
+      "eq": "Dragons",
+      "pj": 5,
       "gf": 6,
       "gc": 14,
-      "pts": 1
+      "pts": 4
      },
      {
       "eq": "Daring",
-      "pj": 4,
-      "gf": 5,
-      "gc": 20,
-      "pts": 1
+      "pj": 5,
+      "gf": 7,
+      "gc": 22,
+      "pts": 2
      },
      {
       "eq": "Namur",
-      "pj": 4,
+      "pj": 5,
       "gf": 6,
-      "gc": 14,
+      "gc": 18,
       "pts": 0
      }
     ],
@@ -780,17 +780,17 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 19:56",
+   "consulta": "2026-10-15 10:48",
    "jor": {
-    "f": "FECHA 5",
-    "m": "FECHA 4"
+    "m": "FECHA 5",
+    "f": "FECHA 5"
    },
    "jornada": "FECHA 5",
    "prox": {
     "m": [
      [
       "Braxgata",
-      "Royal Léopold THC",
+      "Léopold",
       {
        "d": "2026-10-18",
        "h": "15:00"
@@ -814,14 +814,14 @@
      ],
      [
       "Racing",
-      "KHC Dragons",
+      "Dragons",
       {
        "d": "2026-10-18",
        "h": "15:00"
       }
      ],
      [
-      "Uccle",
+      "Uccle Sport",
       "Namur",
       {
        "d": "2026-10-18",
@@ -839,9 +839,9 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHA 5"
+    "m": "FECHA 6"
    },
-   "prox_jornada": "FECHA 5",
+   "prox_jornada": "FECHA 6",
    "prox_fecha": "16.10–19.10",
    "torneo": "Belgian Hockey League"
   },
@@ -897,10 +897,10 @@
      }
     ]
    ],
-   "jornada": "FECHA 4",
+   "jornada": "FECHA 5",
    "jor": {
-    "m": "FECHA 4",
-    "f": "FECHA 4"
+    "m": "FECHA 5",
+    "f": "FECHA 5"
    },
    "f": [
     [
@@ -1168,6 +1168,12 @@
       "pj": 4
      },
      {
+      "nom": "Enric Miralles Portillo",
+      "eq": "CD Terrassa",
+      "g": 4,
+      "pj": 4
+     },
+     {
       "nom": "Pau Petchame Hernandez",
       "eq": "CD Terrassa",
       "g": 4,
@@ -1180,40 +1186,28 @@
       "pj": 4
      },
      {
-      "nom": "Enric Miralles Portillo",
-      "eq": "CD Terrassa",
-      "g": 4,
-      "pj": 4
-     },
-     {
-      "nom": "Joan Francesc Fernandez Ros",
-      "eq": "Club Egara",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Leandro Martin Ojeda Ariza",
+      "nom": "Pablo Rubio Baldor",
       "eq": "Sardinero",
       "g": 3,
       "pj": 4
      },
      {
-      "nom": "Marc Miralles Portillo",
-      "eq": "RC Polo",
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
       "g": 3,
-      "pj": 3
+      "pj": 4
+     },
+     {
+      "nom": "Enrique Zorita Marquez",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 4
      }
     ],
     "f": [
      {
       "nom": "Lucia Abajo Saenz de Tejada",
       "eq": "Club de Campo",
-      "g": 3,
-      "pj": 4
-     },
-     {
-      "nom": "Patricia Alvarez Nardiz",
-      "eq": "RC Polo",
       "g": 3,
       "pj": 4
      },
@@ -1226,6 +1220,12 @@
      {
       "nom": "Flore Suzanne Bruggink",
       "eq": "Club de Campo",
+      "g": 3,
+      "pj": 4
+     },
+     {
+      "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 4
      },
@@ -1254,8 +1254,8 @@
       "pj": 4
      },
      {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
+      "nom": "Ana Paula Riera",
+      "eq": "CD Terrassa",
       "g": 2,
       "pj": 4
      },
@@ -1269,7 +1269,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 19:56",
+   "consulta": "2026-10-15 10:48",
    "prox": {
     "m": [
      [
@@ -1305,19 +1305,19 @@
       }
      ],
      [
-      "Sardinero",
-      "Futbol Club Barcelona",
+      "RS Tenis",
+      "RC Polo",
       {
        "d": "2026-10-18",
        "h": "13:00"
       }
      ],
      [
-      "RS Tenis",
-      "RC Polo",
+      "Sardinero",
+      "Futbol Club Barcelona",
       {
        "d": "2026-10-18",
-       "h": "13:00"
+       "h": "13:15"
       }
      ]
     ],
@@ -1367,16 +1367,16 @@
       "Valencia CH",
       {
        "d": "2026-10-18",
-       "h": "11:00"
+       "h": "11:15"
       }
      ]
     ]
    },
    "prox_jor": {
-    "m": "FECHA 5",
-    "f": "FECHA 5"
+    "m": "FECHA 6",
+    "f": "FECHA 6"
    },
-   "prox_jornada": "FECHA 5",
+   "prox_jornada": "FECHA 6",
    "prox_fecha": "16.10–19.10",
    "torneo": "Liga IATI · Iberdrola"
   },
@@ -1904,12 +1904,12 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-14 09:44",
+   "consulta": "2026-10-15 10:48",
    "jor": {
-    "m": "FECHA 6",
-    "f": "FECHA 7"
+    "m": "FECHAS 5 Y 6",
+    "f": "FECHAS 7 Y 8"
    },
-   "jornada": "FECHA 6",
+   "jornada": "FECHAS 5 Y 6",
    "prox": {
     "m": [
      [
@@ -2094,7 +2094,7 @@
    },
    "prox_jor": {
     "m": "FECHAS 7 Y 8",
-    "f": "FECHAS 8 Y 9"
+    "f": "FECHAS 9 Y 10"
    },
    "prox_jornada": "FECHAS 7 Y 8",
    "prox_fecha": "16.10–19.10",
@@ -2385,7 +2385,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 19:56",
+   "consulta": "2026-10-15 10:48",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2394,11 +2394,11 @@
    "prox": {
     "m": [
      [
-      "Beeston",
-      "Old Georgians",
+      "Oxted",
+      "Surbiton",
       {
        "d": "2026-10-17",
-       "h": "17:00"
+       "h": "16:30"
       }
      ],
      [
@@ -2407,6 +2407,14 @@
       {
        "d": "2026-10-17",
        "h": "17:00"
+      }
+     ],
+     [
+      "Beeston",
+      "Old Georgians",
+      {
+       "d": "2026-10-17",
+       "h": "18:00"
       }
      ],
      [
@@ -2414,7 +2422,7 @@
       "Hampstead & Westminster",
       {
        "d": "2026-10-17",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -2422,15 +2430,7 @@
       "East Grinstead",
       {
        "d": "2026-10-17",
-       "h": "17:00"
-      }
-     ],
-     [
-      "Oxted",
-      "Surbiton",
-      {
-       "d": "2026-10-17",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -2438,25 +2438,17 @@
       "Holcombe",
       {
        "d": "2026-10-17",
-       "h": "17:00"
+       "h": "18:00"
       }
      ]
     ],
     "f": [
      [
-      "Bowdon",
-      "Wimbledon",
-      {
-       "d": "2026-10-17",
-       "h": "16:00"
-      }
-     ],
-     [
       "Durham University",
       "Buckingham",
       {
        "d": "2026-10-17",
-       "h": "16:00"
+       "h": "12:00"
       }
      ],
      [
@@ -2464,7 +2456,23 @@
       "Hampstead & Westminster",
       {
        "d": "2026-10-17",
-       "h": "16:00"
+       "h": "14:00"
+      }
+     ],
+     [
+      "Reading",
+      "University of Birmingham",
+      {
+       "d": "2026-10-17",
+       "h": "14:00"
+      }
+     ],
+     [
+      "Bowdon",
+      "Wimbledon",
+      {
+       "d": "2026-10-17",
+       "h": "15:00"
       }
      ],
      [
@@ -2476,19 +2484,11 @@
       }
      ],
      [
-      "Reading",
-      "University of Birmingham",
-      {
-       "d": "2026-10-17",
-       "h": "16:00"
-      }
-     ],
-     [
       "Surbiton",
       "East Grinstead",
       {
        "d": "2026-10-17",
-       "h": "16:00"
+       "h": "17:00"
       }
      ]
     ]
@@ -2835,7 +2835,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-14 09:52",
+   "consulta": "2026-10-15 10:48",
    "jornada": "FECHA 4",
    "prox": {
     "m": [
@@ -3372,7 +3372,7 @@
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-15 10:38",
+   "consulta": "2026-10-15 10:48",
    "torneo": "Metropolitano",
    "prox": {
     "m": [
@@ -3580,11 +3580,12 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-12 19:56",
+   "consulta": "2026-10-15 10:48",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
-   "torneo": "EHL"
+   "torneo": "EHL",
+   "jor": {}
   },
   {
    "id": "fr",
@@ -4018,7 +4019,7 @@
    "prox_jornada": "FECHA 6",
    "prox_fecha": "18.10–18.10",
    "estado": "jugada",
-   "consulta": "2026-10-14 09:56",
+   "consulta": "2026-10-15 10:48",
    "torneo": "Élite"
   },
   {
@@ -4222,7 +4223,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-12 19:56",
+   "consulta": "2026-10-15 10:48",
    "jor": {
     "m": "FECHA 1",
     "f": "FECHA 1"
