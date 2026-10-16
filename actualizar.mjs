@@ -22,7 +22,7 @@ const LIGAS = [
   { id: 'int-mundial', grupo: 'int', flag: 'un', torneo: 'Mundial', pais: 'MUNDIAL', pais_en: 'WORLD CUP', liga: 'FIH HOCKEY WORLD CUP', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /^FIH Hockey World Cup(?!.*(Junior|Indoor|Para|5s)).*\((M|Men)\)/i, f: /^FIH Hockey World Cup(?!.*(Junior|Indoor|Para|5s)).*\((W|Women)\)/i }, copa: true },
   { id: 'int-jjoo', grupo: 'int', flag: 'un', torneo: 'JJOO', pais: 'JJOO', pais_en: 'OLYMPICS', liga: 'JUEGOS OLÍMPICOS', selecciones: true, altius: { base: 'https://fih.altiusrt.com', m: /Olympic Games.*(Men|\(M\))/i, f: /Olympic Games.*(Women|\(W\))/i }, copa: true },
   { id: 'fr', torneo: 'Élite', pais: 'FRANCIA', pais_en: 'FRANCE', liga: 'ÉLITE HOMMES · ÉLITE DAMES', ffh: { m: 'Elite HOMMES', f: 'Elite DAMES' } },
-  { id: 'au', torneo: 'Hockey One', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
+  { id: 'au', torneo: 'Hockey One', pais: 'AUSTRALIA', pais_en: 'AUSTRALIA', liga: 'HOCKEY ONE', inicio: '08/10', altiusGol: { base: 'https://hockeyaustralia.altiusrt.com', m: /Men's .*Hockey One League/i, f: /Women's .*Hockey One League/i }, m: 'australien/hockey-one', f: 'australien/hockey-one-frauen' },
 ];
 
 // ---------- finde ----------
@@ -326,6 +326,28 @@ async function altius(pg, base, re) {
     }
   }
   return { ms, gol: Object.entries(gol).map(([k, g]) => { const [nom, eq] = k.split('|'); return { nom, eq, g }; }).sort((a, b) => b.g - a.g).slice(0, 10) };
+}
+
+// goleadores de una liga en Altius (página /statistics): equipo, #, jugador ("APELLIDO Nombre"), …, goles
+async function altiusGoles(pg, base, re) {
+  const comps = [];
+  for (const q of ['', '?page=2', '?page=3']) {
+    await ir(pg, base + '/competitions' + q, { waitUntil: 'networkidle2', timeout: 60000 });
+    comps.push(...(await pg.evaluate(() => [...document.querySelectorAll('a')].map(a => [a.textContent.trim().replace(/\s+/g, ' '), a.href]))).filter(([t, h]) => re.test(t) && /\/competitions\/\d+$/.test(h)));
+    if (comps.length) break;
+  }
+  const url = comps.map(([t, h]) => [+(/\b(20\d\d)\b/.exec(t) || [])[1] || 0, h]).sort((a, b) => b[0] - a[0])[0]?.[1]; if (!url) return [];
+  await ir(pg, url + '/statistics', { waitUntil: 'networkidle2', timeout: 60000 });
+  const filas = await pg.evaluate(() => [...document.querySelectorAll('tr')].map(tr => [...tr.children].map(td => td.innerText.trim().replace(/\s+/g, ' '))));
+  const cab = filas.findIndex(c => c[0] === 'Team' && c[c.length - 1] === 'Goals'); if (cab < 0) return [];
+  const out = [];
+  for (const c of filas.slice(cab + 1)) {
+    if (c.length !== filas[cab].length || !c[0] || !/^\d+$/.test(c[c.length - 1])) break;
+    const w = c[2].split(' '), ap = w.filter(x => x === x.toUpperCase() && /\p{L}/u.test(x)), no = w.filter(x => !ap.includes(x));
+    const apellido = ap.map(x => x[0] + x.slice(1).toLowerCase()).join(' ');
+    if (+c[c.length - 1] > 0) out.push({ nom: apellido + ', ' + no.join(' '), eq: c[0], g: +c[c.length - 1] });
+  }
+  return out.sort((a, b) => b.g - a.g).slice(0, 10);
 }
 
 async function altiusNombres(pg, base, re) {
@@ -662,6 +684,7 @@ for (const L of LIGAS) {
     p.consulta = sello;
     console.log(L.id, 'm', (p.m || []).length, 'f', (p.f || []).length, 'tabla', Object.keys(p.tabla || {}).join('/'), p.jornada || '');
   } catch (e) { console.log(L.id, 'ERROR', e.message); }
+  if (L.altiusGol) for (const k of ['m', 'f']) { try { const g = await altiusGoles(pg, L.altiusGol.base, L.altiusGol[k]); if (g.length) (p.goleadores = { ...(p.goleadores || {}) })[k] = g; } catch (e) { console.log(L.id, k, 'goleadores Altius:', e.message); } }
   // si una parte vino vacía (la fuente falló o tardó), se queda con lo último que se había leído
   for (const k of ['m', 'f']) {
     if (!(p[k] || []).length && (old[k] || []).length) p[k] = old[k];
