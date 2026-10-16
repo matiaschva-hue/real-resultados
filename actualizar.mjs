@@ -233,7 +233,10 @@ async function sportlink(nombrePool, pg) {
   const ms = (res.data || []).map(x => { const g = (sinTags(x[5]).match(/\d+/g) || []).map(Number); const d = String(x[0]).split('/').reverse().join('-'); return g.length < 2 ? null : [nombreBE(sinTags(x[3])), g[0], g[1], nombreBE(sinTags(x[7])), { d }]; }).filter(Boolean).reverse();
   const st = await pide(SL('standing') + q);
   const tabla = (st.data || []).map(x => ({ eq: nombreBE(x[1]), pj: +x[2], gf: +x[6], gc: +x[7], pts: +x[8] }));
-  return { ms, tabla };
+  // próxima fecha: programa oficial (columnas: fecha, hora, división, local, -, -, visitante)
+  const w = ventanaProx(false), pr = await pide(SL('program') + `&poolid=${pool}&from=${iso(w.desde)}&to=${iso(w.hasta)}`).catch(() => ({}));
+  const prox = (pr.data || []).map(x => { const d = String(sinTags(x[0])).split('/').reverse().join('-'); return /^\d{4}-\d{2}-\d{2}$/.test(d) ? [nombreBE(sinTags(x[3])), nombreBE(sinTags(x[6])), { d, h: sinTags(x[1]).slice(0, 5) }] : null; }).filter(Boolean);
+  return { ms, tabla, prox };
 }
 
 // ---------- Federhockey (Italia, fuente oficial: comunicados "#PRATO/I RISULTATI DELLE GARE DI ...") ----------
@@ -566,7 +569,9 @@ const pg = await br.newPage();
 await pg.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36');
 await pg.setViewport({ width: 1280, height: 900 });
 const paises = [];
+let proxOficial = null; // próxima fecha que trae la fuente oficial de la liga (si la trae)
 for (const L of LIGAS) {
+  proxOficial = null;
   const old = prev.paises.find(p => p.id === L.id) || {};
   if (ONLY.length && !ONLY.includes(L.id)) { if (old.id) paises.push(old); continue; }
   const p = { ...old, id: L.id, pais: L.pais, pais_en: L.pais_en, liga: L.liga, jor: {}, jornada: '' };
@@ -588,8 +593,9 @@ for (const L of LIGAS) {
       p.fuente = 'Federhockey · federhockey.it (oficial)';
     } else if (L.sportlink) {
       const tabla = { ...(p.tabla || {}) };
+      proxOficial = {};
       for (const k of ['m', 'f']) {
-        try { const o = await sportlink(L.sportlink[k], pg); if (o.ms.length) p[k] = o.ms; else if (!old[k]) p[k] = []; if (o.tabla.length) tabla[k] = o.tabla; }
+        try { const o = await sportlink(L.sportlink[k], pg); if (o.ms.length) p[k] = o.ms; else if (!old[k]) p[k] = []; if (o.tabla.length) tabla[k] = o.tabla; if (o.prox.length) (proxOficial[k] = o.prox); }
         catch (e) { console.log(L.id, k, 'Hockey Belgium falló:', e.message); if (L[k]) { const r = await fsResultados(pg, L[k]); if (r.ms.length) p[k] = r.ms; } }
       }
       p.tabla = tabla; p.fuente = 'Hockey Belgium · hockey.be (oficial)';
@@ -685,6 +691,7 @@ for (const L of LIGAS) {
     const prox = {};
     for (const k of ['m', 'f']) {
       if (L.knhb) { const w = ventanaProx(L.copa); const ms = await knhbProx(pg, L.knhb[k], w).catch(() => []); if (ms.length) { prox[k] = ms; continue; } }
+      if (proxOficial && (proxOficial[k] || []).length) { prox[k] = proxOficial[k]; continue; } // Bélgica: programa oficial
       const slug = (L.fsProx || {})[k] || (L.altius || L.larry ? null : L[k]); if (!slug) continue;
       const nombres = [...new Set([...((p.tabla || {})[k] || []).map(t => t.eq), ...(p[k] || []).flatMap(x => [x[0], x[3]]), ...(L.altius ? await altiusNombres(pg, L.altius.base, L.altius[k]) : [])])];
       const ren = n => nombres.length ? oficial(n, nombres) : n;

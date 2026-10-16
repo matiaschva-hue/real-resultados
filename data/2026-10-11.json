@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-16 06:51",
+ "actualizado": "2026-10-16 10:52",
  "paises": [
   {
    "id": "nl",
@@ -780,7 +780,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 06:51",
+   "consulta": "2026-10-16 10:52",
    "jor": {
     "m": "FECHA 5",
     "f": "FECHA 5"
@@ -788,30 +788,6 @@
    "jornada": "FECHA 5",
    "prox": {
     "m": [
-     [
-      "Braxgata",
-      "Léopold",
-      {
-       "d": "2026-10-18",
-       "h": "15:00"
-      }
-     ],
-     [
-      "Gantoise",
-      "Orée",
-      {
-       "d": "2026-10-18",
-       "h": "15:00"
-      }
-     ],
-     [
-      "Herakles",
-      "Daring",
-      {
-       "d": "2026-10-18",
-       "h": "15:00"
-      }
-     ],
      [
       "Racing",
       "Dragons",
@@ -829,17 +805,92 @@
       }
      ],
      [
+      "Gantoise",
+      "Orée",
+      {
+       "d": "2026-10-18",
+       "h": "15:00"
+      }
+     ],
+     [
+      "Braxgata",
+      "Léopold",
+      {
+       "d": "2026-10-18",
+       "h": "15:00"
+      }
+     ],
+     [
       "Waterloo Ducks",
       "Beerschot",
       {
        "d": "2026-10-18",
        "h": "15:00"
       }
+     ],
+     [
+      "Herakles",
+      "Daring",
+      {
+       "d": "2026-10-18",
+       "h": "15:00"
+      }
+     ]
+    ],
+    "f": [
+     [
+      "Racing",
+      "Dragons",
+      {
+       "d": "2026-10-18",
+       "h": "12:00"
+      }
+     ],
+     [
+      "Uccle Sport",
+      "Leuven",
+      {
+       "d": "2026-10-18",
+       "h": "12:00"
+      }
+     ],
+     [
+      "Waterloo Ducks",
+      "Beerschot",
+      {
+       "d": "2026-10-18",
+       "h": "12:00"
+      }
+     ],
+     [
+      "Victory",
+      "Antwerp",
+      {
+       "d": "2026-10-18",
+       "h": "12:00"
+      }
+     ],
+     [
+      "Gantoise",
+      "Wellington",
+      {
+       "d": "2026-10-18",
+       "h": "12:00"
+      }
+     ],
+     [
+      "Braxgata",
+      "Léopold",
+      {
+       "d": "2026-10-18",
+       "h": "12:45"
+      }
      ]
     ]
    },
    "prox_jor": {
-    "m": "FECHA 6"
+    "m": "FECHA 6",
+    "f": "FECHA 6"
    },
    "prox_jornada": "FECHA 6",
    "prox_fecha": "16.10–19.10",
