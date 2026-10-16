@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-16 11:51",
+ "actualizado": "2026-10-16 15:49",
  "paises": [
   {
    "id": "nl",
@@ -368,7 +368,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -780,7 +780,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "jor": {
     "m": "FECHA 5",
     "f": "FECHA 5"
@@ -903,10 +903,28 @@
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "m": [
     [
-     "Sanse Complutense",
-     3,
+     "Futbol Club Barcelona",
      1,
-     "Atlètic Terrassa",
+     9,
+     "Club de Campo",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "RS Tenis",
+     2,
+     1,
+     "Club Egara",
+     {
+      "d": "2026-10-10"
+     }
+    ],
+    [
+     "Sardinero",
+     2,
+     4,
+     "CD Terrassa",
      {
       "d": "2026-10-11"
      }
@@ -921,37 +939,19 @@
      }
     ],
     [
-     "Sardinero",
-     2,
-     4,
-     "CD Terrassa",
+     "Sanse Complutense",
+     3,
+     1,
+     "Atlètic Terrassa",
      {
       "d": "2026-10-11"
      }
-    ],
-    [
-     "RS Tenis",
-     2,
-     1,
-     "Club Egara",
-     {
-      "d": "2026-10-10"
-     }
-    ],
-    [
-     "Futbol Club Barcelona",
-     1,
-     9,
-     "Club de Campo",
-     {
-      "d": "2026-10-10"
-     }
     ]
    ],
-   "jornada": "FECHA 4",
+   "jornada": "FECHA 5",
    "jor": {
-    "m": "FECHA 4",
-    "f": "FECHAS 3 Y 4"
+    "m": "FECHA 5",
+    "f": "FECHA 5"
    },
    "f": [
     [
@@ -964,37 +964,10 @@
      }
     ],
     [
-     "Atlètic Terrassa",
-     1,
+     "CD Terrassa",
      0,
-     "RS Tenis",
-     {
-      "d": "2026-10-11"
-     }
-    ],
-    [
-     "RC Polo",
-     0,
-     0,
-     "Club de Campo",
-     {
-      "d": "2026-10-11"
-     }
-    ],
-    [
-     "Real Sociedad",
-     2,
-     0,
-     "UD Taburiente",
-     {
-      "d": "2026-10-11"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     4,
-     1,
-     "Valencia CH",
+     3,
+     "Club Egara",
      {
       "d": "2026-10-10"
      }
@@ -1009,12 +982,39 @@
      }
     ],
     [
-     "CD Terrassa",
-     0,
-     3,
-     "Club Egara",
+     "Sanse Complutense",
+     4,
+     1,
+     "Valencia CH",
      {
       "d": "2026-10-10"
+     }
+    ],
+    [
+     "Real Sociedad",
+     2,
+     0,
+     "UD Taburiente",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "RC Polo",
+     0,
+     0,
+     "Club de Campo",
+     {
+      "d": "2026-10-11"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     1,
+     0,
+     "RS Tenis",
+     {
+      "d": "2026-10-11"
      }
     ]
    ],
@@ -1219,6 +1219,12 @@
       "pj": 4
      },
      {
+      "nom": "Enric Miralles Portillo",
+      "eq": "CD Terrassa",
+      "g": 4,
+      "pj": 4
+     },
+     {
       "nom": "Pau Petchame Hernandez",
       "eq": "CD Terrassa",
       "g": 4,
@@ -1231,26 +1237,20 @@
       "pj": 4
      },
      {
-      "nom": "Enric Miralles Portillo",
-      "eq": "CD Terrassa",
-      "g": 4,
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
+      "g": 3,
       "pj": 4
      },
      {
-      "nom": "Joan Francesc Fernandez Ros",
-      "eq": "Club Egara",
+      "nom": "Enrique Zorita Marquez",
+      "eq": "Club de Campo",
       "g": 3,
-      "pj": 3
+      "pj": 4
      },
      {
-      "nom": "Marc Miralles Portillo",
-      "eq": "RC Polo",
-      "g": 3,
-      "pj": 3
-     },
-     {
-      "nom": "Leandro Martin Ojeda Ariza",
-      "eq": "Sardinero",
+      "nom": "Hugo Garcia Arroyo",
+      "eq": "CH Carpesa",
       "g": 3,
       "pj": 4
      }
@@ -1287,6 +1287,24 @@
       "pj": 4
      },
      {
+      "nom": "Laia Recasens Llobet",
+      "eq": "Club Egara",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Nuria Carles Andreu",
+      "eq": "Atlètic Terrassa",
+      "g": 2,
+      "pj": 3
+     },
+     {
       "nom": "Sofia Teresa Keenan Capurro",
       "eq": "Real Sociedad",
       "g": 2,
@@ -1297,30 +1315,12 @@
       "eq": "Valencia CH",
       "g": 2,
       "pj": 4
-     },
-     {
-      "nom": "Mireia Herrero Garcia",
-      "eq": "Club Egara",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Anna Borras Massaguer",
-      "eq": "Club Egara",
-      "g": 2,
-      "pj": 4
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "prox": {
     "m": [
      [
@@ -1424,10 +1424,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHA 5",
-    "f": "FECHA 5"
+    "m": "FECHA 6",
+    "f": "FECHA 6"
    },
-   "prox_jornada": "FECHA 5",
+   "prox_jornada": "FECHA 6",
    "prox_fecha": "16.10–19.10",
    "torneo": "Liga IATI · Iberdrola"
   },
@@ -1685,10 +1685,10 @@
      },
      {
       "eq": "Crefelder HTC",
-      "pj": 6,
-      "pts": 11,
-      "gf": 21,
-      "gc": 13
+      "pj": 7,
+      "pts": 12,
+      "gf": 22,
+      "gc": 14
      },
      {
       "eq": "Der Club an der Alster",
@@ -1720,10 +1720,10 @@
      },
      {
       "eq": "Uhlenhorst Mülheim",
-      "pj": 6,
-      "pts": 4,
-      "gf": 12,
-      "gc": 18
+      "pj": 7,
+      "pts": 5,
+      "gf": 13,
+      "gc": 19
      },
      {
       "eq": "Münchner SC",
@@ -1955,12 +1955,12 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "jor": {
-    "m": "FECHAS 5 Y 6",
+    "m": "FECHAS 6 Y 7",
     "f": "FECHAS 7 Y 8"
    },
-   "jornada": "FECHAS 5 Y 6",
+   "jornada": "FECHAS 6 Y 7",
    "prox": {
     "m": [
      [
@@ -2144,10 +2144,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHAS 7 Y 8",
+    "m": "FECHAS 8 Y 9",
     "f": "FECHAS 9 Y 10"
    },
-   "prox_jornada": "FECHAS 7 Y 8",
+   "prox_jornada": "FECHAS 8 Y 9",
    "prox_fecha": "16.10–19.10",
    "torneo": "Bundesliga"
   },
@@ -2436,7 +2436,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2886,7 +2886,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "jornada": "FECHA 4",
    "prox": {
     "m": [
@@ -3423,7 +3423,7 @@
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "torneo": "Metropolitano",
    "prox": {
     "m": [
@@ -3631,7 +3631,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -4070,7 +4070,7 @@
    "prox_jornada": "FECHA 6",
    "prox_fecha": "18.10–18.10",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "torneo": "Élite"
   },
   {
@@ -4274,7 +4274,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-16 11:51",
+   "consulta": "2026-10-16 15:49",
    "jor": {
     "m": "FECHA 2",
     "f": "FECHA 2"
