@@ -1,6 +1,6 @@
 {
  "fecha": "11.10.2026",
- "actualizado": "2026-10-16 15:49",
+ "actualizado": "2026-10-16 19:06",
  "paises": [
   {
    "id": "nl",
@@ -368,7 +368,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -780,7 +780,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "jor": {
     "m": "FECHA 5",
     "f": "FECHA 5"
@@ -1237,20 +1237,20 @@
       "pj": 4
      },
      {
-      "nom": "Marco Aguirregomezcorta Gonzalez",
-      "eq": "Club Egara",
-      "g": 3,
-      "pj": 4
-     },
-     {
       "nom": "Enrique Zorita Marquez",
       "eq": "Club de Campo",
       "g": 3,
       "pj": 4
      },
      {
-      "nom": "Hugo Garcia Arroyo",
-      "eq": "CH Carpesa",
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
+      "g": 3,
+      "pj": 4
+     },
+     {
+      "nom": "Pablo Rubio Baldor",
+      "eq": "Sardinero",
       "g": 3,
       "pj": 4
      }
@@ -1287,32 +1287,32 @@
       "pj": 4
      },
      {
-      "nom": "Laia Recasens Llobet",
-      "eq": "Club Egara",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Cecilia Lainz Puente",
+      "nom": "Michelle Fillet",
       "eq": "RS Tenis",
       "g": 2,
       "pj": 4
      },
      {
-      "nom": "Nuria Carles Andreu",
-      "eq": "Atlètic Terrassa",
+      "nom": "Marta Burgos Ortega",
+      "eq": "Sardinero",
       "g": 2,
-      "pj": 3
+      "pj": 5
      },
      {
-      "nom": "Sofia Teresa Keenan Capurro",
-      "eq": "Real Sociedad",
+      "nom": "Teresa Lima Cortes",
+      "eq": "Junior FC",
       "g": 2,
       "pj": 4
      },
      {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
+      "nom": "Ana Paula Riera",
+      "eq": "CD Terrassa",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
       "g": 2,
       "pj": 4
      }
@@ -1320,7 +1320,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "prox": {
     "m": [
      [
@@ -1663,6 +1663,13 @@
       "gc": 11
      },
      {
+      "eq": "Crefelder HTC",
+      "pj": 7,
+      "pts": 14,
+      "gf": 24,
+      "gc": 15
+     },
+     {
       "eq": "Hamburger Polo Club",
       "pj": 5,
       "pts": 14,
@@ -1682,13 +1689,6 @@
       "pts": 13,
       "gf": 19,
       "gc": 18
-     },
-     {
-      "eq": "Crefelder HTC",
-      "pj": 7,
-      "pts": 12,
-      "gf": 22,
-      "gc": 14
      },
      {
       "eq": "Der Club an der Alster",
@@ -1721,9 +1721,9 @@
      {
       "eq": "Uhlenhorst Mülheim",
       "pj": 7,
-      "pts": 5,
-      "gf": 13,
-      "gc": 19
+      "pts": 4,
+      "gf": 14,
+      "gc": 21
      },
      {
       "eq": "Münchner SC",
@@ -1848,6 +1848,12 @@
       "g": 6
      },
      {
+      "nom": "Masi Pfandt",
+      "eq": "Crefelder HTC",
+      "pj": 5,
+      "g": 6
+     },
+     {
       "nom": "Jonty  Elmes",
       "eq": "Mannheimer HC",
       "pj": 6,
@@ -1879,12 +1885,6 @@
      },
      {
       "nom": "Tom Craig",
-      "eq": "Hamburger Polo Club",
-      "pj": 5,
-      "g": 4
-     },
-     {
-      "nom": "Timothy Brand",
       "eq": "Hamburger Polo Club",
       "pj": 5,
       "g": 4
@@ -1955,7 +1955,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "jor": {
     "m": "FECHAS 6 Y 7",
     "f": "FECHAS 7 Y 8"
@@ -1963,14 +1963,6 @@
    "jornada": "FECHAS 6 Y 7",
    "prox": {
     "m": [
-     [
-      "Uhlenhorst Mülheim",
-      "Crefelder HTC",
-      {
-       "d": "2026-10-16",
-       "h": "20:00"
-      }
-     ],
      [
       "UHC Hamburg",
       "Münchner SC",
@@ -2436,7 +2428,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "jor": {
     "m": "FECHA 3",
     "f": "FECHA 3"
@@ -2886,7 +2878,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "jornada": "FECHA 4",
    "prox": {
     "m": [
@@ -3423,7 +3415,7 @@
     "f": "FECHA 25"
    },
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "torneo": "Metropolitano",
    "prox": {
     "m": [
@@ -3631,7 +3623,7 @@
    "tabla": {},
    "fuente": "European Hockey Federation · eurohockey.altiusrt.com (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "jornada": "",
    "grupo": "int",
    "flag": "eu",
@@ -4070,7 +4062,7 @@
    "prox_jornada": "FECHA 6",
    "prox_fecha": "18.10–18.10",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "torneo": "Élite"
   },
   {
@@ -4274,7 +4266,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-16 15:49",
+   "consulta": "2026-10-16 19:06",
    "jor": {
     "m": "FECHA 2",
     "f": "FECHA 2"
