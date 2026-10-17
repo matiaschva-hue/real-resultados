@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-17 14:16",
+ "actualizado": "2026-10-17 17:37",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "prox": {
     "m": [
      [
@@ -401,7 +401,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "prox": {
     "f": [
      [
@@ -723,7 +723,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "prox": {
     "m": [
      [
@@ -843,19 +843,19 @@
    "jornada": "FECHA 5",
    "m": [
     [
-     "CH Carpesa",
+     "CD Terrassa",
      2,
-     7,
-     "Junior FC",
+     1,
+     "Club de Campo",
      {
       "d": "2026-10-17"
      }
     ],
     [
-     "CD Terrassa",
+     "CH Carpesa",
      2,
-     1,
-     "Club de Campo",
+     7,
+     "Junior FC",
      {
       "d": "2026-10-17"
      }
@@ -1174,7 +1174,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "prox": {
     "m": [
      [
@@ -1800,7 +1800,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "prox": {
     "m": [
      [
@@ -1909,11 +1909,76 @@
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
    "jor": {
+    "m": "FECHA 4",
     "f": "FECHA 4"
    },
    "jornada": "FECHA 4",
-   "m": [],
+   "m": [
+    [
+     "Beeston",
+     1,
+     4,
+     "Old Georgians",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Cardiff & Met",
+     0,
+     3,
+     "Hampstead & Westminster",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "University of Exeter",
+     1,
+     2,
+     "East Grinstead",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Reading",
+     2,
+     3,
+     "Holcombe",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Bowdon",
+     2,
+     7,
+     "Wimbledon",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Oxted",
+     1,
+     6,
+     "Surbiton",
+     {
+      "d": "2026-10-17"
+     }
+    ]
+   ],
    "f": [
+    [
+     "Surbiton",
+     9,
+     0,
+     "East Grinstead",
+     {
+      "d": "2026-10-17"
+     }
+    ],
     [
      "University of Nottingham",
      0,
@@ -1965,90 +2030,97 @@
     "m": [
      {
       "eq": "Surbiton",
-      "pts": 9,
-      "pj": 3,
-      "gf": 11,
-      "gc": 4
+      "pts": 12,
+      "pj": 4,
+      "gf": 17,
+      "gc": 5
      },
      {
       "eq": "East Grinstead",
+      "pts": 12,
+      "pj": 4,
+      "gf": 12,
+      "gc": 6
+     },
+     {
+      "eq": "Wimbledon",
       "pts": 9,
       "pj": 3,
-      "gf": 10,
-      "gc": 5
+      "gf": 20,
+      "gc": 6
+     },
+     {
+      "eq": "Old Georgians",
+      "pts": 9,
+      "pj": 4,
+      "gf": 17,
+      "gc": 7
      },
      {
       "eq": "University of Exeter",
       "pts": 7,
-      "pj": 3,
-      "gf": 10,
-      "gc": 7
-     },
-     {
-      "eq": "Wimbledon",
-      "pts": 6,
-      "pj": 2,
-      "gf": 13,
-      "gc": 4
-     },
-     {
-      "eq": "Old Georgians",
-      "pts": 6,
-      "pj": 3,
-      "gf": 13,
-      "gc": 6
+      "pj": 4,
+      "gf": 11,
+      "gc": 9
      },
      {
       "eq": "Beeston",
       "pts": 5,
-      "pj": 3,
-      "gf": 9,
-      "gc": 8
+      "pj": 4,
+      "gf": 10,
+      "gc": 12
      },
      {
       "eq": "Reading",
       "pts": 3,
-      "pj": 2,
-      "gf": 4,
-      "gc": 5
+      "pj": 3,
+      "gf": 6,
+      "gc": 8
+     },
+     {
+      "eq": "Holcombe",
+      "pts": 3,
+      "pj": 4,
+      "gf": 8,
+      "gc": 13
+     },
+     {
+      "eq": "Hampstead & Westminster",
+      "pts": 3,
+      "pj": 4,
+      "gf": 9,
+      "gc": 16
      },
      {
       "eq": "Oxted",
       "pts": 3,
-      "pj": 3,
-      "gf": 7,
-      "gc": 10
+      "pj": 4,
+      "gf": 8,
+      "gc": 16
      },
      {
       "eq": "Cardiff & Met",
       "pts": 1,
-      "pj": 3,
+      "pj": 4,
       "gf": 4,
-      "gc": 10
+      "gc": 13
      },
      {
       "eq": "Bowdon",
       "pts": 0,
-      "pj": 3,
-      "gf": 5,
-      "gc": 11
-     },
-     {
-      "eq": "Holcombe",
-      "pts": 0,
-      "pj": 3,
-      "gf": 5,
-      "gc": 11
-     },
-     {
-      "eq": "Hampstead & Westminster",
-      "pts": 0,
-      "pj": 3,
-      "gf": 6,
-      "gc": 16
+      "pj": 4,
+      "gf": 7,
+      "gc": 18
      }
     ],
     "f": [
+     {
+      "eq": "Surbiton",
+      "pts": 12,
+      "pj": 4,
+      "gf": 27,
+      "gc": 2
+     },
      {
       "eq": "Durham University",
       "pts": 12,
@@ -2062,13 +2134,6 @@
       "pj": 4,
       "gf": 12,
       "gc": 4
-     },
-     {
-      "eq": "Surbiton",
-      "pts": 9,
-      "pj": 3,
-      "gf": 18,
-      "gc": 2
      },
      {
       "eq": "Loughborough Students",
@@ -2087,9 +2152,9 @@
      {
       "eq": "East Grinstead",
       "pts": 6,
-      "pj": 3,
+      "pj": 4,
       "gf": 5,
-      "gc": 2
+      "gc": 11
      },
      {
       "eq": "Reading",
@@ -2137,7 +2202,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "prox": {
     "m": [
      [
@@ -2337,6 +2402,7 @@
     ]
    },
    "prox_jor": {
+    "m": "FECHAS 5 Y 6",
     "f": "FECHAS 5 Y 6"
    },
    "prox_jornada": "FECHAS 5 Y 6",
@@ -2640,7 +2706,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "prox": {
     "m": [
      [
@@ -2948,7 +3014,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "torneo": "Metropolitano"
   },
   {
@@ -3309,7 +3375,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "torneo": "Élite"
   },
   {
@@ -3500,7 +3566,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 14:16",
+   "consulta": "2026-10-17 17:37",
    "goleadores": {
     "m": [
      {
