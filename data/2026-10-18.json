@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-17 17:37",
+ "actualizado": "2026-10-17 20:08",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "prox": {
     "m": [
      [
@@ -401,7 +401,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "prox": {
     "f": [
      [
@@ -723,7 +723,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "prox": {
     "m": [
      [
@@ -1174,7 +1174,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "prox": {
     "m": [
      [
@@ -1800,7 +1800,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "prox": {
     "m": [
      [
@@ -2202,7 +2202,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "prox": {
     "m": [
      [
@@ -2706,7 +2706,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "prox": {
     "m": [
      [
@@ -3014,7 +3014,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "torneo": "Metropolitano"
   },
   {
@@ -3375,7 +3375,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "torneo": "Élite"
   },
   {
@@ -3566,7 +3566,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 17:37",
+   "consulta": "2026-10-17 20:08",
    "goleadores": {
     "m": [
      {
