@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-17 22:03",
+ "actualizado": "2026-10-18 02:55",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "prox": {
     "m": [
      [
@@ -401,7 +401,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "prox": {
     "f": [
      [
@@ -723,7 +723,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "prox": {
     "m": [
      [
@@ -843,19 +843,19 @@
    "jornada": "FECHA 5",
    "m": [
     [
-     "CD Terrassa",
+     "CH Carpesa",
      2,
-     1,
-     "Club de Campo",
+     7,
+     "Junior FC",
      {
       "d": "2026-10-17"
      }
     ],
     [
-     "CH Carpesa",
+     "CD Terrassa",
      2,
-     7,
-     "Junior FC",
+     1,
+     "Club de Campo",
      {
       "d": "2026-10-17"
      }
@@ -1061,34 +1061,22 @@
       "pj": 4
      },
      {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
-      "g": 6,
-      "pj": 5
-     },
-     {
       "nom": "Joaquin Puglisi",
       "eq": "RS Tenis",
       "g": 6,
       "pj": 4
      },
      {
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
+      "g": 6,
+      "pj": 5
+     },
+     {
       "nom": "Enric Miralles Portillo",
       "eq": "CD Terrassa",
       "g": 5,
       "pj": 5
-     },
-     {
-      "nom": "Anton Serrahima Esque",
-      "eq": "Junior FC",
-      "g": 4,
-      "pj": 4
-     },
-     {
-      "nom": "Nicolau Mustaros Araño",
-      "eq": "Junior FC",
-      "g": 4,
-      "pj": 4
      },
      {
       "nom": "Pau Petchame Hernandez",
@@ -1103,10 +1091,22 @@
       "pj": 4
      },
      {
-      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "nom": "Anton Serrahima Esque",
+      "eq": "Junior FC",
+      "g": 4,
+      "pj": 4
+     },
+     {
+      "nom": "Nicolau Mustaros Araño",
+      "eq": "Junior FC",
+      "g": 4,
+      "pj": 4
+     },
+     {
+      "nom": "Joan Francesc Fernandez Ros",
       "eq": "Club Egara",
       "g": 3,
-      "pj": 4
+      "pj": 3
      }
     ],
     "f": [
@@ -1114,12 +1114,6 @@
       "nom": "Flore Suzanne Bruggink",
       "eq": "Club de Campo",
       "g": 5,
-      "pj": 5
-     },
-     {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
-      "g": 3,
       "pj": 5
      },
      {
@@ -1135,46 +1129,52 @@
       "pj": 4
      },
      {
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 5
+     },
+     {
       "nom": "Lola Riera Zuzuarregui",
       "eq": "Sanse Complutense",
       "g": 3,
       "pj": 4
      },
      {
-      "nom": "Mireia Herrero Garcia",
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Carmen Fernandez de Velasco Arroyo",
+      "eq": "RS Tenis",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 2,
+      "pj": 4
+     },
+     {
+      "nom": "Nuria Carles Andreu",
+      "eq": "Atlètic Terrassa",
+      "g": 2,
+      "pj": 3
+     },
+     {
+      "nom": "Laia Recasens Llobet",
       "eq": "Club Egara",
       "g": 2,
       "pj": 4
-     },
-     {
-      "nom": "Begoña Garcia Grau",
-      "eq": "Club de Campo",
-      "g": 2,
-      "pj": 5
-     },
-     {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Anna Borras Massaguer",
-      "eq": "Club Egara",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Marta Burgos Ortega",
-      "eq": "Sardinero",
-      "g": 2,
-      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "prox": {
     "m": [
      [
@@ -1800,7 +1800,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "prox": {
     "m": [
      [
@@ -2202,7 +2202,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "prox": {
     "m": [
      [
@@ -2706,7 +2706,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "prox": {
     "m": [
      [
@@ -3014,7 +3014,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "torneo": "Metropolitano"
   },
   {
@@ -3375,7 +3375,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "sin-fecha",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "torneo": "Élite"
   },
   {
@@ -3389,6 +3389,15 @@
    },
    "jornada": "FECHA 2",
    "m": [
+    [
+     "Adelaide Fire",
+     1,
+     9,
+     "Tassie Tigers",
+     {
+      "d": "2026-10-18"
+     }
+    ],
     [
      "Melbourne Cobras",
      2,
@@ -3418,6 +3427,15 @@
     ]
    ],
    "f": [
+    [
+     "Adelaide Fire",
+     1,
+     5,
+     "Tassie Tigers",
+     {
+      "d": "2026-10-17"
+     }
+    ],
     [
      "Melbourne Cobras",
      3,
@@ -3456,6 +3474,13 @@
       "gc": 3
      },
      {
+      "eq": "Tassie Tigers",
+      "pts": 10,
+      "pj": 2,
+      "gf": 13,
+      "gc": 3
+     },
+     {
       "eq": "HC Melbourne",
       "pts": 10,
       "pj": 2,
@@ -3468,13 +3493,6 @@
       "pj": 2,
       "gf": 8,
       "gc": 5
-     },
-     {
-      "eq": "Tassie Tigers",
-      "pts": 5,
-      "pj": 1,
-      "gf": 4,
-      "gc": 2
      },
      {
       "eq": "Melbourne Cobras",
@@ -3500,9 +3518,9 @@
      {
       "eq": "Adelaide Fire",
       "pts": 0,
-      "pj": 1,
-      "gf": 1,
-      "gc": 9
+      "pj": 2,
+      "gf": 2,
+      "gc": 18
      }
     ],
     "f": [
@@ -3535,6 +3553,13 @@
       "gc": 5
      },
      {
+      "eq": "Tassie Tigers",
+      "pts": 5,
+      "pj": 2,
+      "gf": 5,
+      "gc": 4
+     },
+     {
       "eq": "HC Melbourne",
       "pts": 5,
       "pj": 2,
@@ -3542,33 +3567,31 @@
       "gc": 5
      },
      {
-      "eq": "Tassie Tigers",
-      "pts": 0,
-      "pj": 1,
-      "gf": 0,
-      "gc": 3
-     },
-     {
-      "eq": "Adelaide Fire",
-      "pts": 0,
-      "pj": 1,
-      "gf": 3,
-      "gc": 7
-     },
-     {
       "eq": "Brisbane Blaze",
       "pts": 0,
       "pj": 2,
       "gf": 2,
       "gc": 6
+     },
+     {
+      "eq": "Adelaide Fire",
+      "pts": 0,
+      "pj": 2,
+      "gf": 4,
+      "gc": 12
      }
     ]
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-17 22:03",
+   "consulta": "2026-10-18 02:55",
    "goleadores": {
     "m": [
+     {
+      "nom": "Hazell, Ehren",
+      "eq": "Tassie Tigers",
+      "g": 5
+     },
      {
       "nom": "Staines, Jake",
       "eq": "Canberra Chill",
@@ -3613,11 +3636,6 @@
       "nom": "Govers, Blake",
       "eq": "NSW Pride",
       "g": 2
-     },
-     {
-      "nom": "Snowden, Hugh",
-      "eq": "Melbourne Cobras",
-      "g": 2
      }
     ],
     "f": [
@@ -3652,6 +3670,11 @@
       "g": 2
      },
      {
+      "nom": "Dobbie, Beth",
+      "eq": "Tassie Tigers",
+      "g": 2
+     },
+     {
       "nom": "Evans, Naomi",
       "eq": "Canberra Chill",
       "g": 2
@@ -3664,11 +3687,6 @@
      {
       "nom": "Patterson, Amalia",
       "eq": "NSW Pride",
-      "g": 2
-     },
-     {
-      "nom": "Woodger, Lahni",
-      "eq": "Melbourne Cobras",
       "g": 2
      }
     ]
