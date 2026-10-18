@@ -1,21 +1,84 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-18 08:07",
+ "actualizado": "2026-10-18 11:35",
  "paises": [
   {
    "id": "nl",
    "pais": "PAÍSES BAJOS",
    "pais_en": "NETHERLANDS",
    "liga": "HOOFDKLASSE",
-   "jor": {},
-   "jornada": "",
-   "m": [],
+   "jor": {
+    "m": "FECHA 4",
+    "f": "FECHA 5"
+   },
+   "jornada": "FECHA 4",
+   "m": [
+    [
+     "HDM",
+     0,
+     2,
+     "Bloemendaal",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Schaerweijde",
+     0,
+     8,
+     "Amsterdam",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Pinoké",
+     2,
+     3,
+     "Den Bosch",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Rotterdam",
+     5,
+     2,
+     "SCHC",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Tilburg",
+     1,
+     6,
+     "Kampong",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Oranje-Rood",
+     4,
+     1,
+     "Klein Zwitserland",
+     {
+      "d": "2026-10-17"
+     }
+    ]
+   ],
    "goleadores": {
     "m": [
      {
       "nom": "Fabian Verzuu",
       "eq": "HDM",
       "g": 6
+     },
+     {
+      "nom": "Joep Troost",
+      "eq": "Pinoké",
+      "g": 5
      },
      {
       "nom": "Timo Boers",
@@ -25,7 +88,22 @@
      {
       "nom": "Boris Burkhardt",
       "eq": "Amsterdam",
-      "g": 3
+      "g": 4
+     },
+     {
+      "nom": "Duco Telgenkamp",
+      "eq": "Amsterdam",
+      "g": 4
+     },
+     {
+      "nom": "Mustapha Cassiem",
+      "eq": "Amsterdam",
+      "g": 4
+     },
+     {
+      "nom": "Struan Walker",
+      "eq": "Oranje-Rood",
+      "g": 4
      },
      {
       "nom": "Casper van der Veen",
@@ -33,46 +111,26 @@
       "g": 3
      },
      {
-      "nom": "Duco Telgenkamp",
-      "eq": "Amsterdam",
-      "g": 3
-     },
-     {
-      "nom": "Joep Troost",
-      "eq": "Pinoké",
-      "g": 3
-     },
-     {
-      "nom": "Sam Lane",
-      "eq": "Klein Zwitserland",
-      "g": 3
-     },
-     {
       "nom": "Dayaan Cassiem",
       "eq": "Amsterdam",
-      "g": 2
+      "g": 3
      },
      {
-      "nom": "Floris Wortelboer",
-      "eq": "Bloemendaal",
-      "g": 2
-     },
-     {
-      "nom": "Hugo Labouchere",
-      "eq": "Pinoké",
-      "g": 2
+      "nom": "Joaquín Menini",
+      "eq": "Rotterdam",
+      "g": 3
      }
     ],
     "f": [
      {
       "nom": "Frédérique Matla",
       "eq": "Den Bosch",
-      "g": 9
+      "g": 10
      },
      {
       "nom": "Yibbi Jansen",
       "eq": "SCHC",
-      "g": 8
+      "g": 10
      },
      {
       "nom": "Iris de Kemp",
@@ -80,9 +138,19 @@
       "g": 6
      },
      {
+      "nom": "Charlotte Schrijvers",
+      "eq": "Oranje-Rood",
+      "g": 5
+     },
+     {
       "nom": "Jip Dicke",
       "eq": "SCHC",
       "g": 5
+     },
+     {
+      "nom": "Ankelein Baardemans",
+      "eq": "Bloemendaal",
+      "g": 4
      },
      {
       "nom": "Bente van der Veldt",
@@ -90,52 +158,97 @@
       "g": 4
      },
      {
-      "nom": "Charlotte Schrijvers",
-      "eq": "Oranje-Rood",
-      "g": 4
-     },
-     {
-      "nom": "Ankelein Baardemans",
-      "eq": "Bloemendaal",
-      "g": 3
-     },
-     {
       "nom": "Charlotte Englebert",
       "eq": "Den Bosch",
-      "g": 3
-     },
-     {
-      "nom": "Imke Verstraeten",
-      "eq": "Amsterdam",
-      "g": 3
+      "g": 4
      },
      {
       "nom": "Juul Sauer",
       "eq": "Pinoké",
-      "g": 3
+      "g": 4
+     },
+     {
+      "nom": "Maria Steensma",
+      "eq": "Pinoké",
+      "g": 4
      }
     ]
    },
-   "f": [],
+   "f": [
+    [
+     "SCHC",
+     2,
+     1,
+     "Hurley",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Victoria",
+     0,
+     5,
+     "Pinoké",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Amsterdam",
+     0,
+     2,
+     "Den Bosch",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Bloemendaal",
+     1,
+     0,
+     "HDM",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Oranje-Rood",
+     2,
+     1,
+     "HGC",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "Rotterdam",
+     2,
+     0,
+     "Kampong",
+     {
+      "d": "2026-10-17"
+     }
+    ]
+   ],
    "tabla": {
     "m": [
      {
       "eq": "Amsterdam",
-      "pj": 3,
-      "pts": 9,
-      "dg": 7
+      "pj": 4,
+      "pts": 12,
+      "dg": 15
      },
      {
       "eq": "Bloemendaal",
-      "pj": 3,
-      "pts": 7,
-      "dg": 10
+      "pj": 4,
+      "pts": 10,
+      "dg": 12
      },
      {
       "eq": "Den Bosch",
-      "pj": 3,
-      "pts": 7,
-      "dg": 4
+      "pj": 4,
+      "pts": 10,
+      "dg": 5
      },
      {
       "eq": "Klein Zwitserland",
@@ -157,9 +270,9 @@
      },
      {
       "eq": "HDM",
-      "pj": 3,
+      "pj": 4,
       "pts": 4,
-      "dg": 0
+      "dg": -2
      },
      {
       "eq": "SCHC",
@@ -169,9 +282,9 @@
      },
      {
       "eq": "Pinoké",
-      "pj": 3,
+      "pj": 4,
       "pts": 2,
-      "dg": -1
+      "dg": -2
      },
      {
       "eq": "Rotterdam",
@@ -187,89 +300,89 @@
      },
      {
       "eq": "Schaerweijde",
-      "pj": 3,
+      "pj": 4,
       "pts": 0,
-      "dg": -10
+      "dg": -18
      }
     ],
     "f": [
      {
-      "eq": "Amsterdam",
-      "pj": 3,
-      "pts": 9,
-      "dg": 7
-     },
-     {
-      "eq": "Bloemendaal",
-      "pj": 3,
-      "pts": 7,
-      "dg": 10
-     },
-     {
       "eq": "Den Bosch",
-      "pj": 3,
-      "pts": 7,
-      "dg": 4
-     },
-     {
-      "eq": "Klein Zwitserland",
-      "pj": 3,
-      "pts": 5,
-      "dg": 1
-     },
-     {
-      "eq": "Kampong",
-      "pj": 2,
-      "pts": 4,
-      "dg": 3
-     },
-     {
-      "eq": "Oranje-Rood",
-      "pj": 2,
-      "pts": 4,
-      "dg": 1
-     },
-     {
-      "eq": "HDM",
-      "pj": 3,
-      "pts": 4,
-      "dg": 0
+      "pj": 5,
+      "pts": 15,
+      "dg": 18
      },
      {
       "eq": "SCHC",
-      "pj": 3,
-      "pts": 4,
-      "dg": -2
+      "pj": 5,
+      "pts": 15,
+      "dg": 11
      },
      {
-      "eq": "Pinoké",
-      "pj": 3,
-      "pts": 2,
-      "dg": -1
+      "eq": "Amsterdam",
+      "pj": 5,
+      "pts": 10,
+      "dg": 6
      },
      {
       "eq": "Rotterdam",
-      "pj": 3,
-      "pts": 0,
+      "pj": 5,
+      "pts": 10,
+      "dg": 2
+     },
+     {
+      "eq": "Hurley",
+      "pj": 5,
+      "pts": 9,
+      "dg": 4
+     },
+     {
+      "eq": "Kampong",
+      "pj": 5,
+      "pts": 7,
+      "dg": 8
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 5,
+      "pts": 7,
       "dg": -4
      },
      {
-      "eq": "Tilburg",
-      "pj": 3,
+      "eq": "Oranje-Rood",
+      "pj": 5,
+      "pts": 7,
+      "dg": -6
+     },
+     {
+      "eq": "Bloemendaal",
+      "pj": 5,
+      "pts": 4,
+      "dg": -6
+     },
+     {
+      "eq": "HDM",
+      "pj": 5,
+      "pts": 3,
+      "dg": -4
+     },
+     {
+      "eq": "HGC",
+      "pj": 5,
       "pts": 0,
       "dg": -9
      },
      {
-      "eq": "Schaerweijde",
-      "pj": 3,
+      "eq": "Victoria",
+      "pj": 5,
       "pts": 0,
-      "dg": -10
+      "dg": -20
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-18 08:07",
+   "estado": "jugada",
+   "consulta": "2026-10-18 11:35",
    "prox": {
     "m": [
      [
@@ -384,8 +497,11 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "m": "FECHA 5",
+    "f": "FECHA 6"
+   },
+   "prox_jornada": "FECHA 5",
    "prox_fecha": "23.10–26.10",
    "torneo": "Hoofdklasse"
   },
@@ -401,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-18 08:07",
+   "consulta": "2026-10-18 11:35",
    "prox": {
     "f": [
      [
@@ -543,10 +659,87 @@
    "pais": "BÉLGICA",
    "pais_en": "BELGIUM",
    "liga": "BELGIAN HOCKEY LEAGUE",
-   "jor": {},
-   "jornada": "",
-   "m": [],
-   "f": [],
+   "jor": {
+    "m": "FECHA 6",
+    "f": "FECHA 6"
+   },
+   "jornada": "FECHA 6",
+   "m": [
+    [
+     "Herakles",
+     4,
+     1,
+     "Daring",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Uccle Sport",
+     8,
+     0,
+     "Namur",
+     {
+      "d": "2026-10-18"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "Gantoise",
+     1,
+     0,
+     "Wellington",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Victory",
+     1,
+     3,
+     "Antwerp",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Waterloo Ducks",
+     1,
+     1,
+     "Beerschot",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Uccle Sport",
+     0,
+     1,
+     "Leuven",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Racing",
+     1,
+     1,
+     "Dragons",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Braxgata",
+     3,
+     1,
+     "Léopold",
+     {
+      "d": "2026-10-18"
+     }
+    ]
+   ],
    "tabla": {
     "m": [
      {
@@ -571,25 +764,25 @@
       "pts": 12
      },
      {
+      "eq": "Uccle Sport",
+      "pj": 6,
+      "gf": 23,
+      "gc": 13,
+      "pts": 11
+     },
+     {
+      "eq": "Herakles",
+      "pj": 6,
+      "gf": 19,
+      "gc": 12,
+      "pts": 9
+     },
+     {
       "eq": "Braxgata",
       "pj": 4,
       "gf": 14,
       "gc": 7,
       "pts": 9
-     },
-     {
-      "eq": "Uccle Sport",
-      "pj": 5,
-      "gf": 15,
-      "gc": 13,
-      "pts": 8
-     },
-     {
-      "eq": "Herakles",
-      "pj": 5,
-      "gf": 15,
-      "gc": 11,
-      "pts": 6
      },
      {
       "eq": "Racing",
@@ -621,109 +814,109 @@
      },
      {
       "eq": "Daring",
-      "pj": 5,
-      "gf": 7,
-      "gc": 22,
+      "pj": 6,
+      "gf": 8,
+      "gc": 26,
       "pts": 2
      },
      {
       "eq": "Namur",
-      "pj": 5,
+      "pj": 6,
       "gf": 6,
-      "gc": 18,
+      "gc": 26,
       "pts": 0
      }
     ],
     "f": [
      {
-      "eq": "Dragons",
-      "pj": 5,
-      "gf": 20,
+      "eq": "Gantoise",
+      "pj": 6,
+      "gf": 15,
       "gc": 8,
-      "pts": 13
+      "pts": 15
      },
      {
-      "eq": "Gantoise",
-      "pj": 5,
-      "gf": 14,
-      "gc": 8,
-      "pts": 12
+      "eq": "Dragons",
+      "pj": 6,
+      "gf": 21,
+      "gc": 9,
+      "pts": 14
      },
      {
       "eq": "Leuven",
-      "pj": 5,
-      "gf": 14,
+      "pj": 6,
+      "gf": 15,
       "gc": 7,
-      "pts": 11
-     },
-     {
-      "eq": "Racing",
-      "pj": 5,
-      "gf": 8,
-      "gc": 5,
-      "pts": 8
+      "pts": 14
      },
      {
       "eq": "Antwerp",
-      "pj": 5,
-      "gf": 5,
+      "pj": 6,
+      "gf": 8,
+      "gc": 7,
+      "pts": 10
+     },
+     {
+      "eq": "Racing",
+      "pj": 6,
+      "gf": 9,
       "gc": 6,
-      "pts": 7
+      "pts": 9
+     },
+     {
+      "eq": "Braxgata",
+      "pj": 6,
+      "gf": 8,
+      "gc": 9,
+      "pts": 8
      },
      {
       "eq": "Waterloo Ducks",
-      "pj": 5,
-      "gf": 10,
-      "gc": 11,
-      "pts": 6
+      "pj": 6,
+      "gf": 11,
+      "gc": 12,
+      "pts": 7
      },
      {
       "eq": "Beerschot",
-      "pj": 5,
-      "gf": 4,
-      "gc": 11,
-      "pts": 6
+      "pj": 6,
+      "gf": 5,
+      "gc": 12,
+      "pts": 7
      },
      {
       "eq": "Wellington",
-      "pj": 5,
+      "pj": 6,
       "gf": 8,
-      "gc": 11,
+      "gc": 12,
       "pts": 6
      },
      {
       "eq": "Victory",
-      "pj": 5,
-      "gf": 10,
-      "gc": 11,
-      "pts": 5
-     },
-     {
-      "eq": "Braxgata",
-      "pj": 5,
-      "gf": 5,
-      "gc": 8,
+      "pj": 6,
+      "gf": 11,
+      "gc": 14,
       "pts": 5
      },
      {
       "eq": "Uccle Sport",
-      "pj": 5,
+      "pj": 6,
       "gf": 6,
-      "gc": 9,
+      "gc": 10,
       "pts": 4
      },
      {
       "eq": "Léopold",
-      "pj": 5,
-      "gf": 4,
-      "gc": 13,
+      "pj": 6,
+      "gf": 5,
+      "gc": 16,
       "pts": 0
      }
     ]
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-18 08:07",
+   "estado": "jugada",
+   "consulta": "2026-10-18 11:35",
    "prox": {
     "m": [
      [
@@ -826,8 +1019,11 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "m": "FECHA 7",
+    "f": "FECHA 7"
+   },
+   "prox_jornada": "FECHA 7",
    "prox_fecha": "23.10–26.10",
    "torneo": "Belgian Hockey League"
   },
@@ -843,6 +1039,51 @@
    "jornada": "FECHA 5",
    "m": [
     [
+     "Sardinero",
+     0,
+     1,
+     "Futbol Club Barcelona",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "RS Tenis",
+     0,
+     3,
+     "RC Polo",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "UD Taburiente",
+     1,
+     3,
+     "Atlètic Terrassa",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Club Egara",
+     2,
+     1,
+     "Sanse Complutense",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "CD Terrassa",
+     2,
+     1,
+     "Club de Campo",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
      "CH Carpesa",
      2,
      7,
@@ -850,41 +1091,14 @@
      {
       "d": "2026-10-17"
      }
-    ],
-    [
-     "CD Terrassa",
-     2,
-     1,
-     "Club de Campo",
-     {
-      "d": "2026-10-17"
-     }
     ]
    ],
    "f": [
     [
-     "CD Terrassa",
-     0,
-     5,
-     "Club de Campo",
-     {
-      "d": "2026-10-17"
-     }
-    ],
-    [
-     "Club Egara",
+     "RS Tenis",
      2,
-     4,
-     "Sanse Complutense",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "Sardinero",
-     0,
      1,
-     "RC Polo",
+     "Valencia CH",
      {
       "d": "2026-10-18"
      }
@@ -899,12 +1113,39 @@
      }
     ],
     [
-     "RS Tenis",
-     2,
+     "Sardinero",
+     0,
      1,
-     "Valencia CH",
+     "RC Polo",
      {
       "d": "2026-10-18"
+     }
+    ],
+    [
+     "UD Taburiente",
+     1,
+     6,
+     "Junior FC",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Club Egara",
+     2,
+     4,
+     "Sanse Complutense",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "CD Terrassa",
+     0,
+     5,
+     "Club de Campo",
+     {
+      "d": "2026-10-17"
      }
     ]
    ],
@@ -1210,7 +1451,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 08:07",
+   "consulta": "2026-10-18 11:35",
    "prox": {
     "m": [
      [
@@ -1423,11 +1664,69 @@
    "pais_en": "GERMANY",
    "liga": "1. BUNDESLIGA",
    "jor": {
-    "m": "FECHA 8",
-    "f": "FECHA 8"
+    "m": "FECHAS 7 Y 8",
+    "f": "FECHAS 7 Y 8"
    },
-   "jornada": "FECHA 8",
+   "jornada": "FECHAS 7 Y 8",
    "m": [
+    [
+     "Uhlenhorst Mülheim",
+     2,
+     1,
+     "DSD Düsseldorf",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Der Club an der Alster",
+     4,
+     2,
+     "TSV Mannheim Hockey",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Harvestehuder THC",
+     5,
+     0,
+     "Münchner SC",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Crefelder HTC",
+     3,
+     3,
+     "RW Köln",
+     {
+      "d": "2026-10-18",
+      "so": [
+       1,
+       2
+      ]
+     }
+    ],
+    [
+     "Hamburger Polo Club",
+     2,
+     1,
+     "Mannheimer HC",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "UHC Hamburg",
+     7,
+     1,
+     "Berliner HC",
+     {
+      "d": "2026-10-18"
+     }
+    ],
     [
      "Der Club an der Alster",
      4,
@@ -1490,6 +1789,59 @@
    "f": [
     [
      "UHC Hamburg",
+     1,
+     1,
+     "Berliner HC",
+     {
+      "d": "2026-10-18",
+      "so": [
+       4,
+       2
+      ]
+     }
+    ],
+    [
+     "Der Club an der Alster",
+     2,
+     2,
+     "TSV Mannheim Hockey",
+     {
+      "d": "2026-10-18",
+      "so": [
+       3,
+       1
+      ]
+     }
+    ],
+    [
+     "Düsseldorfer HC",
+     1,
+     0,
+     "DSD Düsseldorf",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Großflottbeker THGC",
+     1,
+     3,
+     "Mannheimer HC",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Harvestehuder THC",
+     1,
+     0,
+     "Münchner SC",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "UHC Hamburg",
      2,
      3,
      "Münchner SC",
@@ -1539,86 +1891,86 @@
      {
       "eq": "Hamburger Polo Club",
       "pj": 7,
+      "pts": 20,
+      "gf": 29,
+      "gc": 17
+     },
+     {
+      "eq": "RW Köln",
+      "pj": 7,
       "pts": 18,
-      "gf": 27,
-      "gc": 16
+      "gf": 23,
+      "gc": 11
      },
      {
       "eq": "Mannheimer HC",
       "pj": 8,
-      "pts": 18,
-      "gf": 26,
-      "gc": 15
-     },
-     {
-      "eq": "RW Köln",
-      "pj": 6,
-      "pts": 16,
-      "gf": 20,
-      "gc": 8
+      "pts": 17,
+      "gf": 27,
+      "gc": 17
      },
      {
       "eq": "Crefelder HTC",
-      "pj": 7,
-      "pts": 14,
-      "gf": 24,
-      "gc": 15
+      "pj": 8,
+      "pts": 15,
+      "gf": 27,
+      "gc": 18
      },
      {
       "eq": "UHC Hamburg",
       "pj": 8,
       "pts": 14,
-      "gf": 27,
-      "gc": 23
-     },
-     {
-      "eq": "TSV Mannheim Hockey",
-      "pj": 7,
-      "pts": 13,
-      "gf": 20,
-      "gc": 23
+      "gf": 31,
+      "gc": 24
      },
      {
       "eq": "Der Club an der Alster",
-      "pj": 7,
-      "pts": 10,
-      "gf": 23,
-      "gc": 17
+      "pj": 8,
+      "pts": 13,
+      "gf": 27,
+      "gc": 19
+     },
+     {
+      "eq": "TSV Mannheim Hockey",
+      "pj": 8,
+      "pts": 13,
+      "gf": 22,
+      "gc": 27
      },
      {
       "eq": "Harvestehuder THC",
-      "pj": 7,
-      "pts": 8,
-      "gf": 15,
+      "pj": 8,
+      "pts": 11,
+      "gf": 20,
       "gc": 16
+     },
+     {
+      "eq": "Uhlenhorst Mülheim",
+      "pj": 8,
+      "pts": 7,
+      "gf": 16,
+      "gc": 22
      },
      {
       "eq": "Berliner HC",
       "pj": 8,
       "pts": 6,
-      "gf": 9,
-      "gc": 23
-     },
-     {
-      "eq": "Uhlenhorst Mülheim",
-      "pj": 7,
-      "pts": 4,
-      "gf": 14,
-      "gc": 21
-     },
-     {
-      "eq": "Münchner SC",
-      "pj": 7,
-      "pts": 4,
-      "gf": 12,
+      "gf": 10,
       "gc": 27
      },
      {
+      "eq": "Münchner SC",
+      "pj": 8,
+      "pts": 4,
+      "gf": 12,
+      "gc": 32
+     },
+     {
       "eq": "DSD Düsseldorf",
-      "pj": 7,
+      "pj": 8,
       "pts": 3,
-      "gf": 15,
-      "gc": 28
+      "gf": 16,
+      "gc": 30
      }
     ],
     "f": [
@@ -1651,6 +2003,13 @@
       "gc": 15
      },
      {
+      "eq": "Berliner HC",
+      "pj": 8,
+      "pts": 14,
+      "gf": 14,
+      "gc": 9
+     },
+     {
       "eq": "Großflottbeker THGC",
       "pj": 8,
       "pts": 14,
@@ -1658,18 +2017,11 @@
       "gc": 14
      },
      {
-      "eq": "Berliner HC",
-      "pj": 7,
-      "pts": 13,
-      "gf": 13,
-      "gc": 8
-     },
-     {
       "eq": "Der Club an der Alster",
       "pj": 8,
-      "pts": 11,
-      "gf": 13,
-      "gc": 12
+      "pts": 12,
+      "gf": 14,
+      "gc": 13
      },
      {
       "eq": "Harvestehuder THC",
@@ -1686,6 +2038,13 @@
       "gc": 15
      },
      {
+      "eq": "UHC Hamburg",
+      "pj": 8,
+      "pts": 7,
+      "gf": 11,
+      "gc": 19
+     },
+     {
       "eq": "DSD Düsseldorf",
       "pj": 8,
       "pts": 6,
@@ -1693,18 +2052,11 @@
       "gc": 14
      },
      {
-      "eq": "UHC Hamburg",
-      "pj": 7,
-      "pts": 5,
-      "gf": 10,
-      "gc": 18
-     },
-     {
       "eq": "TSV Mannheim Hockey",
       "pj": 8,
       "pts": 2,
-      "gf": 7,
-      "gc": 21
+      "gf": 8,
+      "gc": 22
      }
     ]
    },
@@ -1714,18 +2066,24 @@
       "nom": "Jeremy Hayward",
       "eq": "Der Club an der Alster",
       "pj": 7,
-      "g": 10
-     },
-     {
-      "nom": "Raphael Hartkopf",
-      "eq": "RW Köln",
-      "pj": 6,
-      "g": 7
+      "g": 11
      },
      {
       "nom": "Ben Hasbach",
       "eq": "Mannheimer HC",
       "pj": 7,
+      "g": 8
+     },
+     {
+      "nom": "Alec von Schwerin",
+      "eq": "Harvestehuder THC",
+      "pj": 7,
+      "g": 8
+     },
+     {
+      "nom": "Raphael Hartkopf",
+      "eq": "RW Köln",
+      "pj": 6,
       "g": 7
      },
      {
@@ -1741,14 +2099,20 @@
       "g": 6
      },
      {
-      "nom": "Masi Pfandt",
-      "eq": "Crefelder HTC",
+      "nom": "Timothy Brand",
+      "eq": "Hamburger Polo Club",
       "pj": 6,
       "g": 6
      },
      {
-      "nom": "Timothy Brand",
-      "eq": "Hamburger Polo Club",
+      "nom": "Jakob Brilla",
+      "eq": "RW Köln",
+      "pj": 6,
+      "g": 6
+     },
+     {
+      "nom": "Masi Pfandt",
+      "eq": "Crefelder HTC",
       "pj": 6,
       "g": 6
      },
@@ -1757,18 +2121,6 @@
       "eq": "Mannheimer HC",
       "pj": 7,
       "g": 6
-     },
-     {
-      "nom": "Alec von Schwerin",
-      "eq": "Harvestehuder THC",
-      "pj": 7,
-      "g": 6
-     },
-     {
-      "nom": "Jakob Brilla",
-      "eq": "RW Köln",
-      "pj": 6,
-      "g": 5
      }
     ],
     "f": [
@@ -1821,22 +2173,22 @@
       "g": 3
      },
      {
-      "nom": "Philine Drumm",
-      "eq": "Berliner HC",
+      "nom": "Johanna Hachenberg",
+      "eq": "Der Club an der Alster",
       "pj": 7,
       "g": 3
      },
      {
-      "nom": "Johanna Hachenberg",
-      "eq": "Der Club an der Alster",
-      "pj": 7,
+      "nom": "Josefina Rübenacker",
+      "eq": "Bremer HC",
+      "pj": 8,
       "g": 3
      }
     ]
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 08:07",
+   "consulta": "2026-10-18 11:35",
    "prox": {
     "m": [
      [
@@ -2238,7 +2590,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 08:07",
+   "consulta": "2026-10-18 11:35",
    "prox": {
     "m": [
      [
@@ -2742,7 +3094,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 08:07",
+   "consulta": "2026-10-18 11:35",
    "prox": {
     "m": [
      [
@@ -3050,7 +3402,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "sin-fecha",
-   "consulta": "2026-10-18 08:07",
+   "consulta": "2026-10-18 11:35",
    "torneo": "Metropolitano"
   },
   {
@@ -3059,17 +3411,54 @@
    "pais_en": "FRANCE",
    "liga": "ÉLITE HOMMES · ÉLITE DAMES",
    "jor": {
-    "m": "",
+    "m": "FECHA 6",
     "f": "FECHA 6"
    },
    "jornada": "FECHA 6",
-   "m": [],
+   "m": [
+    [
+     "IH Lambersart",
+     1,
+     5,
+     "Le Touquet AC",
+     {
+      "d": "2026-10-18"
+     }
+    ]
+   ],
    "f": [
     [
      "FC Lyon",
      3,
      1,
      "Villa Primrose",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "CA Montrouge 92",
+     3,
+     0,
+     "Racing Club de France",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Lille MHC",
+     1,
+     1,
+     "Saint-Germain HC",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "PHC Marcq-en-Baroeul",
+     4,
+     0,
+     "Wattignies HC",
      {
       "d": "2026-10-18"
      }
@@ -3083,6 +3472,13 @@
       "pts": 15,
       "gf": 20,
       "gc": 5
+     },
+     {
+      "eq": "Le Touquet AC",
+      "pj": 6,
+      "pts": 10,
+      "gf": 14,
+      "gc": 12
      },
      {
       "eq": "Saint-Germain HC",
@@ -3104,13 +3500,6 @@
       "pts": 7,
       "gf": 10,
       "gc": 7
-     },
-     {
-      "eq": "Le Touquet AC",
-      "pj": 5,
-      "pts": 7,
-      "gf": 9,
-      "gc": 11
      },
      {
       "eq": "CA Montrouge 92",
@@ -3135,10 +3524,10 @@
      },
      {
       "eq": "IH Lambersart",
-      "pj": 5,
+      "pj": 6,
       "pts": 3,
-      "gf": 7,
-      "gc": 17
+      "gf": 8,
+      "gc": 22
      },
      {
       "eq": "FC Lyon",
@@ -3151,17 +3540,24 @@
     "f": [
      {
       "eq": "Saint-Germain HC",
-      "pj": 5,
-      "pts": 13,
-      "gf": 24,
-      "gc": 1
+      "pj": 6,
+      "pts": 14,
+      "gf": 25,
+      "gc": 2
      },
      {
       "eq": "Lille MHC",
-      "pj": 4,
-      "pts": 12,
-      "gf": 16,
-      "gc": 3
+      "pj": 5,
+      "pts": 13,
+      "gf": 17,
+      "gc": 4
+     },
+     {
+      "eq": "PHC Marcq-en-Baroeul",
+      "pj": 6,
+      "pts": 10,
+      "gf": 11,
+      "gc": 2
      },
      {
       "eq": "IH Lambersart",
@@ -3171,25 +3567,25 @@
       "gc": 6
      },
      {
-      "eq": "PHC Marcq-en-Baroeul",
-      "pj": 5,
-      "pts": 7,
-      "gf": 7,
-      "gc": 2
-     },
-     {
       "eq": "Wattignies HC",
-      "pj": 5,
+      "pj": 6,
       "pts": 7,
       "gf": 8,
-      "gc": 11
+      "gc": 15
+     },
+     {
+      "eq": "CA Montrouge 92",
+      "pj": 4,
+      "pts": 5,
+      "gf": 5,
+      "gc": 5
      },
      {
       "eq": "Racing Club de France",
-      "pj": 5,
+      "pj": 6,
       "pts": 5,
       "gf": 6,
-      "gc": 12
+      "gc": 15
      },
      {
       "eq": "Cambrai HC",
@@ -3204,13 +3600,6 @@
       "pts": 4,
       "gf": 8,
       "gc": 23
-     },
-     {
-      "eq": "CA Montrouge 92",
-      "pj": 3,
-      "pts": 2,
-      "gf": 2,
-      "gc": 5
      },
      {
       "eq": "Villa Primrose",
@@ -3283,7 +3672,7 @@
      {
       "nom": "Verzura, Eve",
       "eq": "Lille MHC",
-      "g": 5
+      "g": 6
      },
      {
       "nom": "Cadot, Clemence",
@@ -3298,6 +3687,11 @@
      {
       "nom": "Moroni, Agueda",
       "eq": "Villa Primrose",
+      "g": 5
+     },
+     {
+      "nom": "Arnaud, Victoire",
+      "eq": "FC Lyon Hockey",
       "g": 4
      },
      {
@@ -3318,11 +3712,6 @@
      {
       "nom": "Cohignac, Maelys",
       "eq": "Saint-Germain HC",
-      "g": 3
-     },
-     {
-      "nom": "Arnaud, Victoire",
-      "eq": "FC Lyon Hockey",
       "g": 3
      }
     ]
@@ -3421,7 +3810,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-18 08:07",
+   "consulta": "2026-10-18 11:35",
    "torneo": "Élite"
   },
   {
@@ -3630,7 +4019,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 08:07",
+   "consulta": "2026-10-18 11:35",
    "goleadores": {
     "m": [
      {
