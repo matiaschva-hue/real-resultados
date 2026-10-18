@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-18 02:55",
+ "actualizado": "2026-10-18 08:07",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "prox": {
     "m": [
      [
@@ -401,7 +401,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "prox": {
     "f": [
      [
@@ -723,7 +723,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "prox": {
     "m": [
      [
@@ -870,6 +870,42 @@
      {
       "d": "2026-10-17"
      }
+    ],
+    [
+     "Club Egara",
+     2,
+     4,
+     "Sanse Complutense",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Sardinero",
+     0,
+     1,
+     "RC Polo",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Real Sociedad",
+     3,
+     0,
+     "Atlètic Terrassa",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "RS Tenis",
+     2,
+     1,
+     "Valencia CH",
+     {
+      "d": "2026-10-18"
+     }
     ]
    ],
    "tabla": {
@@ -968,6 +1004,27 @@
       "gc": 2
      },
      {
+      "eq": "RC Polo",
+      "pts": 11,
+      "pj": 5,
+      "gf": 10,
+      "gc": 2
+     },
+     {
+      "eq": "Sanse Complutense",
+      "pts": 10,
+      "pj": 5,
+      "gf": 12,
+      "gc": 6
+     },
+     {
+      "eq": "RS Tenis",
+      "pts": 10,
+      "pj": 5,
+      "gf": 10,
+      "gc": 5
+     },
+     {
       "eq": "Junior FC",
       "pts": 9,
       "pj": 3,
@@ -975,60 +1032,39 @@
       "gc": 1
      },
      {
+      "eq": "Real Sociedad",
+      "pts": 9,
+      "pj": 5,
+      "gf": 8,
+      "gc": 8
+     },
+     {
       "eq": "Atlètic Terrassa",
       "pts": 9,
-      "pj": 3,
+      "pj": 4,
       "gf": 6,
-      "gc": 3
-     },
-     {
-      "eq": "RC Polo",
-      "pts": 8,
-      "pj": 4,
-      "gf": 9,
-      "gc": 2
-     },
-     {
-      "eq": "RS Tenis",
-      "pts": 7,
-      "pj": 4,
-      "gf": 8,
-      "gc": 4
-     },
-     {
-      "eq": "Sanse Complutense",
-      "pts": 7,
-      "pj": 4,
-      "gf": 8,
-      "gc": 4
-     },
-     {
-      "eq": "Real Sociedad",
-      "pts": 6,
-      "pj": 4,
-      "gf": 5,
-      "gc": 8
+      "gc": 6
      },
      {
       "eq": "Club Egara",
       "pts": 5,
-      "pj": 4,
-      "gf": 7,
-      "gc": 7
+      "pj": 5,
+      "gf": 9,
+      "gc": 11
      },
      {
       "eq": "Valencia CH",
       "pts": 3,
-      "pj": 4,
-      "gf": 5,
-      "gc": 10
+      "pj": 5,
+      "gf": 6,
+      "gc": 12
      },
      {
       "eq": "Sardinero",
       "pts": 1,
-      "pj": 4,
+      "pj": 5,
       "gf": 4,
-      "gc": 12
+      "gc": 13
      },
      {
       "eq": "CD Terrassa",
@@ -1058,13 +1094,13 @@
       "nom": "Manuel Mondo Diaz Ramos",
       "eq": "Sanse Complutense",
       "g": 8,
-      "pj": 4
+      "pj": 5
      },
      {
       "nom": "Joaquin Puglisi",
       "eq": "RS Tenis",
       "g": 6,
-      "pj": 4
+      "pj": 5
      },
      {
       "nom": "Roberto Bayarri Palanca",
@@ -1079,18 +1115,6 @@
       "pj": 5
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 4,
-      "pj": 5
-     },
-     {
-      "nom": "Tyler Tomsett",
-      "eq": "UD Taburiente",
-      "g": 4,
-      "pj": 4
-     },
-     {
       "nom": "Anton Serrahima Esque",
       "eq": "Junior FC",
       "g": 4,
@@ -1103,10 +1127,22 @@
       "pj": 4
      },
      {
-      "nom": "Joan Francesc Fernandez Ros",
+      "nom": "Tyler Tomsett",
+      "eq": "UD Taburiente",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Marco Aguirregomezcorta Gonzalez",
       "eq": "Club Egara",
       "g": 3,
-      "pj": 3
+      "pj": 4
      }
     ],
     "f": [
@@ -1117,16 +1153,46 @@
       "pj": 5
      },
      {
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Anna Borras Massaguer",
+      "eq": "Club Egara",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
+      "g": 3,
+      "pj": 5
+     },
+     {
       "nom": "Patricia Alvarez Nardiz",
       "eq": "RC Polo",
       "g": 3,
-      "pj": 4
+      "pj": 5
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Alejandra de la Llama Andreu",
+      "eq": "Sanse Complutense",
       "g": 3,
-      "pj": 4
+      "pj": 5
      },
      {
       "nom": "Lucia Abajo Saenz de Tejada",
@@ -1135,46 +1201,16 @@
       "pj": 5
      },
      {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
-      "g": 3,
-      "pj": 4
-     },
-     {
-      "nom": "Laia Vidosa I Artigas",
+      "nom": "Teresa Lima Cortes",
       "eq": "Junior FC",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Carmen Fernandez de Velasco Arroyo",
-      "eq": "RS Tenis",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Cecilia Lainz Puente",
-      "eq": "RS Tenis",
-      "g": 2,
-      "pj": 4
-     },
-     {
-      "nom": "Nuria Carles Andreu",
-      "eq": "Atlètic Terrassa",
-      "g": 2,
-      "pj": 3
-     },
-     {
-      "nom": "Laia Recasens Llobet",
-      "eq": "Club Egara",
-      "g": 2,
-      "pj": 4
+      "g": 3,
+      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "prox": {
     "m": [
      [
@@ -1387,10 +1423,10 @@
    "pais_en": "GERMANY",
    "liga": "1. BUNDESLIGA",
    "jor": {
-    "m": "FECHA 7",
+    "m": "FECHA 8",
     "f": "FECHA 8"
    },
-   "jornada": "FECHA 7",
+   "jornada": "FECHA 8",
    "m": [
     [
      "Der Club an der Alster",
@@ -1502,15 +1538,15 @@
     "m": [
      {
       "eq": "Hamburger Polo Club",
-      "pj": 6,
-      "pts": 17,
+      "pj": 7,
+      "pts": 18,
       "gf": 27,
       "gc": 16
      },
      {
       "eq": "Mannheimer HC",
-      "pj": 7,
-      "pts": 17,
+      "pj": 8,
+      "pts": 18,
       "gf": 26,
       "gc": 15
      },
@@ -1529,17 +1565,17 @@
       "gc": 15
      },
      {
+      "eq": "UHC Hamburg",
+      "pj": 8,
+      "pts": 14,
+      "gf": 27,
+      "gc": 23
+     },
+     {
       "eq": "TSV Mannheim Hockey",
       "pj": 7,
       "pts": 13,
       "gf": 20,
-      "gc": 23
-     },
-     {
-      "eq": "UHC Hamburg",
-      "pj": 7,
-      "pts": 11,
-      "gf": 24,
       "gc": 23
      },
      {
@@ -1558,10 +1594,10 @@
      },
      {
       "eq": "Berliner HC",
-      "pj": 7,
+      "pj": 8,
       "pts": 6,
       "gf": 9,
-      "gc": 20
+      "gc": 23
      },
      {
       "eq": "Uhlenhorst Mülheim",
@@ -1588,16 +1624,23 @@
     "f": [
      {
       "eq": "Mannheimer HC",
-      "pj": 7,
-      "pts": 18,
-      "gf": 16,
-      "gc": 5
+      "pj": 8,
+      "pts": 21,
+      "gf": 19,
+      "gc": 6
      },
      {
       "eq": "RW Köln",
       "pj": 8,
       "pts": 18,
       "gf": 15,
+      "gc": 5
+     },
+     {
+      "eq": "Düsseldorfer HC",
+      "pj": 8,
+      "pts": 17,
+      "gf": 11,
       "gc": 5
      },
      {
@@ -1608,18 +1651,11 @@
       "gc": 15
      },
      {
-      "eq": "Düsseldorfer HC",
-      "pj": 7,
-      "pts": 14,
-      "gf": 10,
-      "gc": 5
-     },
-     {
       "eq": "Großflottbeker THGC",
-      "pj": 7,
+      "pj": 8,
       "pts": 14,
-      "gf": 14,
-      "gc": 11
+      "gf": 15,
+      "gc": 14
      },
      {
       "eq": "Berliner HC",
@@ -1630,31 +1666,31 @@
      },
      {
       "eq": "Der Club an der Alster",
-      "pj": 7,
-      "pts": 10,
-      "gf": 12,
-      "gc": 11
-     },
-     {
-      "eq": "Münchner SC",
-      "pj": 7,
-      "pts": 8,
-      "gf": 9,
-      "gc": 14
-     },
-     {
-      "eq": "Harvestehuder THC",
-      "pj": 7,
-      "pts": 7,
-      "gf": 6,
+      "pj": 8,
+      "pts": 11,
+      "gf": 13,
       "gc": 12
      },
      {
+      "eq": "Harvestehuder THC",
+      "pj": 8,
+      "pts": 10,
+      "gf": 7,
+      "gc": 12
+     },
+     {
+      "eq": "Münchner SC",
+      "pj": 8,
+      "pts": 8,
+      "gf": 9,
+      "gc": 15
+     },
+     {
       "eq": "DSD Düsseldorf",
-      "pj": 7,
+      "pj": 8,
       "pts": 6,
       "gf": 8,
-      "gc": 13
+      "gc": 14
      },
      {
       "eq": "UHC Hamburg",
@@ -1665,10 +1701,10 @@
      },
      {
       "eq": "TSV Mannheim Hockey",
-      "pj": 7,
-      "pts": 1,
-      "gf": 6,
-      "gc": 20
+      "pj": 8,
+      "pts": 2,
+      "gf": 7,
+      "gc": 21
      }
     ]
    },
@@ -1689,6 +1725,12 @@
      {
       "nom": "Ben Hasbach",
       "eq": "Mannheimer HC",
+      "pj": 7,
+      "g": 7
+     },
+     {
+      "nom": "Benedikt Schwarzhaupt",
+      "eq": "UHC Hamburg",
       "pj": 7,
       "g": 7
      },
@@ -1723,12 +1765,6 @@
       "g": 6
      },
      {
-      "nom": "Benedikt Schwarzhaupt",
-      "eq": "UHC Hamburg",
-      "pj": 7,
-      "g": 6
-     },
-     {
       "nom": "Jakob Brilla",
       "eq": "RW Köln",
       "pj": 6,
@@ -1737,16 +1773,28 @@
     ],
     "f": [
      {
+      "nom": "Alice Arnott",
+      "eq": "Mannheimer HC",
+      "pj": 7,
+      "g": 6
+     },
+     {
       "nom": "Lena Frerichs",
       "eq": "Bremer HC",
       "pj": 8,
       "g": 6
      },
      {
-      "nom": "Alice Arnott",
-      "eq": "Mannheimer HC",
+      "nom": "Franziska P.",
+      "eq": "Großflottbeker THGC",
       "pj": 7,
-      "g": 5
+      "g": 4
+     },
+     {
+      "nom": "Martina Reisenegger Lillo",
+      "eq": "Der Club an der Alster",
+      "pj": 7,
+      "g": 4
      },
      {
       "nom": "Sophie Prumbaum",
@@ -1761,26 +1809,8 @@
       "g": 3
      },
      {
-      "nom": "Philine Drumm",
-      "eq": "Berliner HC",
-      "pj": 7,
-      "g": 3
-     },
-     {
       "nom": "Kayla de Waal",
       "eq": "TSV Mannheim Hockey",
-      "pj": 7,
-      "g": 3
-     },
-     {
-      "nom": "Martina Reisenegger Lillo",
-      "eq": "Der Club an der Alster",
-      "pj": 7,
-      "g": 3
-     },
-     {
-      "nom": "Johanna Hachenberg",
-      "eq": "Der Club an der Alster",
       "pj": 7,
       "g": 3
      },
@@ -1791,8 +1821,14 @@
       "g": 3
      },
      {
-      "nom": "Franziska P.",
-      "eq": "Großflottbeker THGC",
+      "nom": "Philine Drumm",
+      "eq": "Berliner HC",
+      "pj": 7,
+      "g": 3
+     },
+     {
+      "nom": "Johanna Hachenberg",
+      "eq": "Der Club an der Alster",
       "pj": 7,
       "g": 3
      }
@@ -1800,7 +1836,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "prox": {
     "m": [
      [
@@ -1896,10 +1932,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHA 8",
+    "m": "FECHA 9",
     "f": "FECHA 9"
    },
-   "prox_jornada": "FECHA 8",
+   "prox_jornada": "FECHA 9",
    "prox_fecha": "23.10–26.10",
    "torneo": "Bundesliga"
   },
@@ -2202,7 +2238,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "prox": {
     "m": [
      [
@@ -2706,7 +2742,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "prox": {
     "m": [
      [
@@ -3014,7 +3050,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "sin-fecha",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "torneo": "Metropolitano"
   },
   {
@@ -3024,11 +3060,21 @@
    "liga": "ÉLITE HOMMES · ÉLITE DAMES",
    "jor": {
     "m": "",
-    "f": ""
+    "f": "FECHA 6"
    },
-   "jornada": "",
+   "jornada": "FECHA 6",
    "m": [],
-   "f": [],
+   "f": [
+    [
+     "FC Lyon",
+     3,
+     1,
+     "Villa Primrose",
+     {
+      "d": "2026-10-18"
+     }
+    ]
+   ],
    "tabla": {
     "m": [
      {
@@ -3153,6 +3199,13 @@
       "gc": 11
      },
      {
+      "eq": "FC Lyon",
+      "pj": 6,
+      "pts": 4,
+      "gf": 8,
+      "gc": 23
+     },
+     {
       "eq": "CA Montrouge 92",
       "pj": 3,
       "pts": 2,
@@ -3161,17 +3214,10 @@
      },
      {
       "eq": "Villa Primrose",
-      "pj": 5,
+      "pj": 6,
       "pts": 1,
-      "gf": 9,
-      "gc": 15
-     },
-     {
-      "eq": "FC Lyon",
-      "pj": 5,
-      "pts": 1,
-      "gf": 5,
-      "gc": 22
+      "gf": 10,
+      "gc": 18
      }
     ]
    },
@@ -3374,8 +3420,8 @@
    },
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-18 02:55",
+   "estado": "jugada",
+   "consulta": "2026-10-18 08:07",
    "torneo": "Élite"
   },
   {
@@ -3584,7 +3630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 02:55",
+   "consulta": "2026-10-18 08:07",
    "goleadores": {
     "m": [
      {
