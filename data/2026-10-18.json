@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-18 17:45",
+ "actualizado": "2026-10-18 20:13",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "prox": {
     "m": [
      [
@@ -1075,21 +1075,21 @@
    "jornada": "FECHA 5",
    "m": [
     [
-     "Sardinero",
-     0,
-     1,
-     "Futbol Club Barcelona",
+     "CH Carpesa",
+     2,
+     7,
+     "Junior FC",
      {
-      "d": "2026-10-18"
+      "d": "2026-10-17"
      }
     ],
     [
-     "RS Tenis",
-     0,
-     3,
-     "RC Polo",
+     "CD Terrassa",
+     2,
+     1,
+     "Club de Campo",
      {
-      "d": "2026-10-18"
+      "d": "2026-10-17"
      }
     ],
     [
@@ -1111,39 +1111,10 @@
      }
     ],
     [
-     "CD Terrassa",
-     2,
-     1,
-     "Club de Campo",
-     {
-      "d": "2026-10-17"
-     }
-    ],
-    [
-     "CH Carpesa",
-     2,
-     7,
-     "Junior FC",
-     {
-      "d": "2026-10-17"
-     }
-    ]
-   ],
-   "f": [
-    [
      "RS Tenis",
-     2,
-     1,
-     "Valencia CH",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "Real Sociedad",
-     3,
      0,
-     "Atlètic Terrassa",
+     3,
+     "RC Polo",
      {
       "d": "2026-10-18"
      }
@@ -1152,9 +1123,20 @@
      "Sardinero",
      0,
      1,
-     "RC Polo",
+     "Futbol Club Barcelona",
      {
       "d": "2026-10-18"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "CD Terrassa",
+     0,
+     5,
+     "Club de Campo",
+     {
+      "d": "2026-10-17"
      }
     ],
     [
@@ -1176,12 +1158,30 @@
      }
     ],
     [
-     "CD Terrassa",
+     "Sardinero",
      0,
-     5,
-     "Club de Campo",
+     1,
+     "RC Polo",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Real Sociedad",
+     3,
+     0,
+     "Atlètic Terrassa",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "RS Tenis",
+     2,
+     1,
+     "Valencia CH",
+     {
+      "d": "2026-10-18"
      }
     ]
    ],
@@ -1374,26 +1374,26 @@
       "pj": 5
      },
      {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
-      "g": 6,
-      "pj": 5
-     },
-     {
       "nom": "Joaquin Puglisi",
       "eq": "RS Tenis",
       "g": 6,
       "pj": 5
      },
      {
-      "nom": "Enric Miralles Portillo",
-      "eq": "CD Terrassa",
-      "g": 5,
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
+      "g": 6,
       "pj": 5
      },
      {
       "nom": "Tyler Tomsett",
       "eq": "UD Taburiente",
+      "g": 5,
+      "pj": 5
+     },
+     {
+      "nom": "Enric Miralles Portillo",
+      "eq": "CD Terrassa",
       "g": 5,
       "pj": 5
      },
@@ -1404,20 +1404,20 @@
       "pj": 5
      },
      {
-      "nom": "Anton Serrahima Esque",
-      "eq": "Junior FC",
-      "g": 4,
-      "pj": 4
-     },
-     {
       "nom": "Nicolau Mustaros Araño",
       "eq": "Junior FC",
       "g": 4,
       "pj": 4
      },
      {
-      "nom": "Pau Gesti Soler",
-      "eq": "Atlètic Terrassa",
+      "nom": "Anton Serrahima Esque",
+      "eq": "Junior FC",
+      "g": 4,
+      "pj": 4
+     },
+     {
+      "nom": "Joan Francesc Fernandez Ros",
+      "eq": "Club Egara",
       "g": 3,
       "pj": 4
      }
@@ -1442,13 +1442,25 @@
       "pj": 5
      },
      {
-      "nom": "Patricia Alvarez Nardiz",
-      "eq": "RC Polo",
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 3,
       "pj": 5
      },
      {
       "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Patricia Alvarez Nardiz",
       "eq": "RC Polo",
       "g": 3,
       "pj": 5
@@ -1460,8 +1472,8 @@
       "pj": 5
      },
      {
-      "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 5
      },
@@ -1470,24 +1482,12 @@
       "eq": "Club de Campo",
       "g": 3,
       "pj": 5
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
-      "g": 3,
-      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "prox": {
     "m": [
      [
@@ -2224,7 +2224,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "prox": {
     "m": [
      [
@@ -2626,7 +2626,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "prox": {
     "m": [
      [
@@ -3168,7 +3168,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "prox": {
     "m": [
      [
@@ -3476,7 +3476,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "sin-fecha",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "torneo": "Metropolitano"
   },
   {
@@ -3929,7 +3929,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "torneo": "Élite"
   },
   {
@@ -4138,7 +4138,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 17:45",
+   "consulta": "2026-10-18 20:13",
    "goleadores": {
     "m": [
      {
