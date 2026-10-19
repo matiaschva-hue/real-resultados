@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-18 22:20",
+ "actualizado": "2026-10-19 01:35",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "prox": {
     "m": [
      [
@@ -1386,21 +1386,15 @@
       "pj": 5
      },
      {
-      "nom": "Tyler Tomsett",
-      "eq": "UD Taburiente",
-      "g": 5,
-      "pj": 5
-     },
-     {
       "nom": "Enric Miralles Portillo",
       "eq": "CD Terrassa",
       "g": 5,
       "pj": 5
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 4,
+      "nom": "Tyler Tomsett",
+      "eq": "UD Taburiente",
+      "g": 5,
       "pj": 5
      },
      {
@@ -1416,10 +1410,16 @@
       "pj": 4
      },
      {
-      "nom": "Joan Francesc Fernandez Ros",
-      "eq": "Club Egara",
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Pablo Rubio Baldor",
+      "eq": "Sardinero",
       "g": 3,
-      "pj": 4
+      "pj": 5
      }
     ],
     "f": [
@@ -1430,32 +1430,26 @@
       "pj": 5
      },
      {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
-      "g": 4,
-      "pj": 5
-     },
-     {
       "nom": "Laia Vidosa I Artigas",
       "eq": "Junior FC",
       "g": 4,
       "pj": 5
      },
      {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
+      "g": 3,
+      "pj": 5
+     },
+     {
       "nom": "Alejandra de la Llama Andreu",
       "eq": "Sanse Complutense",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
       "g": 3,
       "pj": 5
      },
@@ -1466,14 +1460,20 @@
       "pj": 5
      },
      {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
+      "nom": "Teresa Lima Cortes",
+      "eq": "Junior FC",
       "g": 3,
       "pj": 5
      },
      {
       "nom": "Cristina Caro Gil",
       "eq": "Valencia CH",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 5
      },
@@ -1487,7 +1487,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "prox": {
     "m": [
      [
@@ -2224,7 +2224,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "prox": {
     "m": [
      [
@@ -2626,7 +2626,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "prox": {
     "m": [
      [
@@ -3168,7 +3168,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "prox": {
     "m": [
      [
@@ -3226,14 +3226,124 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "",
+    "m": "FECHA 23",
     "f": ""
    },
-   "jornada": "",
-   "m": [],
+   "jornada": "FECHA 23",
+   "m": [
+    [
+     "S.A.G.",
+     3,
+     2,
+     "Ciudad B",
+     {
+      "d": "2026-10-16",
+      "fecha": 23
+     }
+    ]
+   ],
    "f": [],
    "tabla": {
-    "m": [],
+    "m": [
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 57,
+      "pj": 24,
+      "gf": 66,
+      "gc": 22
+     },
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 55,
+      "pj": 24,
+      "gf": 66,
+      "gc": 35
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 52,
+      "pj": 25,
+      "gf": 70,
+      "gc": 39
+     },
+     {
+      "eq": "MITRE",
+      "pts": 51,
+      "pj": 24,
+      "gf": 66,
+      "gc": 29
+     },
+     {
+      "eq": "G. Y ESGRIMA",
+      "pts": 47,
+      "pj": 25,
+      "gf": 75,
+      "gc": 47
+     },
+     {
+      "eq": "DUCILO",
+      "pts": 43,
+      "pj": 24,
+      "gf": 65,
+      "gc": 55
+     },
+     {
+      "eq": "U. LA PLATA",
+      "pts": 34,
+      "pj": 24,
+      "gf": 52,
+      "gc": 58
+     },
+     {
+      "eq": "HURLING",
+      "pts": 31,
+      "pj": 25,
+      "gf": 45,
+      "gc": 39
+     },
+     {
+      "eq": "S. BARBARA",
+      "pts": 27,
+      "pj": 24,
+      "gf": 51,
+      "gc": 57
+     },
+     {
+      "eq": "QUILMES",
+      "pts": 21,
+      "pj": 24,
+      "gf": 44,
+      "gc": 63
+     },
+     {
+      "eq": "SAN MARTÍN",
+      "pts": 18,
+      "pj": 24,
+      "gf": 43,
+      "gc": 66
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 17,
+      "pj": 25,
+      "gf": 51,
+      "gc": 71
+     },
+     {
+      "eq": "S.A.G.",
+      "pts": 12,
+      "pj": 25,
+      "gf": 31,
+      "gc": 86
+     },
+     {
+      "eq": "CIUDAD B",
+      "pts": 8,
+      "pj": 25,
+      "gf": 30,
+      "gc": 88
+     }
+    ],
     "f": [
      {
       "eq": "S. BARBARA",
@@ -3336,7 +3446,68 @@
     ]
    },
    "goleadores": {
-    "m": [],
+    "m": [
+     {
+      "nom": "Kiernan, Máximo",
+      "eq": "U. LA PLATA",
+      "g": 31,
+      "pj": 24
+     },
+     {
+      "nom": "Suarez, Tomas Agustin",
+      "eq": "G. Y ESGRIMA",
+      "g": 22,
+      "pj": 25
+     },
+     {
+      "nom": "Agostini Coliqueo, Franco Antonio",
+      "eq": "LOMAS",
+      "g": 20,
+      "pj": 22
+     },
+     {
+      "nom": "Merino, Gonzalo",
+      "eq": "BCO. PROVINCIA",
+      "g": 20,
+      "pj": 21
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 18,
+      "pj": 23
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 17,
+      "pj": 21
+     },
+     {
+      "nom": "Dulor Marchesi, Luca",
+      "eq": "DUCILO",
+      "g": 16,
+      "pj": 22
+     },
+     {
+      "nom": "Jimenez Jaurechi, Julian",
+      "eq": "QUILMES",
+      "g": 16,
+      "pj": 17
+     },
+     {
+      "nom": "Doherty, Alec Tadeo",
+      "eq": "HURLING",
+      "g": 15,
+      "pj": 25
+     },
+     {
+      "nom": "Falchetto, Facundo",
+      "eq": "MITRE",
+      "g": 13,
+      "pj": 24
+     }
+    ],
     "f": [
      {
       "nom": "Piccardo, Alina",
@@ -3402,7 +3573,71 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "prox": {
-    "m": [],
+    "m": [
+     [
+      "Ducilo",
+      "S.A.G.",
+      {
+       "d": "2026-10-25",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "Bco. Provincia",
+      "Hurling",
+      {
+       "d": "2026-10-25",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "U. La Plata",
+      "Ciudad",
+      {
+       "d": "2026-10-25",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "S. Bárbara",
+      "San Fernando",
+      {
+       "d": "2026-10-25",
+       "h": "15:30",
+       "fecha": 26
+      }
+     ],
+     [
+      "G. y Esgrima",
+      "Mitre",
+      {
+       "d": "2026-10-25",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "Ciudad B",
+      "Quilmes",
+      {
+       "d": "2026-10-25",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ],
+     [
+      "Lomas",
+      "San Martín",
+      {
+       "d": "2026-10-25",
+       "h": "16:00",
+       "fecha": 26
+      }
+     ]
+    ],
     "f": [
      [
       "S. Bárbara",
@@ -3470,13 +3705,13 @@
     ]
    },
    "prox_jor": {
-    "m": "",
+    "m": "FECHA 26",
     "f": "FECHA 26"
    },
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-18 22:20",
+   "estado": "jugada",
+   "consulta": "2026-10-19 01:35",
    "torneo": "Metropolitano"
   },
   {
@@ -3929,7 +4164,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "torneo": "Élite"
   },
   {
@@ -4138,7 +4373,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 22:20",
+   "consulta": "2026-10-19 01:35",
    "goleadores": {
     "m": [
      {
