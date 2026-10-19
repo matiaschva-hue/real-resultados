@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-19 16:53",
+ "actualizado": "2026-10-19 20:36",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "prox": {
     "m": [
      [
@@ -1075,21 +1075,21 @@
    "jornada": "FECHA 5",
    "m": [
     [
-     "Sardinero",
-     0,
-     1,
-     "Futbol Club Barcelona",
+     "CH Carpesa",
+     2,
+     7,
+     "Junior FC",
      {
-      "d": "2026-10-18"
+      "d": "2026-10-17"
      }
     ],
     [
-     "RS Tenis",
-     0,
-     3,
-     "RC Polo",
+     "CD Terrassa",
+     2,
+     1,
+     "Club de Campo",
      {
-      "d": "2026-10-18"
+      "d": "2026-10-17"
      }
     ],
     [
@@ -1111,39 +1111,10 @@
      }
     ],
     [
-     "CD Terrassa",
-     2,
-     1,
-     "Club de Campo",
-     {
-      "d": "2026-10-17"
-     }
-    ],
-    [
-     "CH Carpesa",
-     2,
-     7,
-     "Junior FC",
-     {
-      "d": "2026-10-17"
-     }
-    ]
-   ],
-   "f": [
-    [
      "RS Tenis",
-     2,
-     1,
-     "Valencia CH",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "Real Sociedad",
-     3,
      0,
-     "Atlètic Terrassa",
+     3,
+     "RC Polo",
      {
       "d": "2026-10-18"
      }
@@ -1152,9 +1123,20 @@
      "Sardinero",
      0,
      1,
-     "RC Polo",
+     "Futbol Club Barcelona",
      {
       "d": "2026-10-18"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "CD Terrassa",
+     0,
+     5,
+     "Club de Campo",
+     {
+      "d": "2026-10-17"
      }
     ],
     [
@@ -1176,12 +1158,30 @@
      }
     ],
     [
-     "CD Terrassa",
+     "Sardinero",
      0,
-     5,
-     "Club de Campo",
+     1,
+     "RC Polo",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Real Sociedad",
+     3,
+     0,
+     "Atlètic Terrassa",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "RS Tenis",
+     2,
+     1,
+     "Valencia CH",
+     {
+      "d": "2026-10-18"
      }
     ]
    ],
@@ -1398,6 +1398,12 @@
       "pj": 5
      },
      {
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 4,
+      "pj": 5
+     },
+     {
       "nom": "Nicolau Mustaros Araño",
       "eq": "Junior FC",
       "g": 4,
@@ -1410,14 +1416,8 @@
       "pj": 4
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 4,
-      "pj": 5
-     },
-     {
-      "nom": "Marco Aguirregomezcorta Gonzalez",
-      "eq": "Club Egara",
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 4
      }
@@ -1439,18 +1439,6 @@
       "nom": "Laia Vidosa I Artigas",
       "eq": "Junior FC",
       "g": 4,
-      "pj": 5
-     },
-     {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
-      "g": 3,
       "pj": 5
      },
      {
@@ -1482,12 +1470,24 @@
       "eq": "Sanse Complutense",
       "g": 3,
       "pj": 5
+     },
+     {
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Teresa Lima Cortes",
+      "eq": "Junior FC",
+      "g": 3,
+      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "prox": {
     "m": [
      [
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "prox": {
     "m": [
      [
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "prox": {
     "m": [
      [
@@ -3230,10 +3230,10 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "FECHA 23",
+    "m": "FECHA 25",
     "f": ""
    },
-   "jornada": "FECHA 23",
+   "jornada": "FECHA 25",
    "m": [
     [
      "S.A.G.",
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-19 16:53",
+   "consulta": "2026-10-19 20:36",
    "goleadores": {
     "m": [
      {
