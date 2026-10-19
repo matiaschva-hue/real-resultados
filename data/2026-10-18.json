@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-18 20:13",
+ "actualizado": "2026-10-18 22:20",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "prox": {
     "m": [
      [
@@ -1374,14 +1374,14 @@
       "pj": 5
      },
      {
-      "nom": "Joaquin Puglisi",
-      "eq": "RS Tenis",
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
       "g": 6,
       "pj": 5
      },
      {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
+      "nom": "Joaquin Puglisi",
+      "eq": "RS Tenis",
       "g": 6,
       "pj": 5
      },
@@ -1404,13 +1404,13 @@
       "pj": 5
      },
      {
-      "nom": "Nicolau Mustaros Araño",
+      "nom": "Anton Serrahima Esque",
       "eq": "Junior FC",
       "g": 4,
       "pj": 4
      },
      {
-      "nom": "Anton Serrahima Esque",
+      "nom": "Nicolau Mustaros Araño",
       "eq": "Junior FC",
       "g": 4,
       "pj": 4
@@ -1442,8 +1442,8 @@
       "pj": 5
      },
      {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
+      "nom": "Alejandra de la Llama Andreu",
+      "eq": "Sanse Complutense",
       "g": 3,
       "pj": 5
      },
@@ -1454,20 +1454,14 @@
       "pj": 5
      },
      {
-      "nom": "Cecilia Lainz Puente",
-      "eq": "RS Tenis",
+      "nom": "Teresa Lima Cortes",
+      "eq": "Junior FC",
       "g": 3,
       "pj": 5
      },
      {
-      "nom": "Patricia Alvarez Nardiz",
-      "eq": "RC Polo",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
       "g": 3,
       "pj": 5
      },
@@ -1478,8 +1472,14 @@
       "pj": 5
      },
      {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 5
      }
@@ -1487,7 +1487,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "prox": {
     "m": [
      [
@@ -2224,7 +2224,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "prox": {
     "m": [
      [
@@ -2626,7 +2626,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "prox": {
     "m": [
      [
@@ -3168,7 +3168,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "prox": {
     "m": [
      [
@@ -3476,7 +3476,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "sin-fecha",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "torneo": "Metropolitano"
   },
   {
@@ -3929,7 +3929,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "torneo": "Élite"
   },
   {
@@ -4138,7 +4138,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-18 20:13",
+   "consulta": "2026-10-18 22:20",
    "goleadores": {
     "m": [
      {
