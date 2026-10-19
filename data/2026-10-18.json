@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-19 01:35",
+ "actualizado": "2026-10-19 10:06",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "prox": {
     "m": [
      [
@@ -1386,25 +1386,25 @@
       "pj": 5
      },
      {
-      "nom": "Enric Miralles Portillo",
-      "eq": "CD Terrassa",
-      "g": 5,
-      "pj": 5
-     },
-     {
       "nom": "Tyler Tomsett",
       "eq": "UD Taburiente",
       "g": 5,
       "pj": 5
      },
      {
-      "nom": "Anton Serrahima Esque",
+      "nom": "Enric Miralles Portillo",
+      "eq": "CD Terrassa",
+      "g": 5,
+      "pj": 5
+     },
+     {
+      "nom": "Nicolau Mustaros Araño",
       "eq": "Junior FC",
       "g": 4,
       "pj": 4
      },
      {
-      "nom": "Nicolau Mustaros Araño",
+      "nom": "Anton Serrahima Esque",
       "eq": "Junior FC",
       "g": 4,
       "pj": 4
@@ -1416,10 +1416,10 @@
       "pj": 5
      },
      {
-      "nom": "Pablo Rubio Baldor",
-      "eq": "Sardinero",
+      "nom": "Marco Aguirregomezcorta Gonzalez",
+      "eq": "Club Egara",
       "g": 3,
-      "pj": 5
+      "pj": 4
      }
     ],
     "f": [
@@ -1430,27 +1430,15 @@
       "pj": 5
      },
      {
-      "nom": "Laia Vidosa I Artigas",
-      "eq": "Junior FC",
-      "g": 4,
-      "pj": 5
-     },
-     {
       "nom": "Lola Riera Zuzuarregui",
       "eq": "Sanse Complutense",
       "g": 4,
       "pj": 5
      },
      {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
-      "g": 3,
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
+      "g": 4,
       "pj": 5
      },
      {
@@ -1466,14 +1454,14 @@
       "pj": 5
      },
      {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 5
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 3,
       "pj": 5
      },
@@ -1482,12 +1470,24 @@
       "eq": "RS Tenis",
       "g": 3,
       "pj": 5
+     },
+     {
+      "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Alejandra de la Llama Andreu",
+      "eq": "Sanse Complutense",
+      "g": 3,
+      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "prox": {
     "m": [
      [
@@ -1887,11 +1887,15 @@
     ],
     [
      "Düsseldorfer HC",
-     3,
-     2,
+     1,
+     1,
      "Bremer HC",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-17",
+      "so": [
+       2,
+       1
+      ]
      }
     ],
     [
@@ -2224,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "prox": {
     "m": [
      [
@@ -2626,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "prox": {
     "m": [
      [
@@ -3168,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "prox": {
     "m": [
      [
@@ -3226,10 +3230,10 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "FECHA 23",
+    "m": "FECHA 25",
     "f": ""
    },
-   "jornada": "FECHA 23",
+   "jornada": "FECHA 25",
    "m": [
     [
      "S.A.G.",
@@ -3711,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "torneo": "Metropolitano"
   },
   {
@@ -4164,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "torneo": "Élite"
   },
   {
@@ -4373,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-19 01:35",
+   "consulta": "2026-10-19 10:06",
    "goleadores": {
     "m": [
      {
