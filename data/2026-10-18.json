@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-20 08:30",
+ "actualizado": "2026-10-20 13:59",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "prox": {
     "f": [
      [
@@ -666,6 +666,24 @@
    "jornada": "FECHA 6",
    "m": [
     [
+     "Braxgata",
+     2,
+     2,
+     "Royal Léopold THC",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Gantoise HC",
+     2,
+     2,
+     "Oree",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
      "Herakles",
      4,
      1,
@@ -675,34 +693,16 @@
      }
     ],
     [
-     "Waterloo Ducks",
+     "Racing",
+     4,
      2,
-     2,
-     "Beerschot",
+     "KHC Dragons",
      {
       "d": "2026-10-18"
      }
     ],
     [
-     "Braxgata",
-     2,
-     2,
-     "Léopold",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "Gantoise",
-     2,
-     2,
-     "Orée",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "Uccle Sport",
+     "Uccle",
      8,
      0,
      "Namur",
@@ -711,10 +711,10 @@
      }
     ],
     [
-     "Racing",
-     4,
+     "Waterloo Ducks",
      2,
-     "Dragons",
+     2,
+     "Beerschot",
      {
       "d": "2026-10-18"
      }
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "prox": {
     "m": [
      [
@@ -964,7 +964,7 @@
       }
      ],
      [
-      "Dragons",
+      "KHC Dragons",
       "Beerschot",
       {
        "d": "2026-10-25",
@@ -981,7 +981,7 @@
      ],
      [
       "Orée",
-      "Uccle Sport",
+      "Uccle",
       {
        "d": "2026-10-25",
        "h": "15:00"
@@ -996,7 +996,7 @@
       }
      ],
      [
-      "Léopold",
+      "Royal Léopold THC",
       "Gantoise",
       {
        "d": "2026-10-25",
@@ -1374,15 +1374,21 @@
       "pj": 5
      },
      {
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
+      "g": 6,
+      "pj": 5
+     },
+     {
       "nom": "Joaquin Puglisi",
       "eq": "RS Tenis",
       "g": 6,
       "pj": 5
      },
      {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
-      "g": 6,
+      "nom": "Enric Miralles Portillo",
+      "eq": "CD Terrassa",
+      "g": 5,
       "pj": 5
      },
      {
@@ -1392,9 +1398,9 @@
       "pj": 5
      },
      {
-      "nom": "Enric Miralles Portillo",
+      "nom": "Pau Petchame Hernandez",
       "eq": "CD Terrassa",
-      "g": 5,
+      "g": 4,
       "pj": 5
      },
      {
@@ -1410,14 +1416,8 @@
       "pj": 4
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 4,
-      "pj": 5
-     },
-     {
-      "nom": "Hugo Garcia Arroyo",
-      "eq": "CH Carpesa",
+      "nom": "Enrique Zorita Marquez",
+      "eq": "Club de Campo",
       "g": 3,
       "pj": 5
      }
@@ -1430,15 +1430,27 @@
       "pj": 5
      },
      {
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
+      "g": 4,
+      "pj": 5
+     },
+     {
       "nom": "Lola Riera Zuzuarregui",
       "eq": "Sanse Complutense",
       "g": 4,
       "pj": 5
      },
      {
-      "nom": "Laia Vidosa I Artigas",
-      "eq": "Junior FC",
-      "g": 4,
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
+      "g": 3,
       "pj": 5
      },
      {
@@ -1454,8 +1466,8 @@
       "pj": 5
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 5
      },
@@ -1470,24 +1482,12 @@
       "eq": "Club de Campo",
       "g": 3,
       "pj": 5
-     },
-     {
-      "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "prox": {
     "m": [
      [
@@ -2183,7 +2183,7 @@
       "g": 4
      },
      {
-      "nom": "Franziska P.",
+      "nom": "Franziska Pabsch",
       "eq": "Großflottbeker THGC",
       "pj": 8,
       "g": 4
@@ -2213,7 +2213,7 @@
       "g": 3
      },
      {
-      "nom": "Annika S.",
+      "nom": "Annika Schönhoff",
       "eq": "Düsseldorfer HC",
       "pj": 8,
       "g": 3
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "prox": {
     "m": [
      [
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "prox": {
     "m": [
      [
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 08:30",
+   "consulta": "2026-10-20 13:59",
    "goleadores": {
     "m": [
      {
