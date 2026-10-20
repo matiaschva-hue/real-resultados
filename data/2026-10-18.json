@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-20 01:43",
+ "actualizado": "2026-10-20 08:30",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "prox": {
     "f": [
      [
@@ -952,28 +952,12 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "prox": {
     "m": [
      [
       "Daring",
       "Waterloo Ducks",
-      {
-       "d": "2026-10-25",
-       "h": "15:00"
-      }
-     ],
-     [
-      "Léopold",
-      "Gantoise",
-      {
-       "d": "2026-10-25",
-       "h": "15:00"
-      }
-     ],
-     [
-      "Namur",
-      "Herakles",
       {
        "d": "2026-10-25",
        "h": "15:00"
@@ -988,8 +972,8 @@
       }
      ],
      [
-      "Racing",
-      "Braxgata",
+      "Namur",
+      "Herakles",
       {
        "d": "2026-10-25",
        "h": "15:00"
@@ -998,6 +982,22 @@
      [
       "Orée",
       "Uccle Sport",
+      {
+       "d": "2026-10-25",
+       "h": "15:00"
+      }
+     ],
+     [
+      "Racing",
+      "Braxgata",
+      {
+       "d": "2026-10-25",
+       "h": "15:00"
+      }
+     ],
+     [
+      "Léopold",
+      "Gantoise",
       {
        "d": "2026-10-25",
        "h": "15:00"
@@ -1398,10 +1398,10 @@
       "pj": 5
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
+      "nom": "Nicolau Mustaros Araño",
+      "eq": "Junior FC",
       "g": 4,
-      "pj": 5
+      "pj": 4
      },
      {
       "nom": "Anton Serrahima Esque",
@@ -1410,10 +1410,10 @@
       "pj": 4
      },
      {
-      "nom": "Nicolau Mustaros Araño",
-      "eq": "Junior FC",
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
       "g": 4,
-      "pj": 4
+      "pj": 5
      },
      {
       "nom": "Hugo Garcia Arroyo",
@@ -1442,7 +1442,19 @@
       "pj": 5
      },
      {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 3,
+      "pj": 5
+     },
+     {
       "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Xantal Gine Patsi",
       "eq": "RC Polo",
       "g": 3,
       "pj": 5
@@ -1454,8 +1466,8 @@
       "pj": 5
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
       "g": 3,
       "pj": 5
      },
@@ -1466,20 +1478,8 @@
       "pj": 5
      },
      {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
-      "g": 3,
-      "pj": 5
-     },
-     {
       "nom": "Michelle Fillet",
       "eq": "RS Tenis",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
       "g": 3,
       "pj": 5
      }
@@ -1487,7 +1487,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "prox": {
     "m": [
      [
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "prox": {
     "m": [
      [
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "prox": {
     "m": [
      [
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 01:43",
+   "consulta": "2026-10-20 08:30",
    "goleadores": {
     "m": [
      {
