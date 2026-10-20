@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-20 13:59",
+ "actualizado": "2026-10-20 18:34",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "prox": {
     "m": [
      [
@@ -1416,10 +1416,10 @@
       "pj": 4
      },
      {
-      "nom": "Enrique Zorita Marquez",
-      "eq": "Club de Campo",
+      "nom": "Pau Gesti Soler",
+      "eq": "Atlètic Terrassa",
       "g": 3,
-      "pj": 5
+      "pj": 4
      }
     ],
     "f": [
@@ -1442,19 +1442,7 @@
       "pj": 5
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Cecilia Lainz Puente",
+      "nom": "Michelle Fillet",
       "eq": "RS Tenis",
       "g": 3,
       "pj": 5
@@ -1462,12 +1450,6 @@
      {
       "nom": "Patricia Alvarez Nardiz",
       "eq": "RC Polo",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
       "g": 3,
       "pj": 5
      },
@@ -1482,12 +1464,30 @@
       "eq": "Club de Campo",
       "g": 3,
       "pj": 5
+     },
+     {
+      "nom": "Teresa Lima Cortes",
+      "eq": "Junior FC",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
+      "g": 3,
+      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "prox": {
     "m": [
      [
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "prox": {
     "m": [
      [
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "prox": {
     "m": [
      [
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-20 13:59",
+   "consulta": "2026-10-20 18:34",
    "goleadores": {
     "m": [
      {
