@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-21 01:40",
+ "actualizado": "2026-10-21 08:42",
  "paises": [
   {
    "id": "nl",
@@ -9,7 +9,7 @@
    "liga": "HOOFDKLASSE",
    "jor": {
     "m": "FECHA 4",
-    "f": "FECHA 4"
+    "f": "FECHA 5"
    },
    "jornada": "FECHA 4",
    "m": [
@@ -19,25 +19,25 @@
      2,
      "Bloemendaal",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ],
     [
-     "Schaerweijde",
-     0,
-     8,
-     "Amsterdam",
+     "Oranje Rood",
+     4,
+     1,
+     "Klein Zwitserland",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ],
     [
-     "Pinoké",
+     "Pinoke",
      2,
      3,
      "Den Bosch",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ],
     [
@@ -46,7 +46,16 @@
      2,
      "SCHC",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Schaerweijde",
+     0,
+     8,
+     "Amsterdam",
+     {
+      "d": "2026-10-18"
      }
     ],
     [
@@ -55,16 +64,7 @@
      6,
      "Kampong",
      {
-      "d": "2026-10-17"
-     }
-    ],
-    [
-     "Oranje-Rood",
-     4,
-     1,
-     "Klein Zwitserland",
-     {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ]
    ],
@@ -176,30 +176,12 @@
    },
    "f": [
     [
-     "SCHC",
-     2,
-     1,
-     "Hurley",
-     {
-      "d": "2026-10-17"
-     }
-    ],
-    [
-     "Victoria",
-     0,
-     5,
-     "Pinoké",
-     {
-      "d": "2026-10-17"
-     }
-    ],
-    [
      "Amsterdam",
      0,
      2,
      "Den Bosch",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ],
     [
@@ -208,16 +190,16 @@
      0,
      "HDM",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ],
     [
-     "Oranje-Rood",
+     "Oranje Rood",
      2,
      1,
      "HGC",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ],
     [
@@ -226,7 +208,25 @@
      0,
      "Kampong",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "SCHC",
+     2,
+     1,
+     "Hurley",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Victoria",
+     0,
+     5,
+     "Pinoke",
+     {
+      "d": "2026-10-18"
      }
     ]
    ],
@@ -234,191 +234,211 @@
     "m": [
      {
       "eq": "Amsterdam",
-      "pj": 4,
       "pts": 12,
-      "dg": 15
+      "pj": 4,
+      "gf": 19,
+      "gc": 4
      },
      {
       "eq": "Bloemendaal",
-      "pj": 4,
       "pts": 10,
-      "dg": 12
+      "pj": 4,
+      "gf": 16,
+      "gc": 4
      },
      {
       "eq": "Den Bosch",
-      "pj": 4,
       "pts": 10,
-      "dg": 5
+      "pj": 4,
+      "gf": 10,
+      "gc": 5
      },
      {
       "eq": "Kampong",
-      "pj": 3,
       "pts": 7,
-      "dg": 8
+      "pj": 3,
+      "gf": 9,
+      "gc": 1
      },
      {
-      "eq": "Oranje-Rood",
-      "pj": 3,
+      "eq": "Oranje Rood",
       "pts": 7,
-      "dg": 4
+      "pj": 3,
+      "gf": 10,
+      "gc": 6
      },
      {
       "eq": "Klein Zwitserland",
-      "pj": 4,
       "pts": 5,
-      "dg": -2
+      "pj": 4,
+      "gf": 8,
+      "gc": 10
      },
      {
       "eq": "HDM",
-      "pj": 4,
       "pts": 4,
-      "dg": -2
+      "pj": 4,
+      "gf": 9,
+      "gc": 11
      },
      {
       "eq": "SCHC",
-      "pj": 4,
       "pts": 4,
-      "dg": -5
+      "pj": 4,
+      "gf": 5,
+      "gc": 10
      },
      {
       "eq": "Rotterdam",
-      "pj": 4,
       "pts": 3,
-      "dg": -1
+      "pj": 4,
+      "gf": 12,
+      "gc": 13
      },
      {
-      "eq": "Pinoké",
-      "pj": 4,
+      "eq": "Pinoke",
       "pts": 2,
-      "dg": -2
+      "pj": 4,
+      "gf": 8,
+      "gc": 10
      },
      {
       "eq": "Tilburg",
-      "pj": 4,
       "pts": 0,
-      "dg": -14
+      "pj": 4,
+      "gf": 1,
+      "gc": 15
      },
      {
       "eq": "Schaerweijde",
-      "pj": 4,
       "pts": 0,
-      "dg": -18
+      "pj": 4,
+      "gf": 5,
+      "gc": 23
      }
     ],
     "f": [
      {
-      "eq": "Amsterdam",
-      "pj": 4,
-      "pts": 12,
-      "dg": 15
-     },
-     {
-      "eq": "Bloemendaal",
-      "pj": 4,
-      "pts": 10,
-      "dg": 12
-     },
-     {
       "eq": "Den Bosch",
-      "pj": 4,
-      "pts": 10,
-      "dg": 5
-     },
-     {
-      "eq": "Kampong",
-      "pj": 3,
-      "pts": 7,
-      "dg": 8
-     },
-     {
-      "eq": "Oranje-Rood",
-      "pj": 3,
-      "pts": 7,
-      "dg": 4
-     },
-     {
-      "eq": "Klein Zwitserland",
-      "pj": 4,
-      "pts": 5,
-      "dg": -2
-     },
-     {
-      "eq": "HDM",
-      "pj": 4,
-      "pts": 4,
-      "dg": -2
+      "pts": 15,
+      "pj": 5,
+      "gf": 19,
+      "gc": 1
      },
      {
       "eq": "SCHC",
-      "pj": 4,
-      "pts": 4,
-      "dg": -5
+      "pts": 15,
+      "pj": 5,
+      "gf": 18,
+      "gc": 7
+     },
+     {
+      "eq": "Amsterdam",
+      "pts": 10,
+      "pj": 5,
+      "gf": 13,
+      "gc": 7
      },
      {
       "eq": "Rotterdam",
-      "pj": 4,
+      "pts": 10,
+      "pj": 5,
+      "gf": 11,
+      "gc": 9
+     },
+     {
+      "eq": "Hurley",
+      "pts": 9,
+      "pj": 5,
+      "gf": 11,
+      "gc": 7
+     },
+     {
+      "eq": "Kampong",
+      "pts": 7,
+      "pj": 5,
+      "gf": 17,
+      "gc": 9
+     },
+     {
+      "eq": "Pinoke",
+      "pts": 7,
+      "pj": 5,
+      "gf": 14,
+      "gc": 18
+     },
+     {
+      "eq": "Oranje Rood",
+      "pts": 7,
+      "pj": 5,
+      "gf": 7,
+      "gc": 13
+     },
+     {
+      "eq": "Bloemendaal",
+      "pts": 4,
+      "pj": 5,
+      "gf": 7,
+      "gc": 13
+     },
+     {
+      "eq": "HDM",
       "pts": 3,
-      "dg": -1
+      "pj": 5,
+      "gf": 4,
+      "gc": 8
      },
      {
-      "eq": "Pinoké",
-      "pj": 4,
-      "pts": 2,
-      "dg": -2
-     },
-     {
-      "eq": "Tilburg",
-      "pj": 4,
+      "eq": "HGC",
       "pts": 0,
-      "dg": -14
+      "pj": 5,
+      "gf": 4,
+      "gc": 13
      },
      {
-      "eq": "Schaerweijde",
-      "pj": 4,
+      "eq": "Victoria",
       "pts": 0,
-      "dg": -18
+      "pj": 5,
+      "gf": 2,
+      "gc": 22
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "prox": {
     "m": [
-     [
-      "Klein Zwitserland",
-      "Amsterdam",
-      {
-       "d": "2026-10-25",
-       "h": "15:00",
-       "fase": "Poule A"
-      }
-     ],
      [
       "HDM",
       "Den Bosch",
       {
        "d": "2026-10-25",
-       "h": "15:00",
-       "fase": "Poule A"
+       "h": "15:00"
       }
      ],
      [
-      "Schaerweijde",
-      "SCHC",
+      "Klein Zwitserland",
+      "Amsterdam",
       {
        "d": "2026-10-25",
-       "h": "15:00",
-       "fase": "Poule A"
+       "h": "15:00"
       }
      ],
      [
-      "Pinoké",
+      "Oranje Rood",
+      "Bloemendaal",
+      {
+       "d": "2026-10-25",
+       "h": "15:00"
+      }
+     ],
+     [
+      "Pinoke",
       "Kampong",
       {
        "d": "2026-10-25",
-       "h": "15:00",
-       "fase": "Poule A"
+       "h": "15:00"
       }
      ],
      [
@@ -426,64 +446,33 @@
       "Tilburg",
       {
        "d": "2026-10-25",
-       "h": "15:00",
-       "fase": "Poule A"
+       "h": "15:00"
       }
      ],
      [
-      "Oranje-Rood",
-      "Bloemendaal",
+      "Schaerweijde",
+      "SCHC",
       {
        "d": "2026-10-25",
-       "h": "15:00",
-       "fase": "Poule A"
+       "h": "15:00"
       }
      ]
     ],
     "f": [
      [
-      "HDM",
-      "Amsterdam",
-      {
-       "d": "2026-10-25",
-       "h": "12:45",
-       "fase": "Poule A"
-      }
-     ],
-     [
       "Den Bosch",
       "Victoria",
       {
        "d": "2026-10-25",
-       "h": "12:45",
-       "fase": "Poule A"
+       "h": "12:45"
       }
      ],
      [
-      "Pinoké",
-      "SCHC",
+      "HDM",
+      "Amsterdam",
       {
        "d": "2026-10-25",
-       "h": "12:45",
-       "fase": "Poule A"
-      }
-     ],
-     [
-      "Hurley",
-      "Rotterdam",
-      {
-       "d": "2026-10-25",
-       "h": "12:45",
-       "fase": "Poule A"
-      }
-     ],
-     [
-      "Kampong",
-      "Oranje-Rood",
-      {
-       "d": "2026-10-25",
-       "h": "12:45",
-       "fase": "Poule A"
+       "h": "12:45"
       }
      ],
      [
@@ -491,15 +480,38 @@
       "Bloemendaal",
       {
        "d": "2026-10-25",
-       "h": "12:45",
-       "fase": "Poule A"
+       "h": "12:45"
+      }
+     ],
+     [
+      "Hurley",
+      "Rotterdam",
+      {
+       "d": "2026-10-25",
+       "h": "12:45"
+      }
+     ],
+     [
+      "Kampong",
+      "Oranje Rood",
+      {
+       "d": "2026-10-25",
+       "h": "12:45"
+      }
+     ],
+     [
+      "Pinoke",
+      "SCHC",
+      {
+       "d": "2026-10-25",
+       "h": "12:45"
       }
      ]
     ]
    },
    "prox_jor": {
     "m": "FECHA 5",
-    "f": "FECHA 5"
+    "f": "FECHA 6"
    },
    "prox_jornada": "FECHA 5",
    "prox_fecha": "23.10–26.10",
@@ -517,7 +529,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "prox": {
     "f": [
      [
@@ -952,7 +964,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "prox": {
     "m": [
      [
@@ -1386,14 +1398,14 @@
       "pj": 5
      },
      {
-      "nom": "Enric Miralles Portillo",
-      "eq": "CD Terrassa",
+      "nom": "Tyler Tomsett",
+      "eq": "UD Taburiente",
       "g": 5,
       "pj": 5
      },
      {
-      "nom": "Tyler Tomsett",
-      "eq": "UD Taburiente",
+      "nom": "Enric Miralles Portillo",
+      "eq": "CD Terrassa",
       "g": 5,
       "pj": 5
      },
@@ -1416,8 +1428,8 @@
       "pj": 5
      },
      {
-      "nom": "Enrique Zorita Marquez",
-      "eq": "Club de Campo",
+      "nom": "Pablo Rubio Baldor",
+      "eq": "Sardinero",
       "g": 3,
       "pj": 5
      }
@@ -1442,7 +1454,25 @@
       "pj": 5
      },
      {
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
+      "g": 3,
+      "pj": 5
+     },
+     {
       "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Xantal Gine Patsi",
       "eq": "RC Polo",
       "g": 3,
       "pj": 5
@@ -1454,8 +1484,8 @@
       "pj": 5
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
       "g": 3,
       "pj": 5
      },
@@ -1464,30 +1494,12 @@
       "eq": "Junior FC",
       "g": 3,
       "pj": 5
-     },
-     {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
-      "g": 3,
-      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "prox": {
     "m": [
      [
@@ -2228,7 +2240,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "prox": {
     "m": [
      [
@@ -2630,15 +2642,39 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "prox": {
     "m": [
      [
+      "Old Georgians",
+      "Reading",
+      {
+       "d": "2026-10-24",
+       "h": "14:30"
+      }
+     ],
+     [
       "East Grinstead",
       "Cardiff & Met",
       {
        "d": "2026-10-24",
-       "h": "17:00"
+       "h": "15:00"
+      }
+     ],
+     [
+      "Surbiton",
+      "Bowdon",
+      {
+       "d": "2026-10-24",
+       "h": "15:30"
+      }
+     ],
+     [
+      "Wimbledon",
+      "University of Exeter",
+      {
+       "d": "2026-10-24",
+       "h": "15:30"
       }
      ],
      [
@@ -2646,7 +2682,7 @@
       "Oxted",
       {
        "d": "2026-10-24",
-       "h": "17:00"
+       "h": "16:00"
       }
      ],
      [
@@ -2658,27 +2694,19 @@
       }
      ],
      [
-      "Old Georgians",
-      "Reading",
+      "Oxted",
+      "Cardiff & Met",
       {
-       "d": "2026-10-24",
-       "h": "17:00"
+       "d": "2026-10-25",
+       "h": "14:00"
       }
      ],
      [
-      "Surbiton",
+      "Old Georgians",
       "Bowdon",
       {
-       "d": "2026-10-24",
-       "h": "17:00"
-      }
-     ],
-     [
-      "Wimbledon",
-      "University of Exeter",
-      {
-       "d": "2026-10-24",
-       "h": "17:00"
+       "d": "2026-10-25",
+       "h": "14:30"
       }
      ],
      [
@@ -2686,15 +2714,7 @@
       "Surbiton",
       {
        "d": "2026-10-25",
-       "h": "17:00"
-      }
-     ],
-     [
-      "Hampstead & Westminster",
-      "Beeston",
-      {
-       "d": "2026-10-25",
-       "h": "17:00"
+       "h": "15:00"
       }
      ],
      [
@@ -2702,23 +2722,7 @@
       "Wimbledon",
       {
        "d": "2026-10-25",
-       "h": "17:00"
-      }
-     ],
-     [
-      "Old Georgians",
-      "Bowdon",
-      {
-       "d": "2026-10-25",
-       "h": "17:00"
-      }
-     ],
-     [
-      "Oxted",
-      "Cardiff & Met",
-      {
-       "d": "2026-10-25",
-       "h": "17:00"
+       "h": "15:00"
       }
      ],
      [
@@ -2726,7 +2730,15 @@
       "University of Exeter",
       {
        "d": "2026-10-25",
-       "h": "17:00"
+       "h": "15:00"
+      }
+     ],
+     [
+      "Hampstead & Westminster",
+      "Beeston",
+      {
+       "d": "2026-10-25",
+       "h": "16:00"
       }
      ]
     ],
@@ -2736,7 +2748,7 @@
       "University of Nottingham",
       {
        "d": "2026-10-24",
-       "h": "16:00"
+       "h": "12:00"
       }
      ],
      [
@@ -2744,31 +2756,7 @@
       "Reading",
       {
        "d": "2026-10-24",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Hampstead & Westminster",
-      "Surbiton",
-      {
-       "d": "2026-10-24",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Loughborough Students",
-      "University of Birmingham",
-      {
-       "d": "2026-10-24",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Teddington",
-      "Bowdon",
-      {
-       "d": "2026-10-24",
-       "h": "16:00"
+       "h": "13:00"
       }
      ],
      [
@@ -2776,31 +2764,31 @@
       "Durham University",
       {
        "d": "2026-10-24",
-       "h": "16:00"
-      }
-     ],
-     [
-      "University of Birmingham",
-      "Buckingham",
-      {
-       "d": "2026-10-25",
-       "h": "16:00"
-      }
-     ],
-     [
-      "East Grinstead",
-      "Teddington",
-      {
-       "d": "2026-10-25",
-       "h": "16:00"
+       "h": "13:30"
       }
      ],
      [
       "Hampstead & Westminster",
-      "Durham University",
+      "Surbiton",
       {
-       "d": "2026-10-25",
-       "h": "16:00"
+       "d": "2026-10-24",
+       "h": "14:00"
+      }
+     ],
+     [
+      "Loughborough Students",
+      "University of Birmingham",
+      {
+       "d": "2026-10-24",
+       "h": "14:00"
+      }
+     ],
+     [
+      "Teddington",
+      "Bowdon",
+      {
+       "d": "2026-10-24",
+       "h": "14:00"
       }
      ],
      [
@@ -2808,7 +2796,15 @@
       "Loughborough Students",
       {
        "d": "2026-10-25",
-       "h": "16:00"
+       "h": "12:00"
+      }
+     ],
+     [
+      "East Grinstead",
+      "Teddington",
+      {
+       "d": "2026-10-25",
+       "h": "13:00"
       }
      ],
      [
@@ -2816,7 +2812,15 @@
       "Bowdon",
       {
        "d": "2026-10-25",
-       "h": "16:00"
+       "h": "13:00"
+      }
+     ],
+     [
+      "Hampstead & Westminster",
+      "Durham University",
+      {
+       "d": "2026-10-25",
+       "h": "14:00"
       }
      ],
      [
@@ -2824,7 +2828,15 @@
       "Wimbledon",
       {
        "d": "2026-10-25",
-       "h": "16:00"
+       "h": "14:00"
+      }
+     ],
+     [
+      "University of Birmingham",
+      "Buckingham",
+      {
+       "d": "2026-10-25",
+       "h": "14:30"
       }
      ]
     ]
@@ -3172,7 +3184,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "prox": {
     "m": [
      [
@@ -3230,10 +3242,10 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "FECHA 23",
+    "m": "FECHA 25",
     "f": ""
    },
-   "jornada": "FECHA 23",
+   "jornada": "FECHA 25",
    "m": [
     [
      "S.A.G.",
@@ -3715,7 +3727,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4180,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4389,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-21 01:40",
+   "consulta": "2026-10-21 08:42",
    "goleadores": {
     "m": [
      {
