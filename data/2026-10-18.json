@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-21 18:38",
+ "actualizado": "2026-10-22 01:37",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "prox": {
     "m": [
      [
@@ -1069,10 +1069,10 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHA 5",
-    "f": "FECHA 5"
+    "m": "FECHA 6",
+    "f": "FECHA 6"
    },
-   "jornada": "FECHA 5",
+   "jornada": "FECHA 6",
    "m": [
     [
      "CH Carpesa",
@@ -1398,10 +1398,10 @@
       "pj": 5
      },
      {
-      "nom": "Nicolau Mustaros Araño",
-      "eq": "Junior FC",
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
       "g": 4,
-      "pj": 4
+      "pj": 5
      },
      {
       "nom": "Anton Serrahima Esque",
@@ -1410,16 +1410,16 @@
       "pj": 4
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
+      "nom": "Nicolau Mustaros Araño",
+      "eq": "Junior FC",
       "g": 4,
-      "pj": 5
+      "pj": 4
      },
      {
-      "nom": "Pablo Rubio Baldor",
-      "eq": "Sardinero",
+      "nom": "Pau Gesti Soler",
+      "eq": "Atlètic Terrassa",
       "g": 3,
-      "pj": 5
+      "pj": 4
      }
     ],
     "f": [
@@ -1487,7 +1487,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "prox": {
     "m": [
      [
@@ -1687,10 +1687,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHAS 6 Y 7",
-    "f": "FECHAS 6 Y 7"
+    "m": "FECHAS 7 Y 8",
+    "f": "FECHAS 7 Y 8"
    },
-   "prox_jornada": "FECHAS 6 Y 7",
+   "prox_jornada": "FECHAS 7 Y 8",
    "prox_fecha": "23.10–26.10",
    "torneo": "Liga IATI · Iberdrola"
   },
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "prox": {
     "m": [
      [
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "prox": {
     "m": [
      [
@@ -3230,10 +3230,10 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "FECHA 25",
+    "m": "FECHA 23",
     "f": ""
    },
-   "jornada": "FECHA 25",
+   "jornada": "FECHA 23",
    "m": [
     [
      "S.A.G.",
@@ -3251,17 +3251,17 @@
     "m": [
      {
       "eq": "SAN FERNANDO",
-      "pts": 57,
-      "pj": 24,
-      "gf": 66,
-      "gc": 22
+      "pts": 60,
+      "pj": 25,
+      "gf": 72,
+      "gc": 23
      },
      {
       "eq": "BCO. PROVINCIA",
-      "pts": 55,
-      "pj": 24,
-      "gf": 66,
-      "gc": 35
+      "pts": 56,
+      "pj": 25,
+      "gf": 69,
+      "gc": 38
      },
      {
       "eq": "CIUDAD",
@@ -3272,10 +3272,10 @@
      },
      {
       "eq": "MITRE",
-      "pts": 51,
-      "pj": 24,
-      "gf": 66,
-      "gc": 29
+      "pts": 52,
+      "pj": 25,
+      "gf": 69,
+      "gc": 32
      },
      {
       "eq": "G. Y ESGRIMA",
@@ -3287,16 +3287,16 @@
      {
       "eq": "DUCILO",
       "pts": 43,
-      "pj": 24,
-      "gf": 65,
-      "gc": 55
+      "pj": 25,
+      "gf": 66,
+      "gc": 61
      },
      {
       "eq": "U. LA PLATA",
       "pts": 34,
-      "pj": 24,
-      "gf": 52,
-      "gc": 58
+      "pj": 25,
+      "gf": 55,
+      "gc": 62
      },
      {
       "eq": "HURLING",
@@ -3308,22 +3308,22 @@
      {
       "eq": "S. BARBARA",
       "pts": 27,
-      "pj": 24,
+      "pj": 25,
       "gf": 51,
-      "gc": 57
+      "gc": 58
      },
      {
       "eq": "QUILMES",
-      "pts": 21,
-      "pj": 24,
-      "gf": 44,
-      "gc": 63
+      "pts": 24,
+      "pj": 25,
+      "gf": 48,
+      "gc": 66
      },
      {
       "eq": "SAN MARTÍN",
-      "pts": 18,
-      "pj": 24,
-      "gf": 43,
+      "pts": 21,
+      "pj": 25,
+      "gf": 44,
       "gc": 66
      },
      {
@@ -3454,8 +3454,8 @@
      {
       "nom": "Kiernan, Máximo",
       "eq": "U. LA PLATA",
-      "g": 31,
-      "pj": 24
+      "g": 32,
+      "pj": 25
      },
      {
       "nom": "Suarez, Tomas Agustin",
@@ -3464,34 +3464,34 @@
       "pj": 25
      },
      {
+      "nom": "Merino, Gonzalo",
+      "eq": "BCO. PROVINCIA",
+      "g": 21,
+      "pj": 22
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 20,
+      "pj": 24
+     },
+     {
       "nom": "Agostini Coliqueo, Franco Antonio",
       "eq": "LOMAS",
       "g": 20,
       "pj": 22
      },
      {
-      "nom": "Merino, Gonzalo",
-      "eq": "BCO. PROVINCIA",
-      "g": 20,
-      "pj": 21
-     },
-     {
-      "nom": "Ferrero Farias, Lautaro",
-      "eq": "SAN FERNANDO",
-      "g": 18,
-      "pj": 23
-     },
-     {
       "nom": "Infanzon, Ramiro Nicolas",
       "eq": "DUCILO",
-      "g": 17,
-      "pj": 21
+      "g": 18,
+      "pj": 22
      },
      {
       "nom": "Dulor Marchesi, Luca",
       "eq": "DUCILO",
       "g": 16,
-      "pj": 22
+      "pj": 23
      },
      {
       "nom": "Jimenez Jaurechi, Julian",
@@ -3506,10 +3506,10 @@
       "pj": 25
      },
      {
-      "nom": "Falchetto, Facundo",
-      "eq": "MITRE",
-      "g": 13,
-      "pj": 24
+      "nom": "Merlini, Mateo",
+      "eq": "SAN FERNANDO",
+      "g": 14,
+      "pj": 25
      }
     ],
     "f": [
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-21 18:38",
+   "consulta": "2026-10-22 01:37",
    "goleadores": {
     "m": [
      {
