@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-22 01:37",
+ "actualizado": "2026-10-22 08:45",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "prox": {
     "m": [
      [
@@ -1069,27 +1069,27 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHA 6",
-    "f": "FECHA 6"
+    "m": "FECHA 5",
+    "f": "FECHA 5"
    },
-   "jornada": "FECHA 6",
+   "jornada": "FECHA 5",
    "m": [
     [
-     "CH Carpesa",
-     2,
-     7,
-     "Junior FC",
+     "Sardinero",
+     0,
+     1,
+     "Futbol Club Barcelona",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ],
     [
-     "CD Terrassa",
-     2,
-     1,
-     "Club de Campo",
+     "RS Tenis",
+     0,
+     3,
+     "RC Polo",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
      }
     ],
     [
@@ -1111,10 +1111,39 @@
      }
     ],
     [
+     "CD Terrassa",
+     2,
+     1,
+     "Club de Campo",
+     {
+      "d": "2026-10-17"
+     }
+    ],
+    [
+     "CH Carpesa",
+     2,
+     7,
+     "Junior FC",
+     {
+      "d": "2026-10-17"
+     }
+    ]
+   ],
+   "f": [
+    [
      "RS Tenis",
-     0,
+     2,
+     1,
+     "Valencia CH",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Real Sociedad",
      3,
-     "RC Polo",
+     0,
+     "Atlètic Terrassa",
      {
       "d": "2026-10-18"
      }
@@ -1123,20 +1152,9 @@
      "Sardinero",
      0,
      1,
-     "Futbol Club Barcelona",
+     "RC Polo",
      {
       "d": "2026-10-18"
-     }
-    ]
-   ],
-   "f": [
-    [
-     "CD Terrassa",
-     0,
-     5,
-     "Club de Campo",
-     {
-      "d": "2026-10-17"
      }
     ],
     [
@@ -1158,30 +1176,12 @@
      }
     ],
     [
-     "Sardinero",
+     "CD Terrassa",
      0,
-     1,
-     "RC Polo",
+     5,
+     "Club de Campo",
      {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "Real Sociedad",
-     3,
-     0,
-     "Atlètic Terrassa",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "RS Tenis",
-     2,
-     1,
-     "Valencia CH",
-     {
-      "d": "2026-10-18"
+      "d": "2026-10-17"
      }
     ]
    ],
@@ -1487,7 +1487,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "prox": {
     "m": [
      [
@@ -1687,10 +1687,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHAS 7 Y 8",
-    "f": "FECHAS 7 Y 8"
+    "m": "FECHAS 6 Y 7",
+    "f": "FECHAS 6 Y 7"
    },
-   "prox_jornada": "FECHAS 7 Y 8",
+   "prox_jornada": "FECHAS 6 Y 7",
    "prox_fecha": "23.10–26.10",
    "torneo": "Liga IATI · Iberdrola"
   },
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "prox": {
     "m": [
      [
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "prox": {
     "m": [
      [
@@ -3230,10 +3230,10 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "FECHA 23",
+    "m": "FECHA 25",
     "f": ""
    },
-   "jornada": "FECHA 23",
+   "jornada": "FECHA 25",
    "m": [
     [
      "S.A.G.",
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-22 01:37",
+   "consulta": "2026-10-22 08:45",
    "goleadores": {
     "m": [
      {
