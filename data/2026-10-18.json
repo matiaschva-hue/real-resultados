@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-23 07:04",
+ "actualizado": "2026-10-23 12:05",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "prox": {
     "m": [
      [
@@ -1069,27 +1069,27 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHA 5",
-    "f": "FECHA 5"
+    "m": "FECHA 6",
+    "f": "FECHA 6"
    },
-   "jornada": "FECHA 5",
+   "jornada": "FECHA 6",
    "m": [
     [
-     "Sardinero",
-     0,
-     1,
-     "Futbol Club Barcelona",
+     "CH Carpesa",
+     2,
+     7,
+     "Junior FC",
      {
-      "d": "2026-10-18"
+      "d": "2026-10-17"
      }
     ],
     [
-     "RS Tenis",
-     0,
-     3,
-     "RC Polo",
+     "CD Terrassa",
+     2,
+     1,
+     "Club de Campo",
      {
-      "d": "2026-10-18"
+      "d": "2026-10-17"
      }
     ],
     [
@@ -1111,39 +1111,10 @@
      }
     ],
     [
-     "CD Terrassa",
-     2,
-     1,
-     "Club de Campo",
-     {
-      "d": "2026-10-17"
-     }
-    ],
-    [
-     "CH Carpesa",
-     2,
-     7,
-     "Junior FC",
-     {
-      "d": "2026-10-17"
-     }
-    ]
-   ],
-   "f": [
-    [
      "RS Tenis",
-     2,
-     1,
-     "Valencia CH",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "Real Sociedad",
-     3,
      0,
-     "Atlètic Terrassa",
+     3,
+     "RC Polo",
      {
       "d": "2026-10-18"
      }
@@ -1152,9 +1123,20 @@
      "Sardinero",
      0,
      1,
-     "RC Polo",
+     "Futbol Club Barcelona",
      {
       "d": "2026-10-18"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "CD Terrassa",
+     0,
+     5,
+     "Club de Campo",
+     {
+      "d": "2026-10-17"
      }
     ],
     [
@@ -1176,12 +1158,30 @@
      }
     ],
     [
-     "CD Terrassa",
+     "Sardinero",
      0,
-     5,
-     "Club de Campo",
+     1,
+     "RC Polo",
      {
-      "d": "2026-10-17"
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Real Sociedad",
+     3,
+     0,
+     "Atlètic Terrassa",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "RS Tenis",
+     2,
+     1,
+     "Valencia CH",
+     {
+      "d": "2026-10-18"
      }
     ]
    ],
@@ -1386,28 +1386,16 @@
       "pj": 5
      },
      {
-      "nom": "Tyler Tomsett",
-      "eq": "UD Taburiente",
-      "g": 5,
-      "pj": 5
-     },
-     {
       "nom": "Enric Miralles Portillo",
       "eq": "CD Terrassa",
       "g": 5,
       "pj": 5
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 4,
+      "nom": "Tyler Tomsett",
+      "eq": "UD Taburiente",
+      "g": 5,
       "pj": 5
-     },
-     {
-      "nom": "Nicolau Mustaros Araño",
-      "eq": "Junior FC",
-      "g": 4,
-      "pj": 4
      },
      {
       "nom": "Anton Serrahima Esque",
@@ -1416,10 +1404,22 @@
       "pj": 4
      },
      {
-      "nom": "Joan Francesc Fernandez Ros",
-      "eq": "Club Egara",
-      "g": 3,
+      "nom": "Nicolau Mustaros Araño",
+      "eq": "Junior FC",
+      "g": 4,
       "pj": 4
+     },
+     {
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Alvaro Lopez-Alonso Ribalaygua",
+      "eq": "RS Tenis",
+      "g": 3,
+      "pj": 5
      }
     ],
     "f": [
@@ -1442,20 +1442,8 @@
       "pj": 5
      },
      {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
-      "g": 3,
-      "pj": 5
-     },
-     {
       "nom": "Cecilia Lainz Puente",
       "eq": "RS Tenis",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
       "g": 3,
       "pj": 5
      },
@@ -1472,8 +1460,8 @@
       "pj": 5
      },
      {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 5
      },
@@ -1482,12 +1470,24 @@
       "eq": "Club de Campo",
       "g": 3,
       "pj": 5
+     },
+     {
+      "nom": "Teresa Lima Cortes",
+      "eq": "Junior FC",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
+      "g": 3,
+      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "prox": {
     "m": [
      [
@@ -1687,10 +1687,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHAS 6 Y 7",
-    "f": "FECHAS 6 Y 7"
+    "m": "FECHAS 7 Y 8",
+    "f": "FECHAS 7 Y 8"
    },
-   "prox_jornada": "FECHAS 6 Y 7",
+   "prox_jornada": "FECHAS 7 Y 8",
    "prox_fecha": "23.10–26.10",
    "torneo": "Liga IATI · Iberdrola"
   },
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "prox": {
     "m": [
      [
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "prox": {
     "m": [
      [
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "torneo": "Élite"
   },
   {
@@ -4178,7 +4178,7 @@
    "liga": "HOCKEY ONE",
    "jor": {
     "m": "FECHA 3",
-    "f": "FECHA 2"
+    "f": "FECHA 3"
    },
    "jornada": "FECHA 3",
    "m": [
@@ -4325,18 +4325,18 @@
       "gc": 1
      },
      {
+      "eq": "Canberra Chill",
+      "pts": 10,
+      "pj": 3,
+      "gf": 12,
+      "gc": 8
+     },
+     {
       "eq": "Melbourne Cobras",
       "pts": 10,
       "pj": 2,
       "gf": 8,
       "gc": 5
-     },
-     {
-      "eq": "Canberra Chill",
-      "pts": 5,
-      "pj": 2,
-      "gf": 8,
-      "gc": 6
      },
      {
       "eq": "NSW Pride",
@@ -4348,9 +4348,9 @@
      {
       "eq": "Tassie Tigers",
       "pts": 5,
-      "pj": 2,
-      "gf": 5,
-      "gc": 4
+      "pj": 3,
+      "gf": 7,
+      "gc": 8
      },
      {
       "eq": "HC Melbourne",
@@ -4377,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 07:04",
+   "consulta": "2026-10-23 12:05",
    "goleadores": {
     "m": [
      {
@@ -4433,9 +4433,19 @@
     ],
     "f": [
      {
+      "nom": "Krings, Lynn",
+      "eq": "Canberra Chill",
+      "g": 4
+     },
+     {
       "nom": "Stewart, Grace",
       "eq": "NSW Pride",
       "g": 4
+     },
+     {
+      "nom": "Costa, Valentina",
+      "eq": "Canberra Chill",
+      "g": 3
      },
      {
       "nom": "Geddis, Zara",
@@ -4443,13 +4453,13 @@
       "g": 3
      },
      {
-      "nom": "Krings, Lynn",
-      "eq": "Canberra Chill",
+      "nom": "Schonell, Courtney",
+      "eq": "Perth Thundersticks",
       "g": 3
      },
      {
-      "nom": "Schonell, Courtney",
-      "eq": "Perth Thundersticks",
+      "nom": "Squibb, Penny",
+      "eq": "Tassie Tigers",
       "g": 3
      },
      {
@@ -4470,16 +4480,6 @@
      {
       "nom": "Evans, Naomi",
       "eq": "Canberra Chill",
-      "g": 2
-     },
-     {
-      "nom": "Maroney, Miri",
-      "eq": "HC Melbourne",
-      "g": 2
-     },
-     {
-      "nom": "Patterson, Amalia",
-      "eq": "NSW Pride",
       "g": 2
      }
     ]
@@ -4540,7 +4540,7 @@
    },
    "prox_jor": {
     "m": "FECHA 4",
-    "f": "FECHA 3"
+    "f": "FECHA 4"
    },
    "prox_jornada": "FECHA 4",
    "prox_fecha": "21.10–26.10",
