@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-23 12:05",
+ "actualizado": "2026-10-23 16:14",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "prox": {
     "f": [
      [
@@ -666,24 +666,6 @@
    "jornada": "FECHA 6",
    "m": [
     [
-     "Braxgata",
-     2,
-     2,
-     "Royal Léopold THC",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
-     "Gantoise HC",
-     2,
-     2,
-     "Oree",
-     {
-      "d": "2026-10-18"
-     }
-    ],
-    [
      "Herakles",
      4,
      1,
@@ -693,16 +675,34 @@
      }
     ],
     [
-     "Racing",
-     4,
+     "Waterloo Ducks",
      2,
-     "KHC Dragons",
+     2,
+     "Beerschot",
      {
       "d": "2026-10-18"
      }
     ],
     [
-     "Uccle",
+     "Braxgata",
+     2,
+     2,
+     "Léopold",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Gantoise",
+     2,
+     2,
+     "Orée",
+     {
+      "d": "2026-10-18"
+     }
+    ],
+    [
+     "Uccle Sport",
      8,
      0,
      "Namur",
@@ -711,10 +711,10 @@
      }
     ],
     [
-     "Waterloo Ducks",
+     "Racing",
+     4,
      2,
-     2,
-     "Beerschot",
+     "Dragons",
      {
       "d": "2026-10-18"
      }
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "prox": {
     "m": [
      [
@@ -964,8 +964,8 @@
       }
      ],
      [
-      "KHC Dragons",
-      "Beerschot",
+      "Léopold",
+      "Gantoise",
       {
        "d": "2026-10-25",
        "h": "15:00"
@@ -980,8 +980,8 @@
       }
      ],
      [
-      "Orée",
-      "Uccle",
+      "Dragons",
+      "Beerschot",
       {
        "d": "2026-10-25",
        "h": "15:00"
@@ -996,8 +996,8 @@
       }
      ],
      [
-      "Royal Léopold THC",
-      "Gantoise",
+      "Orée",
+      "Uccle Sport",
       {
        "d": "2026-10-25",
        "h": "15:00"
@@ -1386,25 +1386,25 @@
       "pj": 5
      },
      {
-      "nom": "Enric Miralles Portillo",
-      "eq": "CD Terrassa",
-      "g": 5,
-      "pj": 5
-     },
-     {
       "nom": "Tyler Tomsett",
       "eq": "UD Taburiente",
       "g": 5,
       "pj": 5
      },
      {
-      "nom": "Anton Serrahima Esque",
+      "nom": "Enric Miralles Portillo",
+      "eq": "CD Terrassa",
+      "g": 5,
+      "pj": 5
+     },
+     {
+      "nom": "Nicolau Mustaros Araño",
       "eq": "Junior FC",
       "g": 4,
       "pj": 4
      },
      {
-      "nom": "Nicolau Mustaros Araño",
+      "nom": "Anton Serrahima Esque",
       "eq": "Junior FC",
       "g": 4,
       "pj": 4
@@ -1442,20 +1442,20 @@
       "pj": 5
      },
      {
-      "nom": "Cecilia Lainz Puente",
-      "eq": "RS Tenis",
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
       "g": 3,
       "pj": 5
      },
      {
-      "nom": "Patricia Alvarez Nardiz",
-      "eq": "RC Polo",
+      "nom": "Teresa Lima Cortes",
+      "eq": "Junior FC",
       "g": 3,
       "pj": 5
      },
      {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 3,
       "pj": 5
      },
@@ -1466,14 +1466,14 @@
       "pj": 5
      },
      {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
+      "nom": "Cecilia Lainz Puente",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 5
      },
      {
-      "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
+      "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 5
      },
@@ -1487,7 +1487,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "prox": {
     "m": [
      [
@@ -1701,7 +1701,7 @@
    "liga": "1. BUNDESLIGA",
    "jor": {
     "m": "FECHAS 8 Y 9",
-    "f": "FECHAS 7 Y 8"
+    "f": "FECHAS 8 Y 9"
    },
    "jornada": "FECHAS 8 Y 9",
    "m": [
@@ -1929,18 +1929,18 @@
    "tabla": {
     "m": [
      {
+      "eq": "RW Köln",
+      "pj": 8,
+      "pts": 21,
+      "gf": 28,
+      "gc": 12
+     },
+     {
       "eq": "Hamburger Polo Club",
       "pj": 7,
       "pts": 20,
       "gf": 29,
       "gc": 17
-     },
-     {
-      "eq": "RW Köln",
-      "pj": 7,
-      "pts": 18,
-      "gf": 23,
-      "gc": 11
      },
      {
       "eq": "Mannheimer HC",
@@ -1986,10 +1986,10 @@
      },
      {
       "eq": "Uhlenhorst Mülheim",
-      "pj": 8,
+      "pj": 9,
       "pts": 7,
-      "gf": 16,
-      "gc": 22
+      "gf": 17,
+      "gc": 27
      },
      {
       "eq": "Berliner HC",
@@ -2043,6 +2043,13 @@
       "gc": 15
      },
      {
+      "eq": "Der Club an der Alster",
+      "pj": 9,
+      "pts": 15,
+      "gf": 15,
+      "gc": 13
+     },
+     {
       "eq": "Berliner HC",
       "pj": 8,
       "pts": 14,
@@ -2051,23 +2058,16 @@
      },
      {
       "eq": "Großflottbeker THGC",
-      "pj": 8,
+      "pj": 9,
       "pts": 14,
       "gf": 15,
-      "gc": 14
-     },
-     {
-      "eq": "Der Club an der Alster",
-      "pj": 8,
-      "pts": 12,
-      "gf": 14,
-      "gc": 13
+      "gc": 15
      },
      {
       "eq": "Harvestehuder THC",
-      "pj": 8,
-      "pts": 10,
-      "gf": 7,
+      "pj": 9,
+      "pts": 13,
+      "gf": 9,
       "gc": 12
      },
      {
@@ -2079,10 +2079,10 @@
      },
      {
       "eq": "UHC Hamburg",
-      "pj": 8,
+      "pj": 9,
       "pts": 7,
       "gf": 11,
-      "gc": 19
+      "gc": 21
      },
      {
       "eq": "DSD Düsseldorf",
@@ -2115,16 +2115,22 @@
       "g": 9
      },
      {
-      "nom": "Ben Hasbach",
-      "eq": "Mannheimer HC",
-      "pj": 8,
+      "nom": "Jakob Brilla",
+      "eq": "RW Köln",
+      "pj": 7,
       "g": 8
      },
      {
       "nom": "Raphael Hartkopf",
       "eq": "RW Köln",
       "pj": 7,
-      "g": 7
+      "g": 8
+     },
+     {
+      "nom": "Ben Hasbach",
+      "eq": "Mannheimer HC",
+      "pj": 8,
+      "g": 8
      },
      {
       "nom": "Benedikt Schwarzhaupt",
@@ -2151,12 +2157,6 @@
       "g": 6
      },
      {
-      "nom": "Jakob Brilla",
-      "eq": "RW Köln",
-      "pj": 7,
-      "g": 6
-     },
-     {
       "nom": "Timothy Brand",
       "eq": "Hamburger Polo Club",
       "pj": 7,
@@ -2177,6 +2177,12 @@
       "g": 6
      },
      {
+      "nom": "Martina Reisenegger Lillo",
+      "eq": "Der Club an der Alster",
+      "pj": 8,
+      "g": 5
+     },
+     {
       "nom": "Sophie Prumbaum",
       "eq": "RW Köln",
       "pj": 8,
@@ -2185,12 +2191,6 @@
      {
       "nom": "Franziska Pabsch",
       "eq": "Großflottbeker THGC",
-      "pj": 8,
-      "g": 4
-     },
-     {
-      "nom": "Martina Reisenegger Lillo",
-      "eq": "Der Club an der Alster",
       "pj": 8,
       "g": 4
      },
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "prox": {
     "m": [
      [
@@ -2325,7 +2325,7 @@
    },
    "prox_jor": {
     "m": "FECHA 10",
-    "f": "FECHA 9"
+    "f": "FECHA 10"
    },
    "prox_jornada": "FECHA 10",
    "prox_fecha": "23.10–26.10",
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "prox": {
     "m": [
      [
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4377,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 12:05",
+   "consulta": "2026-10-23 16:14",
    "goleadores": {
     "m": [
      {
