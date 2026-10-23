@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-23 01:51",
+ "actualizado": "2026-10-23 07:04",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "prox": {
     "m": [
      [
@@ -1487,7 +1487,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "prox": {
     "m": [
      [
@@ -2228,7 +2228,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "prox": {
     "m": [
      [
@@ -2630,7 +2630,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "prox": {
     "m": [
      [
@@ -3172,7 +3172,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "prox": {
     "m": [
      [
@@ -3715,7 +3715,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4168,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "torneo": "Élite"
   },
   {
@@ -4177,10 +4177,10 @@
    "pais_en": "AUSTRALIA",
    "liga": "HOCKEY ONE",
    "jor": {
-    "m": "FECHA 2",
+    "m": "FECHA 3",
     "f": "FECHA 2"
    },
-   "jornada": "FECHA 2",
+   "jornada": "FECHA 3",
    "m": [
     [
      "Adelaide Fire",
@@ -4261,17 +4261,17 @@
     "m": [
      {
       "eq": "Canberra Chill",
-      "pts": 10,
-      "pj": 2,
-      "gf": 13,
-      "gc": 3
+      "pts": 15,
+      "pj": 3,
+      "gf": 17,
+      "gc": 6
      },
      {
       "eq": "Tassie Tigers",
       "pts": 10,
-      "pj": 2,
-      "gf": 13,
-      "gc": 3
+      "pj": 3,
+      "gf": 16,
+      "gc": 7
      },
      {
       "eq": "HC Melbourne",
@@ -4377,9 +4377,14 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 01:51",
+   "consulta": "2026-10-23 07:04",
    "goleadores": {
     "m": [
+     {
+      "nom": "Brick, Dylan",
+      "eq": "Canberra Chill",
+      "g": 5
+     },
      {
       "nom": "Hazell, Ehren",
       "eq": "Tassie Tigers",
@@ -4401,11 +4406,6 @@
       "g": 3
      },
      {
-      "nom": "Brick, Dylan",
-      "eq": "Canberra Chill",
-      "g": 3
-     },
-     {
       "nom": "Burns, Cooper",
       "eq": "HC Melbourne",
       "g": 3
@@ -4416,6 +4416,11 @@
       "g": 3
      },
      {
+      "nom": "Beltz, Hayden",
+      "eq": "Tassie Tigers",
+      "g": 2
+     },
+     {
       "nom": "Ephraums, Nathan",
       "eq": "HC Melbourne",
       "g": 2
@@ -4423,11 +4428,6 @@
      {
       "nom": "Golding, Harry",
       "eq": "Perth Thundersticks",
-      "g": 2
-     },
-     {
-      "nom": "Govers, Blake",
-      "eq": "NSW Pride",
       "g": 2
      }
     ],
@@ -4487,19 +4487,11 @@
    "prox": {
     "m": [
      [
-      "Tassie Tigers",
-      "Canberra Chill",
-      {
-       "d": "2026-10-23",
-       "h": "19:45"
-      }
-     ],
-     [
       "NSW Pride",
       "Perth Thundersticks",
       {
        "d": "2026-10-24",
-       "h": "14:45"
+       "h": "13:00"
       }
      ],
      [
@@ -4521,19 +4513,11 @@
     ],
     "f": [
      [
-      "Tassie Tigers",
-      "Canberra Chill",
-      {
-       "d": "2026-10-23",
-       "h": "18:00"
-      }
-     ],
-     [
       "NSW Pride",
       "Perth Thundersticks",
       {
        "d": "2026-10-24",
-       "h": "13:00"
+       "h": "14:45"
       }
      ],
      [
@@ -4555,10 +4539,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHA 3",
+    "m": "FECHA 4",
     "f": "FECHA 3"
    },
-   "prox_jornada": "FECHA 3",
+   "prox_jornada": "FECHA 4",
    "prox_fecha": "21.10–26.10",
    "torneo": "Hockey One"
   }
