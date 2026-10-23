@@ -1,6 +1,6 @@
 {
  "fecha": "18.10.2026",
- "actualizado": "2026-10-23 16:14",
+ "actualizado": "2026-10-23 19:19",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "prox": {
     "m": [
      [
@@ -517,7 +517,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "prox": {
     "f": [
      [
@@ -952,7 +952,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "prox": {
     "m": [
      [
@@ -1374,14 +1374,14 @@
       "pj": 5
      },
      {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
+      "nom": "Joaquin Puglisi",
+      "eq": "RS Tenis",
       "g": 6,
       "pj": 5
      },
      {
-      "nom": "Joaquin Puglisi",
-      "eq": "RS Tenis",
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
       "g": 6,
       "pj": 5
      },
@@ -1416,8 +1416,8 @@
       "pj": 5
      },
      {
-      "nom": "Alvaro Lopez-Alonso Ribalaygua",
-      "eq": "RS Tenis",
+      "nom": "Hugo Garcia Arroyo",
+      "eq": "CH Carpesa",
       "g": 3,
       "pj": 5
      }
@@ -1430,15 +1430,27 @@
       "pj": 5
      },
      {
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
+      "g": 4,
+      "pj": 5
+     },
+     {
       "nom": "Lola Riera Zuzuarregui",
       "eq": "Sanse Complutense",
       "g": 4,
       "pj": 5
      },
      {
-      "nom": "Laia Vidosa I Artigas",
-      "eq": "Junior FC",
-      "g": 4,
+      "nom": "Alejandra de la Llama Andreu",
+      "eq": "Sanse Complutense",
+      "g": 3,
+      "pj": 5
+     },
+     {
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
       "pj": 5
      },
      {
@@ -1454,14 +1466,14 @@
       "pj": 5
      },
      {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 5
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 3,
       "pj": 5
      },
@@ -1470,24 +1482,12 @@
       "eq": "RS Tenis",
       "g": 3,
       "pj": 5
-     },
-     {
-      "nom": "Patricia Alvarez Nardiz",
-      "eq": "RC Polo",
-      "g": 3,
-      "pj": 5
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "prox": {
     "m": [
      [
@@ -2036,18 +2036,18 @@
       "gc": 5
      },
      {
+      "eq": "Der Club an der Alster",
+      "pj": 9,
+      "pts": 15,
+      "gf": 17,
+      "gc": 13
+     },
+     {
       "eq": "Bremer HC",
       "pj": 8,
       "pts": 15,
       "gf": 18,
       "gc": 15
-     },
-     {
-      "eq": "Der Club an der Alster",
-      "pj": 9,
-      "pts": 15,
-      "gf": 15,
-      "gc": 13
      },
      {
       "eq": "Berliner HC",
@@ -2061,7 +2061,7 @@
       "pj": 9,
       "pts": 14,
       "gf": 15,
-      "gc": 15
+      "gc": 17
      },
      {
       "eq": "Harvestehuder THC",
@@ -2179,8 +2179,8 @@
      {
       "nom": "Martina Reisenegger Lillo",
       "eq": "Der Club an der Alster",
-      "pj": 8,
-      "g": 5
+      "pj": 9,
+      "g": 6
      },
      {
       "nom": "Sophie Prumbaum",
@@ -2191,7 +2191,7 @@
      {
       "nom": "Franziska Pabsch",
       "eq": "Großflottbeker THGC",
-      "pj": 8,
+      "pj": 9,
       "g": 4
      },
      {
@@ -2228,17 +2228,9 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "prox": {
     "m": [
-     [
-      "RW Köln",
-      "Uhlenhorst Mülheim",
-      {
-       "d": "2026-10-23",
-       "h": "19:30"
-      }
-     ],
      [
       "Der Club an der Alster",
       "Hamburger Polo Club",
@@ -2273,22 +2265,6 @@
      ]
     ],
     "f": [
-     [
-      "UHC Hamburg",
-      "Harvestehuder THC",
-      {
-       "d": "2026-10-23",
-       "h": "19:30"
-      }
-     ],
-     [
-      "Der Club an der Alster",
-      "Großflottbeker THGC",
-      {
-       "d": "2026-10-23",
-       "h": "20:00"
-      }
-     ],
      [
       "Münchner SC",
       "Mannheimer HC",
@@ -2630,7 +2606,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "prox": {
     "m": [
      [
@@ -3172,7 +3148,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "prox": {
     "m": [
      [
@@ -3715,7 +3691,7 @@
    "prox_fecha": "24.10–25.10",
    "prox_jornada": "FECHA 26",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "torneo": "Metropolitano"
   },
   {
@@ -4168,7 +4144,7 @@
    "prox_jornada": "FECHA 7",
    "prox_fecha": "24.10–25.10",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "torneo": "Élite"
   },
   {
@@ -4377,7 +4353,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-23 16:14",
+   "consulta": "2026-10-23 19:19",
    "goleadores": {
     "m": [
      {
