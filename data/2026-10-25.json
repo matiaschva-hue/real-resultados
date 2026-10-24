@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-24 16:29",
+ "actualizado": "2026-10-24 19:29",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "prox": {
     "m": [
      [
@@ -542,7 +542,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "prox": {
     "m": [
      [
@@ -810,7 +810,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "prox": {
     "m": [
      [
@@ -924,10 +924,10 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHA 6",
-    "f": "FECHA 6"
+    "m": "FECHA 7",
+    "f": "FECHA 7"
    },
-   "jornada": "FECHA 6",
+   "jornada": "FECHA 7",
    "tabla": {
     "m": [
      {
@@ -1141,16 +1141,16 @@
       "pj": 6
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 4,
-      "pj": 6
-     },
-     {
       "nom": "Marc Miralles Portillo",
       "eq": "RC Polo",
       "g": 4,
       "pj": 5
+     },
+     {
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
+      "g": 4,
+      "pj": 6
      },
      {
       "nom": "Enrique Fanlo Zaldua",
@@ -1159,7 +1159,7 @@
       "pj": 5
      },
      {
-      "nom": "Nicolau Mustaros Araño",
+      "nom": "Anton Serrahima Esque",
       "eq": "Junior FC",
       "g": 4,
       "pj": 5
@@ -1173,18 +1173,6 @@
       "pj": 6
      },
      {
-      "nom": "Begoña Garcia Grau",
-      "eq": "Club de Campo",
-      "g": 5,
-      "pj": 6
-     },
-     {
-      "nom": "Flore Suzanne Bruggink",
-      "eq": "Club de Campo",
-      "g": 5,
-      "pj": 6
-     },
-     {
       "nom": "Laia Vidosa I Artigas",
       "eq": "Junior FC",
       "g": 5,
@@ -1193,6 +1181,18 @@
      {
       "nom": "Teresa Lima Cortes",
       "eq": "Junior FC",
+      "g": 5,
+      "pj": 6
+     },
+     {
+      "nom": "Begoña Garcia Grau",
+      "eq": "Club de Campo",
+      "g": 5,
+      "pj": 6
+     },
+     {
+      "nom": "Flore Suzanne Bruggink",
+      "eq": "Club de Campo",
       "g": 5,
       "pj": 6
      },
@@ -1209,28 +1209,28 @@
       "pj": 6
      },
      {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
-      "g": 3,
-      "pj": 6
-     },
-     {
       "nom": "Patricia Alvarez Nardiz",
       "eq": "RC Polo",
       "g": 3,
       "pj": 6
      },
      {
-      "nom": "Lucia Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
+      "nom": "Sara Carmona Ramos",
+      "eq": "Sanse Complutense",
       "g": 3,
-      "pj": 5
+      "pj": 6
+     },
+     {
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
+      "g": 3,
+      "pj": 6
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -1751,7 +1751,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "prox": {
     "m": [
      [
@@ -1970,6 +1970,15 @@
    "jornada": "FECHA 5",
    "m": [
     [
+     "Holcombe",
+     4,
+     2,
+     "Beeston",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
      "Hampstead & Westminster",
      2,
      1,
@@ -2110,6 +2119,13 @@
       "gc": 17
      },
      {
+      "eq": "Holcombe",
+      "pts": 6,
+      "pj": 5,
+      "gf": 12,
+      "gc": 15
+     },
+     {
       "eq": "Hampstead & Westminster",
       "pts": 6,
       "pj": 5,
@@ -2119,9 +2135,9 @@
      {
       "eq": "Beeston",
       "pts": 5,
-      "pj": 4,
-      "gf": 10,
-      "gc": 12
+      "pj": 5,
+      "gf": 12,
+      "gc": 16
      },
      {
       "eq": "Reading",
@@ -2129,13 +2145,6 @@
       "pj": 4,
       "gf": 8,
       "gc": 10
-     },
-     {
-      "eq": "Holcombe",
-      "pts": 3,
-      "pj": 4,
-      "gf": 8,
-      "gc": 13
      },
      {
       "eq": "Oxted",
@@ -2248,7 +2257,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "prox": {
     "m": [
      [
@@ -2608,7 +2617,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "prox": {
     "m": [
      [
@@ -2672,8 +2681,8 @@
    "f": [
     [
      "S. Bárbara",
-     0,
-     0,
+     2,
+     2,
      "Banco Nación",
      {
       "d": "2026-10-24",
@@ -2681,9 +2690,29 @@
      }
     ],
     [
+     "Italiano",
+     1,
+     1,
+     "Belgrano",
+     {
+      "d": "2026-10-24",
+      "fecha": 26
+     }
+    ],
+    [
+     "San Lorenzo",
+     3,
+     2,
+     "Bco. Provincia",
+     {
+      "d": "2026-10-24",
+      "fecha": 26
+     }
+    ],
+    [
      "Arquitectura",
-     0,
-     0,
+     1,
+     2,
      "San Fernando",
      {
       "d": "2026-10-24",
@@ -2693,8 +2722,18 @@
     [
      "S. Catherine's",
      0,
-     1,
+     2,
      "Ciudad",
+     {
+      "d": "2026-10-24",
+      "fecha": 26
+     }
+    ],
+    [
+     "Lomas",
+     1,
+     0,
+     "Olivos",
      {
       "d": "2026-10-24",
       "fecha": 26
@@ -2706,24 +2745,31 @@
     "f": [
      {
       "eq": "S. BARBARA",
-      "pts": 50,
-      "pj": 25,
-      "gf": 41,
-      "gc": 25
-     },
-     {
-      "eq": "ITALIANO",
-      "pts": 45,
-      "pj": 25,
-      "gf": 53,
-      "gc": 35
+      "pts": 51,
+      "pj": 26,
+      "gf": 43,
+      "gc": 27
      },
      {
       "eq": "LOMAS",
-      "pts": 44,
-      "pj": 25,
-      "gf": 42,
+      "pts": 47,
+      "pj": 26,
+      "gf": 43,
       "gc": 26
+     },
+     {
+      "eq": "ITALIANO",
+      "pts": 46,
+      "pj": 26,
+      "gf": 54,
+      "gc": 36
+     },
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 44,
+      "pj": 26,
+      "gf": 47,
+      "gc": 31
      },
      {
       "eq": "G. Y ESGRIMA",
@@ -2733,32 +2779,25 @@
       "gc": 26
      },
      {
-      "eq": "SAN FERNANDO",
-      "pts": 41,
-      "pj": 25,
-      "gf": 45,
-      "gc": 30
-     },
-     {
       "eq": "BELGRANO",
-      "pts": 36,
-      "pj": 25,
-      "gf": 32,
-      "gc": 28
+      "pts": 37,
+      "pj": 26,
+      "gf": 33,
+      "gc": 29
      },
      {
       "eq": "CIUDAD",
-      "pts": 33,
-      "pj": 25,
-      "gf": 37,
+      "pts": 36,
+      "pj": 26,
+      "gf": 39,
       "gc": 38
      },
      {
       "eq": "BANCO NACION",
-      "pts": 30,
-      "pj": 25,
-      "gf": 40,
-      "gc": 44
+      "pts": 31,
+      "pj": 26,
+      "gf": 42,
+      "gc": 46
      },
      {
       "eq": "RIVER PLATE",
@@ -2770,37 +2809,37 @@
      {
       "eq": "S. CATHERINES",
       "pts": 29,
-      "pj": 25,
+      "pj": 26,
       "gf": 24,
-      "gc": 32
+      "gc": 34
      },
      {
       "eq": "BCO. PROVINCIA",
       "pts": 29,
-      "pj": 25,
-      "gf": 38,
-      "gc": 41
+      "pj": 26,
+      "gf": 40,
+      "gc": 44
      },
      {
       "eq": "ARQUITECTURA",
       "pts": 26,
-      "pj": 25,
-      "gf": 29,
-      "gc": 46
+      "pj": 26,
+      "gf": 30,
+      "gc": 48
      },
      {
       "eq": "OLIVOS",
       "pts": 23,
-      "pj": 25,
+      "pj": 26,
       "gf": 29,
-      "gc": 52
+      "gc": 53
      },
      {
       "eq": "SAN LORENZO",
-      "pts": 20,
-      "pj": 25,
-      "gf": 31,
-      "gc": 60
+      "pts": 23,
+      "pj": 26,
+      "gf": 34,
+      "gc": 62
      }
     ]
    },
@@ -2810,26 +2849,26 @@
      {
       "nom": "Piccardo, Alina",
       "eq": "SAN FERNANDO",
-      "g": 18,
-      "pj": 23
+      "g": 19,
+      "pj": 24
      },
      {
       "nom": "Arcidiacono, Julieta",
       "eq": "BCO. PROVINCIA",
-      "g": 16,
-      "pj": 25
+      "g": 17,
+      "pj": 26
      },
      {
       "nom": "Pisthon Santos, Pilar",
       "eq": "BANCO NACION",
-      "g": 14,
-      "pj": 22
+      "g": 15,
+      "pj": 23
      },
      {
       "nom": "Agostini Coliqueo, Chiara",
       "eq": "LOMAS",
       "g": 13,
-      "pj": 25
+      "pj": 26
      },
      {
       "nom": "Costa Biondi, Valentina",
@@ -2840,38 +2879,38 @@
      {
       "nom": "Cerundolo, Maria Constanza",
       "eq": "BELGRANO",
-      "g": 12,
-      "pj": 20
+      "g": 13,
+      "pj": 21
      },
      {
       "nom": "Santin, Agostina Sol",
       "eq": "SAN LORENZO",
-      "g": 11,
-      "pj": 25
+      "g": 12,
+      "pj": 26
      },
      {
       "nom": "Casas, Lara Agustina",
       "eq": "ITALIANO",
       "g": 11,
-      "pj": 16
+      "pj": 17
      },
      {
       "nom": "Ferola, Valentina",
       "eq": "ITALIANO",
       "g": 10,
-      "pj": 25
+      "pj": 26
      },
      {
-      "nom": "Castellaro Morello, Juana",
-      "eq": "RIVER PLATE",
+      "nom": "Esnaola, Josefina",
+      "eq": "S. BARBARA",
       "g": 10,
-      "pj": 13
+      "pj": 23
      }
     ]
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "torneo": "Metropolitano"
   },
   {
@@ -2881,7 +2920,7 @@
    "liga": "ÉLITE HOMMES · ÉLITE DAMES",
    "jor": {
     "m": "FECHA 7",
-    "f": ""
+    "f": "FECHA 7"
    },
    "jornada": "FECHA 7",
    "m": [
@@ -2895,7 +2934,17 @@
      }
     ]
    ],
-   "f": [],
+   "f": [
+    [
+     "Cambrai HC",
+     2,
+     1,
+     "PHC Marcq-en-Baroeul",
+     {
+      "d": "2026-10-24"
+     }
+    ]
+   ],
    "tabla": {
     "m": [
      {
@@ -2993,10 +3042,10 @@
      },
      {
       "eq": "PHC Marcq-en-Baroeul",
-      "pj": 6,
+      "pj": 7,
       "pts": 10,
-      "gf": 11,
-      "gc": 2
+      "gf": 12,
+      "gc": 4
      },
      {
       "eq": "Wattignies HC",
@@ -3004,6 +3053,13 @@
       "pts": 7,
       "gf": 8,
       "gc": 15
+     },
+     {
+      "eq": "Cambrai HC",
+      "pj": 6,
+      "pts": 7,
+      "gf": 6,
+      "gc": 14
      },
      {
       "eq": "CA Montrouge 92",
@@ -3018,13 +3074,6 @@
       "pts": 5,
       "gf": 6,
       "gc": 15
-     },
-     {
-      "eq": "Cambrai HC",
-      "pj": 5,
-      "pts": 4,
-      "gf": 4,
-      "gc": 13
      },
      {
       "eq": "FC Lyon",
@@ -3178,7 +3227,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "torneo": "Élite"
   },
   {
@@ -3369,7 +3418,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 16:29",
+   "consulta": "2026-10-24 19:29",
    "goleadores": {
     "m": [
      {
