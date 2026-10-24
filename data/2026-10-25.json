@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-24 13:35",
+ "actualizado": "2026-10-24 16:29",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 13:35",
+   "consulta": "2026-10-24 16:29",
    "prox": {
     "m": [
      [
@@ -542,7 +542,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-24 13:35",
+   "consulta": "2026-10-24 16:29",
    "prox": {
     "m": [
      [
@@ -810,7 +810,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 13:35",
+   "consulta": "2026-10-24 16:29",
    "prox": {
     "m": [
      [
@@ -1153,14 +1153,14 @@
       "pj": 5
      },
      {
-      "nom": "Nicolau Mustaros Araño",
-      "eq": "Junior FC",
+      "nom": "Enrique Fanlo Zaldua",
+      "eq": "RC Polo",
       "g": 4,
       "pj": 5
      },
      {
-      "nom": "Enrique Fanlo Zaldua",
-      "eq": "RC Polo",
+      "nom": "Nicolau Mustaros Araño",
+      "eq": "Junior FC",
       "g": 4,
       "pj": 5
      }
@@ -1170,12 +1170,6 @@
       "nom": "Lola Riera Zuzuarregui",
       "eq": "Sanse Complutense",
       "g": 6,
-      "pj": 6
-     },
-     {
-      "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
-      "g": 5,
       "pj": 6
      },
      {
@@ -1197,9 +1191,9 @@
       "pj": 6
      },
      {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
-      "g": 4,
+      "nom": "Teresa Lima Cortes",
+      "eq": "Junior FC",
+      "g": 5,
       "pj": 6
      },
      {
@@ -1209,28 +1203,34 @@
       "pj": 6
      },
      {
-      "nom": "Carmen Fernandez de Velasco Arroyo",
-      "eq": "RS Tenis",
-      "g": 3,
-      "pj": 6
-     },
-     {
-      "nom": "Julia Cruces Pastorino",
+      "nom": "Alejandra de la Llama Andreu",
       "eq": "Sanse Complutense",
+      "g": 4,
+      "pj": 6
+     },
+     {
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 3,
       "pj": 6
      },
      {
-      "nom": "Cecilia Lainz Puente",
-      "eq": "RS Tenis",
+      "nom": "Patricia Alvarez Nardiz",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 6
+     },
+     {
+      "nom": "Lucia Abajo Saenz de Tejada",
+      "eq": "Club de Campo",
+      "g": 3,
+      "pj": 5
      }
     ]
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-24 13:35",
+   "consulta": "2026-10-24 16:29",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -1751,7 +1751,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 13:35",
+   "consulta": "2026-10-24 16:29",
    "prox": {
     "m": [
      [
@@ -1970,10 +1970,28 @@
    "jornada": "FECHA 5",
    "m": [
     [
+     "Hampstead & Westminster",
+     2,
+     1,
+     "Oxted",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
      "Surbiton",
      9,
      2,
      "Bowdon",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Wimbledon",
+     8,
+     2,
+     "University of Exeter",
      {
       "d": "2026-10-24"
      }
@@ -1986,6 +2004,15 @@
      {
       "d": "2026-10-24"
      }
+    ],
+    [
+     "Old Georgians",
+     2,
+     2,
+     "Reading",
+     {
+      "d": "2026-10-24"
+     }
     ]
    ],
    "f": [
@@ -1994,6 +2021,15 @@
      0,
      2,
      "Surbiton",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Loughborough Students",
+     5,
+     3,
+     "University of Birmingham",
      {
       "d": "2026-10-24"
      }
@@ -2054,24 +2090,31 @@
      },
      {
       "eq": "Wimbledon",
-      "pts": 9,
-      "pj": 3,
-      "gf": 20,
-      "gc": 6
+      "pts": 12,
+      "pj": 4,
+      "gf": 28,
+      "gc": 8
      },
      {
       "eq": "Old Georgians",
-      "pts": 9,
-      "pj": 4,
-      "gf": 17,
-      "gc": 7
+      "pts": 10,
+      "pj": 5,
+      "gf": 19,
+      "gc": 9
      },
      {
       "eq": "University of Exeter",
       "pts": 7,
-      "pj": 4,
+      "pj": 5,
+      "gf": 13,
+      "gc": 17
+     },
+     {
+      "eq": "Hampstead & Westminster",
+      "pts": 6,
+      "pj": 5,
       "gf": 11,
-      "gc": 9
+      "gc": 17
      },
      {
       "eq": "Beeston",
@@ -2082,10 +2125,10 @@
      },
      {
       "eq": "Reading",
-      "pts": 3,
-      "pj": 3,
-      "gf": 6,
-      "gc": 8
+      "pts": 4,
+      "pj": 4,
+      "gf": 8,
+      "gc": 10
      },
      {
       "eq": "Holcombe",
@@ -2095,18 +2138,11 @@
       "gc": 13
      },
      {
-      "eq": "Hampstead & Westminster",
-      "pts": 3,
-      "pj": 4,
-      "gf": 9,
-      "gc": 16
-     },
-     {
       "eq": "Oxted",
       "pts": 3,
-      "pj": 4,
-      "gf": 8,
-      "gc": 16
+      "pj": 5,
+      "gf": 9,
+      "gc": 18
      },
      {
       "eq": "Cardiff & Met",
@@ -2139,6 +2175,13 @@
       "gc": 6
      },
      {
+      "eq": "Loughborough Students",
+      "pts": 12,
+      "pj": 5,
+      "gf": 20,
+      "gc": 10
+     },
+     {
       "eq": "Durham University",
       "pts": 12,
       "pj": 5,
@@ -2146,18 +2189,11 @@
       "gc": 4
      },
      {
-      "eq": "Loughborough Students",
-      "pts": 9,
-      "pj": 4,
-      "gf": 15,
-      "gc": 7
-     },
-     {
       "eq": "University of Birmingham",
       "pts": 9,
-      "pj": 4,
-      "gf": 8,
-      "gc": 4
+      "pj": 5,
+      "gf": 11,
+      "gc": 9
      },
      {
       "eq": "Teddington",
@@ -2212,7 +2248,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 13:35",
+   "consulta": "2026-10-24 16:29",
    "prox": {
     "m": [
      [
@@ -2572,7 +2608,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 13:35",
+   "consulta": "2026-10-24 16:29",
    "prox": {
     "m": [
      [
@@ -2629,11 +2665,42 @@
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
     "m": "",
-    "f": ""
+    "f": "FECHA 26"
    },
-   "jornada": "",
+   "jornada": "FECHA 26",
    "m": [],
-   "f": [],
+   "f": [
+    [
+     "S. Bárbara",
+     0,
+     0,
+     "Banco Nación",
+     {
+      "d": "2026-10-24",
+      "fecha": 26
+     }
+    ],
+    [
+     "Arquitectura",
+     0,
+     0,
+     "San Fernando",
+     {
+      "d": "2026-10-24",
+      "fecha": 26
+     }
+    ],
+    [
+     "S. Catherine's",
+     0,
+     1,
+     "Ciudad",
+     {
+      "d": "2026-10-24",
+      "fecha": 26
+     }
+    ]
+   ],
    "tabla": {
     "m": [],
     "f": [
@@ -2803,8 +2870,8 @@
     ]
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-24 13:35",
+   "estado": "jugada",
+   "consulta": "2026-10-24 16:29",
    "torneo": "Metropolitano"
   },
   {
@@ -2813,11 +2880,21 @@
    "pais_en": "FRANCE",
    "liga": "ÉLITE HOMMES · ÉLITE DAMES",
    "jor": {
-    "m": "",
+    "m": "FECHA 7",
     "f": ""
    },
-   "jornada": "",
-   "m": [],
+   "jornada": "FECHA 7",
+   "m": [
+    [
+     "Le Touquet AC",
+     1,
+     3,
+     "PHC Marcq-en-Baroeul",
+     {
+      "d": "2026-10-24"
+     }
+    ]
+   ],
    "f": [],
    "tabla": {
     "m": [
@@ -2827,6 +2904,13 @@
       "pts": 18,
       "gf": 21,
       "gc": 5
+     },
+     {
+      "eq": "PHC Marcq-en-Baroeul",
+      "pj": 7,
+      "pts": 12,
+      "gf": 21,
+      "gc": 14
      },
      {
       "eq": "Saint-Germain HC",
@@ -2844,17 +2928,10 @@
      },
      {
       "eq": "Le Touquet AC",
-      "pj": 6,
+      "pj": 7,
       "pts": 10,
-      "gf": 14,
-      "gc": 12
-     },
-     {
-      "eq": "PHC Marcq-en-Baroeul",
-      "pj": 6,
-      "pts": 9,
-      "gf": 18,
-      "gc": 13
+      "gf": 15,
+      "gc": 15
      },
      {
       "eq": "Lille MHC",
@@ -3100,8 +3177,8 @@
    },
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-24 13:35",
+   "estado": "jugada",
+   "consulta": "2026-10-24 16:29",
    "torneo": "Élite"
   },
   {
@@ -3292,7 +3369,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 13:35",
+   "consulta": "2026-10-24 16:29",
    "goleadores": {
     "m": [
      {
