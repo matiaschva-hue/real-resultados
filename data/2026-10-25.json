@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-24 22:11",
+ "actualizado": "2026-10-25 03:10",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "prox": {
     "m": [
      [
@@ -542,7 +542,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "prox": {
     "m": [
      [
@@ -810,7 +810,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "prox": {
     "m": [
      [
@@ -924,10 +924,10 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHA 6",
-    "f": "FECHA 6"
+    "m": "FECHA 7",
+    "f": "FECHA 7"
    },
-   "jornada": "FECHA 6",
+   "jornada": "FECHA 7",
    "tabla": {
     "m": [
      {
@@ -1141,26 +1141,26 @@
       "pj": 6
      },
      {
-      "nom": "Marc Miralles Portillo",
-      "eq": "RC Polo",
-      "g": 4,
-      "pj": 5
-     },
-     {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
-      "g": 4,
-      "pj": 6
-     },
-     {
-      "nom": "Enrique Fanlo Zaldua",
-      "eq": "RC Polo",
+      "nom": "Nicolau Mustaros Araño",
+      "eq": "Junior FC",
       "g": 4,
       "pj": 5
      },
      {
       "nom": "Anton Serrahima Esque",
       "eq": "Junior FC",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Marc Miralles Portillo",
+      "eq": "RC Polo",
+      "g": 4,
+      "pj": 5
+     },
+     {
+      "nom": "Enrique Fanlo Zaldua",
+      "eq": "RC Polo",
       "g": 4,
       "pj": 5
      }
@@ -1170,6 +1170,12 @@
       "nom": "Lola Riera Zuzuarregui",
       "eq": "Sanse Complutense",
       "g": 6,
+      "pj": 6
+     },
+     {
+      "nom": "Flore Suzanne Bruggink",
+      "eq": "Club de Campo",
+      "g": 5,
       "pj": 6
      },
      {
@@ -1191,12 +1197,6 @@
       "pj": 6
      },
      {
-      "nom": "Flore Suzanne Bruggink",
-      "eq": "Club de Campo",
-      "g": 5,
-      "pj": 6
-     },
-     {
       "nom": "Natalia Vilanova Dolcet",
       "eq": "Club Egara",
       "g": 4,
@@ -1209,20 +1209,20 @@
       "pj": 6
      },
      {
-      "nom": "Patricia Alvarez Nardiz",
-      "eq": "RC Polo",
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 6
      },
      {
-      "nom": "Sara Carmona Ramos",
-      "eq": "Sanse Complutense",
+      "nom": "Anna Serrahima Castella",
+      "eq": "Junior FC",
       "g": 3,
       "pj": 6
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Carmen Fernandez de Velasco Arroyo",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 6
      }
@@ -1230,23 +1230,14 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
-     "Futbol Club Barcelona",
-     1,
-     0,
-     "UD Taburiente",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     6,
+     "Club de Campo",
+     3,
      2,
-     "Sardinero",
+     "RS Tenis",
      {
       "d": "2026-10-24"
      }
@@ -1279,10 +1270,19 @@
      }
     ],
     [
-     "Club de Campo",
-     3,
+     "Sanse Complutense",
+     6,
      2,
-     "RS Tenis",
+     "Sardinero",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Futbol Club Barcelona",
+     1,
+     0,
+     "UD Taburiente",
      {
       "d": "2026-10-24"
      }
@@ -1290,37 +1290,10 @@
    ],
    "f": [
     [
-     "Atlètic Terrassa",
-     3,
-     0,
-     "RC Polo",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Junior FC",
-     5,
+     "CD Terrassa",
      1,
-     "Valencia CH",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Club de Campo",
-     4,
-     2,
-     "RS Tenis",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     10,
      0,
-     "Sardinero",
+     "Real Sociedad",
      {
       "d": "2026-10-24"
      }
@@ -1335,10 +1308,37 @@
      }
     ],
     [
-     "CD Terrassa",
-     1,
+     "Sanse Complutense",
+     10,
      0,
-     "Real Sociedad",
+     "Sardinero",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Club de Campo",
+     4,
+     2,
+     "RS Tenis",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Junior FC",
+     5,
+     1,
+     "Valencia CH",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     3,
+     0,
+     "RC Polo",
      {
       "d": "2026-10-24"
      }
@@ -1751,7 +1751,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "prox": {
     "m": [
      [
@@ -2257,7 +2257,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "prox": {
     "m": [
      [
@@ -2617,7 +2617,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "prox": {
     "m": [
      [
@@ -2910,7 +2910,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "torneo": "Metropolitano"
   },
   {
@@ -3227,7 +3227,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "torneo": "Élite"
   },
   {
@@ -3270,6 +3270,15 @@
     ]
    ],
    "f": [
+    [
+     "Melbourne Cobras",
+     1,
+     2,
+     "HC Melbourne",
+     {
+      "d": "2026-10-25"
+     }
+    ],
     [
      "Brisbane Blaze",
      3,
@@ -3375,9 +3384,16 @@
      {
       "eq": "Melbourne Cobras",
       "pts": 10,
-      "pj": 2,
-      "gf": 8,
-      "gc": 5
+      "pj": 3,
+      "gf": 9,
+      "gc": 7
+     },
+     {
+      "eq": "HC Melbourne",
+      "pts": 10,
+      "pj": 3,
+      "gf": 6,
+      "gc": 6
      },
      {
       "eq": "NSW Pride",
@@ -3401,13 +3417,6 @@
       "gc": 6
      },
      {
-      "eq": "HC Melbourne",
-      "pts": 5,
-      "pj": 2,
-      "gf": 4,
-      "gc": 5
-     },
-     {
       "eq": "Adelaide Fire",
       "pts": 0,
       "pj": 3,
@@ -3418,7 +3427,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 22:11",
+   "consulta": "2026-10-25 03:10",
    "goleadores": {
     "m": [
      {
@@ -3504,6 +3513,11 @@
       "g": 3
      },
      {
+      "nom": "Woodger, Lahni",
+      "eq": "Melbourne Cobras",
+      "g": 3
+     },
+     {
       "nom": "Brands, Mabel",
       "eq": "Canberra Chill",
       "g": 2
@@ -3516,11 +3530,6 @@
      {
       "nom": "Dobbie, Beth",
       "eq": "Tassie Tigers",
-      "g": 2
-     },
-     {
-      "nom": "Evans, Naomi",
-      "eq": "Canberra Chill",
       "g": 2
      }
     ]
