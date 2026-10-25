@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-25 13:21",
+ "actualizado": "2026-10-25 16:37",
  "paises": [
   {
    "id": "nl",
@@ -307,82 +307,82 @@
     ],
     "f": [
      {
-      "eq": "Den Bosch",
-      "pj": 6,
-      "pts": 18,
-      "dg": 27
-     },
-     {
-      "eq": "SCHC",
-      "pj": 6,
-      "pts": 18,
-      "dg": 13
-     },
-     {
       "eq": "Amsterdam",
       "pj": 6,
-      "pts": 13,
+      "pts": 18,
+      "dg": 20
+     },
+     {
+      "eq": "Den Bosch",
+      "pj": 6,
+      "pts": 16,
       "dg": 10
-     },
-     {
-      "eq": "Rotterdam",
-      "pj": 6,
-      "pts": 13,
-      "dg": 3
-     },
-     {
-      "eq": "Hurley",
-      "pj": 6,
-      "pts": 9,
-      "dg": 3
-     },
-     {
-      "eq": "Kampong",
-      "pj": 6,
-      "pts": 8,
-      "dg": 8
-     },
-     {
-      "eq": "Oranje-Rood",
-      "pj": 6,
-      "pts": 8,
-      "dg": -6
-     },
-     {
-      "eq": "Pinoké",
-      "pj": 6,
-      "pts": 7,
-      "dg": -6
      },
      {
       "eq": "Bloemendaal",
       "pj": 6,
-      "pts": 4,
-      "dg": -7
+      "pts": 13,
+      "dg": 12
      },
      {
-      "eq": "HGC",
+      "eq": "Oranje-Rood",
+      "pj": 5,
+      "pts": 13,
+      "dg": 11
+     },
+     {
+      "eq": "Kampong",
+      "pj": 5,
+      "pts": 10,
+      "dg": 9
+     },
+     {
+      "eq": "SCHC",
       "pj": 6,
-      "pts": 3,
-      "dg": -8
+      "pts": 8,
+      "dg": -4
+     },
+     {
+      "eq": "Rotterdam",
+      "pj": 6,
+      "pts": 6,
+      "dg": 0
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 6,
+      "pts": 6,
+      "dg": -1
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pj": 6,
+      "pts": 5,
+      "dg": -5
      },
      {
       "eq": "HDM",
       "pj": 6,
-      "pts": 3,
+      "pts": 4,
       "dg": -8
      },
      {
-      "eq": "Victoria",
+      "eq": "Schaerweijde",
       "pj": 6,
       "pts": 0,
-      "dg": -29
+      "dg": -21
+     },
+     {
+      "eq": "Tilburg",
+      "pj": 6,
+      "pts": 0,
+      "dg": -23
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "prox": {
     "m": [
      [
@@ -784,6 +784,15 @@
      1,
      4,
      "Herakles",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Léopold",
+     2,
+     0,
+     "Gantoise",
      {
       "d": "2026-10-25"
      }
@@ -1030,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "prox": {
     "m": [
      [
@@ -1390,6 +1399,12 @@
     ],
     "f": [
      {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
+      "g": 7,
+      "pj": 7
+     },
+     {
       "nom": "Flore Suzanne Bruggink",
       "eq": "Club de Campo",
       "g": 7,
@@ -1402,9 +1417,9 @@
       "pj": 7
      },
      {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
-      "g": 7,
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
+      "g": 5,
       "pj": 7
      },
      {
@@ -1415,12 +1430,6 @@
      },
      {
       "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
-      "g": 5,
-      "pj": 7
-     },
-     {
-      "nom": "Laia Vidosa I Artigas",
       "eq": "Junior FC",
       "g": 5,
       "pj": 7
@@ -1444,8 +1453,8 @@
       "pj": 7
      },
      {
-      "nom": "Anna Borras Massaguer",
-      "eq": "Club Egara",
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 7
      }
@@ -1453,7 +1462,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -2095,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "prox": {
     "m": [
      [
@@ -2314,6 +2323,51 @@
    "jornada": "FECHAS 5 Y 6",
    "m": [
     [
+     "Hampstead & Westminster",
+     3,
+     3,
+     "Beeston",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "East Grinstead",
+     0,
+     5,
+     "Surbiton",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Holcombe",
+     2,
+     4,
+     "Wimbledon",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Reading",
+     4,
+     3,
+     "University of Exeter",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Old Georgians",
+     6,
+     1,
+     "Bowdon",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
      "Oxted",
      3,
      2,
@@ -2378,6 +2432,15 @@
     ]
    ],
    "f": [
+    [
+     "University of Birmingham",
+     4,
+     0,
+     "Buckingham",
+     {
+      "d": "2026-10-25"
+     }
+    ],
     [
      "Hampstead & Westminster",
      0,
@@ -2483,52 +2546,66 @@
     "m": [
      {
       "eq": "Surbiton",
+      "pts": 18,
+      "pj": 6,
+      "gf": 31,
+      "gc": 7
+     },
+     {
+      "eq": "Wimbledon",
       "pts": 15,
       "pj": 5,
-      "gf": 26,
-      "gc": 7
+      "gf": 32,
+      "gc": 10
+     },
+     {
+      "eq": "Old Georgians",
+      "pts": 13,
+      "pj": 6,
+      "gf": 25,
+      "gc": 10
      },
      {
       "eq": "East Grinstead",
       "pts": 13,
-      "pj": 5,
+      "pj": 6,
       "gf": 14,
-      "gc": 8
+      "gc": 13
      },
      {
-      "eq": "Wimbledon",
-      "pts": 12,
-      "pj": 4,
-      "gf": 28,
-      "gc": 8
-     },
-     {
-      "eq": "Old Georgians",
-      "pts": 10,
+      "eq": "Reading",
+      "pts": 7,
       "pj": 5,
-      "gf": 19,
-      "gc": 9
+      "gf": 12,
+      "gc": 13
      },
      {
       "eq": "University of Exeter",
       "pts": 7,
-      "pj": 5,
-      "gf": 13,
-      "gc": 17
+      "pj": 6,
+      "gf": 16,
+      "gc": 21
+     },
+     {
+      "eq": "Hampstead & Westminster",
+      "pts": 7,
+      "pj": 6,
+      "gf": 14,
+      "gc": 20
+     },
+     {
+      "eq": "Beeston",
+      "pts": 6,
+      "pj": 6,
+      "gf": 15,
+      "gc": 19
      },
      {
       "eq": "Holcombe",
       "pts": 6,
-      "pj": 5,
-      "gf": 12,
-      "gc": 15
-     },
-     {
-      "eq": "Hampstead & Westminster",
-      "pts": 6,
-      "pj": 5,
-      "gf": 11,
-      "gc": 17
+      "pj": 6,
+      "gf": 14,
+      "gc": 19
      },
      {
       "eq": "Oxted",
@@ -2536,20 +2613,6 @@
       "pj": 6,
       "gf": 12,
       "gc": 20
-     },
-     {
-      "eq": "Beeston",
-      "pts": 5,
-      "pj": 5,
-      "gf": 12,
-      "gc": 16
-     },
-     {
-      "eq": "Reading",
-      "pts": 4,
-      "pj": 4,
-      "gf": 8,
-      "gc": 10
      },
      {
       "eq": "Cardiff & Met",
@@ -2561,9 +2624,9 @@
      {
       "eq": "Bowdon",
       "pts": 0,
-      "pj": 5,
-      "gf": 9,
-      "gc": 27
+      "pj": 6,
+      "gf": 10,
+      "gc": 33
      }
     ],
     "f": [
@@ -2596,18 +2659,18 @@
       "gc": 7
      },
      {
+      "eq": "University of Birmingham",
+      "pts": 12,
+      "pj": 6,
+      "gf": 15,
+      "gc": 9
+     },
+     {
       "eq": "East Grinstead",
       "pts": 10,
       "pj": 6,
       "gf": 9,
       "gc": 14
-     },
-     {
-      "eq": "University of Birmingham",
-      "pts": 9,
-      "pj": 5,
-      "gf": 11,
-      "gc": 9
      },
      {
       "eq": "Teddington",
@@ -2647,15 +2710,15 @@
      {
       "eq": "Buckingham",
       "pts": 0,
-      "pj": 5,
+      "pj": 6,
       "gf": 2,
-      "gc": 28
+      "gc": 32
      }
     ]
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "prox": {
     "m": [
      [
@@ -2772,7 +2835,8 @@
    "pais_en": "ITALY",
    "liga": "SERIE A ELITE",
    "jor": {
-    "m": "FECHA 6"
+    "m": "FECHA 6",
+    "f": "FECHA 5"
    },
    "jornada": "FECHA 6",
    "m": [
@@ -2822,7 +2886,44 @@
      }
     ]
    ],
-   "f": [],
+   "f": [
+    [
+     "HF Lorenzoni",
+     2,
+     2,
+     "Lazio Hockey",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "HC Tiberina",
+     2,
+     1,
+     "Butterfly Roma HCC",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Potenza Picena",
+     2,
+     6,
+     "Pol. Ferrini",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "SG Amsicora",
+     1,
+     0,
+     "Milano HP",
+     {
+      "d": "2026-10-25"
+     }
+    ]
+   ],
    "tabla": {
     "m": [
      {
@@ -2898,60 +2999,60 @@
     ],
     "f": [
      {
-      "eq": "Milano HP",
-      "pj": 4,
-      "pts": 12,
-      "gf": 14,
+      "eq": "SG Amsicora",
+      "pj": 5,
+      "pts": 15,
+      "gf": 10,
       "gc": 1
      },
      {
-      "eq": "SG Amsicora",
-      "pj": 4,
+      "eq": "Milano HP",
+      "pj": 5,
       "pts": 12,
-      "gf": 9,
-      "gc": 1
+      "gf": 14,
+      "gc": 2
      },
      {
       "eq": "HF Lorenzoni",
-      "pj": 4,
-      "pts": 9,
-      "gf": 19,
-      "gc": 3
-     },
-     {
-      "eq": "Lazio Hockey",
-      "pj": 4,
-      "pts": 6,
-      "gf": 5,
+      "pj": 5,
+      "pts": 10,
+      "gf": 21,
       "gc": 5
      },
      {
-      "eq": "Potenza Picena",
-      "pj": 4,
-      "pts": 6,
-      "gf": 4,
-      "gc": 4
-     },
-     {
-      "eq": "Pol. Ferrini",
-      "pj": 4,
-      "pts": 3,
+      "eq": "Lazio Hockey",
+      "pj": 5,
+      "pts": 7,
       "gf": 7,
       "gc": 7
      },
      {
-      "eq": "Butterfly Roma HCC",
-      "pj": 4,
-      "pts": 0,
-      "gf": 2,
+      "eq": "Pol. Ferrini",
+      "pj": 5,
+      "pts": 6,
+      "gf": 13,
+      "gc": 9
+     },
+     {
+      "eq": "Potenza Picena",
+      "pj": 5,
+      "pts": 6,
+      "gf": 6,
       "gc": 10
      },
      {
       "eq": "HC Tiberina",
-      "pj": 4,
+      "pj": 5,
+      "pts": 3,
+      "gf": 2,
+      "gc": 30
+     },
+     {
+      "eq": "Butterfly Roma HCC",
+      "pj": 5,
       "pts": 0,
-      "gf": 0,
-      "gc": 29
+      "gf": 3,
+      "gc": 12
      }
     ]
    },
@@ -3012,6 +3113,11 @@
      {
       "nom": "Leonova",
       "eq": "HF Lorenzoni",
+      "g": 7
+     },
+     {
+      "nom": "Granatto",
+      "eq": "Pol. Ferrini",
       "g": 6
      },
      {
@@ -3020,23 +3126,23 @@
       "g": 6
      },
      {
-      "nom": "Di Blasi",
-      "eq": "HF Lorenzoni",
-      "g": 4
-     },
-     {
-      "nom": "Granatto",
-      "eq": "Pol. Ferrini",
-      "g": 4
-     },
-     {
       "nom": "Vercelli",
+      "eq": "HF Lorenzoni",
+      "g": 5
+     },
+     {
+      "nom": "Di Blasi",
       "eq": "HF Lorenzoni",
       "g": 4
      },
      {
       "nom": "Musci",
       "eq": "SG Amsicora",
+      "g": 4
+     },
+     {
+      "nom": "Colella",
+      "eq": "Lazio Hockey",
       "g": 3
      },
      {
@@ -3045,25 +3151,20 @@
       "g": 3
      },
      {
+      "nom": "Angioni",
+      "eq": "Pol. Ferrini",
+      "g": 2
+     },
+     {
       "nom": "Buzzi",
       "eq": "Butterfly Roma HCC",
-      "g": 2
-     },
-     {
-      "nom": "Colella",
-      "eq": "Lazio Hockey",
-      "g": 2
-     },
-     {
-      "nom": "Marroccoli",
-      "eq": "Milano HP",
       "g": 2
      }
     ]
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "prox": {
     "m": [
      [
@@ -3121,11 +3222,42 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "",
+    "m": "FECHA 26",
     "f": "FECHA 26"
    },
    "jornada": "FECHA 26",
-   "m": [],
+   "m": [
+    [
+     "S. Bárbara",
+     1,
+     2,
+     "San Fernando",
+     {
+      "d": "2026-10-25",
+      "fecha": 26
+     }
+    ],
+    [
+     "G. y Esgrima",
+     0,
+     0,
+     "Mitre",
+     {
+      "d": "2026-10-25",
+      "fecha": 26
+     }
+    ],
+    [
+     "Lomas",
+     1,
+     0,
+     "San Martín",
+     {
+      "d": "2026-10-25",
+      "fecha": 26
+     }
+    ]
+   ],
    "f": [
     [
      "S. Bárbara",
@@ -3189,7 +3321,7 @@
     ],
     [
      "G. y Esgrima",
-     0,
+     1,
      0,
      "River Plate",
      {
@@ -3199,7 +3331,106 @@
     ]
    ],
    "tabla": {
-    "m": [],
+    "m": [
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 60,
+      "pj": 25,
+      "gf": 72,
+      "gc": 23
+     },
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 56,
+      "pj": 25,
+      "gf": 69,
+      "gc": 38
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 52,
+      "pj": 25,
+      "gf": 70,
+      "gc": 39
+     },
+     {
+      "eq": "MITRE",
+      "pts": 52,
+      "pj": 25,
+      "gf": 69,
+      "gc": 32
+     },
+     {
+      "eq": "G. Y ESGRIMA",
+      "pts": 47,
+      "pj": 25,
+      "gf": 75,
+      "gc": 47
+     },
+     {
+      "eq": "DUCILO",
+      "pts": 43,
+      "pj": 25,
+      "gf": 66,
+      "gc": 61
+     },
+     {
+      "eq": "U. LA PLATA",
+      "pts": 34,
+      "pj": 25,
+      "gf": 55,
+      "gc": 62
+     },
+     {
+      "eq": "HURLING",
+      "pts": 31,
+      "pj": 25,
+      "gf": 45,
+      "gc": 39
+     },
+     {
+      "eq": "S. BARBARA",
+      "pts": 27,
+      "pj": 25,
+      "gf": 51,
+      "gc": 58
+     },
+     {
+      "eq": "QUILMES",
+      "pts": 24,
+      "pj": 25,
+      "gf": 48,
+      "gc": 66
+     },
+     {
+      "eq": "SAN MARTÍN",
+      "pts": 21,
+      "pj": 25,
+      "gf": 44,
+      "gc": 66
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 17,
+      "pj": 25,
+      "gf": 51,
+      "gc": 71
+     },
+     {
+      "eq": "S.A.G.",
+      "pts": 12,
+      "pj": 25,
+      "gf": 31,
+      "gc": 86
+     },
+     {
+      "eq": "CIUDAD B",
+      "pts": 8,
+      "pj": 25,
+      "gf": 30,
+      "gc": 88
+     }
+    ],
     "f": [
      {
       "eq": "S. BARBARA",
@@ -3216,6 +3447,13 @@
       "gc": 26
      },
      {
+      "eq": "G. Y ESGRIMA",
+      "pts": 46,
+      "pj": 26,
+      "gf": 45,
+      "gc": 26
+     },
+     {
       "eq": "ITALIANO",
       "pts": 46,
       "pj": 26,
@@ -3228,13 +3466,6 @@
       "pj": 26,
       "gf": 47,
       "gc": 31
-     },
-     {
-      "eq": "G. Y ESGRIMA",
-      "pts": 43,
-      "pj": 25,
-      "gf": 44,
-      "gc": 26
      },
      {
       "eq": "BELGRANO",
@@ -3260,9 +3491,9 @@
      {
       "eq": "RIVER PLATE",
       "pts": 29,
-      "pj": 25,
+      "pj": 26,
       "gf": 28,
-      "gc": 30
+      "gc": 31
      },
      {
       "eq": "S. CATHERINES",
@@ -3302,7 +3533,68 @@
     ]
    },
    "goleadores": {
-    "m": [],
+    "m": [
+     {
+      "nom": "Kiernan, Máximo",
+      "eq": "U. LA PLATA",
+      "g": 32,
+      "pj": 25
+     },
+     {
+      "nom": "Suarez, Tomas Agustin",
+      "eq": "G. Y ESGRIMA",
+      "g": 22,
+      "pj": 25
+     },
+     {
+      "nom": "Merino, Gonzalo",
+      "eq": "BCO. PROVINCIA",
+      "g": 21,
+      "pj": 22
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 20,
+      "pj": 24
+     },
+     {
+      "nom": "Agostini Coliqueo, Franco Antonio",
+      "eq": "LOMAS",
+      "g": 20,
+      "pj": 22
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 18,
+      "pj": 22
+     },
+     {
+      "nom": "Dulor Marchesi, Luca",
+      "eq": "DUCILO",
+      "g": 16,
+      "pj": 23
+     },
+     {
+      "nom": "Jimenez Jaurechi, Julian",
+      "eq": "QUILMES",
+      "g": 16,
+      "pj": 17
+     },
+     {
+      "nom": "Doherty, Alec Tadeo",
+      "eq": "HURLING",
+      "g": 15,
+      "pj": 25
+     },
+     {
+      "nom": "Merlini, Mateo",
+      "eq": "SAN FERNANDO",
+      "g": 14,
+      "pj": 25
+     }
+    ],
     "f": [
      {
       "nom": "Piccardo, Alina",
@@ -3368,7 +3660,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "torneo": "Metropolitano"
   },
   {
@@ -3387,6 +3679,24 @@
      6,
      0,
      "IH Lambersart",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Racing Club de France",
+     1,
+     1,
+     "Lille MHC",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Saint-Germain HC",
+     4,
+     0,
+     "Stade Français",
      {
       "d": "2026-10-25"
      }
@@ -3461,10 +3771,17 @@
     "m": [
      {
       "eq": "Racing Club de France",
-      "pj": 6,
-      "pts": 18,
-      "gf": 21,
-      "gc": 5
+      "pj": 7,
+      "pts": 19,
+      "gf": 22,
+      "gc": 6
+     },
+     {
+      "eq": "Saint-Germain HC",
+      "pj": 7,
+      "pts": 14,
+      "gf": 16,
+      "gc": 10
      },
      {
       "eq": "PHC Marcq-en-Baroeul",
@@ -3474,18 +3791,11 @@
       "gc": 14
      },
      {
-      "eq": "Saint-Germain HC",
-      "pj": 6,
-      "pts": 11,
-      "gf": 12,
-      "gc": 10
-     },
-     {
       "eq": "Stade Français",
-      "pj": 6,
+      "pj": 7,
       "pts": 10,
       "gf": 12,
-      "gc": 7
+      "gc": 11
      },
      {
       "eq": "Le Touquet AC",
@@ -3503,10 +3813,10 @@
      },
      {
       "eq": "Lille MHC",
-      "pj": 4,
-      "pts": 7,
-      "gf": 9,
-      "gc": 6
+      "pj": 5,
+      "pts": 8,
+      "gf": 10,
+      "gc": 7
      },
      {
       "eq": "HC Nantes",
@@ -3611,6 +3921,11 @@
       "g": 9
      },
      {
+      "nom": "Gaillard, Tom",
+      "eq": "CA Montrouge",
+      "g": 6
+     },
+     {
       "nom": "Tesson-Fleaca, Adrien",
       "eq": "HC Nantes",
       "g": 6
@@ -3631,6 +3946,11 @@
       "g": 4
      },
      {
+      "nom": "Liddiard, James",
+      "eq": "CA Montrouge",
+      "g": 4
+     },
+     {
       "nom": "Bailleul, Louis",
       "eq": "Racing Club de France",
       "g": 4
@@ -3643,16 +3963,6 @@
      {
       "nom": "Gutierrez, Rocco Maximiliano",
       "eq": "PHC Marcq-en-Baroeul",
-      "g": 4
-     },
-     {
-      "nom": "Texier, Jonas",
-      "eq": "Stade Français",
-      "g": 4
-     },
-     {
-      "nom": "Escartin-Puron, Bruno",
-      "eq": "IH Lambersart",
       "g": 4
      }
     ],
@@ -3739,7 +4049,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "torneo": "Élite"
   },
   {
@@ -3948,7 +4258,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 13:21",
+   "consulta": "2026-10-25 16:37",
    "goleadores": {
     "m": [
      {
