@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-24 19:29",
+ "actualizado": "2026-10-24 22:11",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "prox": {
     "m": [
      [
@@ -542,7 +542,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "prox": {
     "m": [
      [
@@ -810,7 +810,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "prox": {
     "m": [
      [
@@ -924,10 +924,10 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHA 7",
-    "f": "FECHA 7"
+    "m": "FECHA 6",
+    "f": "FECHA 6"
    },
-   "jornada": "FECHA 7",
+   "jornada": "FECHA 6",
    "tabla": {
     "m": [
      {
@@ -1230,14 +1230,23 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
-     "Club de Campo",
-     3,
+     "Futbol Club Barcelona",
+     1,
+     0,
+     "UD Taburiente",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     6,
      2,
-     "RS Tenis",
+     "Sardinero",
      {
       "d": "2026-10-24"
      }
@@ -1270,19 +1279,10 @@
      }
     ],
     [
-     "Sanse Complutense",
-     6,
+     "Club de Campo",
+     3,
      2,
-     "Sardinero",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Futbol Club Barcelona",
-     1,
-     0,
-     "UD Taburiente",
+     "RS Tenis",
      {
       "d": "2026-10-24"
      }
@@ -1290,37 +1290,10 @@
    ],
    "f": [
     [
-     "CD Terrassa",
-     1,
+     "Atlètic Terrassa",
+     3,
      0,
-     "Real Sociedad",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Club Egara",
-     5,
-     2,
-     "UD Taburiente",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     10,
-     0,
-     "Sardinero",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Club de Campo",
-     4,
-     2,
-     "RS Tenis",
+     "RC Polo",
      {
       "d": "2026-10-24"
      }
@@ -1335,10 +1308,37 @@
      }
     ],
     [
-     "Atlètic Terrassa",
-     3,
+     "Club de Campo",
+     4,
+     2,
+     "RS Tenis",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     10,
      0,
-     "RC Polo",
+     "Sardinero",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Club Egara",
+     5,
+     2,
+     "UD Taburiente",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "CD Terrassa",
+     1,
+     0,
+     "Real Sociedad",
      {
       "d": "2026-10-24"
      }
@@ -1751,7 +1751,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "prox": {
     "m": [
      [
@@ -2257,7 +2257,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "prox": {
     "m": [
      [
@@ -2617,7 +2617,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "prox": {
     "m": [
      [
@@ -2910,7 +2910,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "torneo": "Metropolitano"
   },
   {
@@ -3227,7 +3227,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "torneo": "Élite"
   },
   {
@@ -3418,7 +3418,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-24 19:29",
+   "consulta": "2026-10-24 22:11",
    "goleadores": {
     "m": [
      {
