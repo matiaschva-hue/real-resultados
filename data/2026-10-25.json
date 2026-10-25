@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-25 16:37",
+ "actualizado": "2026-10-25 19:34",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "prox": {
     "m": [
      [
@@ -1361,14 +1361,14 @@
       "pj": 6
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
       "g": 6,
       "pj": 7
      },
      {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
       "g": 6,
       "pj": 7
      },
@@ -1399,12 +1399,6 @@
     ],
     "f": [
      {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
-      "g": 7,
-      "pj": 7
-     },
-     {
       "nom": "Flore Suzanne Bruggink",
       "eq": "Club de Campo",
       "g": 7,
@@ -1413,6 +1407,12 @@
      {
       "nom": "Begoña Garcia Grau",
       "eq": "Club de Campo",
+      "g": 7,
+      "pj": 7
+     },
+     {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
       "g": 7,
       "pj": 7
      },
@@ -1435,12 +1435,6 @@
       "pj": 7
      },
      {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
-      "g": 4,
-      "pj": 7
-     },
-     {
       "nom": "Patricia Alvarez Nardiz",
       "eq": "RC Polo",
       "g": 4,
@@ -1453,8 +1447,14 @@
       "pj": 7
      },
      {
-      "nom": "Xantal Gine Patsi",
-      "eq": "RC Polo",
+      "nom": "Alejandra de la Llama Andreu",
+      "eq": "Sanse Complutense",
+      "g": 4,
+      "pj": 7
+     },
+     {
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 3,
       "pj": 7
      }
@@ -1462,7 +1462,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -2104,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "prox": {
     "m": [
      [
@@ -2718,7 +2718,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "prox": {
     "m": [
      [
@@ -3164,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "prox": {
     "m": [
      [
@@ -3222,7 +3222,7 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "FECHA 26",
+    "m": "FECHA 25",
     "f": "FECHA 26"
    },
    "jornada": "FECHA 26",
@@ -3660,7 +3660,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "torneo": "Metropolitano"
   },
   {
@@ -4049,7 +4049,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "torneo": "Élite"
   },
   {
@@ -4258,7 +4258,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 16:37",
+   "consulta": "2026-10-25 19:34",
    "goleadores": {
     "m": [
      {
