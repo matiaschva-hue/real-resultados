@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-26 09:54",
+ "actualizado": "2026-10-26 13:12",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "prox": {
     "m": [
      [
@@ -1156,10 +1156,10 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHAS 6 Y 7",
-    "f": "FECHAS 6 Y 7"
+    "m": "FECHA 7",
+    "f": "FECHA 7"
    },
-   "jornada": "FECHAS 6 Y 7",
+   "jornada": "FECHA 7",
    "tabla": {
     "m": [
      {
@@ -1373,6 +1373,12 @@
       "pj": 7
      },
      {
+      "nom": "Nicolas Alvarez Nardiz",
+      "eq": "RC Polo",
+      "g": 5,
+      "pj": 6
+     },
+     {
       "nom": "Enric Miralles Portillo",
       "eq": "CD Terrassa",
       "g": 5,
@@ -1385,16 +1391,10 @@
       "pj": 7
      },
      {
-      "nom": "Nicolas Alvarez Nardiz",
-      "eq": "RC Polo",
-      "g": 5,
-      "pj": 6
-     },
-     {
-      "nom": "Ignacio Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
+      "nom": "Nicolau Mustaros Araño",
+      "eq": "Junior FC",
       "g": 4,
-      "pj": 4
+      "pj": 6
      }
     ],
     "f": [
@@ -1453,8 +1453,8 @@
       "pj": 7
      },
      {
-      "nom": "Florencia Amundson Teves",
-      "eq": "Club de Campo",
+      "nom": "Cristina Caro Gil",
+      "eq": "Valencia CH",
       "g": 3,
       "pj": 7
      }
@@ -1462,68 +1462,41 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
-     "Futbol Club Barcelona",
+     "Club de Campo",
+     3,
      2,
-     2,
-     "CH Carpesa",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     1,
-     0,
      "RS Tenis",
      {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "RC Polo",
-     8,
-     0,
-     "UD Taburiente",
-     {
-      "d": "2026-10-25"
+      "d": "2026-10-24"
      }
     ],
     [
      "Atlètic Terrassa",
-     4,
-     3,
-     "CD Terrassa",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Club de Campo",
-     10,
-     0,
-     "Sardinero",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Junior FC",
-     3,
+     1,
      2,
      "Club Egara",
      {
-      "d": "2026-10-25"
+      "d": "2026-10-24"
      }
     ],
     [
-     "Futbol Club Barcelona",
-     1,
+     "CD Terrassa",
      0,
-     "UD Taburiente",
+     0,
+     "Junior FC",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "RC Polo",
+     5,
+     0,
+     "CH Carpesa",
      {
       "d": "2026-10-24"
      }
@@ -1538,73 +1511,44 @@
      }
     ],
     [
-     "Atlètic Terrassa",
+     "Futbol Club Barcelona",
      1,
-     2,
-     "Club Egara",
+     0,
+     "UD Taburiente",
      {
       "d": "2026-10-24"
      }
     ],
-    [
-     "CD Terrassa",
-     0,
-     0,
-     "Junior FC",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "RC Polo",
-     5,
-     0,
-     "CH Carpesa",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Club de Campo",
-     3,
-     2,
-     "RS Tenis",
-     {
-      "d": "2026-10-24"
-     }
-    ]
-   ],
-   "f": [
     [
      "Atlètic Terrassa",
      4,
-     0,
-     "Valencia CH",
+     3,
+     "CD Terrassa",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Junior FC",
+     3,
+     2,
+     "Club Egara",
      {
       "d": "2026-10-25"
      }
     ],
     [
      "Club de Campo",
-     9,
-     1,
+     10,
+     0,
      "Sardinero",
      {
       "d": "2026-10-25"
      }
     ],
     [
-     "Junior FC",
-     3,
-     2,
      "RC Polo",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "CD Terrassa",
-     3,
+     8,
      0,
      "UD Taburiente",
      {
@@ -1612,46 +1556,39 @@
      }
     ],
     [
-     "Club Egara",
-     4,
+     "Sanse Complutense",
+     1,
+     0,
+     "RS Tenis",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Futbol Club Barcelona",
+     2,
+     2,
+     "CH Carpesa",
+     {
+      "d": "2026-10-25"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "CD Terrassa",
+     1,
      0,
      "Real Sociedad",
      {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     2,
-     0,
-     "RS Tenis",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Atlètic Terrassa",
-     3,
-     0,
-     "RC Polo",
-     {
       "d": "2026-10-24"
      }
     ],
     [
-     "Junior FC",
+     "Club Egara",
      5,
-     1,
-     "Valencia CH",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Club de Campo",
-     4,
      2,
-     "RS Tenis",
+     "UD Taburiente",
      {
       "d": "2026-10-24"
      }
@@ -1666,21 +1603,84 @@
      }
     ],
     [
-     "Club Egara",
-     5,
+     "Club de Campo",
+     4,
      2,
-     "UD Taburiente",
+     "RS Tenis",
      {
       "d": "2026-10-24"
      }
     ],
     [
-     "CD Terrassa",
+     "Junior FC",
+     5,
      1,
+     "Valencia CH",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     3,
+     0,
+     "RC Polo",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     2,
+     0,
+     "RS Tenis",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Club Egara",
+     4,
      0,
      "Real Sociedad",
      {
-      "d": "2026-10-24"
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "CD Terrassa",
+     3,
+     0,
+     "UD Taburiente",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Club de Campo",
+     9,
+     1,
+     "Sardinero",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     4,
+     0,
+     "Valencia CH",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Junior FC",
+     3,
+     2,
+     "RC Polo",
+     {
+      "d": "2026-10-25"
      }
     ]
    ]
@@ -2104,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "prox": {
     "m": [
      [
@@ -2718,7 +2718,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "prox": {
     "m": [
      [
@@ -3164,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "prox": {
     "m": [
      [
@@ -3222,15 +3222,45 @@
    "pais_en": "ARGENTINA",
    "liga": "METROPOLITANO · PRIMERA A",
    "jor": {
-    "m": "FECHA 25",
+    "m": "FECHA 26",
     "f": "FECHA 26"
    },
    "jornada": "FECHA 26",
    "m": [
     [
-     "S. Bárbara",
-     1,
+     "Ducilo",
+     6,
      2,
+     "S.A.G.",
+     {
+      "d": "2026-10-25",
+      "fecha": 26
+     }
+    ],
+    [
+     "Bco. Provincia",
+     3,
+     3,
+     "Hurling",
+     {
+      "d": "2026-10-25",
+      "fecha": 26
+     }
+    ],
+    [
+     "U. La Plata",
+     3,
+     3,
+     "Ciudad",
+     {
+      "d": "2026-10-25",
+      "fecha": 26
+     }
+    ],
+    [
+     "S. Bárbara",
+     2,
+     4,
      "San Fernando",
      {
       "d": "2026-10-25",
@@ -3239,9 +3269,19 @@
     ],
     [
      "G. y Esgrima",
-     0,
-     0,
+     4,
+     5,
      "Mitre",
+     {
+      "d": "2026-10-25",
+      "fecha": 26
+     }
+    ],
+    [
+     "Ciudad B",
+     2,
+     4,
+     "Quilmes",
      {
       "d": "2026-10-25",
       "fecha": 26
@@ -3250,7 +3290,7 @@
     [
      "Lomas",
      1,
-     0,
+     3,
      "San Martín",
      {
       "d": "2026-10-25",
@@ -3334,101 +3374,101 @@
     "m": [
      {
       "eq": "SAN FERNANDO",
-      "pts": 60,
-      "pj": 25,
-      "gf": 72,
-      "gc": 23
+      "pts": 63,
+      "pj": 26,
+      "gf": 76,
+      "gc": 25
      },
      {
       "eq": "BCO. PROVINCIA",
-      "pts": 56,
-      "pj": 25,
-      "gf": 69,
-      "gc": 38
-     },
-     {
-      "eq": "CIUDAD",
-      "pts": 52,
-      "pj": 25,
-      "gf": 70,
-      "gc": 39
+      "pts": 57,
+      "pj": 26,
+      "gf": 72,
+      "gc": 41
      },
      {
       "eq": "MITRE",
-      "pts": 52,
-      "pj": 25,
-      "gf": 69,
-      "gc": 32
+      "pts": 55,
+      "pj": 26,
+      "gf": 74,
+      "gc": 36
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 53,
+      "pj": 26,
+      "gf": 73,
+      "gc": 42
      },
      {
       "eq": "G. Y ESGRIMA",
       "pts": 47,
-      "pj": 25,
-      "gf": 75,
-      "gc": 47
+      "pj": 26,
+      "gf": 79,
+      "gc": 52
      },
      {
       "eq": "DUCILO",
-      "pts": 43,
-      "pj": 25,
-      "gf": 66,
-      "gc": 61
+      "pts": 46,
+      "pj": 26,
+      "gf": 72,
+      "gc": 63
      },
      {
       "eq": "U. LA PLATA",
-      "pts": 34,
-      "pj": 25,
-      "gf": 55,
-      "gc": 62
+      "pts": 35,
+      "pj": 26,
+      "gf": 58,
+      "gc": 65
      },
      {
       "eq": "HURLING",
-      "pts": 31,
-      "pj": 25,
-      "gf": 45,
-      "gc": 39
+      "pts": 32,
+      "pj": 26,
+      "gf": 48,
+      "gc": 42
      },
      {
       "eq": "S. BARBARA",
       "pts": 27,
-      "pj": 25,
-      "gf": 51,
-      "gc": 58
+      "pj": 26,
+      "gf": 53,
+      "gc": 62
      },
      {
       "eq": "QUILMES",
-      "pts": 24,
-      "pj": 25,
-      "gf": 48,
-      "gc": 66
+      "pts": 27,
+      "pj": 26,
+      "gf": 52,
+      "gc": 68
      },
      {
       "eq": "SAN MARTÍN",
-      "pts": 21,
-      "pj": 25,
-      "gf": 44,
-      "gc": 66
+      "pts": 24,
+      "pj": 26,
+      "gf": 47,
+      "gc": 67
      },
      {
       "eq": "LOMAS",
       "pts": 17,
-      "pj": 25,
-      "gf": 51,
-      "gc": 71
+      "pj": 26,
+      "gf": 52,
+      "gc": 74
      },
      {
       "eq": "S.A.G.",
       "pts": 12,
-      "pj": 25,
-      "gf": 31,
-      "gc": 86
+      "pj": 26,
+      "gf": 33,
+      "gc": 92
      },
      {
       "eq": "CIUDAD B",
       "pts": 8,
-      "pj": 25,
-      "gf": 30,
-      "gc": 88
+      "pj": 26,
+      "gf": 32,
+      "gc": 92
      }
     ],
     "f": [
@@ -3537,44 +3577,50 @@
      {
       "nom": "Kiernan, Máximo",
       "eq": "U. LA PLATA",
-      "g": 32,
-      "pj": 25
+      "g": 33,
+      "pj": 26
      },
      {
       "nom": "Suarez, Tomas Agustin",
       "eq": "G. Y ESGRIMA",
       "g": 22,
-      "pj": 25
+      "pj": 26
      },
      {
       "nom": "Merino, Gonzalo",
       "eq": "BCO. PROVINCIA",
-      "g": 21,
-      "pj": 22
+      "g": 22,
+      "pj": 23
      },
      {
       "nom": "Ferrero Farias, Lautaro",
       "eq": "SAN FERNANDO",
-      "g": 20,
-      "pj": 24
+      "g": 21,
+      "pj": 25
      },
      {
       "nom": "Agostini Coliqueo, Franco Antonio",
       "eq": "LOMAS",
       "g": 20,
-      "pj": 22
+      "pj": 23
      },
      {
       "nom": "Infanzon, Ramiro Nicolas",
       "eq": "DUCILO",
       "g": 18,
-      "pj": 22
+      "pj": 23
+     },
+     {
+      "nom": "Doherty, Alec Tadeo",
+      "eq": "HURLING",
+      "g": 17,
+      "pj": 26
      },
      {
       "nom": "Dulor Marchesi, Luca",
       "eq": "DUCILO",
       "g": 16,
-      "pj": 23
+      "pj": 24
      },
      {
       "nom": "Jimenez Jaurechi, Julian",
@@ -3583,16 +3629,10 @@
       "pj": 17
      },
      {
-      "nom": "Doherty, Alec Tadeo",
-      "eq": "HURLING",
-      "g": 15,
-      "pj": 25
-     },
-     {
       "nom": "Merlini, Mateo",
       "eq": "SAN FERNANDO",
       "g": 14,
-      "pj": 25
+      "pj": 26
      }
     ],
     "f": [
@@ -3660,7 +3700,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "torneo": "Metropolitano"
   },
   {
@@ -4049,7 +4089,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "torneo": "Élite"
   },
   {
@@ -4258,7 +4298,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 09:54",
+   "consulta": "2026-10-26 13:12",
    "goleadores": {
     "m": [
      {
