@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-25 19:34",
+ "actualizado": "2026-10-25 22:11",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "prox": {
     "m": [
      [
@@ -1361,14 +1361,14 @@
       "pj": 6
      },
      {
-      "nom": "Roberto Bayarri Palanca",
-      "eq": "CH Carpesa",
+      "nom": "Pau Petchame Hernandez",
+      "eq": "CD Terrassa",
       "g": 6,
       "pj": 7
      },
      {
-      "nom": "Pau Petchame Hernandez",
-      "eq": "CD Terrassa",
+      "nom": "Roberto Bayarri Palanca",
+      "eq": "CH Carpesa",
       "g": 6,
       "pj": 7
      },
@@ -1391,10 +1391,10 @@
       "pj": 7
      },
      {
-      "nom": "Ignacio Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
+      "nom": "Enrique Fanlo Zaldua",
+      "eq": "RC Polo",
       "g": 4,
-      "pj": 4
+      "pj": 6
      }
     ],
     "f": [
@@ -1417,7 +1417,7 @@
       "pj": 7
      },
      {
-      "nom": "Laia Vidosa I Artigas",
+      "nom": "Teresa Lima Cortes",
       "eq": "Junior FC",
       "g": 5,
       "pj": 7
@@ -1429,9 +1429,15 @@
       "pj": 7
      },
      {
-      "nom": "Teresa Lima Cortes",
+      "nom": "Laia Vidosa I Artigas",
       "eq": "Junior FC",
       "g": 5,
+      "pj": 7
+     },
+     {
+      "nom": "Alejandra de la Llama Andreu",
+      "eq": "Sanse Complutense",
+      "g": 4,
       "pj": 7
      },
      {
@@ -1447,14 +1453,8 @@
       "pj": 7
      },
      {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
-      "g": 4,
-      "pj": 7
-     },
-     {
-      "nom": "Cristina Caro Gil",
-      "eq": "Valencia CH",
+      "nom": "Michelle Fillet",
+      "eq": "RS Tenis",
       "g": 3,
       "pj": 7
      }
@@ -1462,7 +1462,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -2104,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "prox": {
     "m": [
      [
@@ -2718,7 +2718,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "prox": {
     "m": [
      [
@@ -3164,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "prox": {
     "m": [
      [
@@ -3660,7 +3660,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "torneo": "Metropolitano"
   },
   {
@@ -4049,7 +4049,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "torneo": "Élite"
   },
   {
@@ -4258,7 +4258,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-25 19:34",
+   "consulta": "2026-10-25 22:11",
    "goleadores": {
     "m": [
      {
