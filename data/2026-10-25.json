@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-26 01:41",
+ "actualizado": "2026-10-26 09:54",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "prox": {
     "m": [
      [
@@ -1156,10 +1156,10 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHA 7",
-    "f": "FECHA 7"
+    "m": "FECHAS 6 Y 7",
+    "f": "FECHAS 6 Y 7"
    },
-   "jornada": "FECHA 7",
+   "jornada": "FECHAS 6 Y 7",
    "tabla": {
     "m": [
      {
@@ -1462,86 +1462,23 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
-     "Club de Campo",
-     3,
+     "Futbol Club Barcelona",
      2,
-     "RS Tenis",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Atlètic Terrassa",
-     1,
      2,
-     "Club Egara",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "CD Terrassa",
-     0,
-     0,
-     "Junior FC",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "RC Polo",
-     5,
-     0,
      "CH Carpesa",
      {
-      "d": "2026-10-24"
+      "d": "2026-10-25"
      }
     ],
     [
      "Sanse Complutense",
-     6,
-     2,
-     "Sardinero",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Futbol Club Barcelona",
      1,
      0,
-     "UD Taburiente",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Atlètic Terrassa",
-     4,
-     3,
-     "CD Terrassa",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Junior FC",
-     3,
-     2,
-     "Club Egara",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Club de Campo",
-     10,
-     0,
-     "Sardinero",
+     "RS Tenis",
      {
       "d": "2026-10-25"
      }
@@ -1556,38 +1493,36 @@
      }
     ],
     [
-     "Sanse Complutense",
-     1,
+     "Atlètic Terrassa",
+     4,
+     3,
+     "CD Terrassa",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Club de Campo",
+     10,
      0,
-     "RS Tenis",
+     "Sardinero",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Junior FC",
+     3,
+     2,
+     "Club Egara",
      {
       "d": "2026-10-25"
      }
     ],
     [
      "Futbol Club Barcelona",
-     2,
-     2,
-     "CH Carpesa",
-     {
-      "d": "2026-10-25"
-     }
-    ]
-   ],
-   "f": [
-    [
-     "CD Terrassa",
      1,
      0,
-     "Real Sociedad",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Club Egara",
-     5,
-     2,
      "UD Taburiente",
      {
       "d": "2026-10-24"
@@ -1595,63 +1530,56 @@
     ],
     [
      "Sanse Complutense",
-     10,
-     0,
+     6,
+     2,
      "Sardinero",
      {
       "d": "2026-10-24"
      }
     ],
     [
-     "Club de Campo",
-     4,
-     2,
-     "RS Tenis",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Junior FC",
-     5,
-     1,
-     "Valencia CH",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
      "Atlètic Terrassa",
-     3,
-     0,
-     "RC Polo",
+     1,
+     2,
+     "Club Egara",
      {
       "d": "2026-10-24"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     2,
-     0,
-     "RS Tenis",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Club Egara",
-     4,
-     0,
-     "Real Sociedad",
-     {
-      "d": "2026-10-25"
      }
     ],
     [
      "CD Terrassa",
-     3,
      0,
-     "UD Taburiente",
+     0,
+     "Junior FC",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "RC Polo",
+     5,
+     0,
+     "CH Carpesa",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Club de Campo",
+     3,
+     2,
+     "RS Tenis",
+     {
+      "d": "2026-10-24"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "Atlètic Terrassa",
+     4,
+     0,
+     "Valencia CH",
      {
       "d": "2026-10-25"
      }
@@ -1666,21 +1594,93 @@
      }
     ],
     [
-     "Atlètic Terrassa",
-     4,
-     0,
-     "Valencia CH",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
      "Junior FC",
      3,
      2,
      "RC Polo",
      {
       "d": "2026-10-25"
+     }
+    ],
+    [
+     "CD Terrassa",
+     3,
+     0,
+     "UD Taburiente",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Club Egara",
+     4,
+     0,
+     "Real Sociedad",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     2,
+     0,
+     "RS Tenis",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     3,
+     0,
+     "RC Polo",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Junior FC",
+     5,
+     1,
+     "Valencia CH",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Club de Campo",
+     4,
+     2,
+     "RS Tenis",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     10,
+     0,
+     "Sardinero",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Club Egara",
+     5,
+     2,
+     "UD Taburiente",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "CD Terrassa",
+     1,
+     0,
+     "Real Sociedad",
+     {
+      "d": "2026-10-24"
      }
     ]
    ]
@@ -2061,7 +2061,7 @@
      {
       "nom": "Sophie Prumbaum",
       "eq": "RW Köln",
-      "pj": 8,
+      "pj": 9,
       "g": 4
      },
      {
@@ -2079,7 +2079,7 @@
      {
       "nom": "Felicia Wiedermann",
       "eq": "RW Köln",
-      "pj": 5,
+      "pj": 6,
       "g": 3
      },
      {
@@ -2089,22 +2089,22 @@
       "g": 3
      },
      {
-      "nom": "Katharina Reuten",
-      "eq": "RW Köln",
+      "nom": "Johanna Hachenberg",
+      "eq": "Der Club an der Alster",
       "pj": 8,
       "g": 3
      },
      {
-      "nom": "Aluhe Camps",
-      "eq": "Düsseldorfer HC",
-      "pj": 8,
+      "nom": "Katharina Reuten",
+      "eq": "RW Köln",
+      "pj": 9,
       "g": 3
      }
     ]
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "prox": {
     "m": [
      [
@@ -2718,7 +2718,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "prox": {
     "m": [
      [
@@ -3164,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "prox": {
     "m": [
      [
@@ -3660,7 +3660,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "torneo": "Metropolitano"
   },
   {
@@ -3970,7 +3970,12 @@
      {
       "nom": "Lhopital, Yohanna",
       "eq": "Saint-Germain HC",
-      "g": 9
+      "g": 10
+     },
+     {
+      "nom": "Cadot, Clemence",
+      "eq": "Saint-Germain HC",
+      "g": 7
      },
      {
       "nom": "Verzura, Eve",
@@ -3981,11 +3986,6 @@
       "nom": "Rolando, Martina",
       "eq": "PHC Marcq-en-Baroeul",
       "g": 6
-     },
-     {
-      "nom": "Cadot, Clemence",
-      "eq": "Saint-Germain HC",
-      "g": 5
      },
      {
       "nom": "Arnaud, Victoire",
@@ -4049,7 +4049,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "torneo": "Élite"
   },
   {
@@ -4258,7 +4258,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 01:41",
+   "consulta": "2026-10-26 09:54",
    "goleadores": {
     "m": [
      {
