@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-26 20:50",
+ "actualizado": "2026-10-27 01:58",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "prox": {
     "m": [
      [
@@ -1373,10 +1373,10 @@
       "pj": 7
      },
      {
-      "nom": "Enric Miralles Portillo",
-      "eq": "CD Terrassa",
+      "nom": "Nicolas Alvarez Nardiz",
+      "eq": "RC Polo",
       "g": 5,
-      "pj": 7
+      "pj": 6
      },
      {
       "nom": "Tyler Tomsett",
@@ -1385,19 +1385,25 @@
       "pj": 7
      },
      {
-      "nom": "Nicolas Alvarez Nardiz",
-      "eq": "RC Polo",
+      "nom": "Enric Miralles Portillo",
+      "eq": "CD Terrassa",
       "g": 5,
-      "pj": 6
+      "pj": 7
      },
      {
-      "nom": "Ignacio Abajo Saenz de Tejada",
-      "eq": "Club de Campo",
+      "nom": "Enrique Fanlo Zaldua",
+      "eq": "RC Polo",
       "g": 4,
-      "pj": 4
+      "pj": 6
      }
     ],
     "f": [
+     {
+      "nom": "Lola Riera Zuzuarregui",
+      "eq": "Sanse Complutense",
+      "g": 7,
+      "pj": 7
+     },
      {
       "nom": "Flore Suzanne Bruggink",
       "eq": "Club de Campo",
@@ -1408,18 +1414,6 @@
       "nom": "Begoña Garcia Grau",
       "eq": "Club de Campo",
       "g": 7,
-      "pj": 7
-     },
-     {
-      "nom": "Lola Riera Zuzuarregui",
-      "eq": "Sanse Complutense",
-      "g": 7,
-      "pj": 7
-     },
-     {
-      "nom": "Laia Vidosa I Artigas",
-      "eq": "Junior FC",
-      "g": 5,
       "pj": 7
      },
      {
@@ -1435,6 +1429,18 @@
       "pj": 7
      },
      {
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
+      "g": 5,
+      "pj": 7
+     },
+     {
+      "nom": "Alejandra de la Llama Andreu",
+      "eq": "Sanse Complutense",
+      "g": 4,
+      "pj": 7
+     },
+     {
       "nom": "Patricia Alvarez Nardiz",
       "eq": "RC Polo",
       "g": 4,
@@ -1447,14 +1453,8 @@
       "pj": 7
      },
      {
-      "nom": "Alejandra de la Llama Andreu",
-      "eq": "Sanse Complutense",
-      "g": 4,
-      "pj": 7
-     },
-     {
-      "nom": "Michelle Fillet",
-      "eq": "RS Tenis",
+      "nom": "Xantal Gine Patsi",
+      "eq": "RC Polo",
       "g": 3,
       "pj": 7
      }
@@ -1462,7 +1462,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -2104,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "prox": {
     "m": [
      [
@@ -2718,7 +2718,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "prox": {
     "m": [
      [
@@ -3164,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "prox": {
     "m": [
      [
@@ -3700,7 +3700,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "torneo": "Metropolitano"
   },
   {
@@ -4089,7 +4089,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "torneo": "Élite"
   },
   {
@@ -4298,7 +4298,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-26 20:50",
+   "consulta": "2026-10-27 01:58",
    "goleadores": {
     "m": [
      {
