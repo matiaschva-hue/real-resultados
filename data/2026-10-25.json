@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-28 09:45",
+ "actualizado": "2026-10-28 19:30",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "prox": {
     "m": [
      [
@@ -1156,10 +1156,10 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHA 7",
-    "f": "FECHA 7"
+    "m": "FECHAS 6 Y 7",
+    "f": "FECHAS 6 Y 7"
    },
-   "jornada": "FECHA 7",
+   "jornada": "FECHAS 6 Y 7",
    "tabla": {
     "m": [
      {
@@ -1462,7 +1462,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -2104,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "prox": {
     "m": [
      [
@@ -2718,7 +2718,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "prox": {
     "m": [
      [
@@ -3164,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "prox": {
     "m": [
      [
@@ -3700,7 +3700,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "torneo": "Metropolitano"
   },
   {
@@ -4089,7 +4089,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "torneo": "Élite"
   },
   {
@@ -4298,7 +4298,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-28 09:45",
+   "consulta": "2026-10-28 19:30",
    "goleadores": {
     "m": [
      {
