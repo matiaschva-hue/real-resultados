@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-28 02:34",
+ "actualizado": "2026-10-28 09:45",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "prox": {
     "m": [
      [
@@ -1156,10 +1156,10 @@
    "pais_en": "SPAIN",
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
-    "m": "FECHAS 6 Y 7",
-    "f": "FECHAS 6 Y 7"
+    "m": "FECHA 7",
+    "f": "FECHA 7"
    },
-   "jornada": "FECHAS 6 Y 7",
+   "jornada": "FECHA 7",
    "tabla": {
     "m": [
      {
@@ -1391,10 +1391,10 @@
       "pj": 6
      },
      {
-      "nom": "Enrique Zorita Marquez",
+      "nom": "Ignacio Abajo Saenz de Tejada",
       "eq": "Club de Campo",
       "g": 4,
-      "pj": 7
+      "pj": 4
      }
     ],
     "f": [
@@ -1417,6 +1417,12 @@
       "pj": 7
      },
      {
+      "nom": "Laia Vidosa I Artigas",
+      "eq": "Junior FC",
+      "g": 5,
+      "pj": 7
+     },
+     {
       "nom": "Natalia Vilanova Dolcet",
       "eq": "Club Egara",
       "g": 5,
@@ -1424,12 +1430,6 @@
      },
      {
       "nom": "Teresa Lima Cortes",
-      "eq": "Junior FC",
-      "g": 5,
-      "pj": 7
-     },
-     {
-      "nom": "Laia Vidosa I Artigas",
       "eq": "Junior FC",
       "g": 5,
       "pj": 7
@@ -1462,68 +1462,41 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
-     "Futbol Club Barcelona",
+     "Club de Campo",
+     3,
      2,
-     2,
-     "CH Carpesa",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     1,
-     0,
      "RS Tenis",
      {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "RC Polo",
-     8,
-     0,
-     "UD Taburiente",
-     {
-      "d": "2026-10-25"
+      "d": "2026-10-24"
      }
     ],
     [
      "Atlètic Terrassa",
-     4,
-     3,
-     "CD Terrassa",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Club de Campo",
-     10,
-     0,
-     "Sardinero",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Junior FC",
-     3,
+     1,
      2,
      "Club Egara",
      {
-      "d": "2026-10-25"
+      "d": "2026-10-24"
      }
     ],
     [
-     "Futbol Club Barcelona",
-     1,
+     "CD Terrassa",
      0,
-     "UD Taburiente",
+     0,
+     "Junior FC",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "RC Polo",
+     5,
+     0,
+     "CH Carpesa",
      {
       "d": "2026-10-24"
      }
@@ -1538,73 +1511,44 @@
      }
     ],
     [
-     "Atlètic Terrassa",
+     "Futbol Club Barcelona",
      1,
-     2,
-     "Club Egara",
+     0,
+     "UD Taburiente",
      {
       "d": "2026-10-24"
      }
     ],
-    [
-     "CD Terrassa",
-     0,
-     0,
-     "Junior FC",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "RC Polo",
-     5,
-     0,
-     "CH Carpesa",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Club de Campo",
-     3,
-     2,
-     "RS Tenis",
-     {
-      "d": "2026-10-24"
-     }
-    ]
-   ],
-   "f": [
     [
      "Atlètic Terrassa",
      4,
-     0,
-     "Valencia CH",
+     3,
+     "CD Terrassa",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Junior FC",
+     3,
+     2,
+     "Club Egara",
      {
       "d": "2026-10-25"
      }
     ],
     [
      "Club de Campo",
-     9,
-     1,
+     10,
+     0,
      "Sardinero",
      {
       "d": "2026-10-25"
      }
     ],
     [
-     "Junior FC",
-     3,
-     2,
      "RC Polo",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "CD Terrassa",
-     3,
+     8,
      0,
      "UD Taburiente",
      {
@@ -1612,46 +1556,39 @@
      }
     ],
     [
-     "Club Egara",
-     4,
+     "Sanse Complutense",
+     1,
+     0,
+     "RS Tenis",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Futbol Club Barcelona",
+     2,
+     2,
+     "CH Carpesa",
+     {
+      "d": "2026-10-25"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "CD Terrassa",
+     1,
      0,
      "Real Sociedad",
      {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Sanse Complutense",
-     2,
-     0,
-     "RS Tenis",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Atlètic Terrassa",
-     3,
-     0,
-     "RC Polo",
-     {
       "d": "2026-10-24"
      }
     ],
     [
-     "Junior FC",
+     "Club Egara",
      5,
-     1,
-     "Valencia CH",
-     {
-      "d": "2026-10-24"
-     }
-    ],
-    [
-     "Club de Campo",
-     4,
      2,
-     "RS Tenis",
+     "UD Taburiente",
      {
       "d": "2026-10-24"
      }
@@ -1666,21 +1603,84 @@
      }
     ],
     [
-     "Club Egara",
-     5,
+     "Club de Campo",
+     4,
      2,
-     "UD Taburiente",
+     "RS Tenis",
      {
       "d": "2026-10-24"
      }
     ],
     [
-     "CD Terrassa",
+     "Junior FC",
+     5,
      1,
+     "Valencia CH",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     3,
+     0,
+     "RC Polo",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     2,
+     0,
+     "RS Tenis",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Club Egara",
+     4,
      0,
      "Real Sociedad",
      {
-      "d": "2026-10-24"
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "CD Terrassa",
+     3,
+     0,
+     "UD Taburiente",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Club de Campo",
+     9,
+     1,
+     "Sardinero",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     4,
+     0,
+     "Valencia CH",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Junior FC",
+     3,
+     2,
+     "RC Polo",
+     {
+      "d": "2026-10-25"
      }
     ]
    ]
@@ -2104,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "prox": {
     "m": [
      [
@@ -2718,39 +2718,15 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "prox": {
     "m": [
-     [
-      "Beeston",
-      "Surbiton",
-      {
-       "d": "2026-10-31",
-       "h": "17:00"
-      }
-     ],
-     [
-      "Bowdon",
-      "Hampstead & Westminster",
-      {
-       "d": "2026-10-31",
-       "h": "17:00"
-      }
-     ],
-     [
-      "Cardiff & Met",
-      "Reading",
-      {
-       "d": "2026-10-31",
-       "h": "17:00"
-      }
-     ],
      [
       "University of Exeter",
       "Old Georgians",
       {
        "d": "2026-10-31",
-       "h": "17:00"
+       "h": "16:30"
       }
      ],
      [
@@ -2758,7 +2734,7 @@
       "Holcombe",
       {
        "d": "2026-10-31",
-       "h": "17:00"
+       "h": "16:30"
       }
      ],
      [
@@ -2768,23 +2744,63 @@
        "d": "2026-10-31",
        "h": "17:00"
       }
-     ]
-    ],
-    "f": [
+     ],
+     [
+      "Beeston",
+      "Surbiton",
+      {
+       "d": "2026-10-31",
+       "h": "18:00"
+      }
+     ],
      [
       "Bowdon",
       "Hampstead & Westminster",
       {
        "d": "2026-10-31",
-       "h": "16:00"
+       "h": "18:00"
       }
      ],
+     [
+      "Cardiff & Met",
+      "Reading",
+      {
+       "d": "2026-10-31",
+       "h": "18:00"
+      }
+     ]
+    ],
+    "f": [
      [
       "Buckingham",
       "Reading",
       {
        "d": "2026-10-31",
-       "h": "16:00"
+       "h": "12:00"
+      }
+     ],
+     [
+      "Teddington",
+      "Loughborough Students",
+      {
+       "d": "2026-10-31",
+       "h": "14:00"
+      }
+     ],
+     [
+      "Bowdon",
+      "Hampstead & Westminster",
+      {
+       "d": "2026-10-31",
+       "h": "15:00"
+      }
+     ],
+     [
+      "Wimbledon",
+      "East Grinstead",
+      {
+       "d": "2026-10-31",
+       "h": "15:00"
       }
      ],
      [
@@ -2800,23 +2816,7 @@
       "University of Nottingham",
       {
        "d": "2026-10-31",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Teddington",
-      "Loughborough Students",
-      {
-       "d": "2026-10-31",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Wimbledon",
-      "East Grinstead",
-      {
-       "d": "2026-10-31",
-       "h": "16:00"
+       "h": "17:00"
       }
      ]
     ]
@@ -3164,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "prox": {
     "m": [
      [
@@ -3700,7 +3700,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "torneo": "Metropolitano"
   },
   {
@@ -4089,7 +4089,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "torneo": "Élite"
   },
   {
@@ -4298,7 +4298,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-28 02:34",
+   "consulta": "2026-10-28 09:45",
    "goleadores": {
     "m": [
      {
