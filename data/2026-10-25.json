@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-29 09:54",
+ "actualizado": "2026-10-29 19:42",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "prox": {
     "m": [
      [
@@ -1462,7 +1462,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -2005,7 +2005,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "prox": {
     "m": [
      [
@@ -2619,7 +2619,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "prox": {
     "m": [
      [
@@ -3065,7 +3065,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "prox": {
     "m": [
      [
@@ -3594,7 +3594,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "torneo": "Metropolitano"
   },
   {
@@ -3983,7 +3983,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "torneo": "Élite"
   },
   {
@@ -4192,7 +4192,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-29 09:54",
+   "consulta": "2026-10-29 19:42",
    "goleadores": {
     "m": [
      {
@@ -4306,7 +4306,7 @@
       "HC Melbourne",
       {
        "d": "2026-10-30",
-       "h": "19:45"
+       "h": "18:00"
       }
      ],
      [
@@ -4340,7 +4340,7 @@
       "HC Melbourne",
       {
        "d": "2026-10-30",
-       "h": "18:00"
+       "h": "19:45"
       }
      ],
      [
