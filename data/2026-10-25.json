@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-29 19:42",
+ "actualizado": "2026-10-30 02:50",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "prox": {
     "m": [
      [
@@ -1157,7 +1157,7 @@
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {
     "m": "FECHAS 6 Y 7",
-    "f": "FECHA 7"
+    "f": "FECHAS 6 Y 7"
    },
    "jornada": "FECHAS 6 Y 7",
    "tabla": {
@@ -1462,14 +1462,77 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
+     "Futbol Club Barcelona",
+     2,
+     2,
+     "CH Carpesa",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     1,
+     0,
+     "RS Tenis",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "RC Polo",
+     8,
+     0,
+     "UD Taburiente",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Atlètic Terrassa",
+     4,
+     3,
+     "CD Terrassa",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
      "Club de Campo",
+     10,
+     0,
+     "Sardinero",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Junior FC",
      3,
      2,
-     "RS Tenis",
+     "Club Egara",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Futbol Club Barcelona",
+     1,
+     0,
+     "UD Taburiente",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     6,
+     2,
+     "Sardinero",
      {
       "d": "2026-10-24"
      }
@@ -1502,28 +1565,30 @@
      }
     ],
     [
-     "Sanse Complutense",
-     6,
+     "Club de Campo",
+     3,
      2,
-     "Sardinero",
+     "RS Tenis",
      {
       "d": "2026-10-24"
      }
-    ],
-    [
-     "Futbol Club Barcelona",
-     1,
-     0,
-     "UD Taburiente",
-     {
-      "d": "2026-10-24"
-     }
-    ],
+    ]
+   ],
+   "f": [
     [
      "Atlètic Terrassa",
      4,
-     3,
-     "CD Terrassa",
+     0,
+     "Valencia CH",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "Club de Campo",
+     9,
+     1,
+     "Sardinero",
      {
       "d": "2026-10-25"
      }
@@ -1532,23 +1597,14 @@
      "Junior FC",
      3,
      2,
-     "Club Egara",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
-     "Club de Campo",
-     10,
-     0,
-     "Sardinero",
-     {
-      "d": "2026-10-25"
-     }
-    ],
-    [
      "RC Polo",
-     8,
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
+     "CD Terrassa",
+     3,
      0,
      "UD Taburiente",
      {
@@ -1556,8 +1612,17 @@
      }
     ],
     [
+     "Club Egara",
+     4,
+     0,
+     "Real Sociedad",
+     {
+      "d": "2026-10-25"
+     }
+    ],
+    [
      "Sanse Complutense",
-     1,
+     2,
      0,
      "RS Tenis",
      {
@@ -1565,23 +1630,57 @@
      }
     ],
     [
-     "Futbol Club Barcelona",
-     2,
-     2,
-     "CH Carpesa",
-     {
-      "d": "2026-10-25"
-     }
-    ]
-   ],
-   "f": [
-    [
-     "Sanse Complutense",
-     2,
+     "Atlètic Terrassa",
+     3,
      0,
+     "RC Polo",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Junior FC",
+     5,
+     1,
+     "Valencia CH",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Club de Campo",
+     4,
+     2,
      "RS Tenis",
      {
-      "d": "2026-10-25"
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Sanse Complutense",
+     10,
+     0,
+     "Sardinero",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "Club Egara",
+     5,
+     2,
+     "UD Taburiente",
+     {
+      "d": "2026-10-24"
+     }
+    ],
+    [
+     "CD Terrassa",
+     1,
+     0,
+     "Real Sociedad",
+     {
+      "d": "2026-10-24"
      }
     ]
    ]
@@ -2005,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "prox": {
     "m": [
      [
@@ -2619,7 +2718,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "prox": {
     "m": [
      [
@@ -3065,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "prox": {
     "m": [
      [
@@ -3134,8 +3233,7 @@
      2,
      "S.A.G.",
      {
-      "d": "2026-10-25",
-      "fecha": 26
+      "d": "2026-10-25"
      }
     ],
     [
@@ -3144,8 +3242,7 @@
      3,
      "Hurling",
      {
-      "d": "2026-10-25",
-      "fecha": 26
+      "d": "2026-10-25"
      }
     ],
     [
@@ -3154,8 +3251,7 @@
      3,
      "Ciudad",
      {
-      "d": "2026-10-25",
-      "fecha": 26
+      "d": "2026-10-25"
      }
     ],
     [
@@ -3164,8 +3260,7 @@
      4,
      "San Fernando",
      {
-      "d": "2026-10-25",
-      "fecha": 26
+      "d": "2026-10-25"
      }
     ],
     [
@@ -3174,8 +3269,7 @@
      5,
      "Mitre",
      {
-      "d": "2026-10-25",
-      "fecha": 26
+      "d": "2026-10-25"
      }
     ],
     [
@@ -3184,8 +3278,7 @@
      4,
      "Quilmes",
      {
-      "d": "2026-10-25",
-      "fecha": 26
+      "d": "2026-10-25"
      }
     ],
     [
@@ -3194,8 +3287,7 @@
      3,
      "San Martín",
      {
-      "d": "2026-10-25",
-      "fecha": 26
+      "d": "2026-10-25"
      }
     ]
    ],
@@ -3594,7 +3686,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "torneo": "Metropolitano"
   },
   {
@@ -3983,7 +4075,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "torneo": "Élite"
   },
   {
@@ -4192,7 +4284,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-29 19:42",
+   "consulta": "2026-10-30 02:50",
    "goleadores": {
     "m": [
      {
