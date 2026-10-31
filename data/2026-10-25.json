@@ -1,6 +1,6 @@
 {
  "fecha": "25.10.2026",
- "actualizado": "2026-10-30 19:58",
+ "actualizado": "2026-10-30 23:24",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "prox": {
     "m": [
      [
@@ -658,7 +658,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "prox": {
     "m": [
      [
@@ -1039,7 +1039,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "prox": {
     "m": [
      [
@@ -1462,7 +1462,7 @@
    },
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "torneo": "Liga IATI · Iberdrola",
    "m": [
     [
@@ -2104,7 +2104,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "prox": {
     "m": [
      [
@@ -2718,7 +2718,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "prox": {
     "m": [
      [
@@ -3164,7 +3164,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "prox": {
     "m": [
      [
@@ -3686,7 +3686,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "torneo": "Metropolitano"
   },
   {
@@ -4075,7 +4075,7 @@
    "prox_jornada": "FECHA 5",
    "prox_fecha": "01.11–01.11",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "torneo": "Élite"
   },
   {
@@ -4284,7 +4284,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-30 19:58",
+   "consulta": "2026-10-30 23:24",
    "goleadores": {
     "m": [
      {
@@ -4419,14 +4419,6 @@
      ]
     ],
     "f": [
-     [
-      "Tassie Tigers",
-      "Brisbane Blaze",
-      {
-       "d": "2026-10-31",
-       "h": "13:00"
-      }
-     ],
      [
       "Adelaide Fire",
       "NSW Pride",
