@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-10-31 16:59",
+ "actualizado": "2026-10-31 20:24",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "prox": {
     "m": [
      [
@@ -472,7 +472,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "prox": {
     "f": [
      [
@@ -653,7 +653,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "prox": {
     "m": [
      [
@@ -723,16 +723,16 @@
       }
      ],
      [
-      "Dragons",
-      "Antwerp",
+      "Wellington",
+      "Waterloo Ducks",
       {
        "d": "2026-11-08",
        "h": "12:00"
       }
      ],
      [
-      "Wellington",
-      "Waterloo Ducks",
+      "Dragons",
+      "Antwerp",
       {
        "d": "2026-11-08",
        "h": "12:00"
@@ -774,7 +774,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "prox": {
     "m": [
      [
@@ -1187,25 +1187,25 @@
      {
       "nom": "Jeremy Hayward",
       "eq": "Der Club an der Alster",
-      "pj": 9,
+      "pj": 10,
       "g": 12
      },
      {
       "nom": "Alec von Schwerin",
       "eq": "Harvestehuder THC",
-      "pj": 9,
+      "pj": 10,
       "g": 10
      },
      {
       "nom": "Jakob Brilla",
       "eq": "RW Köln",
-      "pj": 8,
+      "pj": 9,
       "g": 9
      },
      {
       "nom": "Timothy Brand",
       "eq": "Hamburger Polo Club",
-      "pj": 8,
+      "pj": 9,
       "g": 9
      },
      {
@@ -1217,18 +1217,6 @@
      {
       "nom": "Raphael Hartkopf",
       "eq": "RW Köln",
-      "pj": 8,
-      "g": 8
-     },
-     {
-      "nom": "Jonty  Elmes",
-      "eq": "Mannheimer HC",
-      "pj": 9,
-      "g": 8
-     },
-     {
-      "nom": "Ben Hasbach",
-      "eq": "Mannheimer HC",
       "pj": 9,
       "g": 8
      },
@@ -1236,6 +1224,18 @@
       "nom": "Masi Pfandt",
       "eq": "Crefelder HTC",
       "pj": 9,
+      "g": 8
+     },
+     {
+      "nom": "Jonty  Elmes",
+      "eq": "Mannheimer HC",
+      "pj": 10,
+      "g": 8
+     },
+     {
+      "nom": "Ben Hasbach",
+      "eq": "Mannheimer HC",
+      "pj": 10,
       "g": 8
      },
      {
@@ -1249,55 +1249,55 @@
      {
       "nom": "Alice Arnott",
       "eq": "Mannheimer HC",
-      "pj": 9,
+      "pj": 10,
       "g": 8
      },
      {
       "nom": "Lena Frerichs",
       "eq": "Bremer HC",
-      "pj": 9,
+      "pj": 10,
       "g": 7
      },
      {
       "nom": "Martina Reisenegger Lillo",
       "eq": "Der Club an der Alster",
-      "pj": 9,
+      "pj": 10,
       "g": 6
      },
      {
       "nom": "Sophie Prumbaum",
       "eq": "RW Köln",
-      "pj": 9,
+      "pj": 10,
       "g": 4
      },
      {
       "nom": "Franziska Pabsch",
       "eq": "Großflottbeker THGC",
-      "pj": 9,
+      "pj": 10,
       "g": 4
      },
      {
       "nom": "Philine Drumm",
       "eq": "Berliner HC",
-      "pj": 9,
+      "pj": 10,
       "g": 4
      },
      {
       "nom": "Victoria Käske",
       "eq": "Berliner HC",
-      "pj": 5,
+      "pj": 6,
       "g": 3
      },
      {
       "nom": "Felicia Wiedermann",
       "eq": "RW Köln",
-      "pj": 6,
+      "pj": 7,
       "g": 3
      },
      {
       "nom": "Verena Neumann",
       "eq": "Mannheimer HC",
-      "pj": 6,
+      "pj": 7,
       "g": 3
      },
      {
@@ -1310,7 +1310,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "torneo": "Bundesliga"
   },
   {
@@ -1319,11 +1319,85 @@
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
    "jor": {
+    "m": "FECHA 7",
     "f": "FECHA 7"
    },
    "jornada": "FECHA 7",
-   "m": [],
+   "m": [
+    [
+     "Beeston",
+     1,
+     3,
+     "Surbiton",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Bowdon",
+     1,
+     7,
+     "Hampstead & Westminster",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Cardiff & Met",
+     2,
+     3,
+     "Reading",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Wimbledon",
+     6,
+     1,
+     "East Grinstead",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "University of Exeter",
+     1,
+     8,
+     "Old Georgians",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Oxted",
+     5,
+     6,
+     "Holcombe",
+     {
+      "d": "2026-10-31"
+     }
+    ]
+   ],
    "f": [
+    [
+     "Surbiton",
+     6,
+     1,
+     "University of Nottingham",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Durham University",
+     0,
+     1,
+     "University of Birmingham",
+     {
+      "d": "2026-10-31"
+     }
+    ],
     [
      "Bowdon",
      1,
@@ -1366,96 +1440,96 @@
     "m": [
      {
       "eq": "Surbiton",
-      "pts": 18,
-      "pj": 6,
-      "gf": 31,
-      "gc": 7
+      "pts": 21,
+      "pj": 7,
+      "gf": 34,
+      "gc": 8
      },
      {
       "eq": "Wimbledon",
-      "pts": 15,
-      "pj": 5,
-      "gf": 32,
-      "gc": 10
+      "pts": 18,
+      "pj": 6,
+      "gf": 38,
+      "gc": 11
      },
      {
       "eq": "Old Georgians",
-      "pts": 13,
-      "pj": 6,
-      "gf": 25,
-      "gc": 10
+      "pts": 16,
+      "pj": 7,
+      "gf": 33,
+      "gc": 11
      },
      {
       "eq": "East Grinstead",
       "pts": 13,
-      "pj": 6,
-      "gf": 14,
-      "gc": 13
-     },
-     {
-      "eq": "Reading",
-      "pts": 7,
-      "pj": 5,
-      "gf": 12,
-      "gc": 13
-     },
-     {
-      "eq": "University of Exeter",
-      "pts": 7,
-      "pj": 6,
-      "gf": 16,
-      "gc": 21
-     },
-     {
-      "eq": "Hampstead & Westminster",
-      "pts": 7,
-      "pj": 6,
-      "gf": 14,
-      "gc": 20
-     },
-     {
-      "eq": "Beeston",
-      "pts": 6,
-      "pj": 6,
+      "pj": 7,
       "gf": 15,
       "gc": 19
      },
      {
-      "eq": "Holcombe",
-      "pts": 6,
+      "eq": "Hampstead & Westminster",
+      "pts": 10,
+      "pj": 7,
+      "gf": 21,
+      "gc": 21
+     },
+     {
+      "eq": "Reading",
+      "pts": 10,
       "pj": 6,
-      "gf": 14,
-      "gc": 19
+      "gf": 15,
+      "gc": 15
+     },
+     {
+      "eq": "Holcombe",
+      "pts": 9,
+      "pj": 7,
+      "gf": 20,
+      "gc": 24
+     },
+     {
+      "eq": "University of Exeter",
+      "pts": 7,
+      "pj": 7,
+      "gf": 17,
+      "gc": 29
+     },
+     {
+      "eq": "Beeston",
+      "pts": 6,
+      "pj": 7,
+      "gf": 16,
+      "gc": 22
      },
      {
       "eq": "Oxted",
       "pts": 6,
-      "pj": 6,
-      "gf": 12,
-      "gc": 20
+      "pj": 7,
+      "gf": 17,
+      "gc": 26
      },
      {
       "eq": "Cardiff & Met",
       "pts": 2,
-      "pj": 6,
-      "gf": 8,
-      "gc": 18
+      "pj": 7,
+      "gf": 10,
+      "gc": 21
      },
      {
       "eq": "Bowdon",
       "pts": 0,
-      "pj": 6,
-      "gf": 10,
-      "gc": 33
+      "pj": 7,
+      "gf": 11,
+      "gc": 40
      }
     ],
     "f": [
      {
       "eq": "Surbiton",
-      "pts": 18,
-      "pj": 6,
-      "gf": 30,
-      "gc": 2
+      "pts": 21,
+      "pj": 7,
+      "gf": 36,
+      "gc": 3
      },
      {
       "eq": "Loughborough Students",
@@ -1467,9 +1541,16 @@
      {
       "eq": "Durham University",
       "pts": 15,
-      "pj": 6,
+      "pj": 7,
       "gf": 13,
-      "gc": 4
+      "gc": 5
+     },
+     {
+      "eq": "University of Birmingham",
+      "pts": 15,
+      "pj": 7,
+      "gf": 16,
+      "gc": 9
      },
      {
       "eq": "Wimbledon",
@@ -1484,13 +1565,6 @@
       "pj": 7,
       "gf": 12,
       "gc": 15
-     },
-     {
-      "eq": "University of Birmingham",
-      "pts": 12,
-      "pj": 6,
-      "gf": 15,
-      "gc": 9
      },
      {
       "eq": "Reading",
@@ -1516,9 +1590,9 @@
      {
       "eq": "University of Nottingham",
       "pts": 4,
-      "pj": 6,
-      "gf": 4,
-      "gc": 15
+      "pj": 7,
+      "gf": 5,
+      "gc": 21
      },
      {
       "eq": "Hampstead & Westminster",
@@ -1538,7 +1612,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "prox": {
     "m": [
      [
@@ -1642,6 +1716,7 @@
     ]
    },
    "prox_jor": {
+    "m": "FECHA 8",
     "f": "FECHA 8"
    },
    "prox_jornada": "FECHA 8",
@@ -1945,7 +2020,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "prox": {
     "m": [
      [
@@ -2179,7 +2254,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "torneo": "Metropolitano"
   },
   {
@@ -2540,7 +2615,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "torneo": "Élite"
   },
   {
@@ -2735,7 +2810,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-31 16:59",
+   "consulta": "2026-10-31 20:24",
    "goleadores": {
     "m": [
      {
