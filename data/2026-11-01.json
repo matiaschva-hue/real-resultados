@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-10-31 12:44",
+ "actualizado": "2026-10-31 16:59",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 12:44",
+   "consulta": "2026-10-31 16:59",
    "prox": {
     "m": [
      [
@@ -472,7 +472,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-31 12:44",
+   "consulta": "2026-10-31 16:59",
    "prox": {
     "f": [
      [
@@ -653,7 +653,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 12:44",
+   "consulta": "2026-10-31 16:59",
    "prox": {
     "m": [
      [
@@ -774,7 +774,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-31 12:44",
+   "consulta": "2026-10-31 16:59",
    "prox": {
     "m": [
      [
@@ -898,6 +898,15 @@
      2,
      0,
      "Uhlenhorst Mülheim",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "TSV Mannheim Hockey",
+     4,
+     5,
+     "Crefelder HTC",
      {
       "d": "2026-10-31"
      }
@@ -1301,7 +1310,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-31 12:44",
+   "consulta": "2026-10-31 16:59",
    "torneo": "Bundesliga"
   },
   {
@@ -1309,10 +1318,49 @@
    "pais": "INGLATERRA",
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
-   "jor": {},
-   "jornada": "",
+   "jor": {
+    "f": "FECHA 7"
+   },
+   "jornada": "FECHA 7",
    "m": [],
-   "f": [],
+   "f": [
+    [
+     "Bowdon",
+     1,
+     1,
+     "Hampstead & Westminster",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Wimbledon",
+     1,
+     3,
+     "East Grinstead",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Teddington",
+     0,
+     1,
+     "Loughborough Students",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Buckingham",
+     0,
+     3,
+     "Reading",
+     {
+      "d": "2026-10-31"
+     }
+    ]
+   ],
    "proximo": "",
    "tabla": {
     "m": [
@@ -1411,9 +1459,9 @@
      },
      {
       "eq": "Loughborough Students",
-      "pts": 15,
-      "pj": 6,
-      "gf": 23,
+      "pts": 18,
+      "pj": 7,
+      "gf": 24,
       "gc": 10
      },
      {
@@ -1426,9 +1474,16 @@
      {
       "eq": "Wimbledon",
       "pts": 13,
-      "pj": 6,
-      "gf": 15,
-      "gc": 7
+      "pj": 7,
+      "gf": 16,
+      "gc": 10
+     },
+     {
+      "eq": "East Grinstead",
+      "pts": 13,
+      "pj": 7,
+      "gf": 12,
+      "gc": 15
      },
      {
       "eq": "University of Birmingham",
@@ -1438,32 +1493,25 @@
       "gc": 9
      },
      {
-      "eq": "East Grinstead",
-      "pts": 10,
-      "pj": 6,
-      "gf": 9,
-      "gc": 14
+      "eq": "Reading",
+      "pts": 9,
+      "pj": 7,
+      "gf": 12,
+      "gc": 10
      },
      {
       "eq": "Teddington",
       "pts": 7,
-      "pj": 6,
+      "pj": 7,
       "gf": 7,
-      "gc": 10
-     },
-     {
-      "eq": "Reading",
-      "pts": 6,
-      "pj": 6,
-      "gf": 9,
-      "gc": 10
+      "gc": 11
      },
      {
       "eq": "Bowdon",
-      "pts": 4,
-      "pj": 6,
-      "gf": 6,
-      "gc": 12
+      "pts": 5,
+      "pj": 7,
+      "gf": 7,
+      "gc": 13
      },
      {
       "eq": "University of Nottingham",
@@ -1474,23 +1522,23 @@
      },
      {
       "eq": "Hampstead & Westminster",
-      "pts": 0,
-      "pj": 6,
-      "gf": 4,
-      "gc": 12
+      "pts": 1,
+      "pj": 7,
+      "gf": 5,
+      "gc": 13
      },
      {
       "eq": "Buckingham",
       "pts": 0,
-      "pj": 6,
+      "pj": 7,
       "gf": 2,
-      "gc": 32
+      "gc": 35
      }
     ]
    },
    "fuente": "Flashscore",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-31 12:44",
+   "estado": "jugada",
+   "consulta": "2026-10-31 16:59",
    "prox": {
     "m": [
      [
@@ -1593,8 +1641,10 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "f": "FECHA 8"
+   },
+   "prox_jornada": "FECHA 8",
    "prox_fecha": "06.11–09.11",
    "torneo": "Premier Division"
   },
@@ -1603,81 +1653,129 @@
    "pais": "ITALIA",
    "pais_en": "ITALY",
    "liga": "SERIE A ELITE",
-   "jor": {},
-   "jornada": "",
-   "m": [],
+   "jor": {
+    "m": "FECHA 7"
+   },
+   "jornada": "FECHA 7",
+   "m": [
+    [
+     "HC Bondeno",
+     5,
+     1,
+     "HT Bologna",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "SG Amsicora",
+     8,
+     4,
+     "HP Valchisone",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Butterfly Roma HCC",
+     2,
+     4,
+     "Lazio Hockey",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "HT Sardegna",
+     2,
+     2,
+     "HC Tevere Eur",
+     {
+      "d": "2026-10-31"
+     }
+    ],
+    [
+     "Polisportiva Ferrini",
+     3,
+     3,
+     "HC Bra",
+     {
+      "d": "2026-10-31"
+     }
+    ]
+   ],
    "f": [],
    "tabla": {
     "m": [
      {
       "eq": "SG Amsicora",
-      "pj": 6,
-      "pts": 18,
-      "gf": 35,
-      "gc": 6
+      "pj": 7,
+      "pts": 21,
+      "gf": 43,
+      "gc": 10
      },
      {
       "eq": "HC Bra",
-      "pj": 6,
+      "pj": 7,
+      "pts": 13,
+      "gf": 27,
+      "gc": 20
+     },
+     {
+      "eq": "Lazio Hockey",
+      "pj": 7,
+      "pts": 13,
+      "gf": 20,
+      "gc": 17
+     },
+     {
+      "eq": "HC Bondeno",
+      "pj": 7,
       "pts": 12,
       "gf": 24,
       "gc": 17
      },
      {
       "eq": "HC Tevere Eur",
-      "pj": 6,
-      "pts": 11,
-      "gf": 11,
-      "gc": 10
-     },
-     {
-      "eq": "Lazio Hockey",
-      "pj": 6,
-      "pts": 10,
-      "gf": 16,
-      "gc": 15
-     },
-     {
-      "eq": "HC Bondeno",
-      "pj": 6,
-      "pts": 9,
-      "gf": 19,
-      "gc": 16
-     },
-     {
-      "eq": "Butterfly Roma HCC",
-      "pj": 6,
-      "pts": 8,
-      "gf": 16,
-      "gc": 25
-     },
-     {
-      "eq": "Polisportiva Ferrini",
-      "pj": 6,
-      "pts": 7,
-      "gf": 15,
-      "gc": 20
-     },
-     {
-      "eq": "HP Valchisone",
-      "pj": 6,
-      "pts": 3,
-      "gf": 8,
+      "pj": 7,
+      "pts": 12,
+      "gf": 13,
       "gc": 12
      },
      {
+      "eq": "Polisportiva Ferrini",
+      "pj": 7,
+      "pts": 8,
+      "gf": 18,
+      "gc": 23
+     },
+     {
+      "eq": "Butterfly Roma HCC",
+      "pj": 7,
+      "pts": 8,
+      "gf": 18,
+      "gc": 29
+     },
+     {
       "eq": "HT Sardegna",
-      "pj": 6,
+      "pj": 7,
+      "pts": 4,
+      "gf": 13,
+      "gc": 23
+     },
+     {
+      "eq": "HP Valchisone",
+      "pj": 7,
       "pts": 3,
-      "gf": 11,
-      "gc": 21
+      "gf": 12,
+      "gc": 20
      },
      {
       "eq": "HT Bologna",
-      "pj": 6,
+      "pj": 7,
       "pts": 3,
-      "gf": 6,
-      "gc": 19
+      "gf": 7,
+      "gc": 24
      }
     ],
     "f": [
@@ -1742,9 +1840,19 @@
    "goleadores": {
     "m": [
      {
+      "nom": "Bernstein",
+      "eq": "SG Amsicora",
+      "g": 12
+     },
+     {
       "nom": "Koshelenko",
       "eq": "HC Bra",
-      "g": 9
+      "g": 10
+     },
+     {
+      "nom": "Atzori",
+      "eq": "SG Amsicora",
+      "g": 8
      },
      {
       "nom": "Sinkevicius",
@@ -1752,19 +1860,14 @@
       "g": 8
      },
      {
-      "nom": "Atzori",
-      "eq": "SG Amsicora",
-      "g": 7
-     },
-     {
-      "nom": "Bernstein",
-      "eq": "SG Amsicora",
-      "g": 7
-     },
-     {
       "nom": "Bhana",
       "eq": "HC Bra",
-      "g": 6
+      "g": 7
+     },
+     {
+      "nom": "Drago",
+      "eq": "HT Sardegna",
+      "g": 7
      },
      {
       "nom": "Chiesa",
@@ -1777,18 +1880,13 @@
       "g": 5
      },
      {
-      "nom": "Drago",
-      "eq": "HT Sardegna",
-      "g": 5
+      "nom": "Abdalla",
+      "eq": "Polisportiva Ferrini",
+      "g": 4
      },
      {
       "nom": "Carta G.",
       "eq": "SG Amsicora",
-      "g": 4
-     },
-     {
-      "nom": "Drago Mezzano",
-      "eq": "HT Sardegna",
       "g": 4
      }
     ],
@@ -1846,8 +1944,8 @@
     ]
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
-   "estado": "sin-fecha",
-   "consulta": "2026-10-31 12:44",
+   "estado": "jugada",
+   "consulta": "2026-10-31 16:59",
    "prox": {
     "m": [
      [
@@ -1892,8 +1990,10 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "m": "FECHA 8"
+   },
+   "prox_jornada": "FECHA 8",
    "prox_fecha": "06.11–09.11",
    "torneo": "Serie A Elite"
   },
@@ -2079,7 +2179,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 12:44",
+   "consulta": "2026-10-31 16:59",
    "torneo": "Metropolitano"
   },
   {
@@ -2440,7 +2540,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 12:44",
+   "consulta": "2026-10-31 16:59",
    "torneo": "Élite"
   },
   {
@@ -2635,7 +2735,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-31 12:44",
+   "consulta": "2026-10-31 16:59",
    "goleadores": {
     "m": [
      {
