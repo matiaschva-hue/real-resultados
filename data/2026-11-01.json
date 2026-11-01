@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-11-01 15:56",
+ "actualizado": "2026-11-01 19:50",
  "paises": [
   {
    "id": "nl",
@@ -307,82 +307,82 @@
     ],
     "f": [
      {
-      "eq": "Den Bosch",
-      "pj": 7,
-      "pts": 21,
-      "dg": 29
-     },
-     {
-      "eq": "SCHC",
-      "pj": 7,
-      "pts": 18,
-      "dg": 11
-     },
-     {
       "eq": "Amsterdam",
       "pj": 7,
-      "pts": 16,
+      "pts": 19,
+      "dg": 20
+     },
+     {
+      "eq": "Den Bosch",
+      "pj": 7,
+      "pts": 19,
       "dg": 17
      },
      {
-      "eq": "Rotterdam",
-      "pj": 7,
-      "pts": 14,
-      "dg": 3
-     },
-     {
-      "eq": "Hurley",
-      "pj": 7,
-      "pts": 12,
-      "dg": 5
-     },
-     {
-      "eq": "Kampong",
-      "pj": 7,
-      "pts": 11,
-      "dg": 14
-     },
-     {
-      "eq": "Pinoké",
-      "pj": 7,
-      "pts": 8,
-      "dg": -6
-     },
-     {
       "eq": "Oranje-Rood",
-      "pj": 7,
-      "pts": 8,
-      "dg": -8
-     },
-     {
-      "eq": "HDM",
-      "pj": 7,
-      "pts": 6,
-      "dg": -7
+      "pj": 6,
+      "pts": 16,
+      "dg": 12
      },
      {
       "eq": "Bloemendaal",
       "pj": 7,
-      "pts": 4,
-      "dg": -14
+      "pts": 14,
+      "dg": 12
      },
      {
-      "eq": "HGC",
+      "eq": "Kampong",
+      "pj": 6,
+      "pts": 13,
+      "dg": 10
+     },
+     {
+      "eq": "SCHC",
       "pj": 7,
-      "pts": 3,
-      "dg": -14
+      "pts": 11,
+      "dg": -2
      },
      {
-      "eq": "Victoria",
+      "eq": "Pinoké",
+      "pj": 7,
+      "pts": 9,
+      "dg": 0
+     },
+     {
+      "eq": "Rotterdam",
+      "pj": 7,
+      "pts": 6,
+      "dg": -1
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pj": 7,
+      "pts": 5,
+      "dg": -12
+     },
+     {
+      "eq": "HDM",
+      "pj": 7,
+      "pts": 4,
+      "dg": -10
+     },
+     {
+      "eq": "Schaerweijde",
       "pj": 7,
       "pts": 0,
-      "dg": -30
+      "dg": -22
+     },
+     {
+      "eq": "Tilburg",
+      "pj": 7,
+      "pts": 0,
+      "dg": -24
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "prox": {
     "f": [
      [
@@ -826,7 +826,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "prox": {
     "m": [
      [
@@ -896,16 +896,16 @@
       }
      ],
      [
-      "Wellington",
-      "Waterloo Ducks",
+      "Dragons",
+      "Antwerp",
       {
        "d": "2026-11-08",
        "h": "12:00"
       }
      ],
      [
-      "Dragons",
-      "Antwerp",
+      "Wellington",
+      "Waterloo Ducks",
       {
        "d": "2026-11-08",
        "h": "12:00"
@@ -934,7 +934,63 @@
    },
    "prox_jornada": "FECHA 9",
    "prox_fecha": "06.11–09.11",
-   "torneo": "Belgian Hockey League"
+   "torneo": "Belgian Hockey League",
+   "m": [
+    [
+     "Beerschot",
+     2,
+     3,
+     "Daring",
+     {
+      "d": "2026-11-01"
+     }
+    ],
+    [
+     "Braxgata",
+     5,
+     4,
+     "KHC Dragons",
+     {
+      "d": "2026-11-01"
+     }
+    ],
+    [
+     "Gantoise HC",
+     4,
+     4,
+     "Racing",
+     {
+      "d": "2026-11-01"
+     }
+    ],
+    [
+     "Herakles",
+     2,
+     2,
+     "Oree",
+     {
+      "d": "2026-11-01"
+     }
+    ],
+    [
+     "Uccle",
+     0,
+     2,
+     "Royal Léopold THC",
+     {
+      "d": "2026-11-01"
+     }
+    ],
+    [
+     "Waterloo Ducks",
+     1,
+     2,
+     "Namur",
+     {
+      "d": "2026-11-01"
+     }
+    ]
+   ]
   },
   {
    "id": "es",
@@ -949,7 +1005,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "prox": {
     "m": [
      [
@@ -1604,7 +1660,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "torneo": "Bundesliga"
   },
   {
@@ -1906,7 +1962,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "prox": {
     "m": [
      [
@@ -2314,7 +2370,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "prox": {
     "m": [
      [
@@ -2379,7 +2435,106 @@
    "m": [],
    "f": [],
    "tabla": {
-    "m": [],
+    "m": [
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 63,
+      "pj": 26,
+      "gf": 76,
+      "gc": 25
+     },
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 57,
+      "pj": 26,
+      "gf": 72,
+      "gc": 41
+     },
+     {
+      "eq": "MITRE",
+      "pts": 55,
+      "pj": 26,
+      "gf": 74,
+      "gc": 36
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 53,
+      "pj": 26,
+      "gf": 73,
+      "gc": 42
+     },
+     {
+      "eq": "G. Y ESGRIMA",
+      "pts": 47,
+      "pj": 26,
+      "gf": 79,
+      "gc": 52
+     },
+     {
+      "eq": "DUCILO",
+      "pts": 46,
+      "pj": 26,
+      "gf": 72,
+      "gc": 63
+     },
+     {
+      "eq": "U. LA PLATA",
+      "pts": 35,
+      "pj": 26,
+      "gf": 58,
+      "gc": 65
+     },
+     {
+      "eq": "HURLING",
+      "pts": 32,
+      "pj": 26,
+      "gf": 48,
+      "gc": 42
+     },
+     {
+      "eq": "S. BARBARA",
+      "pts": 27,
+      "pj": 26,
+      "gf": 53,
+      "gc": 62
+     },
+     {
+      "eq": "QUILMES",
+      "pts": 27,
+      "pj": 26,
+      "gf": 52,
+      "gc": 68
+     },
+     {
+      "eq": "SAN MARTÍN",
+      "pts": 24,
+      "pj": 26,
+      "gf": 47,
+      "gc": 67
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 17,
+      "pj": 26,
+      "gf": 52,
+      "gc": 74
+     },
+     {
+      "eq": "S.A.G.",
+      "pts": 12,
+      "pj": 26,
+      "gf": 33,
+      "gc": 92
+     },
+     {
+      "eq": "CIUDAD B",
+      "pts": 8,
+      "pj": 26,
+      "gf": 32,
+      "gc": 92
+     }
+    ],
     "f": [
      {
       "eq": "S. BARBARA",
@@ -2482,7 +2637,68 @@
     ]
    },
    "goleadores": {
-    "m": [],
+    "m": [
+     {
+      "nom": "Kiernan, Máximo",
+      "eq": "U. LA PLATA",
+      "g": 33,
+      "pj": 26
+     },
+     {
+      "nom": "Suarez, Tomas Agustin",
+      "eq": "G. Y ESGRIMA",
+      "g": 22,
+      "pj": 26
+     },
+     {
+      "nom": "Merino, Gonzalo",
+      "eq": "BCO. PROVINCIA",
+      "g": 22,
+      "pj": 23
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 21,
+      "pj": 25
+     },
+     {
+      "nom": "Agostini Coliqueo, Franco Antonio",
+      "eq": "LOMAS",
+      "g": 20,
+      "pj": 23
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 18,
+      "pj": 23
+     },
+     {
+      "nom": "Doherty, Alec Tadeo",
+      "eq": "HURLING",
+      "g": 17,
+      "pj": 26
+     },
+     {
+      "nom": "Dulor Marchesi, Luca",
+      "eq": "DUCILO",
+      "g": 16,
+      "pj": 24
+     },
+     {
+      "nom": "Jimenez Jaurechi, Julian",
+      "eq": "QUILMES",
+      "g": 16,
+      "pj": 17
+     },
+     {
+      "nom": "Merlini, Mateo",
+      "eq": "SAN FERNANDO",
+      "g": 14,
+      "pj": 26
+     }
+    ],
     "f": [
      {
       "nom": "Piccardo, Alina",
@@ -2548,7 +2764,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "torneo": "Metropolitano"
   },
   {
@@ -2929,7 +3145,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "jugada",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "torneo": "Élite"
   },
   {
@@ -3142,7 +3358,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-01 15:56",
+   "consulta": "2026-11-01 19:50",
    "goleadores": {
     "m": [
      {
