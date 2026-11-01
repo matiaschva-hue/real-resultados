@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-10-31 20:24",
+ "actualizado": "2026-11-01 03:06",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "prox": {
     "m": [
      [
@@ -472,7 +472,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "prox": {
     "f": [
      [
@@ -653,7 +653,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "prox": {
     "m": [
      [
@@ -723,16 +723,16 @@
       }
      ],
      [
-      "Wellington",
-      "Waterloo Ducks",
+      "Dragons",
+      "Antwerp",
       {
        "d": "2026-11-08",
        "h": "12:00"
       }
      ],
      [
-      "Dragons",
-      "Antwerp",
+      "Wellington",
+      "Waterloo Ducks",
       {
        "d": "2026-11-08",
        "h": "12:00"
@@ -774,7 +774,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "prox": {
     "m": [
      [
@@ -1310,7 +1310,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "torneo": "Bundesliga"
   },
   {
@@ -1612,7 +1612,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "prox": {
     "m": [
      [
@@ -2020,7 +2020,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "prox": {
     "m": [
      [
@@ -2254,7 +2254,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "torneo": "Metropolitano"
   },
   {
@@ -2615,7 +2615,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "sin-fecha",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "torneo": "Élite"
   },
   {
@@ -2810,7 +2810,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-10-31 20:24",
+   "consulta": "2026-11-01 03:06",
    "goleadores": {
     "m": [
      {
