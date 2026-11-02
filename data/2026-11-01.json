@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-11-02 02:56",
+ "actualizado": "2026-11-02 12:42",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "prox": {
     "f": [
      [
@@ -826,7 +826,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "prox": {
     "m": [
      [
@@ -1005,7 +1005,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "prox": {
     "m": [
      [
@@ -1537,61 +1537,61 @@
      {
       "nom": "Jeremy Hayward",
       "eq": "Der Club an der Alster",
-      "pj": 10,
+      "pj": 11,
       "g": 13
      },
      {
       "nom": "Alec von Schwerin",
       "eq": "Harvestehuder THC",
-      "pj": 10,
+      "pj": 11,
       "g": 12
      },
      {
       "nom": "Jakob Brilla",
       "eq": "RW Köln",
-      "pj": 9,
+      "pj": 10,
       "g": 10
      },
      {
       "nom": "Masi Pfandt",
       "eq": "Crefelder HTC",
-      "pj": 9,
+      "pj": 10,
       "g": 9
      },
      {
       "nom": "Timothy Brand",
       "eq": "Hamburger Polo Club",
-      "pj": 9,
+      "pj": 10,
       "g": 9
      },
      {
       "nom": "Elian Mazkour",
       "eq": "UHC Hamburg",
-      "pj": 10,
+      "pj": 11,
       "g": 9
      },
      {
       "nom": "Ben Hasbach",
       "eq": "Mannheimer HC",
-      "pj": 10,
+      "pj": 11,
       "g": 9
      },
      {
       "nom": "Maico Casella",
       "eq": "TSV Mannheim Hockey",
-      "pj": 10,
+      "pj": 11,
       "g": 9
      },
      {
       "nom": "Kane Elliot Mark Russell",
       "eq": "Hamburger Polo Club",
-      "pj": 7,
+      "pj": 8,
       "g": 8
      },
      {
       "nom": "Raphael Hartkopf",
       "eq": "RW Köln",
-      "pj": 9,
+      "pj": 10,
       "g": 8
      }
     ],
@@ -1599,68 +1599,68 @@
      {
       "nom": "Alice Arnott",
       "eq": "Mannheimer HC",
-      "pj": 10,
+      "pj": 11,
       "g": 8
      },
      {
       "nom": "Lena Frerichs",
       "eq": "Bremer HC",
-      "pj": 10,
+      "pj": 11,
       "g": 7
      },
      {
       "nom": "Martina Reisenegger Lillo",
       "eq": "Der Club an der Alster",
-      "pj": 10,
+      "pj": 11,
       "g": 6
      },
      {
       "nom": "Victoria Käske",
       "eq": "Berliner HC",
-      "pj": 6,
+      "pj": 7,
       "g": 4
      },
      {
       "nom": "Franziska Pabsch",
       "eq": "Großflottbeker THGC",
-      "pj": 10,
+      "pj": 11,
       "g": 4
      },
      {
       "nom": "Philine Drumm",
       "eq": "Berliner HC",
-      "pj": 10,
+      "pj": 11,
       "g": 4
      },
      {
       "nom": "Sophie Prumbaum",
       "eq": "RW Köln",
-      "pj": 10,
+      "pj": 11,
       "g": 4
      },
      {
       "nom": "Jette Fleschütz",
       "eq": "Großflottbeker THGC",
-      "pj": 10,
+      "pj": 11,
       "g": 4
      },
      {
       "nom": "Katharina Reuten",
       "eq": "RW Köln",
-      "pj": 10,
+      "pj": 11,
       "g": 4
      },
      {
       "nom": "Felicia Wiedermann",
       "eq": "RW Köln",
-      "pj": 7,
+      "pj": 8,
       "g": 3
      }
     ]
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "torneo": "Bundesliga"
   },
   {
@@ -1962,7 +1962,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "prox": {
     "m": [
      [
@@ -2370,7 +2370,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "prox": {
     "m": [
      [
@@ -2764,7 +2764,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "torneo": "Metropolitano"
   },
   {
@@ -3145,7 +3145,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "jugada",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "torneo": "Élite"
   },
   {
@@ -3358,7 +3358,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-02 02:56",
+   "consulta": "2026-11-02 12:42",
    "goleadores": {
     "m": [
      {
