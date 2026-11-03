@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-11-03 03:42",
+ "actualizado": "2026-11-03 16:28",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "prox": {
     "f": [
      [
@@ -826,7 +826,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "prox": {
     "m": [
      [
@@ -896,16 +896,16 @@
       }
      ],
      [
-      "Wellington",
-      "Waterloo Ducks",
+      "Dragons",
+      "Antwerp",
       {
        "d": "2026-11-08",
        "h": "12:00"
       }
      ],
      [
-      "Dragons",
-      "Antwerp",
+      "Wellington",
+      "Waterloo Ducks",
       {
        "d": "2026-11-08",
        "h": "12:00"
@@ -1005,7 +1005,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "prox": {
     "m": [
      [
@@ -1660,7 +1660,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "torneo": "Bundesliga"
   },
   {
@@ -1962,7 +1962,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "prox": {
     "m": [
      [
@@ -2370,7 +2370,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "prox": {
     "m": [
      [
@@ -2764,7 +2764,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "torneo": "Metropolitano"
   },
   {
@@ -2955,7 +2955,7 @@
      {
       "nom": "Gaillard, Tom",
       "eq": "CA Montrouge",
-      "g": 6
+      "g": 7
      },
      {
       "nom": "Tesson-Fleaca, Adrien",
@@ -2971,11 +2971,6 @@
       "nom": "Mercurio, Kevin",
       "eq": "Saint-Germain HC",
       "g": 5
-     },
-     {
-      "nom": "Hannoir, Yvan",
-      "eq": "Lille MHC",
-      "g": 4
      },
      {
       "nom": "Liddiard, James",
@@ -2995,6 +2990,11 @@
      {
       "nom": "Gutierrez, Rocco Maximiliano",
       "eq": "PHC Marcq-en-Baroeul",
+      "g": 4
+     },
+     {
+      "nom": "Texier, Jonas",
+      "eq": "Stade Français",
       "g": 4
      }
     ],
@@ -3145,7 +3145,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "jugada",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "torneo": "Élite"
   },
   {
@@ -3358,7 +3358,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-03 03:42",
+   "consulta": "2026-11-03 16:28",
    "goleadores": {
     "m": [
      {
