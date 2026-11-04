@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-11-04 03:09",
+ "actualizado": "2026-11-04 11:26",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "prox": {
     "f": [
      [
@@ -826,7 +826,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "prox": {
     "m": [
      [
@@ -1005,7 +1005,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "prox": {
     "m": [
      [
@@ -1660,7 +1660,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "torneo": "Bundesliga"
   },
   {
@@ -1962,7 +1962,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "prox": {
     "m": [
      [
@@ -1970,7 +1970,7 @@
       "Oxted",
       {
        "d": "2026-11-07",
-       "h": "17:00"
+       "h": "16:30"
       }
      ],
      [
@@ -1978,7 +1978,7 @@
       "University of Exeter",
       {
        "d": "2026-11-07",
-       "h": "17:00"
+       "h": "17:30"
       }
      ],
      [
@@ -1986,7 +1986,7 @@
       "Cardiff & Met",
       {
        "d": "2026-11-07",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -1994,7 +1994,7 @@
       "East Grinstead",
       {
        "d": "2026-11-07",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -2002,7 +2002,7 @@
       "Bowdon",
       {
        "d": "2026-11-07",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -2010,7 +2010,7 @@
       "Wimbledon",
       {
        "d": "2026-11-07",
-       "h": "17:00"
+       "h": "18:00"
       }
      ]
     ],
@@ -2020,7 +2020,7 @@
       "Bowdon",
       {
        "d": "2026-11-07",
-       "h": "16:00"
+       "h": "14:00"
       }
      ],
      [
@@ -2028,15 +2028,7 @@
       "Buckingham",
       {
        "d": "2026-11-07",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Hampstead & Westminster",
-      "University of Nottingham",
-      {
-       "d": "2026-11-07",
-       "h": "16:00"
+       "h": "14:00"
       }
      ],
      [
@@ -2044,20 +2036,28 @@
       "Durham University",
       {
        "d": "2026-11-07",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Reading",
-      "Surbiton",
-      {
-       "d": "2026-11-07",
-       "h": "16:00"
+       "h": "14:00"
       }
      ],
      [
       "Teddington",
       "Wimbledon",
+      {
+       "d": "2026-11-07",
+       "h": "14:00"
+      }
+     ],
+     [
+      "Hampstead & Westminster",
+      "University of Nottingham",
+      {
+       "d": "2026-11-07",
+       "h": "15:30"
+      }
+     ],
+     [
+      "Reading",
+      "Surbiton",
       {
        "d": "2026-11-07",
        "h": "16:00"
@@ -2370,7 +2370,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "prox": {
     "m": [
      [
@@ -2764,7 +2764,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "torneo": "Metropolitano"
   },
   {
@@ -3145,7 +3145,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "jugada",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "torneo": "Élite"
   },
   {
@@ -3358,7 +3358,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-04 03:09",
+   "consulta": "2026-11-04 11:26",
    "goleadores": {
     "m": [
      {
