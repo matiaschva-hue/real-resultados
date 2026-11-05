@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-11-05 03:38",
+ "actualizado": "2026-11-05 16:53",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "prox": {
     "f": [
      [
@@ -648,15 +648,6 @@
      [
       "Delta Venlo",
       "Push",
-      {
-       "d": "2026-11-05",
-       "h": "20:30",
-       "fase": "KO ronde 3"
-      }
-     ],
-     [
-      "Tilburg",
-      "SCHC",
       {
        "d": "2026-11-05",
        "h": "20:30",
@@ -826,7 +817,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "prox": {
     "m": [
      [
@@ -1005,7 +996,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "prox": {
     "m": [
      [
@@ -1174,11 +1165,15 @@
     ],
     [
      "Mannheimer HC",
-     5,
-     6,
+     2,
+     2,
      "Crefelder HTC",
      {
-      "d": "2026-11-01"
+      "d": "2026-11-01",
+      "so": [
+       3,
+       4
+      ]
      }
     ],
     [
@@ -1192,11 +1187,15 @@
     ],
     [
      "TSV Mannheim Hockey",
-     4,
-     5,
+     2,
+     2,
      "Crefelder HTC",
      {
-      "d": "2026-10-31"
+      "d": "2026-10-31",
+      "so": [
+       2,
+       3
+      ]
      }
     ],
     [
@@ -1660,7 +1659,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "torneo": "Bundesliga"
   },
   {
@@ -1962,7 +1961,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "prox": {
     "m": [
      [
@@ -2370,7 +2369,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "prox": {
     "m": [
      [
@@ -2764,7 +2763,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "torneo": "Metropolitano"
   },
   {
@@ -3145,7 +3144,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "jugada",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "torneo": "Élite"
   },
   {
@@ -3300,49 +3299,49 @@
     "f": [
      {
       "eq": "Perth Thundersticks",
-      "pts": 20,
+      "pts": 12,
       "pj": 4,
       "gf": 13,
       "gc": 3
      },
      {
       "eq": "HC Melbourne",
-      "pts": 15,
+      "pts": 9,
       "pj": 4,
       "gf": 8,
       "gc": 6
      },
      {
       "eq": "NSW Pride",
-      "pts": 10,
+      "pts": 6,
       "pj": 4,
       "gf": 16,
       "gc": 8
      },
      {
       "eq": "Canberra Chill",
-      "pts": 10,
+      "pts": 6,
       "pj": 4,
       "gf": 12,
       "gc": 10
      },
      {
       "eq": "Melbourne Cobras",
-      "pts": 10,
+      "pts": 6,
       "pj": 4,
       "gf": 9,
       "gc": 11
      },
      {
       "eq": "Brisbane Blaze",
-      "pts": 8,
+      "pts": 5,
       "pj": 4,
       "gf": 8,
       "gc": 9
      },
      {
       "eq": "Tassie Tigers",
-      "pts": 7,
+      "pts": 4,
       "pj": 4,
       "gf": 10,
       "gc": 11
@@ -3358,7 +3357,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-05 03:38",
+   "consulta": "2026-11-05 16:53",
    "goleadores": {
     "m": [
      {
@@ -3472,7 +3471,7 @@
       "Tassie Tigers",
       {
        "d": "2026-11-06",
-       "h": "20:15"
+       "h": "18:30"
       }
      ],
      [
