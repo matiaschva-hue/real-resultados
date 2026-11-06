@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-11-06 12:04",
+ "actualizado": "2026-11-06 17:54",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "prox": {
     "f": [
      [
@@ -817,7 +817,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "prox": {
     "m": [
      [
@@ -996,7 +996,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "prox": {
     "m": [
      [
@@ -1659,7 +1659,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "torneo": "Bundesliga"
   },
   {
@@ -1961,7 +1961,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "prox": {
     "m": [
      [
@@ -2369,7 +2369,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "prox": {
     "m": [
      [
@@ -2763,7 +2763,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "torneo": "Metropolitano"
   },
   {
@@ -3144,7 +3144,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "jugada",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "torneo": "Élite"
   },
   {
@@ -3357,7 +3357,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-06 12:04",
+   "consulta": "2026-11-06 17:54",
    "goleadores": {
     "m": [
      {
