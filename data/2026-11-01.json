@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-11-05 16:53",
+ "actualizado": "2026-11-06 03:48",
  "paises": [
   {
    "id": "nl",
@@ -96,6 +96,11 @@
       "g": 7
      },
      {
+      "nom": "Jip Janssen",
+      "eq": "Kampong",
+      "g": 6
+     },
+     {
       "nom": "Joep Troost",
       "eq": "Pinoké",
       "g": 6
@@ -113,11 +118,6 @@
      {
       "nom": "Duco Telgenkamp",
       "eq": "Amsterdam",
-      "g": 5
-     },
-     {
-      "nom": "Jip Janssen",
-      "eq": "Kampong",
       "g": 5
      }
     ],
@@ -246,9 +246,9 @@
      },
      {
       "eq": "Oranje-Rood",
-      "pj": 6,
-      "pts": 16,
-      "dg": 12
+      "pj": 7,
+      "pts": 19,
+      "dg": 13
      },
      {
       "eq": "Bloemendaal",
@@ -258,9 +258,9 @@
      },
      {
       "eq": "Kampong",
-      "pj": 6,
+      "pj": 7,
       "pts": 13,
-      "dg": 10
+      "dg": 9
      },
      {
       "eq": "SCHC",
@@ -307,82 +307,82 @@
     ],
     "f": [
      {
-      "eq": "Amsterdam",
-      "pj": 7,
-      "pts": 19,
-      "dg": 20
-     },
-     {
       "eq": "Den Bosch",
       "pj": 7,
-      "pts": 19,
-      "dg": 17
-     },
-     {
-      "eq": "Oranje-Rood",
-      "pj": 6,
-      "pts": 16,
-      "dg": 12
-     },
-     {
-      "eq": "Bloemendaal",
-      "pj": 7,
-      "pts": 14,
-      "dg": 12
-     },
-     {
-      "eq": "Kampong",
-      "pj": 6,
-      "pts": 13,
-      "dg": 10
+      "pts": 21,
+      "dg": 29
      },
      {
       "eq": "SCHC",
       "pj": 7,
-      "pts": 11,
-      "dg": -2
+      "pts": 18,
+      "dg": 11
      },
      {
-      "eq": "Pinoké",
+      "eq": "Amsterdam",
       "pj": 7,
-      "pts": 9,
-      "dg": 0
+      "pts": 16,
+      "dg": 17
      },
      {
       "eq": "Rotterdam",
       "pj": 7,
-      "pts": 6,
-      "dg": -1
+      "pts": 14,
+      "dg": 3
      },
      {
-      "eq": "Klein Zwitserland",
+      "eq": "Hurley",
       "pj": 7,
-      "pts": 5,
-      "dg": -12
+      "pts": 12,
+      "dg": 5
+     },
+     {
+      "eq": "Kampong",
+      "pj": 7,
+      "pts": 11,
+      "dg": 14
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 7,
+      "pts": 8,
+      "dg": -6
+     },
+     {
+      "eq": "Oranje-Rood",
+      "pj": 7,
+      "pts": 8,
+      "dg": -8
      },
      {
       "eq": "HDM",
       "pj": 7,
+      "pts": 6,
+      "dg": -7
+     },
+     {
+      "eq": "Bloemendaal",
+      "pj": 7,
       "pts": 4,
-      "dg": -10
+      "dg": -14
      },
      {
-      "eq": "Schaerweijde",
+      "eq": "HGC",
       "pj": 7,
-      "pts": 0,
-      "dg": -22
+      "pts": 3,
+      "dg": -14
      },
      {
-      "eq": "Tilburg",
+      "eq": "Victoria",
       "pj": 7,
       "pts": 0,
-      "dg": -24
+      "dg": -30
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "prox": {
     "f": [
      [
@@ -817,7 +817,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "prox": {
     "m": [
      [
@@ -996,7 +996,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "prox": {
     "m": [
      [
@@ -1659,7 +1659,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "torneo": "Bundesliga"
   },
   {
@@ -1961,7 +1961,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "prox": {
     "m": [
      [
@@ -2369,7 +2369,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "prox": {
     "m": [
      [
@@ -2763,7 +2763,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "torneo": "Metropolitano"
   },
   {
@@ -3144,7 +3144,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "jugada",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "torneo": "Élite"
   },
   {
@@ -3357,7 +3357,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-05 16:53",
+   "consulta": "2026-11-06 03:48",
    "goleadores": {
     "m": [
      {
