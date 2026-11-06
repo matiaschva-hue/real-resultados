@@ -1,6 +1,6 @@
 {
  "fecha": "01.11.2026",
- "actualizado": "2026-11-06 03:48",
+ "actualizado": "2026-11-06 12:04",
  "paises": [
   {
    "id": "nl",
@@ -307,82 +307,82 @@
     ],
     "f": [
      {
-      "eq": "Den Bosch",
-      "pj": 7,
-      "pts": 21,
-      "dg": 29
-     },
-     {
-      "eq": "SCHC",
-      "pj": 7,
-      "pts": 18,
-      "dg": 11
-     },
-     {
       "eq": "Amsterdam",
       "pj": 7,
-      "pts": 16,
+      "pts": 19,
+      "dg": 20
+     },
+     {
+      "eq": "Den Bosch",
+      "pj": 7,
+      "pts": 19,
       "dg": 17
-     },
-     {
-      "eq": "Rotterdam",
-      "pj": 7,
-      "pts": 14,
-      "dg": 3
-     },
-     {
-      "eq": "Hurley",
-      "pj": 7,
-      "pts": 12,
-      "dg": 5
-     },
-     {
-      "eq": "Kampong",
-      "pj": 7,
-      "pts": 11,
-      "dg": 14
-     },
-     {
-      "eq": "Pinoké",
-      "pj": 7,
-      "pts": 8,
-      "dg": -6
      },
      {
       "eq": "Oranje-Rood",
       "pj": 7,
-      "pts": 8,
-      "dg": -8
-     },
-     {
-      "eq": "HDM",
-      "pj": 7,
-      "pts": 6,
-      "dg": -7
+      "pts": 19,
+      "dg": 13
      },
      {
       "eq": "Bloemendaal",
       "pj": 7,
-      "pts": 4,
-      "dg": -14
+      "pts": 14,
+      "dg": 12
      },
      {
-      "eq": "HGC",
+      "eq": "Kampong",
       "pj": 7,
-      "pts": 3,
-      "dg": -14
+      "pts": 13,
+      "dg": 9
      },
      {
-      "eq": "Victoria",
+      "eq": "SCHC",
+      "pj": 7,
+      "pts": 11,
+      "dg": -2
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 7,
+      "pts": 9,
+      "dg": 0
+     },
+     {
+      "eq": "Rotterdam",
+      "pj": 7,
+      "pts": 6,
+      "dg": -1
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pj": 7,
+      "pts": 5,
+      "dg": -12
+     },
+     {
+      "eq": "HDM",
+      "pj": 7,
+      "pts": 4,
+      "dg": -10
+     },
+     {
+      "eq": "Schaerweijde",
       "pj": 7,
       "pts": 0,
-      "dg": -30
+      "dg": -22
+     },
+     {
+      "eq": "Tilburg",
+      "pj": 7,
+      "pts": 0,
+      "dg": -24
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "prox": {
     "f": [
      [
@@ -817,7 +817,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "prox": {
     "m": [
      [
@@ -887,16 +887,16 @@
       }
      ],
      [
-      "Wellington",
-      "Waterloo Ducks",
+      "Dragons",
+      "Antwerp",
       {
        "d": "2026-11-08",
        "h": "12:00"
       }
      ],
      [
-      "Dragons",
-      "Antwerp",
+      "Wellington",
+      "Waterloo Ducks",
       {
        "d": "2026-11-08",
        "h": "12:00"
@@ -996,7 +996,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "prox": {
     "m": [
      [
@@ -1659,7 +1659,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "torneo": "Bundesliga"
   },
   {
@@ -1961,7 +1961,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "prox": {
     "m": [
      [
@@ -2369,7 +2369,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "prox": {
     "m": [
      [
@@ -2763,7 +2763,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "torneo": "Metropolitano"
   },
   {
@@ -3144,7 +3144,7 @@
    "prox_jornada": "FECHA 8",
    "prox_fecha": "08.11–08.11",
    "estado": "jugada",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "torneo": "Élite"
   },
   {
@@ -3153,10 +3153,10 @@
    "pais_en": "AUSTRALIA",
    "liga": "HOCKEY ONE",
    "jor": {
-    "m": "FECHA 4",
-    "f": "FECHA 4"
+    "m": "FECHA 5",
+    "f": "FECHA 5"
    },
-   "jornada": "FECHA 4",
+   "jornada": "FECHA 5",
    "m": [
     [
      "Perth Thundersticks",
@@ -3241,42 +3241,42 @@
     "m": [
      {
       "eq": "HC Melbourne",
-      "pts": 20,
-      "pj": 4,
-      "gf": 28,
-      "gc": 12
+      "pts": 15,
+      "pj": 5,
+      "gf": 33,
+      "gc": 13
      },
      {
       "eq": "Tassie Tigers",
-      "pts": 15,
-      "pj": 4,
-      "gf": 20,
-      "gc": 8
+      "pts": 9,
+      "pj": 5,
+      "gf": 21,
+      "gc": 13
      },
      {
       "eq": "Canberra Chill",
-      "pts": 15,
+      "pts": 9,
       "pj": 4,
       "gf": 19,
       "gc": 16
      },
      {
       "eq": "NSW Pride",
-      "pts": 15,
+      "pts": 9,
       "pj": 4,
       "gf": 10,
       "gc": 8
      },
      {
       "eq": "Perth Thundersticks",
-      "pts": 10,
+      "pts": 6,
       "pj": 4,
       "gf": 13,
       "gc": 13
      },
      {
       "eq": "Brisbane Blaze",
-      "pts": 5,
+      "pts": 3,
       "pj": 4,
       "gf": 17,
       "gc": 15
@@ -3306,10 +3306,10 @@
      },
      {
       "eq": "HC Melbourne",
-      "pts": 9,
-      "pj": 4,
-      "gf": 8,
-      "gc": 6
+      "pts": 12,
+      "pj": 5,
+      "gf": 14,
+      "gc": 7
      },
      {
       "eq": "NSW Pride",
@@ -3342,9 +3342,9 @@
      {
       "eq": "Tassie Tigers",
       "pts": 4,
-      "pj": 4,
-      "gf": 10,
-      "gc": 11
+      "pj": 5,
+      "gf": 11,
+      "gc": 17
      },
      {
       "eq": "Adelaide Fire",
@@ -3357,23 +3357,23 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-06 03:48",
+   "consulta": "2026-11-06 12:04",
    "goleadores": {
     "m": [
      {
       "nom": "Ephraums, Nathan",
       "eq": "HC Melbourne",
-      "g": 10
+      "g": 13
+     },
+     {
+      "nom": "Burns, Cooper",
+      "eq": "HC Melbourne",
+      "g": 8
      },
      {
       "nom": "Hazell, Ehren",
       "eq": "Tassie Tigers",
       "g": 7
-     },
-     {
-      "nom": "Burns, Cooper",
-      "eq": "HC Melbourne",
-      "g": 6
      },
      {
       "nom": "Staines, Jake",
@@ -3413,6 +3413,11 @@
     ],
     "f": [
      {
+      "nom": "Howell, Mihaylia",
+      "eq": "HC Melbourne",
+      "g": 5
+     },
+     {
       "nom": "Schonell, Courtney",
       "eq": "Perth Thundersticks",
       "g": 5
@@ -3425,6 +3430,11 @@
      {
       "nom": "Patterson, Amalia",
       "eq": "NSW Pride",
+      "g": 4
+     },
+     {
+      "nom": "Squibb, Penny",
+      "eq": "Tassie Tigers",
       "g": 4
      },
      {
@@ -3451,29 +3461,11 @@
       "nom": "Malone, Ambrosia",
       "eq": "Brisbane Blaze",
       "g": 3
-     },
-     {
-      "nom": "Squibb, Penny",
-      "eq": "Tassie Tigers",
-      "g": 3
-     },
-     {
-      "nom": "Woodger, Lahni",
-      "eq": "Melbourne Cobras",
-      "g": 3
      }
     ]
    },
    "prox": {
     "m": [
-     [
-      "HC Melbourne",
-      "Tassie Tigers",
-      {
-       "d": "2026-11-06",
-       "h": "18:30"
-      }
-     ],
      [
       "NSW Pride",
       "Canberra Chill",
@@ -3501,14 +3493,6 @@
     ],
     "f": [
      [
-      "HC Melbourne",
-      "Tassie Tigers",
-      {
-       "d": "2026-11-06",
-       "h": "18:30"
-      }
-     ],
-     [
       "NSW Pride",
       "Canberra Chill",
       {
@@ -3535,10 +3519,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHA 5",
-    "f": "FECHA 5"
+    "m": "FECHA 6",
+    "f": "FECHA 6"
    },
-   "prox_jornada": "FECHA 5",
+   "prox_jornada": "FECHA 6",
    "prox_fecha": "04.11–09.11",
    "torneo": "Hockey One"
   }
