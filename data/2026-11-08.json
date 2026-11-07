@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-07 04:11",
+ "actualizado": "2026-11-07 11:05",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "prox": {
     "m": [
      [
@@ -472,7 +472,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "prox": {
     "m": [
      [
@@ -617,7 +617,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "prox": {
     "m": [
      [
@@ -738,7 +738,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "prox": {
     "m": [
      [
@@ -1157,7 +1157,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "torneo": "Bundesliga"
   },
   {
@@ -1346,7 +1346,7 @@
    },
    "fuente": "Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "prox": {
     "m": [
      [
@@ -1711,7 +1711,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "torneo": "Serie A Elite"
   },
   {
@@ -1896,7 +1896,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "torneo": "Metropolitano"
   },
   {
@@ -2257,7 +2257,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "torneo": "Élite"
   },
   {
@@ -2271,6 +2271,15 @@
    },
    "jornada": "FECHA 5",
    "m": [
+    [
+     "Perth Thundersticks",
+     9,
+     2,
+     "Brisbane Blaze",
+     {
+      "d": "2026-11-07"
+     }
+    ],
     [
      "NSW Pride",
      3,
@@ -2295,6 +2304,15 @@
     ]
    ],
    "f": [
+    [
+     "Perth Thundersticks",
+     1,
+     0,
+     "Brisbane Blaze",
+     {
+      "d": "2026-11-07"
+     }
+    ],
     [
      "NSW Pride",
      2,
@@ -2346,17 +2364,17 @@
      },
      {
       "eq": "Perth Thundersticks",
-      "pts": 6,
-      "pj": 4,
-      "gf": 13,
-      "gc": 13
+      "pts": 9,
+      "pj": 5,
+      "gf": 22,
+      "gc": 15
      },
      {
       "eq": "Brisbane Blaze",
       "pts": 3,
-      "pj": 4,
-      "gf": 17,
-      "gc": 15
+      "pj": 5,
+      "gf": 19,
+      "gc": 24
      },
      {
       "eq": "Melbourne Cobras",
@@ -2376,9 +2394,9 @@
     "f": [
      {
       "eq": "Perth Thundersticks",
-      "pts": 12,
-      "pj": 4,
-      "gf": 13,
+      "pts": 15,
+      "pj": 5,
+      "gf": 14,
       "gc": 3
      },
      {
@@ -2412,9 +2430,9 @@
      {
       "eq": "Brisbane Blaze",
       "pts": 5,
-      "pj": 4,
+      "pj": 5,
       "gf": 8,
-      "gc": 9
+      "gc": 10
      },
      {
       "eq": "Tassie Tigers",
@@ -2434,7 +2452,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-07 04:11",
+   "consulta": "2026-11-07 11:05",
    "goleadores": {
     "m": [
      {
@@ -2458,9 +2476,19 @@
       "g": 7
      },
      {
+      "nom": "Stanger, Daykin",
+      "eq": "Perth Thundersticks",
+      "g": 7
+     },
+     {
       "nom": "Staines, Jake",
       "eq": "Canberra Chill",
       "g": 6
+     },
+     {
+      "nom": "Foster, Brodee",
+      "eq": "Perth Thundersticks",
+      "g": 5
      },
      {
       "nom": "Govers, Blake",
@@ -2473,17 +2501,7 @@
       "g": 5
      },
      {
-      "nom": "Mahmood, Abu",
-      "eq": "Melbourne Cobras",
-      "g": 4
-     },
-     {
-      "nom": "Mudford, Samuel",
-      "eq": "NSW Pride",
-      "g": 4
-     },
-     {
-      "nom": "Stanger, Daykin",
+      "nom": "Golding, Harry",
       "eq": "Perth Thundersticks",
       "g": 4
      }
