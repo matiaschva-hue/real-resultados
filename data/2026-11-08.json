@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-07 15:48",
+ "actualizado": "2026-11-07 19:46",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "prox": {
     "m": [
      [
@@ -472,7 +472,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "prox": {
     "m": [
      [
@@ -617,7 +617,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "prox": {
     "m": [
      [
@@ -776,7 +776,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "prox": {
     "m": [
      [
@@ -1195,7 +1195,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "torneo": "Bundesliga"
   },
   {
@@ -1204,10 +1204,66 @@
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
    "jor": {
+    "m": "FECHA 8",
     "f": "FECHA 8"
    },
    "jornada": "FECHA 8",
-   "m": [],
+   "m": [
+    [
+     "Holcombe",
+     6,
+     0,
+     "Cardiff & Met",
+     {
+      "d": "2026-11-07"
+     }
+    ],
+    [
+     "Old Georgians",
+     7,
+     0,
+     "East Grinstead",
+     {
+      "d": "2026-11-07"
+     }
+    ],
+    [
+     "Reading",
+     1,
+     1,
+     "Bowdon",
+     {
+      "d": "2026-11-07"
+     }
+    ],
+    [
+     "Surbiton",
+     6,
+     1,
+     "Wimbledon",
+     {
+      "d": "2026-11-07"
+     }
+    ],
+    [
+     "Hampstead & Westminster",
+     1,
+     0,
+     "University of Exeter",
+     {
+      "d": "2026-11-07"
+     }
+    ],
+    [
+     "Beeston",
+     2,
+     2,
+     "Oxted",
+     {
+      "d": "2026-11-07"
+     }
+    ]
+   ],
    "f": [
     [
      "Reading",
@@ -1269,87 +1325,87 @@
     "m": [
      {
       "eq": "Surbiton",
-      "pts": 21,
-      "pj": 7,
-      "gf": 34,
-      "gc": 8
+      "pts": 24,
+      "pj": 8,
+      "gf": 40,
+      "gc": 9
+     },
+     {
+      "eq": "Old Georgians",
+      "pts": 19,
+      "pj": 8,
+      "gf": 40,
+      "gc": 11
      },
      {
       "eq": "Wimbledon",
       "pts": 18,
-      "pj": 6,
-      "gf": 38,
-      "gc": 11
+      "pj": 7,
+      "gf": 39,
+      "gc": 17
      },
      {
-      "eq": "Old Georgians",
-      "pts": 16,
-      "pj": 7,
-      "gf": 33,
-      "gc": 11
+      "eq": "Hampstead & Westminster",
+      "pts": 13,
+      "pj": 8,
+      "gf": 22,
+      "gc": 21
      },
      {
       "eq": "East Grinstead",
       "pts": 13,
-      "pj": 7,
+      "pj": 8,
       "gf": 15,
-      "gc": 19
-     },
-     {
-      "eq": "Hampstead & Westminster",
-      "pts": 10,
-      "pj": 7,
-      "gf": 21,
-      "gc": 21
-     },
-     {
-      "eq": "Reading",
-      "pts": 10,
-      "pj": 6,
-      "gf": 15,
-      "gc": 15
+      "gc": 26
      },
      {
       "eq": "Holcombe",
-      "pts": 9,
-      "pj": 7,
-      "gf": 20,
+      "pts": 12,
+      "pj": 8,
+      "gf": 26,
       "gc": 24
+     },
+     {
+      "eq": "Reading",
+      "pts": 11,
+      "pj": 7,
+      "gf": 16,
+      "gc": 16
+     },
+     {
+      "eq": "Beeston",
+      "pts": 7,
+      "pj": 8,
+      "gf": 18,
+      "gc": 24
+     },
+     {
+      "eq": "Oxted",
+      "pts": 7,
+      "pj": 8,
+      "gf": 19,
+      "gc": 28
      },
      {
       "eq": "University of Exeter",
       "pts": 7,
-      "pj": 7,
+      "pj": 8,
       "gf": 17,
-      "gc": 29
-     },
-     {
-      "eq": "Beeston",
-      "pts": 6,
-      "pj": 7,
-      "gf": 16,
-      "gc": 22
-     },
-     {
-      "eq": "Oxted",
-      "pts": 6,
-      "pj": 7,
-      "gf": 17,
-      "gc": 26
+      "gc": 30
      },
      {
       "eq": "Cardiff & Met",
       "pts": 2,
-      "pj": 7,
+      "pj": 8,
       "gf": 10,
-      "gc": 21
+      "gc": 27
      },
      {
       "eq": "Bowdon",
-      "pts": 0,
-      "pj": 7,
-      "gf": 11,
-      "gc": 40
+      "pts": 1,
+      "pj": 8,
+      "gf": 12,
+      "gc": 41
      }
     ],
     "f": [
@@ -1441,7 +1497,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "prox": {
     "m": [
      [
@@ -1553,9 +1609,10 @@
     ]
    },
    "prox_jor": {
+    "m": "FECHAS 9 Y 10",
     "f": "FECHA 9"
    },
-   "prox_jornada": "FECHA 9",
+   "prox_jornada": "FECHAS 9 Y 10",
    "prox_fecha": "13.11–16.11",
    "torneo": "Premier Division"
   },
@@ -1856,7 +1913,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "torneo": "Serie A Elite"
   },
   {
@@ -2041,7 +2098,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "torneo": "Metropolitano"
   },
   {
@@ -2402,7 +2459,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "sin-fecha",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "torneo": "Élite"
   },
   {
@@ -2597,7 +2654,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-07 15:48",
+   "consulta": "2026-11-07 19:46",
    "goleadores": {
     "m": [
      {
