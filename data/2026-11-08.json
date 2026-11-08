@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-08 14:04",
+ "actualizado": "2026-11-08 18:11",
  "paises": [
   {
    "id": "nl",
@@ -307,82 +307,82 @@
     ],
     "f": [
      {
-      "eq": "Den Bosch",
-      "pj": 8,
-      "pts": 24,
-      "dg": 33
-     },
-     {
-      "eq": "SCHC",
-      "pj": 8,
-      "pts": 21,
-      "dg": 16
-     },
-     {
       "eq": "Amsterdam",
       "pj": 8,
-      "pts": 19,
+      "pts": 22,
       "dg": 21
      },
      {
-      "eq": "Hurley",
+      "eq": "Den Bosch",
       "pj": 8,
-      "pts": 15,
-      "dg": 8
-     },
-     {
-      "eq": "Rotterdam",
-      "pj": 8,
-      "pts": 14,
-      "dg": -1
-     },
-     {
-      "eq": "Kampong",
-      "pj": 8,
-      "pts": 11,
-      "dg": 11
-     },
-     {
-      "eq": "Pinoké",
-      "pj": 8,
-      "pts": 9,
-      "dg": -6
+      "pts": 20,
+      "dg": 17
      },
      {
       "eq": "Oranje-Rood",
       "pj": 8,
-      "pts": 9,
-      "dg": -8
+      "pts": 19,
+      "dg": 12
      },
      {
       "eq": "Bloemendaal",
       "pj": 8,
+      "pts": 15,
+      "dg": 12
+     },
+     {
+      "eq": "Kampong",
+      "pj": 8,
+      "pts": 14,
+      "dg": 9
+     },
+     {
+      "eq": "SCHC",
+      "pj": 8,
+      "pts": 11,
+      "dg": -4
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 8,
+      "pts": 10,
+      "dg": 0
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pj": 8,
+      "pts": 8,
+      "dg": -10
+     },
+     {
+      "eq": "Rotterdam",
+      "pj": 8,
       "pts": 7,
-      "dg": -12
+      "dg": -1
      },
      {
       "eq": "HDM",
       "pj": 8,
-      "pts": 6,
-      "dg": -12
+      "pts": 5,
+      "dg": -10
      },
      {
-      "eq": "HGC",
+      "eq": "Schaerweijde",
       "pj": 8,
       "pts": 3,
-      "dg": -18
+      "dg": -20
      },
      {
-      "eq": "Victoria",
+      "eq": "Tilburg",
       "pj": 8,
       "pts": 0,
-      "dg": -32
+      "dg": -26
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "prox": {
     "m": [
      [
@@ -664,19 +664,19 @@
      }
     ],
     [
-     "Dragons",
-     1,
+     "Wellington",
      0,
-     "Antwerp",
+     2,
+     "Waterloo Ducks",
      {
       "d": "2026-11-08"
      }
     ],
     [
-     "Wellington",
+     "Dragons",
+     1,
      0,
-     2,
-     "Waterloo Ducks",
+     "Antwerp",
      {
       "d": "2026-11-08"
      }
@@ -790,7 +790,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "prox": {
     "m": [
      [
@@ -1007,7 +1007,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "prox": {
     "m": [
      [
@@ -1426,7 +1426,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "torneo": "Bundesliga"
   },
   {
@@ -1728,7 +1728,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "prox": {
     "m": [
      [
@@ -2144,7 +2144,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "torneo": "Serie A Elite"
   },
   {
@@ -2160,7 +2160,106 @@
    "m": [],
    "f": [],
    "tabla": {
-    "m": [],
+    "m": [
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 63,
+      "pj": 26,
+      "gf": 76,
+      "gc": 25
+     },
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 57,
+      "pj": 26,
+      "gf": 72,
+      "gc": 41
+     },
+     {
+      "eq": "MITRE",
+      "pts": 55,
+      "pj": 26,
+      "gf": 74,
+      "gc": 36
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 53,
+      "pj": 26,
+      "gf": 73,
+      "gc": 42
+     },
+     {
+      "eq": "G. Y ESGRIMA",
+      "pts": 47,
+      "pj": 26,
+      "gf": 79,
+      "gc": 52
+     },
+     {
+      "eq": "DUCILO",
+      "pts": 46,
+      "pj": 26,
+      "gf": 72,
+      "gc": 63
+     },
+     {
+      "eq": "U. LA PLATA",
+      "pts": 35,
+      "pj": 26,
+      "gf": 58,
+      "gc": 65
+     },
+     {
+      "eq": "HURLING",
+      "pts": 32,
+      "pj": 26,
+      "gf": 48,
+      "gc": 42
+     },
+     {
+      "eq": "S. BARBARA",
+      "pts": 27,
+      "pj": 26,
+      "gf": 53,
+      "gc": 62
+     },
+     {
+      "eq": "QUILMES",
+      "pts": 27,
+      "pj": 26,
+      "gf": 52,
+      "gc": 68
+     },
+     {
+      "eq": "SAN MARTÍN",
+      "pts": 24,
+      "pj": 26,
+      "gf": 47,
+      "gc": 67
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 17,
+      "pj": 26,
+      "gf": 52,
+      "gc": 74
+     },
+     {
+      "eq": "S.A.G.",
+      "pts": 12,
+      "pj": 26,
+      "gf": 33,
+      "gc": 92
+     },
+     {
+      "eq": "CIUDAD B",
+      "pts": 8,
+      "pj": 26,
+      "gf": 32,
+      "gc": 92
+     }
+    ],
     "f": [
      {
       "eq": "S. BARBARA",
@@ -2263,7 +2362,68 @@
     ]
    },
    "goleadores": {
-    "m": [],
+    "m": [
+     {
+      "nom": "Kiernan, Máximo",
+      "eq": "U. LA PLATA",
+      "g": 33,
+      "pj": 26
+     },
+     {
+      "nom": "Suarez, Tomas Agustin",
+      "eq": "G. Y ESGRIMA",
+      "g": 22,
+      "pj": 26
+     },
+     {
+      "nom": "Merino, Gonzalo",
+      "eq": "BCO. PROVINCIA",
+      "g": 22,
+      "pj": 23
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 21,
+      "pj": 25
+     },
+     {
+      "nom": "Agostini Coliqueo, Franco Antonio",
+      "eq": "LOMAS",
+      "g": 20,
+      "pj": 23
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 18,
+      "pj": 23
+     },
+     {
+      "nom": "Doherty, Alec Tadeo",
+      "eq": "HURLING",
+      "g": 17,
+      "pj": 26
+     },
+     {
+      "nom": "Dulor Marchesi, Luca",
+      "eq": "DUCILO",
+      "g": 16,
+      "pj": 24
+     },
+     {
+      "nom": "Jimenez Jaurechi, Julian",
+      "eq": "QUILMES",
+      "g": 16,
+      "pj": 17
+     },
+     {
+      "nom": "Merlini, Mateo",
+      "eq": "SAN FERNANDO",
+      "g": 14,
+      "pj": 26
+     }
+    ],
     "f": [
      {
       "nom": "Piccardo, Alina",
@@ -2329,7 +2489,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "torneo": "Metropolitano"
   },
   {
@@ -2390,6 +2550,15 @@
     ]
    ],
    "f": [
+    [
+     "Wattignies HC",
+     0,
+     3,
+     "Saint-Germain HC",
+     {
+      "d": "2026-11-08"
+     }
+    ],
     [
      "Lille MHC",
      3,
@@ -2502,18 +2671,18 @@
     ],
     "f": [
      {
+      "eq": "Saint-Germain HC",
+      "pj": 8,
+      "pts": 20,
+      "gf": 35,
+      "gc": 2
+     },
+     {
       "eq": "Lille MHC",
       "pj": 8,
       "pts": 20,
       "gf": 25,
       "gc": 6
-     },
-     {
-      "eq": "Saint-Germain HC",
-      "pj": 7,
-      "pts": 17,
-      "gf": 32,
-      "gc": 2
      },
      {
       "eq": "PHC Marcq-en-Baroeul",
@@ -2544,18 +2713,18 @@
       "gc": 10
      },
      {
-      "eq": "Wattignies HC",
-      "pj": 7,
-      "pts": 7,
-      "gf": 8,
-      "gc": 17
-     },
-     {
       "eq": "Cambrai HC",
       "pj": 7,
       "pts": 7,
       "gf": 6,
       "gc": 17
+     },
+     {
+      "eq": "Wattignies HC",
+      "pj": 8,
+      "pts": 7,
+      "gf": 8,
+      "gc": 20
      },
      {
       "eq": "FC Lyon",
@@ -2630,7 +2799,7 @@
      {
       "nom": "Lhopital, Yohanna",
       "eq": "Saint-Germain HC",
-      "g": 10
+      "g": 11
      },
      {
       "nom": "Verzura, Eve",
@@ -2658,6 +2827,16 @@
       "g": 5
      },
      {
+      "nom": "Duffrene, Mathilde",
+      "eq": "Saint-Germain HC",
+      "g": 4
+     },
+     {
+      "nom": "Verrier, Gabrielle",
+      "eq": "Saint-Germain HC",
+      "g": 4
+     },
+     {
       "nom": "Guichardaz, Capucine",
       "eq": "CA Montrouge",
       "g": 4
@@ -2666,16 +2845,6 @@
       "nom": "Guillon, Hortense",
       "eq": "PHC Marcq-en-Baroeul",
       "g": 4
-     },
-     {
-      "nom": "Calleja, Floriana",
-      "eq": "Lille MHC",
-      "g": 3
-     },
-     {
-      "nom": "Pons, Leonie",
-      "eq": "Lille MHC",
-      "g": 3
      }
     ]
    },
@@ -2773,7 +2942,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "jugada",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "torneo": "Élite"
   },
   {
@@ -2986,7 +3155,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-08 14:04",
+   "consulta": "2026-11-08 18:11",
    "goleadores": {
     "m": [
      {
