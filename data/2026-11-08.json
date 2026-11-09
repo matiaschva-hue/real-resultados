@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-08 18:11",
+ "actualizado": "2026-11-08 21:56",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "prox": {
     "m": [
      [
@@ -664,19 +664,19 @@
      }
     ],
     [
-     "Wellington",
+     "Dragons",
+     1,
      0,
-     2,
-     "Waterloo Ducks",
+     "Antwerp",
      {
       "d": "2026-11-08"
      }
     ],
     [
-     "Dragons",
-     1,
+     "Wellington",
      0,
-     "Antwerp",
+     2,
+     "Waterloo Ducks",
      {
       "d": "2026-11-08"
      }
@@ -790,7 +790,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "prox": {
     "m": [
      [
@@ -844,14 +844,6 @@
     ],
     "f": [
      [
-      "Uccle Sport",
-      "Braxgata",
-      {
-       "d": "2026-11-15",
-       "h": "12:00"
-      }
-     ],
-     [
       "Dragons",
       "Gantoise",
       {
@@ -860,8 +852,8 @@
       }
      ],
      [
-      "Beerschot",
-      "Wellington",
+      "Uccle Sport",
+      "Braxgata",
       {
        "d": "2026-11-15",
        "h": "12:00"
@@ -878,6 +870,14 @@
      [
       "Antwerp",
       "Leuven",
+      {
+       "d": "2026-11-15",
+       "h": "12:00"
+      }
+     ],
+     [
+      "Beerschot",
+      "Wellington",
       {
        "d": "2026-11-15",
        "h": "12:00"
@@ -1007,7 +1007,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "prox": {
     "m": [
      [
@@ -1426,7 +1426,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "torneo": "Bundesliga"
   },
   {
@@ -1728,7 +1728,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "prox": {
     "m": [
      [
@@ -2144,7 +2144,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "torneo": "Serie A Elite"
   },
   {
@@ -2489,7 +2489,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "torneo": "Metropolitano"
   },
   {
@@ -2942,7 +2942,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "jugada",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "torneo": "Élite"
   },
   {
@@ -3155,7 +3155,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-08 18:11",
+   "consulta": "2026-11-08 21:56",
    "goleadores": {
     "m": [
      {
