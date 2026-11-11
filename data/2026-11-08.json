@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-10 16:40",
+ "actualizado": "2026-11-11 03:06",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "prox": {
     "m": [
      [
@@ -664,19 +664,19 @@
      }
     ],
     [
-     "Wellington",
+     "Dragons",
+     1,
      0,
-     2,
-     "Waterloo Ducks",
+     "Antwerp",
      {
       "d": "2026-11-08"
      }
     ],
     [
-     "Dragons",
-     1,
+     "Wellington",
      0,
-     "Antwerp",
+     2,
+     "Waterloo Ducks",
      {
       "d": "2026-11-08"
      }
@@ -790,7 +790,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "prox": {
     "m": [
      [
@@ -844,6 +844,14 @@
     ],
     "f": [
      [
+      "Uccle Sport",
+      "Braxgata",
+      {
+       "d": "2026-11-15",
+       "h": "12:00"
+      }
+     ],
+     [
       "Dragons",
       "Gantoise",
       {
@@ -852,8 +860,8 @@
       }
      ],
      [
-      "Uccle Sport",
-      "Braxgata",
+      "Beerschot",
+      "Wellington",
       {
        "d": "2026-11-15",
        "h": "12:00"
@@ -870,14 +878,6 @@
      [
       "Antwerp",
       "Leuven",
-      {
-       "d": "2026-11-15",
-       "h": "12:00"
-      }
-     ],
-     [
-      "Beerschot",
-      "Wellington",
       {
        "d": "2026-11-15",
        "h": "12:00"
@@ -1007,7 +1007,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "prox": {
     "m": [
      [
@@ -1426,7 +1426,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "torneo": "Bundesliga"
   },
   {
@@ -1728,7 +1728,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "prox": {
     "m": [
      [
@@ -1790,35 +1790,11 @@
     ],
     "f": [
      [
-      "University of Birmingham",
-      "East Grinstead",
-      {
-       "d": "2026-11-14",
-       "h": "16:00"
-      }
-     ],
-     [
       "Buckingham",
       "Teddington",
       {
        "d": "2026-11-14",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Hampstead & Westminster",
-      "Reading",
-      {
-       "d": "2026-11-14",
-       "h": "16:00"
-      }
-     ],
-     [
-      "Loughborough Students",
-      "Wimbledon",
-      {
-       "d": "2026-11-14",
-       "h": "16:00"
+       "h": "12:00"
       }
      ],
      [
@@ -1826,7 +1802,23 @@
       "Bowdon",
       {
        "d": "2026-11-14",
-       "h": "16:00"
+       "h": "12:00"
+      }
+     ],
+     [
+      "Loughborough Students",
+      "Wimbledon",
+      {
+       "d": "2026-11-14",
+       "h": "14:00"
+      }
+     ],
+     [
+      "University of Birmingham",
+      "East Grinstead",
+      {
+       "d": "2026-11-14",
+       "h": "14:30"
       }
      ],
      [
@@ -1834,7 +1826,15 @@
       "Durham University",
       {
        "d": "2026-11-14",
-       "h": "16:00"
+       "h": "15:00"
+      }
+     ],
+     [
+      "Hampstead & Westminster",
+      "Reading",
+      {
+       "d": "2026-11-14",
+       "h": "15:30"
       }
      ]
     ]
@@ -2144,7 +2144,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "torneo": "Serie A Elite"
   },
   {
@@ -2489,7 +2489,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "torneo": "Metropolitano"
   },
   {
@@ -2942,7 +2942,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "jugada",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "torneo": "Élite"
   },
   {
@@ -3155,7 +3155,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-10 16:40",
+   "consulta": "2026-11-11 03:06",
    "goleadores": {
     "m": [
      {
