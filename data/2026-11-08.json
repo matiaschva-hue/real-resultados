@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-12 12:05",
+ "actualizado": "2026-11-12 20:33",
  "paises": [
   {
    "id": "nl",
@@ -130,16 +130,31 @@
      {
       "nom": "Yibbi Jansen",
       "eq": "SCHC",
-      "g": 14
+      "g": 15
      },
      {
       "nom": "Iris de Kemp",
       "eq": "Kampong",
-      "g": 10
+      "g": 12
+     },
+     {
+      "nom": "Imke Verstraeten",
+      "eq": "Amsterdam",
+      "g": 7
+     },
+     {
+      "nom": "Ankelein Baardemans",
+      "eq": "Bloemendaal",
+      "g": 6
      },
      {
       "nom": "Bente van der Veldt",
       "eq": "Kampong",
+      "g": 6
+     },
+     {
+      "nom": "Charlotte Englebert",
+      "eq": "Den Bosch",
       "g": 6
      },
      {
@@ -148,29 +163,14 @@
       "g": 6
      },
      {
-      "nom": "Ankelein Baardemans",
-      "eq": "Bloemendaal",
-      "g": 5
-     },
-     {
-      "nom": "Charlotte Englebert",
-      "eq": "Den Bosch",
-      "g": 5
-     },
-     {
-      "nom": "Charlotte Schrijvers",
-      "eq": "Oranje-Rood",
-      "g": 5
-     },
-     {
-      "nom": "Imke Verstraeten",
-      "eq": "Amsterdam",
-      "g": 5
-     },
-     {
-      "nom": "Juul Sauer",
+      "nom": "Lana Kalse",
       "eq": "Pinoké",
-      "g": 5
+      "g": 6
+     },
+     {
+      "nom": "Maud van den Heuvel",
+      "eq": "SCHC",
+      "g": 6
      }
     ]
    },
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "prox": {
     "m": [
      [
@@ -790,7 +790,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "prox": {
     "m": [
      [
@@ -1007,7 +1007,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "prox": {
     "m": [
      [
@@ -1426,7 +1426,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "torneo": "Bundesliga"
   },
   {
@@ -1728,7 +1728,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "prox": {
     "m": [
      [
@@ -2144,7 +2144,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "torneo": "Serie A Elite"
   },
   {
@@ -2489,7 +2489,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "torneo": "Metropolitano"
   },
   {
@@ -2942,7 +2942,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "jugada",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "torneo": "Élite"
   },
   {
@@ -3155,7 +3155,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-12 12:05",
+   "consulta": "2026-11-12 20:33",
    "goleadores": {
     "m": [
      {
