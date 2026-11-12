@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-11 11:12",
+ "actualizado": "2026-11-11 21:37",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "prox": {
     "m": [
      [
@@ -790,7 +790,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "prox": {
     "m": [
      [
@@ -844,6 +844,14 @@
     ],
     "f": [
      [
+      "Uccle Sport",
+      "Braxgata",
+      {
+       "d": "2026-11-15",
+       "h": "12:00"
+      }
+     ],
+     [
       "Dragons",
       "Gantoise",
       {
@@ -852,8 +860,8 @@
       }
      ],
      [
-      "Uccle Sport",
-      "Braxgata",
+      "Beerschot",
+      "Wellington",
       {
        "d": "2026-11-15",
        "h": "12:00"
@@ -870,14 +878,6 @@
      [
       "Antwerp",
       "Leuven",
-      {
-       "d": "2026-11-15",
-       "h": "12:00"
-      }
-     ],
-     [
-      "Beerschot",
-      "Wellington",
       {
        "d": "2026-11-15",
        "h": "12:00"
@@ -1007,7 +1007,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "prox": {
     "m": [
      [
@@ -1426,7 +1426,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "torneo": "Bundesliga"
   },
   {
@@ -1728,7 +1728,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "prox": {
     "m": [
      [
@@ -2144,7 +2144,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "torneo": "Serie A Elite"
   },
   {
@@ -2489,7 +2489,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "torneo": "Metropolitano"
   },
   {
@@ -2606,6 +2606,13 @@
       "gc": 7
      },
      {
+      "eq": "Lille MHC",
+      "pj": 8,
+      "pts": 17,
+      "gf": 18,
+      "gc": 9
+     },
+     {
       "eq": "Saint-Germain HC",
       "pj": 8,
       "pts": 17,
@@ -2618,13 +2625,6 @@
       "pts": 15,
       "gf": 24,
       "gc": 15
-     },
-     {
-      "eq": "Lille MHC",
-      "pj": 7,
-      "pts": 14,
-      "gf": 15,
-      "gc": 8
      },
      {
       "eq": "CA Montrouge 92",
@@ -2649,10 +2649,10 @@
      },
      {
       "eq": "HC Nantes",
-      "pj": 7,
+      "pj": 8,
       "pts": 4,
-      "gf": 13,
-      "gc": 23
+      "gf": 14,
+      "gc": 26
      },
      {
       "eq": "IH Lambersart",
@@ -2699,6 +2699,13 @@
       "gc": 8
      },
      {
+      "eq": "Cambrai HC",
+      "pj": 8,
+      "pts": 10,
+      "gf": 9,
+      "gc": 18
+     },
+     {
       "eq": "Racing Club de France",
       "pj": 8,
       "pts": 9,
@@ -2707,17 +2714,10 @@
      },
      {
       "eq": "CA Montrouge 92",
-      "pj": 7,
+      "pj": 8,
       "pts": 8,
-      "gf": 7,
-      "gc": 10
-     },
-     {
-      "eq": "Cambrai HC",
-      "pj": 7,
-      "pts": 7,
-      "gf": 6,
-      "gc": 17
+      "gf": 8,
+      "gc": 13
      },
      {
       "eq": "Wattignies HC",
@@ -2942,7 +2942,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "jugada",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "torneo": "Élite"
   },
   {
@@ -3155,7 +3155,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-11 11:12",
+   "consulta": "2026-11-11 21:37",
    "goleadores": {
     "m": [
      {
