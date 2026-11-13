@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-12 20:33",
+ "actualizado": "2026-11-13 03:46",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "prox": {
     "m": [
      [
@@ -664,19 +664,19 @@
      }
     ],
     [
-     "Dragons",
-     1,
+     "Wellington",
      0,
-     "Antwerp",
+     2,
+     "Waterloo Ducks",
      {
       "d": "2026-11-08"
      }
     ],
     [
-     "Wellington",
+     "Dragons",
+     1,
      0,
-     2,
-     "Waterloo Ducks",
+     "Antwerp",
      {
       "d": "2026-11-08"
      }
@@ -790,7 +790,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "prox": {
     "m": [
      [
@@ -965,6 +965,51 @@
    "jornada": "",
    "m": [
     [
+     "Taburiente",
+     1,
+     4,
+     "Campo",
+     {
+      "d": "2026-11-08"
+     }
+    ],
+    [
+     "Polo",
+     2,
+     1,
+     "C.D. Terrassa",
+     {
+      "d": "2026-11-08"
+     }
+    ],
+    [
+     "Atletic Terrassa",
+     1,
+     1,
+     "Tenis",
+     {
+      "d": "2026-11-08"
+     }
+    ],
+    [
+     "Carpesa",
+     2,
+     5,
+     "Complutense",
+     {
+      "d": "2026-11-08"
+     }
+    ],
+    [
+     "Junior",
+     10,
+     0,
+     "Sardinero",
+     {
+      "d": "2026-11-08"
+     }
+    ],
+    [
      "Egara",
      6,
      0,
@@ -975,6 +1020,33 @@
     ]
    ],
    "f": [
+    [
+     "Complutense",
+     3,
+     1,
+     "Junior",
+     {
+      "d": "2026-11-08"
+     }
+    ],
+    [
+     "Campo",
+     2,
+     0,
+     "Atletic Terrassa",
+     {
+      "d": "2026-11-08"
+     }
+    ],
+    [
+     "Taburiente",
+     1,
+     1,
+     "Tenis",
+     {
+      "d": "2026-11-08"
+     }
+    ],
     [
      "FC Valencia",
      0,
@@ -1007,7 +1079,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "prox": {
     "m": [
      [
@@ -1094,7 +1166,7 @@
      ],
      [
       "Complutense",
-      "C.D. Terrassa",
+      "Atletic Terrassa",
       {
        "d": "2026-11-15",
        "h": "12:30"
@@ -1426,7 +1498,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "torneo": "Bundesliga"
   },
   {
@@ -1728,7 +1800,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "prox": {
     "m": [
      [
@@ -2144,7 +2216,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "torneo": "Serie A Elite"
   },
   {
@@ -2489,7 +2561,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "torneo": "Metropolitano"
   },
   {
@@ -2942,7 +3014,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "jugada",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "torneo": "Élite"
   },
   {
@@ -3155,7 +3227,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-12 20:33",
+   "consulta": "2026-11-13 03:46",
    "goleadores": {
     "m": [
      {
