@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-13 03:46",
+ "actualizado": "2026-11-13 12:24",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "prox": {
     "m": [
      [
@@ -790,7 +790,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "prox": {
     "m": [
      [
@@ -1079,7 +1079,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "prox": {
     "m": [
      [
@@ -1498,7 +1498,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "torneo": "Bundesliga"
   },
   {
@@ -1800,7 +1800,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "prox": {
     "m": [
      [
@@ -2216,7 +2216,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "torneo": "Serie A Elite"
   },
   {
@@ -2561,7 +2561,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "torneo": "Metropolitano"
   },
   {
@@ -3014,7 +3014,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "jugada",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "torneo": "Élite"
   },
   {
@@ -3023,10 +3023,10 @@
    "pais_en": "AUSTRALIA",
    "liga": "HOCKEY ONE",
    "jor": {
-    "m": "FECHA 5",
-    "f": "FECHA 5"
+    "m": "FECHA 6",
+    "f": "FECHA 6"
    },
-   "jornada": "FECHA 5",
+   "jornada": "FECHA 6",
    "m": [
     [
      "Melbourne Cobras",
@@ -3111,17 +3111,17 @@
     "m": [
      {
       "eq": "HC Melbourne",
-      "pts": 15,
-      "pj": 5,
-      "gf": 33,
-      "gc": 13
+      "pts": 18,
+      "pj": 6,
+      "gf": 39,
+      "gc": 15
      },
      {
       "eq": "NSW Pride",
       "pts": 11,
-      "pj": 5,
-      "gf": 13,
-      "gc": 11
+      "pj": 6,
+      "gf": 15,
+      "gc": 17
      },
      {
       "eq": "Canberra Chill",
@@ -3176,17 +3176,17 @@
      },
      {
       "eq": "HC Melbourne",
-      "pts": 12,
-      "pj": 5,
-      "gf": 14,
-      "gc": 7
+      "pts": 13,
+      "pj": 6,
+      "gf": 15,
+      "gc": 8
      },
      {
       "eq": "NSW Pride",
-      "pts": 9,
-      "pj": 5,
-      "gf": 18,
-      "gc": 8
+      "pts": 11,
+      "pj": 6,
+      "gf": 19,
+      "gc": 9
      },
      {
       "eq": "Melbourne Cobras",
@@ -3227,18 +3227,18 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-13 03:46",
+   "consulta": "2026-11-13 12:24",
    "goleadores": {
     "m": [
      {
-      "nom": "Ephraums, Nathan",
+      "nom": "Burns, Cooper",
       "eq": "HC Melbourne",
       "g": 13
      },
      {
-      "nom": "Burns, Cooper",
+      "nom": "Ephraums, Nathan",
       "eq": "HC Melbourne",
-      "g": 8
+      "g": 13
      },
      {
       "nom": "Brick, Dylan",
@@ -3261,6 +3261,11 @@
       "g": 7
      },
      {
+      "nom": "Govers, Blake",
+      "eq": "NSW Pride",
+      "g": 6
+     },
+     {
       "nom": "Staines, Jake",
       "eq": "Canberra Chill",
       "g": 6
@@ -3273,11 +3278,6 @@
      {
       "nom": "Foster, Brodee",
       "eq": "Perth Thundersticks",
-      "g": 5
-     },
-     {
-      "nom": "Govers, Blake",
-      "eq": "NSW Pride",
       "g": 5
      }
     ],
@@ -3337,14 +3337,6 @@
    "prox": {
     "m": [
      [
-      "HC Melbourne",
-      "NSW Pride",
-      {
-       "d": "2026-11-13",
-       "h": "20:15"
-      }
-     ],
-     [
       "Tassie Tigers",
       "Melbourne Cobras",
       {
@@ -3370,14 +3362,6 @@
      ]
     ],
     "f": [
-     [
-      "HC Melbourne",
-      "NSW Pride",
-      {
-       "d": "2026-11-13",
-       "h": "18:30"
-      }
-     ],
      [
       "Tassie Tigers",
       "Melbourne Cobras",
@@ -3405,10 +3389,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHA 6",
-    "f": "FECHA 6"
+    "m": "FECHA 7",
+    "f": "FECHA 7"
    },
-   "prox_jornada": "FECHA 6",
+   "prox_jornada": "FECHA 7",
    "prox_fecha": "11.11–16.11",
    "torneo": "Hockey One"
   }
