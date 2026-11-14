@@ -1,6 +1,6 @@
 {
  "fecha": "15.11.2026",
- "actualizado": "2026-11-14 14:09",
+ "actualizado": "2026-11-14 18:30",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "prox": {
     "m": [
      [
@@ -432,7 +432,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -534,7 +534,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "torneo": "Belgian Hockey League"
   },
   {
@@ -548,7 +548,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "prox": {
     "m": [
      [
@@ -969,7 +969,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "torneo": "Bundesliga"
   },
   {
@@ -978,16 +978,72 @@
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
    "jor": {
+    "m": "FECHA 9",
     "f": "FECHA 9"
    },
    "jornada": "FECHA 9",
-   "m": [],
+   "m": [
+    [
+     "Bowdon",
+     1,
+     5,
+     "Holcombe",
+     {
+      "d": "2026-11-14"
+     }
+    ],
+    [
+     "University of Exeter",
+     2,
+     5,
+     "Surbiton",
+     {
+      "d": "2026-11-14"
+     }
+    ],
+    [
+     "Oxted",
+     1,
+     8,
+     "Old Georgians",
+     {
+      "d": "2026-11-14"
+     }
+    ]
+   ],
    "f": [
+    [
+     "Hampstead & Westminster",
+     1,
+     2,
+     "Reading",
+     {
+      "d": "2026-11-14"
+     }
+    ],
+    [
+     "Surbiton",
+     3,
+     1,
+     "Durham University",
+     {
+      "d": "2026-11-14"
+     }
+    ],
     [
      "University of Birmingham",
      2,
      2,
      "East Grinstead",
+     {
+      "d": "2026-11-14"
+     }
+    ],
+    [
+     "Loughborough Students",
+     1,
+     1,
+     "Wimbledon",
      {
       "d": "2026-11-14"
      }
@@ -1016,17 +1072,17 @@
     "m": [
      {
       "eq": "Surbiton",
-      "pts": 24,
-      "pj": 8,
-      "gf": 40,
-      "gc": 9
+      "pts": 27,
+      "pj": 9,
+      "gf": 45,
+      "gc": 11
      },
      {
       "eq": "Old Georgians",
-      "pts": 19,
-      "pj": 8,
-      "gf": 40,
-      "gc": 11
+      "pts": 22,
+      "pj": 9,
+      "gf": 48,
+      "gc": 12
      },
      {
       "eq": "Wimbledon",
@@ -1034,6 +1090,13 @@
       "pj": 7,
       "gf": 39,
       "gc": 17
+     },
+     {
+      "eq": "Holcombe",
+      "pts": 15,
+      "pj": 9,
+      "gf": 31,
+      "gc": 25
      },
      {
       "eq": "Hampstead & Westminster",
@@ -1048,13 +1111,6 @@
       "pj": 8,
       "gf": 15,
       "gc": 26
-     },
-     {
-      "eq": "Holcombe",
-      "pts": 12,
-      "pj": 8,
-      "gf": 26,
-      "gc": 24
      },
      {
       "eq": "Reading",
@@ -1073,16 +1129,16 @@
      {
       "eq": "Oxted",
       "pts": 7,
-      "pj": 8,
-      "gf": 19,
-      "gc": 28
+      "pj": 9,
+      "gf": 20,
+      "gc": 36
      },
      {
       "eq": "University of Exeter",
       "pts": 7,
-      "pj": 8,
-      "gf": 17,
-      "gc": 30
+      "pj": 9,
+      "gf": 19,
+      "gc": 35
      },
      {
       "eq": "Cardiff & Met",
@@ -1094,25 +1150,32 @@
      {
       "eq": "Bowdon",
       "pts": 1,
-      "pj": 8,
-      "gf": 12,
-      "gc": 41
+      "pj": 9,
+      "gf": 13,
+      "gc": 46
      }
     ],
     "f": [
      {
       "eq": "Surbiton",
-      "pts": 24,
-      "pj": 8,
-      "gf": 42,
-      "gc": 3
+      "pts": 27,
+      "pj": 9,
+      "gf": 45,
+      "gc": 4
      },
      {
       "eq": "Loughborough Students",
-      "pts": 21,
-      "pj": 8,
-      "gf": 31,
-      "gc": 10
+      "pts": 22,
+      "pj": 9,
+      "gf": 32,
+      "gc": 11
+     },
+     {
+      "eq": "Wimbledon",
+      "pts": 17,
+      "pj": 9,
+      "gf": 20,
+      "gc": 13
      },
      {
       "eq": "East Grinstead",
@@ -1120,13 +1183,6 @@
       "pj": 9,
       "gf": 19,
       "gc": 18
-     },
-     {
-      "eq": "Wimbledon",
-      "pts": 16,
-      "pj": 8,
-      "gf": 19,
-      "gc": 12
      },
      {
       "eq": "University of Birmingham",
@@ -1138,9 +1194,16 @@
      {
       "eq": "Durham University",
       "pts": 15,
-      "pj": 8,
-      "gf": 13,
-      "gc": 12
+      "pj": 9,
+      "gf": 14,
+      "gc": 15
+     },
+     {
+      "eq": "Reading",
+      "pts": 12,
+      "pj": 9,
+      "gf": 14,
+      "gc": 17
      },
      {
       "eq": "Bowdon",
@@ -1157,18 +1220,11 @@
       "gc": 14
      },
      {
-      "eq": "Reading",
-      "pts": 9,
-      "pj": 8,
-      "gf": 12,
-      "gc": 16
-     },
-     {
       "eq": "Hampstead & Westminster",
       "pts": 4,
-      "pj": 8,
-      "gf": 7,
-      "gc": 14
+      "pj": 9,
+      "gf": 8,
+      "gc": 16
      },
      {
       "eq": "University of Nottingham",
@@ -1188,7 +1244,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "prox": {
     "m": [
      [
@@ -1292,6 +1348,7 @@
     ]
    },
    "prox_jor": {
+    "m": "FECHA 10",
     "f": "FECHA 10"
    },
    "prox_jornada": "FECHA 10",
@@ -1547,7 +1604,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "prox": {
     "m": [
      [
@@ -1939,7 +1996,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "torneo": "Metropolitano"
   },
   {
@@ -2300,7 +2357,7 @@
    "prox_jornada": "FECHA 10",
    "prox_fecha": "22.11–22.11",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "torneo": "Élite"
   },
   {
@@ -2495,7 +2552,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-14 14:09",
+   "consulta": "2026-11-14 18:30",
    "goleadores": {
     "m": [
      {
