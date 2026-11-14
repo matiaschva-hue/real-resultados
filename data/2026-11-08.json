@@ -1,6 +1,6 @@
 {
  "fecha": "08.11.2026",
- "actualizado": "2026-11-13 18:59",
+ "actualizado": "2026-11-13 23:27",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "prox": {
     "m": [
      [
@@ -588,7 +588,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "prox": {
     "m": [
      [
@@ -664,19 +664,19 @@
      }
     ],
     [
-     "Dragons",
-     1,
+     "Wellington",
      0,
-     "Antwerp",
+     2,
+     "Waterloo Ducks",
      {
       "d": "2026-11-08"
      }
     ],
     [
-     "Wellington",
+     "Dragons",
+     1,
      0,
-     2,
-     "Waterloo Ducks",
+     "Antwerp",
      {
       "d": "2026-11-08"
      }
@@ -790,7 +790,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "prox": {
     "m": [
      [
@@ -1079,7 +1079,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "prox": {
     "m": [
      [
@@ -1498,7 +1498,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "torneo": "Bundesliga"
   },
   {
@@ -1800,7 +1800,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "prox": {
     "m": [
      [
@@ -2216,7 +2216,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "torneo": "Serie A Elite"
   },
   {
@@ -2561,7 +2561,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "torneo": "Metropolitano"
   },
   {
@@ -3014,7 +3014,7 @@
    "prox_jornada": "FECHA 9",
    "prox_fecha": "15.11–15.11",
    "estado": "jugada",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "torneo": "Élite"
   },
   {
@@ -3227,7 +3227,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-13 18:59",
+   "consulta": "2026-11-13 23:27",
    "goleadores": {
     "m": [
      {
@@ -3336,14 +3336,6 @@
    },
    "prox": {
     "m": [
-     [
-      "Tassie Tigers",
-      "Melbourne Cobras",
-      {
-       "d": "2026-11-14",
-       "h": "13:00"
-      }
-     ],
      [
       "Perth Thundersticks",
       "Adelaide Fire",
