@@ -1,6 +1,6 @@
 {
  "fecha": "15.11.2026",
- "actualizado": "2026-11-14 07:27",
+ "actualizado": "2026-11-14 14:09",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "prox": {
     "m": [
      [
@@ -432,7 +432,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -534,7 +534,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "torneo": "Belgian Hockey League"
   },
   {
@@ -548,7 +548,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "prox": {
     "m": [
      [
@@ -654,7 +654,9 @@
    "prox_jor": {},
    "prox_jornada": "",
    "prox_fecha": "20.11–23.11",
-   "torneo": "Liga IATI · Iberdrola"
+   "torneo": "Liga IATI · Iberdrola",
+   "m": [],
+   "f": []
   },
   {
    "id": "de",
@@ -967,7 +969,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "torneo": "Bundesliga"
   },
   {
@@ -975,10 +977,40 @@
    "pais": "INGLATERRA",
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
-   "jor": {},
-   "jornada": "",
+   "jor": {
+    "f": "FECHA 9"
+   },
+   "jornada": "FECHA 9",
    "m": [],
-   "f": [],
+   "f": [
+    [
+     "University of Birmingham",
+     2,
+     2,
+     "East Grinstead",
+     {
+      "d": "2026-11-14"
+     }
+    ],
+    [
+     "Buckingham",
+     0,
+     2,
+     "Teddington",
+     {
+      "d": "2026-11-14"
+     }
+    ],
+    [
+     "University of Nottingham",
+     0,
+     1,
+     "Bowdon",
+     {
+      "d": "2026-11-14"
+     }
+    ]
+   ],
    "proximo": "",
    "tabla": {
     "m": [
@@ -1083,6 +1115,13 @@
       "gc": 10
      },
      {
+      "eq": "East Grinstead",
+      "pts": 17,
+      "pj": 9,
+      "gf": 19,
+      "gc": 18
+     },
+     {
       "eq": "Wimbledon",
       "pts": 16,
       "pj": 8,
@@ -1090,18 +1129,11 @@
       "gc": 12
      },
      {
-      "eq": "East Grinstead",
-      "pts": 16,
-      "pj": 8,
-      "gf": 17,
-      "gc": 16
-     },
-     {
       "eq": "University of Birmingham",
-      "pts": 15,
-      "pj": 8,
-      "gf": 18,
-      "gc": 13
+      "pts": 16,
+      "pj": 9,
+      "gf": 20,
+      "gc": 15
      },
      {
       "eq": "Durham University",
@@ -1111,25 +1143,25 @@
       "gc": 12
      },
      {
+      "eq": "Bowdon",
+      "pts": 11,
+      "pj": 9,
+      "gf": 12,
+      "gc": 15
+     },
+     {
+      "eq": "Teddington",
+      "pts": 10,
+      "pj": 9,
+      "gf": 11,
+      "gc": 14
+     },
+     {
       "eq": "Reading",
       "pts": 9,
       "pj": 8,
       "gf": 12,
       "gc": 16
-     },
-     {
-      "eq": "Bowdon",
-      "pts": 8,
-      "pj": 8,
-      "gf": 11,
-      "gc": 15
-     },
-     {
-      "eq": "Teddington",
-      "pts": 7,
-      "pj": 8,
-      "gf": 9,
-      "gc": 14
      },
      {
       "eq": "Hampstead & Westminster",
@@ -1141,22 +1173,22 @@
      {
       "eq": "University of Nottingham",
       "pts": 4,
-      "pj": 8,
+      "pj": 9,
       "gf": 6,
-      "gc": 23
+      "gc": 24
      },
      {
       "eq": "Buckingham",
       "pts": 0,
-      "pj": 8,
+      "pj": 9,
       "gf": 3,
-      "gc": 40
+      "gc": 42
      }
     ]
    },
    "fuente": "Flashscore",
-   "estado": "sin-fecha",
-   "consulta": "2026-11-14 07:27",
+   "estado": "jugada",
+   "consulta": "2026-11-14 14:09",
    "prox": {
     "m": [
      [
@@ -1259,8 +1291,10 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "f": "FECHA 10"
+   },
+   "prox_jornada": "FECHA 10",
    "prox_fecha": "20.11–23.11",
    "torneo": "Premier Division"
   },
@@ -1513,7 +1547,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "prox": {
     "m": [
      [
@@ -1905,7 +1939,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "torneo": "Metropolitano"
   },
   {
@@ -2266,7 +2300,7 @@
    "prox_jornada": "FECHA 10",
    "prox_fecha": "22.11–22.11",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "torneo": "Élite"
   },
   {
@@ -2309,6 +2343,15 @@
     ]
    ],
    "f": [
+    [
+     "Perth Thundersticks",
+     7,
+     4,
+     "Adelaide Fire",
+     {
+      "d": "2026-11-14"
+     }
+    ],
     [
      "Tassie Tigers",
      3,
@@ -2394,10 +2437,10 @@
     "f": [
      {
       "eq": "Perth Thundersticks",
-      "pts": 15,
-      "pj": 5,
-      "gf": 14,
-      "gc": 3
+      "pts": 18,
+      "pj": 6,
+      "gf": 21,
+      "gc": 7
      },
      {
       "eq": "HC Melbourne",
@@ -2444,15 +2487,15 @@
      {
       "eq": "Adelaide Fire",
       "pts": 0,
-      "pj": 5,
-      "gf": 4,
-      "gc": 24
+      "pj": 6,
+      "gf": 8,
+      "gc": 31
      }
     ]
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-14 07:27",
+   "consulta": "2026-11-14 14:09",
    "goleadores": {
     "m": [
      {
@@ -2513,6 +2556,11 @@
       "g": 7
      },
      {
+      "nom": "Schonell, Courtney",
+      "eq": "Perth Thundersticks",
+      "g": 7
+     },
+     {
       "nom": "Howell, Mihaylia",
       "eq": "HC Melbourne",
       "g": 5
@@ -2523,7 +2571,7 @@
       "g": 5
      },
      {
-      "nom": "Schonell, Courtney",
+      "nom": "Ratcliffe, Madi",
       "eq": "Perth Thundersticks",
       "g": 5
      },
@@ -2551,11 +2599,6 @@
       "nom": "Stewart, Grace",
       "eq": "NSW Pride",
       "g": 4
-     },
-     {
-      "nom": "Costa, Valentina",
-      "eq": "Canberra Chill",
-      "g": 3
      }
     ]
    },
