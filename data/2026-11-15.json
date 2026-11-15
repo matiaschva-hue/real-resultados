@@ -1,6 +1,6 @@
 {
  "fecha": "15.11.2026",
- "actualizado": "2026-11-15 14:12",
+ "actualizado": "2026-11-15 18:51",
  "paises": [
   {
    "id": "nl",
@@ -9,7 +9,7 @@
    "liga": "HOOFDKLASSE",
    "jor": {
     "m": "FECHA 9",
-    "f": "FECHA 10"
+    "f": "FECHA 9"
    },
    "jornada": "FECHA 9",
    "m": [
@@ -308,81 +308,81 @@
     "f": [
      {
       "eq": "Den Bosch",
-      "pj": 10,
-      "pts": 30,
-      "dg": 36
+      "pj": 9,
+      "pts": 23,
+      "dg": 19
      },
      {
       "eq": "Amsterdam",
-      "pj": 10,
-      "pts": 25,
-      "dg": 27
-     },
-     {
-      "eq": "SCHC",
-      "pj": 10,
-      "pts": 24,
-      "dg": 15
-     },
-     {
-      "eq": "Hurley",
-      "pj": 10,
-      "pts": 17,
-      "dg": 8
-     },
-     {
-      "eq": "Rotterdam",
-      "pj": 10,
-      "pts": 15,
-      "dg": -2
-     },
-     {
-      "eq": "Kampong",
-      "pj": 10,
-      "pts": 14,
-      "dg": 10
+      "pj": 9,
+      "pts": 22,
+      "dg": 19
      },
      {
       "eq": "Oranje-Rood",
-      "pj": 10,
-      "pts": 12,
-      "dg": -8
+      "pj": 9,
+      "pts": 20,
+      "dg": 12
      },
      {
       "eq": "Bloemendaal",
-      "pj": 10,
-      "pts": 10,
-      "dg": -13
+      "pj": 9,
+      "pts": 18,
+      "dg": 14
+     },
+     {
+      "eq": "Kampong",
+      "pj": 9,
+      "pts": 17,
+      "dg": 11
+     },
+     {
+      "eq": "SCHC",
+      "pj": 9,
+      "pts": 11,
+      "dg": -6
      },
      {
       "eq": "Pinoké",
-      "pj": 10,
-      "pts": 10,
-      "dg": -7
+      "pj": 9,
+      "pts": 11,
+      "dg": 0
+     },
+     {
+      "eq": "Rotterdam",
+      "pj": 9,
+      "pts": 8,
+      "dg": -1
+     },
+     {
+      "eq": "Klein Zwitserland",
+      "pj": 9,
+      "pts": 8,
+      "dg": -12
      },
      {
       "eq": "HDM",
-      "pj": 10,
-      "pts": 7,
-      "dg": -13
+      "pj": 9,
+      "pts": 5,
+      "dg": -11
      },
      {
-      "eq": "HGC",
-      "pj": 10,
-      "pts": 7,
-      "dg": -17
+      "eq": "Schaerweijde",
+      "pj": 9,
+      "pts": 4,
+      "dg": -20
      },
      {
-      "eq": "Victoria",
-      "pj": 10,
-      "pts": 0,
-      "dg": -36
+      "eq": "Tilburg",
+      "pj": 9,
+      "pts": 3,
+      "dg": -25
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "prox": {
     "m": [
      [
@@ -499,7 +499,7 @@
    },
    "prox_jor": {
     "m": "FECHA 10",
-    "f": "FECHA 11"
+    "f": "FECHA 10"
    },
    "prox_jornada": "FECHA 10",
    "prox_fecha": "20.11–23.11",
@@ -548,7 +548,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -707,7 +707,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "torneo": "Belgian Hockey League",
    "m": [
     [
@@ -777,7 +777,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "prox": {
     "m": [
      [
@@ -1198,7 +1198,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "torneo": "Bundesliga"
   },
   {
@@ -1207,11 +1207,20 @@
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
    "jor": {
-    "m": "FECHA 9",
+    "m": "FECHAS 8 Y 9",
     "f": "FECHA 9"
    },
-   "jornada": "FECHA 9",
+   "jornada": "FECHAS 8 Y 9",
    "m": [
+    [
+     "Reading",
+     1,
+     4,
+     "Wimbledon",
+     {
+      "d": "2026-11-15"
+     }
+    ],
     [
      "Bowdon",
      1,
@@ -1316,18 +1325,18 @@
       "gc": 11
      },
      {
+      "eq": "Wimbledon",
+      "pts": 24,
+      "pj": 9,
+      "gf": 49,
+      "gc": 19
+     },
+     {
       "eq": "Old Georgians",
       "pts": 22,
       "pj": 9,
       "gf": 48,
       "gc": 12
-     },
-     {
-      "eq": "Wimbledon",
-      "pts": 21,
-      "pj": 8,
-      "gf": 45,
-      "gc": 18
      },
      {
       "eq": "Holcombe",
@@ -1353,9 +1362,9 @@
      {
       "eq": "Reading",
       "pts": 11,
-      "pj": 7,
-      "gf": 16,
-      "gc": 16
+      "pj": 8,
+      "gf": 17,
+      "gc": 20
      },
      {
       "eq": "Beeston",
@@ -1482,7 +1491,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "prox": {
     "m": [
      [
@@ -1881,7 +1890,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "prox": {
     "m": [
      [
@@ -2273,7 +2282,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "torneo": "Metropolitano"
   },
   {
@@ -2726,7 +2735,7 @@
    "prox_jornada": "FECHA 10",
    "prox_fecha": "22.11–22.11",
    "estado": "jugada",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "torneo": "Élite"
   },
   {
@@ -2939,7 +2948,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-15 14:12",
+   "consulta": "2026-11-15 18:51",
    "goleadores": {
     "m": [
      {
