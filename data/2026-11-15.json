@@ -1,6 +1,6 @@
 {
  "fecha": "15.11.2026",
- "actualizado": "2026-11-14 22:56",
+ "actualizado": "2026-11-15 06:27",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "prox": {
     "m": [
      [
@@ -432,7 +432,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -534,7 +534,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "torneo": "Belgian Hockey League"
   },
   {
@@ -548,7 +548,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "prox": {
     "m": [
      [
@@ -969,7 +969,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "torneo": "Bundesliga"
   },
   {
@@ -1253,7 +1253,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "prox": {
     "m": [
      [
@@ -1613,7 +1613,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "prox": {
     "m": [
      [
@@ -2005,7 +2005,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "torneo": "Metropolitano"
   },
   {
@@ -2366,7 +2366,7 @@
    "prox_jornada": "FECHA 10",
    "prox_fecha": "22.11–22.11",
    "estado": "sin-fecha",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "torneo": "Élite"
   },
   {
@@ -2380,6 +2380,15 @@
    },
    "jornada": "FECHA 6",
    "m": [
+    [
+     "Brisbane Blaze",
+     2,
+     11,
+     "Canberra Chill",
+     {
+      "d": "2026-11-15"
+     }
+    ],
     [
      "Perth Thundersticks",
      5,
@@ -2409,6 +2418,15 @@
     ]
    ],
    "f": [
+    [
+     "Brisbane Blaze",
+     6,
+     0,
+     "Canberra Chill",
+     {
+      "d": "2026-11-15"
+     }
+    ],
     [
      "Perth Thundersticks",
      7,
@@ -2451,6 +2469,13 @@
       "gc": 15
      },
      {
+      "eq": "Canberra Chill",
+      "pts": 13,
+      "pj": 6,
+      "gf": 33,
+      "gc": 21
+     },
+     {
       "eq": "Tassie Tigers",
       "pts": 12,
       "pj": 6,
@@ -2472,25 +2497,18 @@
       "gc": 17
      },
      {
-      "eq": "Canberra Chill",
-      "pts": 10,
-      "pj": 5,
-      "gf": 22,
-      "gc": 19
-     },
-     {
-      "eq": "Brisbane Blaze",
-      "pts": 3,
-      "pj": 5,
-      "gf": 19,
-      "gc": 24
-     },
-     {
       "eq": "Melbourne Cobras",
       "pts": 3,
       "pj": 6,
       "gf": 23,
       "gc": 34
+     },
+     {
+      "eq": "Brisbane Blaze",
+      "pts": 3,
+      "pj": 6,
+      "gf": 21,
+      "gc": 35
      },
      {
       "eq": "Adelaide Fire",
@@ -2530,18 +2548,18 @@
       "gc": 9
      },
      {
-      "eq": "Canberra Chill",
-      "pts": 6,
-      "pj": 5,
-      "gf": 12,
-      "gc": 12
+      "eq": "Brisbane Blaze",
+      "pts": 8,
+      "pj": 6,
+      "gf": 14,
+      "gc": 10
      },
      {
-      "eq": "Brisbane Blaze",
-      "pts": 5,
-      "pj": 5,
-      "gf": 8,
-      "gc": 10
+      "eq": "Canberra Chill",
+      "pts": 6,
+      "pj": 6,
+      "gf": 12,
+      "gc": 18
      },
      {
       "eq": "Tassie Tigers",
@@ -2561,7 +2579,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-14 22:56",
+   "consulta": "2026-11-15 06:27",
    "goleadores": {
     "m": [
      {
@@ -2575,19 +2593,24 @@
       "g": 13
      },
      {
+      "nom": "Brick, Dylan",
+      "eq": "Canberra Chill",
+      "g": 11
+     },
+     {
       "nom": "Hazell, Ehren",
       "eq": "Tassie Tigers",
+      "g": 8
+     },
+     {
+      "nom": "Staines, Jake",
+      "eq": "Canberra Chill",
       "g": 8
      },
      {
       "nom": "Stanger, Daykin",
       "eq": "Perth Thundersticks",
       "g": 8
-     },
-     {
-      "nom": "Brick, Dylan",
-      "eq": "Canberra Chill",
-      "g": 7
      },
      {
       "nom": "Scott, Peter",
@@ -2600,7 +2623,7 @@
       "g": 6
      },
      {
-      "nom": "Staines, Jake",
+      "nom": "Staines, Ben",
       "eq": "Canberra Chill",
       "g": 6
      },
@@ -2608,11 +2631,6 @@
       "nom": "Whetton, Jake",
       "eq": "Melbourne Cobras",
       "g": 6
-     },
-     {
-      "nom": "Foster, Brodee",
-      "eq": "Perth Thundersticks",
-      "g": 5
      }
     ],
     "f": [
