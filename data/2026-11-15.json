@@ -1,6 +1,6 @@
 {
  "fecha": "15.11.2026",
- "actualizado": "2026-11-16 03:21",
+ "actualizado": "2026-11-16 15:28",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "prox": {
     "m": [
      [
@@ -548,7 +548,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -572,15 +572,6 @@
      }
     ],
     [
-     "Beerschot",
-     2,
-     2,
-     "Wellington",
-     {
-      "d": "2026-11-15"
-     }
-    ],
-    [
      "Antwerp",
      1,
      2,
@@ -599,10 +590,10 @@
      }
     ],
     [
-     "Uccle Sport",
-     1,
-     1,
-     "Braxgata",
+     "Beerschot",
+     2,
+     2,
+     "Wellington",
      {
       "d": "2026-11-15"
      }
@@ -612,6 +603,15 @@
      2,
      2,
      "Gantoise",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Uccle Sport",
+     1,
+     1,
+     "Braxgata",
      {
       "d": "2026-11-15"
      }
@@ -707,7 +707,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "torneo": "Belgian Hockey League",
    "m": [
     [
@@ -777,7 +777,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "prox": {
     "m": [
      [
@@ -1198,7 +1198,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "torneo": "Bundesliga"
   },
   {
@@ -1491,7 +1491,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "prox": {
     "m": [
      [
@@ -1890,7 +1890,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "prox": {
     "m": [
      [
@@ -2282,7 +2282,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "torneo": "Metropolitano"
   },
   {
@@ -2610,14 +2610,14 @@
       "g": 7
      },
      {
-      "nom": "Moroni, Agueda",
-      "eq": "Villa Primrose",
+      "nom": "Guichardaz, Capucine",
+      "eq": "CA Montrouge",
       "g": 6
      },
      {
-      "nom": "Guichardaz, Capucine",
-      "eq": "CA Montrouge",
-      "g": 5
+      "nom": "Moroni, Agueda",
+      "eq": "Villa Primrose",
+      "g": 6
      },
      {
       "nom": "Guillon, Hortense",
@@ -2630,12 +2630,12 @@
       "g": 5
      },
      {
-      "nom": "Duffrene, Mathilde",
-      "eq": "Saint-Germain HC",
+      "nom": "Bartholome, Maya",
+      "eq": "Wattignies HC",
       "g": 4
      },
      {
-      "nom": "Verrier, Gabrielle",
+      "nom": "Duffrene, Mathilde",
       "eq": "Saint-Germain HC",
       "g": 4
      }
@@ -2735,7 +2735,7 @@
    "prox_jornada": "FECHA 10",
    "prox_fecha": "22.11–22.11",
    "estado": "jugada",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "torneo": "Élite"
   },
   {
@@ -2948,7 +2948,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-16 03:21",
+   "consulta": "2026-11-16 15:28",
    "goleadores": {
     "m": [
      {
