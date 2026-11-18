@@ -1,6 +1,6 @@
 {
  "fecha": "15.11.2026",
- "actualizado": "2026-11-18 04:20",
+ "actualizado": "2026-11-18 17:27",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "prox": {
     "m": [
      [
@@ -548,7 +548,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -707,7 +707,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "torneo": "Belgian Hockey League",
    "m": [
     [
@@ -776,8 +776,8 @@
    "tabla": {},
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
-   "estado": "no-arranco",
-   "consulta": "2026-11-18 04:20",
+   "estado": "jugada",
+   "consulta": "2026-11-18 17:27",
    "prox": {
     "m": [
      [
@@ -884,8 +884,118 @@
    "prox_jornada": "",
    "prox_fecha": "20.11–23.11",
    "torneo": "Liga IATI · Iberdrola",
-   "m": [],
-   "f": []
+   "m": [
+    [
+     "Taburiente",
+     1,
+     4,
+     "Complutense",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Junior",
+     5,
+     1,
+     "Tenis",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Polo",
+     2,
+     3,
+     "Egara",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Atletic Terrassa",
+     3,
+     0,
+     "Sardinero",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Barcelona",
+     0,
+     4,
+     "C.D. Terrassa",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Carpesa",
+     2,
+     5,
+     "Campo",
+     {
+      "d": "2026-11-14"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "Campo",
+     2,
+     1,
+     "Junior",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Complutense",
+     2,
+     4,
+     "Atletic Terrassa",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Taburiente",
+     1,
+     0,
+     "Sardinero",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "Polo",
+     6,
+     0,
+     "C.D. Terrassa",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
+     "FC Valencia",
+     2,
+     1,
+     "Egara",
+     {
+      "d": "2026-11-14"
+     }
+    ],
+    [
+     "Real Sociedad",
+     0,
+     1,
+     "Tenis",
+     {
+      "d": "2026-11-14"
+     }
+    ]
+   ]
   },
   {
    "id": "de",
@@ -1198,7 +1308,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "torneo": "Bundesliga"
   },
   {
@@ -1491,7 +1601,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "prox": {
     "m": [
      [
@@ -1499,7 +1609,7 @@
       "University of Exeter",
       {
        "d": "2026-11-21",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -1507,7 +1617,7 @@
       "Oxted",
       {
        "d": "2026-11-21",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -1515,7 +1625,7 @@
       "Hampstead & Westminster",
       {
        "d": "2026-11-21",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -1523,7 +1633,7 @@
       "Cardiff & Met",
       {
        "d": "2026-11-21",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -1531,7 +1641,7 @@
       "Surbiton",
       {
        "d": "2026-11-21",
-       "h": "17:00"
+       "h": "18:00"
       }
      ],
      [
@@ -1539,7 +1649,15 @@
       "Beeston",
       {
        "d": "2026-11-21",
-       "h": "17:00"
+       "h": "18:00"
+      }
+     ],
+     [
+      "East Grinstead",
+      "Beeston",
+      {
+       "d": "2026-11-22",
+       "h": "14:15"
       }
      ]
     ],
@@ -1595,10 +1713,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHA 10",
+    "m": "FECHAS 10 Y 11",
     "f": "FECHA 10"
    },
-   "prox_jornada": "FECHA 10",
+   "prox_jornada": "FECHAS 10 Y 11",
    "prox_fecha": "20.11–23.11",
    "torneo": "Premier Division"
   },
@@ -1890,7 +2008,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "prox": {
     "m": [
      [
@@ -2282,7 +2400,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "torneo": "Metropolitano"
   },
   {
@@ -2735,7 +2853,7 @@
    "prox_jornada": "FECHA 10",
    "prox_fecha": "22.11–22.11",
    "estado": "jugada",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "torneo": "Élite"
   },
   {
@@ -2948,7 +3066,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-18 04:20",
+   "consulta": "2026-11-18 17:27",
    "goleadores": {
     "m": [
      {
