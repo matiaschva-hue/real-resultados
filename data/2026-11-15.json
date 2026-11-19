@@ -1,6 +1,6 @@
 {
  "fecha": "15.11.2026",
- "actualizado": "2026-11-18 17:27",
+ "actualizado": "2026-11-19 04:17",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "prox": {
     "m": [
      [
@@ -548,7 +548,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -707,7 +707,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "torneo": "Belgian Hockey League",
    "m": [
     [
@@ -777,7 +777,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "prox": {
     "m": [
      [
@@ -1308,7 +1308,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "torneo": "Bundesliga"
   },
   {
@@ -1601,7 +1601,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "prox": {
     "m": [
      [
@@ -2008,7 +2008,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "prox": {
     "m": [
      [
@@ -2400,7 +2400,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "torneo": "Metropolitano"
   },
   {
@@ -2853,7 +2853,7 @@
    "prox_jornada": "FECHA 10",
    "prox_fecha": "22.11–22.11",
    "estado": "jugada",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "torneo": "Élite"
   },
   {
@@ -3066,7 +3066,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-18 17:27",
+   "consulta": "2026-11-19 04:17",
    "goleadores": {
     "m": [
      {
