@@ -1,6 +1,6 @@
 {
  "fecha": "15.11.2026",
- "actualizado": "2026-11-20 13:58",
+ "actualizado": "2026-11-20 20:05",
  "paises": [
   {
    "id": "nl",
@@ -382,7 +382,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "prox": {
     "m": [
      [
@@ -548,7 +548,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "grupo": "nl",
    "torneo": "Gold Cup"
   },
@@ -572,6 +572,15 @@
      }
     ],
     [
+     "Beerschot",
+     2,
+     2,
+     "Wellington",
+     {
+      "d": "2026-11-15"
+     }
+    ],
+    [
      "Antwerp",
      1,
      2,
@@ -590,10 +599,10 @@
      }
     ],
     [
-     "Beerschot",
-     2,
-     2,
-     "Wellington",
+     "Uccle Sport",
+     1,
+     1,
+     "Braxgata",
      {
       "d": "2026-11-15"
      }
@@ -603,15 +612,6 @@
      2,
      2,
      "Gantoise",
-     {
-      "d": "2026-11-15"
-     }
-    ],
-    [
-     "Uccle Sport",
-     1,
-     1,
-     "Braxgata",
      {
       "d": "2026-11-15"
      }
@@ -707,7 +707,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "torneo": "Belgian Hockey League",
    "m": [
     [
@@ -777,7 +777,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "prox": {
     "m": [
      [
@@ -1308,7 +1308,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "torneo": "Bundesliga"
   },
   {
@@ -1601,7 +1601,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "prox": {
     "m": [
      [
@@ -2008,7 +2008,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "prox": {
     "m": [
      [
@@ -2400,7 +2400,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "torneo": "Metropolitano"
   },
   {
@@ -2853,7 +2853,7 @@
    "prox_jornada": "FECHA 10",
    "prox_fecha": "22.11–22.11",
    "estado": "jugada",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "torneo": "Élite"
   },
   {
@@ -3066,7 +3066,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-20 13:58",
+   "consulta": "2026-11-20 20:05",
    "goleadores": {
     "m": [
      {
