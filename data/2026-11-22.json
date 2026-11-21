@@ -1,6 +1,6 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-21 09:40",
+ "actualizado": "2026-11-21 17:06",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "prox": {
     "m": [
      [
@@ -401,7 +401,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "prox": {
     "f": [
      [
@@ -546,7 +546,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "prox": {
     "m": [
      [
@@ -667,7 +667,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "prox": {
     "m": [
      [
@@ -1086,7 +1086,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "torneo": "Bundesliga"
   },
   {
@@ -1094,10 +1094,31 @@
    "pais": "INGLATERRA",
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
-   "jor": {},
-   "jornada": "",
+   "jor": {
+    "f": "FECHA 10"
+   },
+   "jornada": "FECHA 10",
    "m": [],
-   "f": [],
+   "f": [
+    [
+     "Bowdon",
+     1,
+     2,
+     "Surbiton",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Buckingham",
+     0,
+     3,
+     "Hampstead & Westminster",
+     {
+      "d": "2026-11-21"
+     }
+    ]
+   ],
    "proximo": "",
    "tabla": {
     "m": [
@@ -1189,10 +1210,10 @@
     "f": [
      {
       "eq": "Surbiton",
-      "pts": 27,
-      "pj": 9,
-      "gf": 45,
-      "gc": 4
+      "pts": 30,
+      "pj": 10,
+      "gf": 47,
+      "gc": 5
      },
      {
       "eq": "Loughborough Students",
@@ -1239,9 +1260,9 @@
      {
       "eq": "Bowdon",
       "pts": 11,
-      "pj": 9,
-      "gf": 12,
-      "gc": 15
+      "pj": 10,
+      "gf": 13,
+      "gc": 17
      },
      {
       "eq": "Teddington",
@@ -1252,9 +1273,9 @@
      },
      {
       "eq": "Hampstead & Westminster",
-      "pts": 4,
-      "pj": 9,
-      "gf": 8,
+      "pts": 7,
+      "pj": 10,
+      "gf": 11,
       "gc": 16
      },
      {
@@ -1267,15 +1288,15 @@
      {
       "eq": "Buckingham",
       "pts": 0,
-      "pj": 9,
+      "pj": 10,
       "gf": 3,
-      "gc": 42
+      "gc": 45
      }
     ]
    },
    "fuente": "Flashscore",
-   "estado": "sin-fecha",
-   "consulta": "2026-11-21 09:40",
+   "estado": "jugada",
+   "consulta": "2026-11-21 17:06",
    "prox": {
     "m": [
      [
@@ -1378,8 +1399,10 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "f": "FECHA 11"
+   },
+   "prox_jornada": "FECHA 11",
    "prox_fecha": "27.11–30.11",
    "torneo": "Premier Division"
   },
@@ -1632,7 +1655,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "torneo": "Serie A Elite"
   },
   {
@@ -1817,7 +1840,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "torneo": "Metropolitano"
   },
   {
@@ -1983,7 +2006,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2253,7 +2276,7 @@
    },
    "fuente": "FFH · championnats.ffhockey.org (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "torneo": "Élite"
   },
   {
@@ -2444,7 +2467,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-21 09:40",
+   "consulta": "2026-11-21 17:06",
    "goleadores": {
     "m": [
      {
