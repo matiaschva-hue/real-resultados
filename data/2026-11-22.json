@@ -1,6 +1,6 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-21 00:58",
+ "actualizado": "2026-11-21 09:40",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "prox": {
     "m": [
      [
@@ -401,7 +401,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "prox": {
     "f": [
      [
@@ -546,7 +546,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "prox": {
     "m": [
      [
@@ -667,7 +667,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "prox": {
     "m": [
      [
@@ -1086,7 +1086,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "torneo": "Bundesliga"
   },
   {
@@ -1275,7 +1275,7 @@
    },
    "fuente": "Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "prox": {
     "m": [
      [
@@ -1632,7 +1632,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "torneo": "Serie A Elite"
   },
   {
@@ -1817,7 +1817,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "torneo": "Metropolitano"
   },
   {
@@ -1983,7 +1983,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2253,7 +2253,7 @@
    },
    "fuente": "FFH · championnats.ffhockey.org (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "torneo": "Élite"
   },
   {
@@ -2268,6 +2268,24 @@
    "jornada": "FECHA 7",
    "m": [
     [
+     "Brisbane Blaze",
+     3,
+     6,
+     "Melbourne Cobras",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Adelaide Fire",
+     0,
+     5,
+     "HC Melbourne",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
      "NSW Pride",
      1,
      4,
@@ -2278,6 +2296,24 @@
     ]
    ],
    "f": [
+    [
+     "Brisbane Blaze",
+     6,
+     0,
+     "Melbourne Cobras",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Adelaide Fire",
+     0,
+     3,
+     "HC Melbourne",
+     {
+      "d": "2026-11-21"
+     }
+    ],
     [
      "NSW Pride",
      2,
@@ -2292,9 +2328,9 @@
     "m": [
      {
       "eq": "HC Melbourne",
-      "pts": 18,
-      "pj": 6,
-      "gf": 39,
+      "pts": 21,
+      "pj": 7,
+      "gf": 44,
       "gc": 15
      },
      {
@@ -2327,24 +2363,24 @@
      },
      {
       "eq": "Melbourne Cobras",
-      "pts": 3,
-      "pj": 6,
-      "gf": 23,
-      "gc": 34
+      "pts": 6,
+      "pj": 7,
+      "gf": 29,
+      "gc": 37
      },
      {
       "eq": "Brisbane Blaze",
       "pts": 3,
-      "pj": 6,
-      "gf": 21,
-      "gc": 35
+      "pj": 7,
+      "gf": 24,
+      "gc": 41
      },
      {
       "eq": "Adelaide Fire",
       "pts": 0,
-      "pj": 6,
+      "pj": 7,
       "gf": 9,
-      "gc": 44
+      "gc": 49
      }
     ],
     "f": [
@@ -2356,6 +2392,13 @@
       "gc": 7
      },
      {
+      "eq": "HC Melbourne",
+      "pts": 16,
+      "pj": 7,
+      "gf": 18,
+      "gc": 8
+     },
+     {
       "eq": "NSW Pride",
       "pts": 14,
       "pj": 7,
@@ -2363,24 +2406,17 @@
       "gc": 10
      },
      {
-      "eq": "HC Melbourne",
-      "pts": 13,
-      "pj": 6,
-      "gf": 15,
-      "gc": 8
-     },
-     {
       "eq": "Melbourne Cobras",
       "pts": 12,
-      "pj": 6,
+      "pj": 7,
       "gf": 16,
-      "gc": 14
+      "gc": 20
      },
      {
       "eq": "Brisbane Blaze",
-      "pts": 8,
-      "pj": 6,
-      "gf": 14,
+      "pts": 11,
+      "pj": 7,
+      "gf": 20,
       "gc": 10
      },
      {
@@ -2400,15 +2436,15 @@
      {
       "eq": "Adelaide Fire",
       "pts": 0,
-      "pj": 6,
+      "pj": 7,
       "gf": 8,
-      "gc": 31
+      "gc": 34
      }
     ]
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-21 00:58",
+   "consulta": "2026-11-21 09:40",
    "goleadores": {
     "m": [
      {
@@ -2479,6 +2515,11 @@
       "g": 5
      },
      {
+      "nom": "Kershaw, Stephanie",
+      "eq": "Brisbane Blaze",
+      "g": 5
+     },
+     {
       "nom": "Patterson, Amalia",
       "eq": "NSW Pride",
       "g": 5
@@ -2506,11 +2547,6 @@
      {
       "nom": "Squibb, Penny",
       "eq": "Tassie Tigers",
-      "g": 4
-     },
-     {
-      "nom": "Stewart, Grace",
-      "eq": "NSW Pride",
       "g": 4
      }
     ]
