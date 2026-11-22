@@ -1,6 +1,6 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-21 17:06",
+ "actualizado": "2026-11-21 21:20",
  "paises": [
   {
    "id": "nl",
@@ -269,7 +269,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "prox": {
     "m": [
      [
@@ -401,7 +401,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "prox": {
     "f": [
      [
@@ -546,7 +546,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "prox": {
     "m": [
      [
@@ -667,7 +667,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "prox": {
     "m": [
      [
@@ -1086,7 +1086,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "torneo": "Bundesliga"
   },
   {
@@ -1095,11 +1095,85 @@
    "pais_en": "ENGLAND",
    "liga": "PREMIER DIVISION",
    "jor": {
+    "m": "FECHA 10",
     "f": "FECHA 10"
    },
    "jornada": "FECHA 10",
-   "m": [],
+   "m": [
+    [
+     "East Grinstead",
+     1,
+     1,
+     "Oxted",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Holcombe",
+     3,
+     2,
+     "Hampstead & Westminster",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Old Georgians",
+     8,
+     1,
+     "Cardiff & Met",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Reading",
+     0,
+     5,
+     "Surbiton",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Wimbledon",
+     6,
+     0,
+     "Beeston",
+     {
+      "d": "2026-11-21"
+     }
+    ]
+   ],
    "f": [
+    [
+     "East Grinstead",
+     2,
+     3,
+     "Loughborough Students",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Reading",
+     3,
+     1,
+     "University of Nottingham",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Wimbledon",
+     3,
+     2,
+     "University of Birmingham",
+     {
+      "d": "2026-11-21"
+     }
+    ],
     [
      "Bowdon",
      1,
@@ -1124,66 +1198,66 @@
     "m": [
      {
       "eq": "Surbiton",
-      "pts": 27,
-      "pj": 9,
-      "gf": 45,
+      "pts": 30,
+      "pj": 10,
+      "gf": 50,
       "gc": 11
      },
      {
       "eq": "Wimbledon",
-      "pts": 24,
-      "pj": 9,
-      "gf": 49,
+      "pts": 27,
+      "pj": 10,
+      "gf": 55,
       "gc": 19
      },
      {
       "eq": "Old Georgians",
-      "pts": 22,
-      "pj": 9,
-      "gf": 48,
-      "gc": 12
+      "pts": 25,
+      "pj": 10,
+      "gf": 56,
+      "gc": 13
+     },
+     {
+      "eq": "Holcombe",
+      "pts": 18,
+      "pj": 10,
+      "gf": 34,
+      "gc": 27
      },
      {
       "eq": "Hampstead & Westminster",
       "pts": 16,
-      "pj": 9,
-      "gf": 25,
-      "gc": 22
-     },
-     {
-      "eq": "Holcombe",
-      "pts": 15,
-      "pj": 9,
-      "gf": 31,
+      "pj": 10,
+      "gf": 27,
       "gc": 25
      },
      {
       "eq": "East Grinstead",
-      "pts": 13,
-      "pj": 8,
-      "gf": 15,
-      "gc": 26
+      "pts": 14,
+      "pj": 9,
+      "gf": 16,
+      "gc": 27
      },
      {
       "eq": "Reading",
       "pts": 11,
-      "pj": 9,
+      "pj": 10,
       "gf": 18,
-      "gc": 23
+      "gc": 28
+     },
+     {
+      "eq": "Oxted",
+      "pts": 8,
+      "pj": 10,
+      "gf": 21,
+      "gc": 37
      },
      {
       "eq": "Beeston",
       "pts": 7,
-      "pj": 8,
-      "gf": 18,
-      "gc": 24
-     },
-     {
-      "eq": "Oxted",
-      "pts": 7,
       "pj": 9,
-      "gf": 20,
-      "gc": 36
+      "gf": 18,
+      "gc": 30
      },
      {
       "eq": "University of Exeter",
@@ -1195,9 +1269,9 @@
      {
       "eq": "Cardiff & Met",
       "pts": 2,
-      "pj": 9,
-      "gf": 11,
-      "gc": 33
+      "pj": 10,
+      "gf": 12,
+      "gc": 41
      },
      {
       "eq": "Bowdon",
@@ -1217,31 +1291,38 @@
      },
      {
       "eq": "Loughborough Students",
-      "pts": 22,
-      "pj": 9,
-      "gf": 32,
-      "gc": 11
+      "pts": 25,
+      "pj": 10,
+      "gf": 35,
+      "gc": 13
      },
      {
       "eq": "Wimbledon",
-      "pts": 17,
-      "pj": 9,
-      "gf": 20,
-      "gc": 13
+      "pts": 20,
+      "pj": 10,
+      "gf": 23,
+      "gc": 15
      },
      {
       "eq": "East Grinstead",
       "pts": 17,
-      "pj": 9,
-      "gf": 19,
-      "gc": 18
+      "pj": 10,
+      "gf": 21,
+      "gc": 21
      },
      {
       "eq": "University of Birmingham",
       "pts": 16,
-      "pj": 9,
-      "gf": 20,
-      "gc": 15
+      "pj": 10,
+      "gf": 22,
+      "gc": 18
+     },
+     {
+      "eq": "Reading",
+      "pts": 15,
+      "pj": 10,
+      "gf": 17,
+      "gc": 18
      },
      {
       "eq": "Durham University",
@@ -1249,13 +1330,6 @@
       "pj": 9,
       "gf": 14,
       "gc": 15
-     },
-     {
-      "eq": "Reading",
-      "pts": 12,
-      "pj": 9,
-      "gf": 14,
-      "gc": 17
      },
      {
       "eq": "Bowdon",
@@ -1281,9 +1355,9 @@
      {
       "eq": "University of Nottingham",
       "pts": 4,
-      "pj": 9,
-      "gf": 6,
-      "gc": 24
+      "pj": 10,
+      "gf": 7,
+      "gc": 27
      },
      {
       "eq": "Buckingham",
@@ -1296,7 +1370,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "prox": {
     "m": [
      [
@@ -1400,6 +1474,7 @@
     ]
    },
    "prox_jor": {
+    "m": "FECHA 11",
     "f": "FECHA 11"
    },
    "prox_jornada": "FECHA 11",
@@ -1655,7 +1730,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "torneo": "Serie A Elite"
   },
   {
@@ -1840,7 +1915,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "torneo": "Metropolitano"
   },
   {
@@ -2006,7 +2081,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2276,7 +2351,7 @@
    },
    "fuente": "FFH · championnats.ffhockey.org (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "torneo": "Élite"
   },
   {
@@ -2467,7 +2542,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-21 17:06",
+   "consulta": "2026-11-21 21:20",
    "goleadores": {
     "m": [
      {
