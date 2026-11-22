@@ -1,15 +1,64 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-21 21:20",
+ "actualizado": "2026-11-22 13:17",
  "paises": [
   {
    "id": "nl",
    "pais": "PAÍSES BAJOS",
    "pais_en": "NETHERLANDS",
    "liga": "HOOFDKLASSE",
-   "jor": {},
-   "jornada": "",
-   "m": [],
+   "jor": {
+    "m": "FECHA 11",
+    "f": "FECHA 11"
+   },
+   "jornada": "FECHA 11",
+   "m": [
+    [
+     "Pinoké",
+     5,
+     1,
+     "HDM",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Rotterdam",
+     1,
+     1,
+     "Klein Zwitserland",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Tilburg",
+     0,
+     2,
+     "Bloemendaal",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Kampong",
+     0,
+     3,
+     "Amsterdam",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Oranje-Rood",
+     3,
+     0,
+     "Schaerweijde",
+     {
+      "d": "2026-11-21"
+     }
+    ]
+   ],
    "goleadores": {
     "m": [
      {
@@ -18,29 +67,29 @@
       "g": 15
      },
      {
+      "nom": "Joep Troost",
+      "eq": "Pinoké",
+      "g": 10
+     },
+     {
+      "nom": "Struan Walker",
+      "eq": "Oranje-Rood",
+      "g": 10
+     },
+     {
       "nom": "Casper van der Veen",
       "eq": "Bloemendaal",
       "g": 9
      },
      {
-      "nom": "Joep Troost",
-      "eq": "Pinoké",
-      "g": 9
-     },
-     {
-      "nom": "Struan Walker",
-      "eq": "Oranje-Rood",
-      "g": 9
-     },
-     {
       "nom": "Duco Telgenkamp",
       "eq": "Amsterdam",
-      "g": 8
+      "g": 9
      },
      {
       "nom": "Fabian Verzuu",
       "eq": "HDM",
-      "g": 8
+      "g": 9
      },
      {
       "nom": "Jip Janssen",
@@ -58,8 +107,8 @@
       "g": 7
      },
      {
-      "nom": "Thierry Brinkman",
-      "eq": "Den Bosch",
+      "nom": "Sam Lane",
+      "eq": "Klein Zwitserland",
       "g": 7
      }
     ],
@@ -85,14 +134,19 @@
       "g": 8
      },
      {
+      "nom": "Ankelein Baardemans",
+      "eq": "Bloemendaal",
+      "g": 7
+     },
+     {
       "nom": "Charlotte Englebert",
       "eq": "Den Bosch",
       "g": 7
      },
      {
-      "nom": "Ankelein Baardemans",
-      "eq": "Bloemendaal",
-      "g": 6
+      "nom": "Charlotte Schrijvers",
+      "eq": "Oranje-Rood",
+      "g": 7
      },
      {
       "nom": "Bente van der Veldt",
@@ -108,17 +162,46 @@
       "nom": "Lana Kalse",
       "eq": "Pinoké",
       "g": 6
-     },
-     {
-      "nom": "Maud van den Heuvel",
-      "eq": "SCHC",
-      "g": 6
      }
     ]
    },
-   "f": [],
+   "f": [
+    [
+     "Hurley",
+     1,
+     1,
+     "Den Bosch",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "Oranje-Rood",
+     2,
+     3,
+     "Bloemendaal",
+     {
+      "d": "2026-11-21"
+     }
+    ],
+    [
+     "HGC",
+     4,
+     2,
+     "Pinoké",
+     {
+      "d": "2026-11-21"
+     }
+    ]
+   ],
    "tabla": {
     "m": [
+     {
+      "eq": "Amsterdam",
+      "pj": 11,
+      "pts": 26,
+      "dg": 22
+     },
      {
       "eq": "Den Bosch",
       "pj": 10,
@@ -126,34 +209,34 @@
       "dg": 22
      },
      {
-      "eq": "Amsterdam",
-      "pj": 10,
+      "eq": "Oranje-Rood",
+      "pj": 11,
       "pts": 23,
-      "dg": 19
-     },
-     {
-      "eq": "Kampong",
-      "pj": 10,
-      "pts": 20,
       "dg": 12
      },
      {
-      "eq": "Oranje-Rood",
-      "pj": 10,
+      "eq": "Bloemendaal",
+      "pj": 11,
+      "pts": 21,
+      "dg": 15
+     },
+     {
+      "eq": "Kampong",
+      "pj": 11,
       "pts": 20,
       "dg": 9
      },
      {
-      "eq": "Bloemendaal",
-      "pj": 10,
-      "pts": 18,
-      "dg": 13
+      "eq": "Pinoké",
+      "pj": 11,
+      "pts": 17,
+      "dg": 5
      },
      {
-      "eq": "Pinoké",
-      "pj": 10,
-      "pts": 14,
-      "dg": 1
+      "eq": "Rotterdam",
+      "pj": 11,
+      "pts": 12,
+      "dg": 2
      },
      {
       "eq": "SCHC",
@@ -162,114 +245,108 @@
       "dg": -6
      },
      {
-      "eq": "Rotterdam",
-      "pj": 10,
-      "pts": 11,
-      "dg": 2
-     },
-     {
       "eq": "Klein Zwitserland",
-      "pj": 10,
-      "pts": 9,
+      "pj": 11,
+      "pts": 10,
       "dg": -12
      },
      {
       "eq": "HDM",
-      "pj": 10,
+      "pj": 11,
       "pts": 5,
-      "dg": -14
+      "dg": -18
      },
      {
       "eq": "Schaerweijde",
-      "pj": 10,
+      "pj": 11,
       "pts": 4,
-      "dg": -21
+      "dg": -24
      },
      {
       "eq": "Tilburg",
-      "pj": 10,
+      "pj": 11,
       "pts": 4,
-      "dg": -25
+      "dg": -27
      }
     ],
     "f": [
      {
       "eq": "Den Bosch",
-      "pj": 10,
-      "pts": 26,
-      "dg": 22
+      "pj": 11,
+      "pts": 31,
+      "dg": 36
      },
      {
       "eq": "Amsterdam",
       "pj": 10,
-      "pts": 23,
-      "dg": 19
-     },
-     {
-      "eq": "Kampong",
-      "pj": 10,
-      "pts": 20,
-      "dg": 12
-     },
-     {
-      "eq": "Oranje-Rood",
-      "pj": 10,
-      "pts": 20,
-      "dg": 9
-     },
-     {
-      "eq": "Bloemendaal",
-      "pj": 10,
-      "pts": 18,
-      "dg": 13
-     },
-     {
-      "eq": "Pinoké",
-      "pj": 10,
-      "pts": 14,
-      "dg": 1
+      "pts": 25,
+      "dg": 27
      },
      {
       "eq": "SCHC",
       "pj": 10,
-      "pts": 12,
-      "dg": -6
+      "pts": 24,
+      "dg": 15
+     },
+     {
+      "eq": "Hurley",
+      "pj": 11,
+      "pts": 18,
+      "dg": 8
      },
      {
       "eq": "Rotterdam",
       "pj": 10,
-      "pts": 11,
-      "dg": 2
+      "pts": 15,
+      "dg": -2
      },
      {
-      "eq": "Klein Zwitserland",
+      "eq": "Kampong",
       "pj": 10,
-      "pts": 9,
+      "pts": 14,
+      "dg": 10
+     },
+     {
+      "eq": "Bloemendaal",
+      "pj": 11,
+      "pts": 13,
       "dg": -12
+     },
+     {
+      "eq": "Oranje-Rood",
+      "pj": 11,
+      "pts": 12,
+      "dg": -9
+     },
+     {
+      "eq": "HGC",
+      "pj": 11,
+      "pts": 10,
+      "dg": -15
+     },
+     {
+      "eq": "Pinoké",
+      "pj": 11,
+      "pts": 10,
+      "dg": -9
      },
      {
       "eq": "HDM",
       "pj": 10,
-      "pts": 5,
-      "dg": -14
+      "pts": 7,
+      "dg": -13
      },
      {
-      "eq": "Schaerweijde",
+      "eq": "Victoria",
       "pj": 10,
-      "pts": 4,
-      "dg": -21
-     },
-     {
-      "eq": "Tilburg",
-      "pj": 10,
-      "pts": 4,
-      "dg": -25
+      "pts": 0,
+      "dg": -36
      }
     ]
    },
    "fuente": "KNHB · hockey.nl (oficial)",
-   "estado": "sin-fecha",
-   "consulta": "2026-11-21 21:20",
+   "estado": "jugada",
+   "consulta": "2026-11-22 13:17",
    "prox": {
     "m": [
      [
@@ -384,8 +461,11 @@
      ]
     ]
    },
-   "prox_jor": {},
-   "prox_jornada": "",
+   "prox_jor": {
+    "m": "FECHA 12",
+    "f": "FECHA 12"
+   },
+   "prox_jornada": "FECHA 12",
    "prox_fecha": "27.11–30.11",
    "torneo": "Hoofdklasse"
   },
@@ -401,7 +481,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "prox": {
     "f": [
      [
@@ -546,7 +626,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "prox": {
     "m": [
      [
@@ -667,7 +747,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "prox": {
     "m": [
      [
@@ -1086,7 +1166,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "torneo": "Bundesliga"
   },
   {
@@ -1370,7 +1450,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "prox": {
     "m": [
      [
@@ -1730,7 +1810,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "torneo": "Serie A Elite"
   },
   {
@@ -1915,7 +1995,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "torneo": "Metropolitano"
   },
   {
@@ -2081,7 +2161,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2090,10 +2170,7 @@
    "pais": "FRANCIA",
    "pais_en": "FRANCE",
    "liga": "ÉLITE HOMMES · ÉLITE DAMES",
-   "jor": {
-    "m": "",
-    "f": ""
-   },
+   "jor": {},
    "jornada": "",
    "m": [],
    "f": [],
@@ -2366,6 +2443,15 @@
    "jornada": "FECHA 7",
    "m": [
     [
+     "Canberra Chill",
+     1,
+     2,
+     "Perth Thundersticks",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
      "Brisbane Blaze",
      3,
      6,
@@ -2394,6 +2480,15 @@
     ]
    ],
    "f": [
+    [
+     "Canberra Chill",
+     5,
+     0,
+     "Perth Thundersticks",
+     {
+      "d": "2026-11-21"
+     }
+    ],
     [
      "Brisbane Blaze",
      6,
@@ -2439,18 +2534,18 @@
       "gc": 15
      },
      {
-      "eq": "Canberra Chill",
-      "pts": 13,
-      "pj": 6,
-      "gf": 33,
-      "gc": 21
+      "eq": "Perth Thundersticks",
+      "pts": 15,
+      "pj": 7,
+      "gf": 29,
+      "gc": 19
      },
      {
-      "eq": "Perth Thundersticks",
-      "pts": 12,
-      "pj": 6,
-      "gf": 27,
-      "gc": 18
+      "eq": "Canberra Chill",
+      "pts": 13,
+      "pj": 7,
+      "gf": 34,
+      "gc": 23
      },
      {
       "eq": "NSW Pride",
@@ -2485,9 +2580,9 @@
      {
       "eq": "Perth Thundersticks",
       "pts": 18,
-      "pj": 6,
+      "pj": 7,
       "gf": 21,
-      "gc": 7
+      "gc": 12
      },
      {
       "eq": "HC Melbourne",
@@ -2519,9 +2614,9 @@
      },
      {
       "eq": "Canberra Chill",
-      "pts": 6,
-      "pj": 6,
-      "gf": 12,
+      "pts": 9,
+      "pj": 7,
+      "gf": 17,
       "gc": 18
      },
      {
@@ -2542,7 +2637,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-21 21:20",
+   "consulta": "2026-11-22 13:17",
    "goleadores": {
     "m": [
      {
@@ -2558,7 +2653,7 @@
      {
       "nom": "Brick, Dylan",
       "eq": "Canberra Chill",
-      "g": 11
+      "g": 12
      },
      {
       "nom": "Hazell, Ehren",
@@ -2586,13 +2681,13 @@
       "g": 7
      },
      {
-      "nom": "Staines, Ben",
-      "eq": "Canberra Chill",
+      "nom": "Foster, Brodee",
+      "eq": "Perth Thundersticks",
       "g": 6
      },
      {
-      "nom": "Whetton, Jake",
-      "eq": "Melbourne Cobras",
+      "nom": "Staines, Ben",
+      "eq": "Canberra Chill",
       "g": 6
      }
     ],
@@ -2633,18 +2728,18 @@
       "g": 4
      },
      {
-      "nom": "Krings, Lynn",
+      "nom": "Costa, Valentina",
       "eq": "Canberra Chill",
       "g": 4
      },
      {
-      "nom": "Pearson, Holly",
-      "eq": "Tassie Tigers",
+      "nom": "Evans, Naomi",
+      "eq": "Canberra Chill",
       "g": 4
      },
      {
-      "nom": "Squibb, Penny",
-      "eq": "Tassie Tigers",
+      "nom": "Krings, Lynn",
+      "eq": "Canberra Chill",
       "g": 4
      }
     ]
