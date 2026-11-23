@@ -1,6 +1,6 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-22 19:28",
+ "actualizado": "2026-11-23 00:43",
  "paises": [
   {
    "id": "nl",
@@ -346,7 +346,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "prox": {
     "m": [
      [
@@ -481,7 +481,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "prox": {
     "f": [
      [
@@ -626,7 +626,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "prox": {
     "m": [
      [
@@ -747,7 +747,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "prox": {
     "m": [
      [
@@ -1166,7 +1166,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "torneo": "Bundesliga"
   },
   {
@@ -1468,7 +1468,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "prox": {
     "m": [
      [
@@ -1828,7 +1828,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "torneo": "Serie A Elite"
   },
   {
@@ -1844,7 +1844,106 @@
    "m": [],
    "f": [],
    "tabla": {
-    "m": [],
+    "m": [
+     {
+      "eq": "SAN FERNANDO",
+      "pts": 63,
+      "pj": 26,
+      "gf": 76,
+      "gc": 25
+     },
+     {
+      "eq": "BCO. PROVINCIA",
+      "pts": 57,
+      "pj": 26,
+      "gf": 72,
+      "gc": 41
+     },
+     {
+      "eq": "MITRE",
+      "pts": 55,
+      "pj": 26,
+      "gf": 74,
+      "gc": 36
+     },
+     {
+      "eq": "CIUDAD",
+      "pts": 53,
+      "pj": 26,
+      "gf": 73,
+      "gc": 42
+     },
+     {
+      "eq": "G. Y ESGRIMA",
+      "pts": 47,
+      "pj": 26,
+      "gf": 79,
+      "gc": 52
+     },
+     {
+      "eq": "DUCILO",
+      "pts": 46,
+      "pj": 26,
+      "gf": 72,
+      "gc": 63
+     },
+     {
+      "eq": "U. LA PLATA",
+      "pts": 35,
+      "pj": 26,
+      "gf": 58,
+      "gc": 65
+     },
+     {
+      "eq": "HURLING",
+      "pts": 32,
+      "pj": 26,
+      "gf": 48,
+      "gc": 42
+     },
+     {
+      "eq": "S. BARBARA",
+      "pts": 27,
+      "pj": 26,
+      "gf": 53,
+      "gc": 62
+     },
+     {
+      "eq": "QUILMES",
+      "pts": 27,
+      "pj": 26,
+      "gf": 52,
+      "gc": 68
+     },
+     {
+      "eq": "SAN MARTÍN",
+      "pts": 24,
+      "pj": 26,
+      "gf": 47,
+      "gc": 67
+     },
+     {
+      "eq": "LOMAS",
+      "pts": 17,
+      "pj": 26,
+      "gf": 52,
+      "gc": 74
+     },
+     {
+      "eq": "S.A.G.",
+      "pts": 12,
+      "pj": 26,
+      "gf": 33,
+      "gc": 92
+     },
+     {
+      "eq": "CIUDAD B",
+      "pts": 8,
+      "pj": 26,
+      "gf": 32,
+      "gc": 92
+     }
+    ],
     "f": [
      {
       "eq": "S. BARBARA",
@@ -1947,7 +2046,68 @@
     ]
    },
    "goleadores": {
-    "m": [],
+    "m": [
+     {
+      "nom": "Kiernan, Máximo",
+      "eq": "U. LA PLATA",
+      "g": 33,
+      "pj": 26
+     },
+     {
+      "nom": "Suarez, Tomas Agustin",
+      "eq": "G. Y ESGRIMA",
+      "g": 22,
+      "pj": 26
+     },
+     {
+      "nom": "Merino, Gonzalo",
+      "eq": "BCO. PROVINCIA",
+      "g": 22,
+      "pj": 23
+     },
+     {
+      "nom": "Ferrero Farias, Lautaro",
+      "eq": "SAN FERNANDO",
+      "g": 21,
+      "pj": 25
+     },
+     {
+      "nom": "Agostini Coliqueo, Franco Antonio",
+      "eq": "LOMAS",
+      "g": 20,
+      "pj": 23
+     },
+     {
+      "nom": "Infanzon, Ramiro Nicolas",
+      "eq": "DUCILO",
+      "g": 18,
+      "pj": 23
+     },
+     {
+      "nom": "Doherty, Alec Tadeo",
+      "eq": "HURLING",
+      "g": 17,
+      "pj": 26
+     },
+     {
+      "nom": "Dulor Marchesi, Luca",
+      "eq": "DUCILO",
+      "g": 16,
+      "pj": 24
+     },
+     {
+      "nom": "Jimenez Jaurechi, Julian",
+      "eq": "QUILMES",
+      "g": 16,
+      "pj": 17
+     },
+     {
+      "nom": "Merlini, Mateo",
+      "eq": "SAN FERNANDO",
+      "g": 14,
+      "pj": 26
+     }
+    ],
     "f": [
      {
       "nom": "Piccardo, Alina",
@@ -2013,7 +2173,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "torneo": "Metropolitano"
   },
   {
@@ -2179,7 +2339,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2541,7 +2701,7 @@
    },
    "fuente": "FFH · championnats.ffhockey.org (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "torneo": "Élite"
   },
   {
@@ -2750,7 +2910,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-22 19:28",
+   "consulta": "2026-11-23 00:43",
    "goleadores": {
     "m": [
      {
