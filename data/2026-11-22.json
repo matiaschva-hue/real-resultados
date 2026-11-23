@@ -1,6 +1,6 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-23 04:29",
+ "actualizado": "2026-11-23 17:08",
  "paises": [
   {
    "id": "nl",
@@ -346,7 +346,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "prox": {
     "m": [
      [
@@ -354,7 +354,7 @@
       "HDM",
       {
        "d": "2026-11-28",
-       "h": "16:30",
+       "h": "14:30",
        "fase": "Poule A"
       }
      ],
@@ -363,7 +363,7 @@
       "Klein Zwitserland",
       {
        "d": "2026-11-28",
-       "h": "16:30",
+       "h": "14:30",
        "fase": "Poule A"
       }
      ],
@@ -372,7 +372,7 @@
       "Bloemendaal",
       {
        "d": "2026-11-28",
-       "h": "16:30",
+       "h": "14:30",
        "fase": "Poule A"
       }
      ],
@@ -381,7 +381,7 @@
       "Amsterdam",
       {
        "d": "2026-11-28",
-       "h": "16:30",
+       "h": "14:30",
        "fase": "Poule A"
       }
      ],
@@ -390,7 +390,7 @@
       "Den Bosch",
       {
        "d": "2026-11-28",
-       "h": "16:30",
+       "h": "14:30",
        "fase": "Poule A"
       }
      ],
@@ -399,7 +399,7 @@
       "SCHC",
       {
        "d": "2026-11-28",
-       "h": "16:30",
+       "h": "14:30",
        "fase": "Poule A"
       }
      ]
@@ -481,7 +481,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "prox": {
     "f": [
      [
@@ -626,7 +626,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "prox": {
     "m": [
      [
@@ -747,7 +747,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "prox": {
     "m": [
      [
@@ -1166,7 +1166,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "torneo": "Bundesliga"
   },
   {
@@ -1468,7 +1468,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "prox": {
     "m": [
      [
@@ -1828,7 +1828,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "torneo": "Serie A Elite"
   },
   {
@@ -2173,7 +2173,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "torneo": "Metropolitano"
   },
   {
@@ -2339,7 +2339,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2701,7 +2701,7 @@
    },
    "fuente": "FFH · championnats.ffhockey.org (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "torneo": "Élite"
   },
   {
@@ -2910,7 +2910,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-23 04:29",
+   "consulta": "2026-11-23 17:08",
    "goleadores": {
     "m": [
      {
