@@ -1,6 +1,6 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-24 01:44",
+ "actualizado": "2026-11-24 06:48",
  "paises": [
   {
    "id": "nl",
@@ -346,7 +346,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "prox": {
     "m": [
      [
@@ -481,7 +481,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "prox": {
     "f": [
      [
@@ -626,7 +626,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "prox": {
     "m": [
      [
@@ -729,7 +729,9 @@
      ]
     ]
    },
-   "prox_jor": {},
+   "prox_jor": {
+    "f": ""
+   },
    "prox_jornada": "",
    "prox_fecha": "27.11–30.11",
    "torneo": "Belgian Hockey League"
@@ -747,7 +749,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "prox": {
     "m": [
      [
@@ -1069,36 +1071,6 @@
       "eq": "Hamburger Polo Club",
       "pj": 10,
       "g": 9
-     },
-     {
-      "nom": "Elian Mazkour",
-      "eq": "UHC Hamburg",
-      "pj": 11,
-      "g": 9
-     },
-     {
-      "nom": "Ben Hasbach",
-      "eq": "Mannheimer HC",
-      "pj": 11,
-      "g": 9
-     },
-     {
-      "nom": "Maico Casella",
-      "eq": "TSV Mannheim Hockey",
-      "pj": 11,
-      "g": 9
-     },
-     {
-      "nom": "Kane Elliot Mark Russell",
-      "eq": "Hamburger Polo Club",
-      "pj": 8,
-      "g": 8
-     },
-     {
-      "nom": "Raphael Hartkopf",
-      "eq": "RW Köln",
-      "pj": 10,
-      "g": 8
      }
     ],
     "f": [
@@ -1131,42 +1103,12 @@
       "eq": "Großflottbeker THGC",
       "pj": 11,
       "g": 4
-     },
-     {
-      "nom": "Philine Drumm",
-      "eq": "Berliner HC",
-      "pj": 11,
-      "g": 4
-     },
-     {
-      "nom": "Sophie Prumbaum",
-      "eq": "RW Köln",
-      "pj": 11,
-      "g": 4
-     },
-     {
-      "nom": "Jette Fleschütz",
-      "eq": "Großflottbeker THGC",
-      "pj": 11,
-      "g": 4
-     },
-     {
-      "nom": "Katharina Reuten",
-      "eq": "RW Köln",
-      "pj": 11,
-      "g": 4
-     },
-     {
-      "nom": "Felicia Wiedermann",
-      "eq": "RW Köln",
-      "pj": 8,
-      "g": 3
      }
     ]
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "torneo": "Bundesliga"
   },
   {
@@ -1468,7 +1410,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "prox": {
     "m": [
      [
@@ -1828,7 +1770,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "torneo": "Serie A Elite"
   },
   {
@@ -2173,7 +2115,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "torneo": "Metropolitano"
   },
   {
@@ -2339,7 +2281,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2701,7 +2643,7 @@
    },
    "fuente": "FFH · championnats.ffhockey.org (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "torneo": "Élite"
   },
   {
@@ -2910,7 +2852,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-24 01:44",
+   "consulta": "2026-11-24 06:48",
    "goleadores": {
     "m": [
      {
