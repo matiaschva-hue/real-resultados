@@ -1,6 +1,6 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-26 05:08",
+ "actualizado": "2026-11-26 18:26",
  "paises": [
   {
    "id": "nl",
@@ -346,7 +346,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "prox": {
     "m": [
      [
@@ -481,7 +481,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "prox": {
     "f": [
      [
@@ -626,7 +626,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "prox": {
     "m": [
      [
@@ -743,13 +743,123 @@
    "liga": "LIGA IATI · LIGA IBERDROLA",
    "jor": {},
    "jornada": "",
-   "m": [],
-   "f": [],
+   "m": [
+    [
+     "Sardinero",
+     1,
+     4,
+     "Polo",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "C.D. Terrassa",
+     2,
+     2,
+     "Complutense",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "Taburiente",
+     3,
+     5,
+     "Junior",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "Tenis",
+     2,
+     0,
+     "Barcelona",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "Egara",
+     2,
+     1,
+     "Campo",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "Carpesa",
+     1,
+     4,
+     "Atletic Terrassa",
+     {
+      "d": "2026-11-21"
+     }
+    ]
+   ],
+   "f": [
+    [
+     "Tenis",
+     4,
+     6,
+     "Polo",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "Egara",
+     0,
+     1,
+     "Campo",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "Atletic Terrassa",
+     2,
+     2,
+     "Taburiente",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "Junior",
+     2,
+     2,
+     "Real Sociedad",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "C.D. Terrassa",
+     0,
+     4,
+     "Complutense",
+     {
+      "d": "2026-11-22"
+     }
+    ],
+    [
+     "Sardinero",
+     1,
+     0,
+     "FC Valencia",
+     {
+      "d": "2026-11-22"
+     }
+    ]
+   ],
    "tabla": {},
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
-   "estado": "no-arranco",
-   "consulta": "2026-11-26 05:08",
+   "estado": "jugada",
+   "consulta": "2026-11-26 18:26",
    "prox": {
     "m": [
      [
@@ -1108,7 +1218,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "torneo": "Bundesliga"
   },
   {
@@ -1410,7 +1520,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "prox": {
     "m": [
      [
@@ -1459,6 +1569,14 @@
       {
        "d": "2026-11-28",
        "h": "18:00"
+      }
+     ],
+     [
+      "Bowdon",
+      "University of Exeter",
+      {
+       "d": "2026-11-29",
+       "h": "15:00"
       }
      ]
     ],
@@ -1514,10 +1632,10 @@
     ]
    },
    "prox_jor": {
-    "m": "FECHA 11",
+    "m": "FECHAS 11 Y 12",
     "f": "FECHA 11"
    },
-   "prox_jornada": "FECHA 11",
+   "prox_jornada": "FECHAS 11 Y 12",
    "prox_fecha": "27.11–30.11",
    "torneo": "Premier Division"
   },
@@ -1770,7 +1888,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "torneo": "Serie A Elite"
   },
   {
@@ -2115,7 +2233,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "torneo": "Metropolitano"
   },
   {
@@ -2281,7 +2399,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2643,7 +2761,7 @@
    },
    "fuente": "FFH · championnats.ffhockey.org (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "torneo": "Élite"
   },
   {
@@ -2852,7 +2970,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-26 05:08",
+   "consulta": "2026-11-26 18:26",
    "goleadores": {
     "m": [
      {
