@@ -1,6 +1,6 @@
 {
  "fecha": "22.11.2026",
- "actualizado": "2026-11-27 15:59",
+ "actualizado": "2026-11-27 22:59",
  "paises": [
   {
    "id": "nl",
@@ -346,7 +346,7 @@
    },
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "prox": {
     "m": [
      [
@@ -481,7 +481,7 @@
    "tabla": {},
    "fuente": "KNHB · hockey.nl (oficial)",
    "estado": "no-arranco",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "prox": {
     "f": [
      [
@@ -626,7 +626,7 @@
    },
    "fuente": "Hockey Belgium · hockey.be (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "prox": {
     "m": [
      [
@@ -859,7 +859,7 @@
    "goleadores": {},
    "fuente": "RFEH · resultadoshockey.isquad.es (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "prox": {
     "m": [
      [
@@ -1218,7 +1218,7 @@
    },
    "fuente": "hockeybundesliga.de (oficial) + Flashscore",
    "estado": "sin-fecha",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "torneo": "Bundesliga"
   },
   {
@@ -1520,7 +1520,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "prox": {
     "m": [
      [
@@ -1888,7 +1888,7 @@
    },
    "fuente": "Federhockey · federhockey.it (oficial)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "torneo": "Serie A Elite"
   },
   {
@@ -2233,7 +2233,7 @@
    },
    "fuente": "LarrySport TournamentTracker (AHBA)",
    "estado": "sin-fecha",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "torneo": "Metropolitano"
   },
   {
@@ -2399,7 +2399,7 @@
    "prox_fecha": "28.11–28.11",
    "prox_jornada": "",
    "estado": "no-arranco",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "grupo": "ar",
    "torneo": "Copa Buenos Aires"
   },
@@ -2761,7 +2761,7 @@
    },
    "fuente": "FFH · championnats.ffhockey.org (oficial)",
    "estado": "jugada",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "torneo": "Élite"
   },
   {
@@ -2970,7 +2970,7 @@
    },
    "fuente": "Flashscore",
    "estado": "jugada",
-   "consulta": "2026-11-27 15:59",
+   "consulta": "2026-11-27 22:59",
    "goleadores": {
     "m": [
      {
